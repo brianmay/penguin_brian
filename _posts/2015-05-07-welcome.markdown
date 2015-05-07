@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Welcome fellow Peguins!"
+date:   2015-05-07 15:08:23 +1000
+---
+
+Are you are leader? You are a leader if you claim you can understand the
+following:
+
+{% highlight python %}
+def is_leader(self):
+    if self.leads.count() > 0:
+        return True
+    return False
+{% endhighlight %}
+
+If, not, then welcome!

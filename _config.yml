@@ -1,0 +1,12 @@
+# Site settings
+title: Penguin Brian May
+email: brian@microcomaustralia.com.au
+description: "Where Penguins rule."
+baseurl: ""
+url: "https://github.com/brianmay/brianmay.github.io"
+twitter_username: penguin_brian
+github_username:  brianmay
+
+# Build settings
+markdown: kramdown
+permalink: pretty
