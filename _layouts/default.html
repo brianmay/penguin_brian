@@ -39,7 +39,7 @@
                         <section class="content" id="navmenu">
                             <ul class="menu">
                                 {% for page in site.pages %}
-                                    {% if page.title %}
+                                    {% if page.title and page.layout != "tag_index" %}
                                     <li onclick='parent.location="{{ page.url | prepend: site.baseurl }}";'><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                                     {% endif %}
                                 {% endfor %}
@@ -118,13 +118,19 @@
 
                     {% if page.categories %}
                     <nav class="categories">
-                        Categories: {{ page.categories | array_to_sentence_string }}
+                        Categories:
+                        {% for category in page.categories %}
+                        <a href='{{ site.baseurl }}/{{ category }}'>{{ category }}</a>
+                        {% endfor %}
                     </nav>
                     {% endif %}
 
                     {% if page.tags %}
                     <nav class="tags">
-                        Tags: {{ page.tags | array_to_sentence_string }}
+                        Tags:
+                        {% for tag in page.tags %}
+                        <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+                        {% endfor %}
                     </nav>
                     {% endif %}
 
