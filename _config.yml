@@ -1,12 +1,26 @@
 # Site settings
 title: Penguin Brian May
 email: brian@microcomaustralia.com.au
-description: "Where Penguins rule."
-baseurl: ""
-url: "https://github.com/brianmay/brianmay.github.io"
+description: "Where Penguins eat Apples."
+baseurl: "/brian"
+url: "https://linuxpenguins.brian/brian/"
 twitter_username: penguin_brian
 github_username:  brianmay
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+    hobbies:
+        output: true
+        permalink: /hobbies/:path/
+    organisations:
+        output: true
+        permalink: /organisations/:path/
+    people:
+        output: true
+        permalink: /people/:path/
+    skills:
+        output: true
+        permalink: /skills/:path/

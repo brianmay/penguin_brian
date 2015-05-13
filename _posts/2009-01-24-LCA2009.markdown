@@ -1,0 +1,10 @@
+---
+layout: conference
+title: LCA2009 conference
+categories: conferences
+name: LCA2009
+begin: 2008-01-19
+end: 2008-01-24
+location: Hobart, Australia
+website: http://lca2009.linux.org.au/
+---

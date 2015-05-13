@@ -1,0 +1,37 @@
+---
+layout: page
+---
+<ul>
+    <table class="keyvalue">
+        <tbody>
+            <tr>
+                <th>Relationship</th>
+                <td>
+                    {{ page.relationship }}
+                </td>
+            </tr>
+            <tr>
+                <th>Born</th>
+                <td>
+                    {{ page.born }}, {{ page.born_place }}
+                </td>
+            </tr>
+            {% if page.died %}
+            <tr>
+                <th>Died</th>
+                <td>
+                    {{ page.died }}, {{ page.died_place }}
+                </td>
+            </tr>
+            {% endif %}
+            {% if page.photos %}
+            <tr>
+                <th>Photos</th>
+                <td>
+                    <a href="http://photos.microcomaustralia.com.au/persons/{{page.photos}}/">Photos</a>
+                </td>
+            {% endif %}
+        </tbody>
+    </table>
+</ul>
+{{ content }}

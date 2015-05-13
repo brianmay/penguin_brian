@@ -1,0 +1,10 @@
+---
+layout: conference
+title: OLS2002 conference
+categories: conferences
+name: OLS2002
+begin: 2002-06-26
+end: 2002-06-29
+location: Ottawa, Canada
+website: http://www.linuxsymposium.org/2002/
+---

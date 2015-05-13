@@ -1,0 +1,13 @@
+---
+layout: page
+title: Hobbies
+---
+
+<ul>
+    {% for hobby in site.hobbies %}
+    <li>
+        <a href="{{ hobby.url }}">{{ hobby.title }}</a>:
+        {{ hobby.description }}
+    </li>
+    {% endfor %}
+</ul>

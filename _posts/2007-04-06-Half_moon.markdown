@@ -1,0 +1,13 @@
+---
+layout: page
+title: Half Moon
+date: 2007-04-06 14:03:03 +1000
+tags: private_transport accidents
+---
+
+Newspaper article on previous road_accidents I have mentioned here. There were
+two separate accidents on Mount Dandenong Road, the same corner
+I [[lost_control]] and as [[another_car]]. The road was closed off for most
+of the afternoon.
+
+[[!img mx_20070404_001.jpg size="400x" alt="Half Moon needs full fix"]]

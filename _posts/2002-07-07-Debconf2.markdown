@@ -1,0 +1,10 @@
+---
+layout: conference
+title: DebConf2 conference
+categories: conferences
+name: DebConf2
+begin: 2002-07-05
+end: 2002-07-07
+location: Toronto, Ontario, Canada
+website: http://www.debian.org/events/2002/0705-debconf
+---

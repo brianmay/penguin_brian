@@ -1,0 +1,239 @@
+---
+layout: page
+title: Kindle DX
+date: 2010-04-04 12:00 +1000
+tags: delivery
+---
+
+Several weeks ago I purchased an Amazon Kindle DX. As expected it has some
+significant benefits, some limitations, and some anti-features. I decided to
+document these here.
+
+As a spend almost 3 hours each day travelling to/from the city by train I would
+like to be able to read books on the trip. Unfortunately books tend to be heavy,
+and are prone to get damaged in my bag because of their size.
+
+My idea is that the Kindle DX would allow me to read books during this time without
+having to carry them around.
+
+This is purely my experiences so far. I make no claim that everything I have said
+is accurate, but will try to fix any mistakes as I find them.
+
+## Delivery
+
+I was expecting to receive the Kindle on Friday. When it didn't arrive I
+contacted DHL Friday afternoon and was told that VicFast accepted the delivery
+but not assigned it to a driver. On Monday morning there the tracking
+information still had not been delivered and I complained to both Amazon and
+DHL. It turned out it had been delivered to our letter box on Friday. As we
+hadn't realized this, and had no reason to check our letter box after the
+Australia post delivery, it had been in my letter box all weekend, where it
+could have been stolen at any point. Not only that but it had been raining the
+entire weekend. Fortunately (by some miracle) the water didn't penetrate the
+cardboard box, and my Kindle was still intact.
+
+After the complaint with DHL they responded with:
+
+<blockquote>
+<p>
+We offer our most sincere apology for the
+inconvenience caused by the delivery of this
+shipment of electronics left in the rain.
+</p>
+
+<p>
+While our contract with Amazon does stipulate
+that shipments can be left without a
+signature, this should only be done after
+confirming that noone is home to sign for the
+shipment. The shipments are also not to be
+left in clear view of the road, and in a safe
+area if noone is home to sign for the
+shipment.  I have forwarded your Airway bill
+details to the management team of our Third
+Party associates to look into this matter
+with the driver concerned.
+</p>
+
+<p>
+Please be assured that this incident is not
+indicative of the high level of service
+normally provided by DHL.  We trust our
+future business dealings pursue a trouble
+free course.
+</p>
+</blockquote>
+
+## Screen
+
+This is an [E-Paper](http://en.wikipedia.org/wiki/Electronic_paper) display. Unlike a conventional
+monitor, you are not staring directly at a light that is pointed into your eyes all the
+time. Unfortunately, the surface does seem to be reflective so depending on the angle it
+is positioned at, glare could be an issue.
+
+## DRM
+
+[Digital Rights
+Management](http://en.wikipedia.org/wiki/Digital_rights_management). This is a
+very contentious issue. I would argue though that DRM doesn't do anything to
+protect the rights of the publishers.
+
+* There are claims that people have broken the DRM and can remove the DRM from
+DRM encoded books.
+* I can still copy the content of the book, e.g by photographing the Kindle
+screen.
+
+Furthermore it prevents me from doing things I could do with a standard paper books:
+
+* I can buy a book, read it, and give the away to friends, at no cost. The
+number of people who can read one book is not restricted. There are no time
+limits or other restrictions. The only practical restriction is that only one
+person can read the book at the time.
+* I can go into a major bookshop, and I can read the entire book before I decide
+if I want to buy it or not.
+* I can get my company to pay for a book that is related to my work, and the
+company owns the book so anybody else at work who wants to read the book can do so.
+
+None of these are possible with e-books purchased from Amazon's store.
+
+Unlike other DRM schemes however, the Kindle allows you to copy content from other
+websites (via USB), provided it is a compatable format. There are some websites
+that allow retrieving books (especially public domain books) free of charge.
+Unfortunately there are many books, especially non-fiction, that are only available
+from Amazon's store.
+
+Also Amazon has received bad publicity over its ability to [remove content
+remotely](http://en.wikipedia.org/wiki/Kindle#Remote_content_removal). While
+they settled the case out of court, the wording of the guarantee to wider
+rights, as on Wikipedia, only applies to Kindle's being purchased from and used
+in USA, so it doesn't appear to apply to me.
+
+Amazon claim they need to be able to remotely delete content in case on non-payment
+or the user asks for a refund. However they are not able to do this for dead tree
+books, so why should E-Books be considered any different?
+
+## Formats
+
+The Kindle supports different [formats](http://en.wikipedia.org/wiki/Kindle#File_formats) for files:
+
+* Unprotected Mobipocket.
+* AZW format. The DRM format Amazon provides books in you purchase from there store. Not that
+some files with the .azw extension appear to be unprotected Mobipocket files, as such
+I wonder if all AZW files are just Mobipocket format with DRM encryption.
+* Text format. Text format is good, although obviously you don't get the pictures. Text format
+comes out better if the Kindle is allowed to do the word wrapping itself. Unfortunately some text
+books come with the lines prewrapped, and this looks awful if the text size is too large and the
+Kindle wraps lines that are too long. Later on I might try and create a script that joins long lines
+together.
+* PDF format. People I talk to seem surprised that this isn't the ideal format for the Kindle. PDF files
+are intended for printing, not viewing on a computer. If you have a document formated for large
+paper (e.g. A4) with multiple columns the type ends up being very small even on the large Kindle DX.
+Due to the slow refresh rate of the screen it becomes inconvenient to try and scroll around the
+page. If the PDF file was formatted for a smaller page size then it is ok. It is also
+worth noting it is not possible to annotate PDF content.
+
+As far as I can tell, HTML format is not supported except with the built in web
+browser.  So you can not use html format ebooks.
+
+According to the documentation, Amazon also offer a feature where I can turn
+other formats (e.g. word and HTML) into AZW format, free of charge, by emailing
+it to username@free.kindle.com, and then downloading the result and copying it
+via USB. As of yet I haven't tested this service.
+
+## Quality of books
+
+Generally the quality is good. However there are some problems:
+
+* Tables appear awful. No separation between table cells, text can scroll of
+edge of screen where it can't be read.
+* Some diagrams are too small and low resolution to see what the diagram is displaying.
+* Online books are never provided with any add on digital files that the
+publisher may provide with the book in tape or CD format. This makes it
+worthless to purchase some books, e.g.  books on learning another language.
+
+This would be OK if the e-book was cheaper, however many e-books
+(especially non-fiction) have similar inflated prices to the paper books.
+
+I don't know if some of these problems are due to the format used or the process of
+coverting the book to this format.
+
+## Local restrictions
+
+As I use this in Australia there are some restrictions I face:
+
+* The Kindle comes with a built in 3G Sim for Amazon. I can't change this. On
+the good side this means I can connect to Amazon or Wikipedia out of the box
+without needing to setup a 3G account. On the other hand, this means Amazon pay
+International data roaming fees, and as a result they have some restrictions.
+These restrictions are not clearly mentioned on the Amazon website under the
+Australia Specific country page. One restriction is that I cannot download from
+any website other then Wikipedia or Amazon. Blog content is not available. Also
+magazines/news papers do not come with images, which makes them next to useless
+IMHO.
+* Availability of books. Many books I like to read are simply not available in
+this country. e.g. any Tom Clancy book. I have just started reading the Jack Ryan
+series of Tom Clancy books. This means I will continue to have to carry heavy
+books with me on the train.
+
+## Aviaton use
+
+As a pilot, I wanted to see if the Kindle would assist me in anyway. In
+particular I wanted to be able to put the
+[ERSA](http://www.airservicesaustralia.com/store/html.asp?/bookweb/details.cgi?ITEMNO=ERSALLM)
+on my Kindle, so I can get a list of airports when flying without having to
+take the big bulky book. Airservices Australia provide the [PDF
+files](http://www.airservicesaustralia.com/publications/aip.asp) free of
+charge, so it should be easy, right?
+
+Wrong. First problem is the Airservices Australia provide the document in separate
+PDF files for each and every airport. The Kindle doesn't cope very well with having hundreds
+of closely related PDF files, as everything is displayed on a single level.
+
+I tried to join the files to create one PDF file. On my first attempt I used
+pdfjoin, part of the pdfjam package in Ubuntu. however found in doing so I lost
+the images. Not only that, but searching through PDF files seems to take ages,
+making it very difficult to find details for the desired airport quickly and
+easily.
+
+I tried again with pdftk, however it prompts for a password because it thinks
+the source files are encrypted.
+
+As a test I copied several PDF files for several airports individually straight
+from the website. The text is nice, large, and readable. Unfortunately the
+airport diagrams have a lot of corruption in the rendering which makes it
+unusable.
+
+I am not sure what the solution is here, but unfortunately, using the ERSA on
+the Kindle is not feasible at present time.
+
+Using other Australian aviation documents might still be possible, e.g.
+
+* [Flightsafety](http://www.casa.gov.au/fsa/). Text appears small once scaled to fit
+screen size. While it is better in landscape view, looking at multi column text in 
+landscape is tedious.
+
+* [AIP](http://www.airservicesaustralia.com/store/html.asp?/bookweb/details.cgi?ITEMNO=AIPT). This is also split up in many [PDF
+files](http://www.airservicesaustralia.com/publications/aip.asp).
+Unfortunately, Airservices Australia assumes
+you will be browsing this online, and only provides links to other PDF files
+within the first PDF files you download.
+
+* [CASR](http://www.comlaw.gov.au/comlaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/C08A6D5C9245BA0CCA2576400022791B?OpenDocument).
+Not tried yet.
+* [CAR](http://www.comlaw.gov.au/comlaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/8DFC3930263D7A5CCA25763F007CBB8E?OpenDocument). Not tried yet.
+* [CAOs](http://www.casa.gov.au/scripts/nc.dll?WCMS:STANDARD::pc=PC_91044). Not tried yet.
+
+Links to these CASA documents, and more are found on [CASA's
+website](http://www.casa.gov.au/scripts/nc.dll?WCMS:STANDARD::pc=PC_90902).
+
+## Feedback to Amazon
+
+This is on my to do list. They have provided me an email address where
+I can provide feedback.
+
+## Conclusion
+
+Overall I am really happy with my purchase. It is a shame though that there are
+anti-features, such as DRM and country restrictions, that very much restrict what I
+can do with the Kindle, and as a result, may limit the number of books I
+purchase from Amazon's store.

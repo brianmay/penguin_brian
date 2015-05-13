@@ -1,0 +1,10 @@
+---
+layout: conference
+title: LCA2010 conference
+categories: conferences
+name: LCA2010
+begin: 2010-01-18
+end: 2010-01-23
+location: Wellington, New Zealand
+website: http://lca2010.linux.org.au/
+---

@@ -1,0 +1,12 @@
+---
+layout: conference
+title: LCA2006 conference
+categories: conferences
+name: LCA2006
+begin: 2006-01-23
+end: 2006-01-28
+location: Dunedin, New Zealand
+website: http://www.linux.org.au/conf/2006/
+---
+
+See [trip]({% post_url 2006-02-04-New_Zealand %}) details.

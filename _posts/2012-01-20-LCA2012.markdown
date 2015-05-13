@@ -1,0 +1,10 @@
+---
+layout: conference
+title: LCA2012 conference
+categories: conferences
+name: LCA2012
+begin: 2012-01-16
+end: 2012-01-20
+location: Canberra, Australia
+website: http://lca2012.linux.org.au/
+---

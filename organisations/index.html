@@ -1,0 +1,13 @@
+---
+layout: page
+title: Organisations
+---
+
+<ul>
+    {% for organisation in site.organisations %}
+    <li>
+        <a href="{{ organisation.url }}">{{ organisation.title }}</a>:
+        {{ organisation.description }}
+    </li>
+    {% endfor %}
+</ul>

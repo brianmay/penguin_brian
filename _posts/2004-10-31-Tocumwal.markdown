@@ -1,0 +1,14 @@
+---
+layout: trip
+title: Flight to Tocumwal
+categories: trips
+destination: Tocumwal
+transport: light aircraft
+begin: 2004-10-30
+end: 2004-10-31
+purpose: holiday
+photo_album: 91
+---
+
+We all went gliding. It was fun. My first time was very short, so I got another
+trip, and it was considerable longer. I got a number of good photos too.

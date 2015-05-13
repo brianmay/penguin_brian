@@ -1,0 +1,31 @@
+---
+layout: page
+title: Conferences
+---
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Begin</th>
+            <th>End</th>
+            <th>Website</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for conference in site.categories.conferences %}
+        <tr>
+            <td><a href="{{ conference.url }}">{{ conference.name }}</a></td>
+            <td>{{conference.begin}}</td>
+            <td>{{conference.end}}</td>
+            {% if conference.website %}
+            <td><a href="{{ conference.website }}">Website</a></td>
+            {% else %}
+            <td>-</td>
+            {% endif %}
+            <td>{{ conference.location }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+---
+layout: page
+title: People
+---
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Relationship</th>
+            <th>Born</th>
+            <th>Died</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for person in site.people %}
+        <tr>
+            <td><a href="{{ person.url }}">{{ person.title }}</a></td>
+            <td>{{person.relationship}}</td>
+            <td>{{person.born}}</td>
+            <td>{{person.died}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

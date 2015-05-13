@@ -1,0 +1,27 @@
+---
+layout: page
+title: Trips
+---
+
+<table>
+    <thead>
+        <tr>
+            <th>Destination</th>
+            <th>Transport</th>
+            <th>Begin</th>
+            <th>End</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for trip in site.categories.trips %}
+        <tr>
+            <td><a href="{{ trip.url }}">{{ trip.destination }}</a></td>
+            <td>{{trip.transport}}</td>
+            <td>{{trip.begin}}</td>
+            <td>{{trip.end}}</td>
+            <td>{{trip.purpose}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
