@@ -482,7 +482,7 @@ pre, blockquote {
     border: solid 1px #32373b;
 }
 
-.pagination a:hover, {
+.pagination a:hover {
     background: #3d4f5d;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#547085), to(#3d4f5d));
     background: -moz-linear-gradient(0% 0% 270deg,#547085, #3d4f5d);
