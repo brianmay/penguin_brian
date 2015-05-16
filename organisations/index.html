@@ -6,7 +6,7 @@ title: Organisations
 <ul>
     {% for organisation in site.organisations %}
     <li>
-        <a href="{{ organisation.url }}">{{ organisation.title }}</a>:
+        <a href="{{ site.baseurl }}{{ organisation.url }}">{{ organisation.title }}</a>:
         {{ organisation.description }}
     </li>
     {% endfor %}

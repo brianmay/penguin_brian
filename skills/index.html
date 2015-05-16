@@ -5,7 +5,7 @@ title: Skills
 
 <p>I ensure my skills remain up-to-date by constantly researching new solutions
 for old problems and attending
-<a href='{{ "/conferences/" | prepend: site.baseurl }}'>Conferences</a>
+<a href='{{ site.baseurl }}/conferences/'>Conferences</a>
 right around the globe.</p>
 
 <p>I hold skills in the following areas:</p>
@@ -13,7 +13,7 @@ right around the globe.</p>
 <ul>
     {% for skill in site.skills %}
     <li>
-        <a href="{{ skill.url }}">{{ skill.title }}</a>:
+        <a href="{{ site.baseurl }}{{ skill.url }}">{{ skill.title }}</a>:
         {{ skill.description }}
     </li>
     {% endfor %}

@@ -16,7 +16,7 @@ title: Conferences
     <tbody>
         {% for conference in site.categories.conferences %}
         <tr>
-            <td><a href="{{ conference.url }}">{{ conference.name }}</a></td>
+            <td><a href="{{ site.baseurl }}{{ conference.url }}">{{ conference.name }}</a></td>
             <td>{{conference.begin}}</td>
             <td>{{conference.end}}</td>
             {% if conference.website %}

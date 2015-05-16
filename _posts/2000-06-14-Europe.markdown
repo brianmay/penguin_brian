@@ -10,7 +10,7 @@ purpose: conference
 photo_album: 2963
 ---
 
-In June 2000, I presented a paper at the [MADE2000]({% post_url 2000-05-30-MADE2000 %})
+In June 2000, I presented a paper at the [MADE2000]({{ site.baseurl }}{% post_url 2000-05-30-MADE2000 %})
 conference on scalable public key distribution. On the way back, I visited
 Amsterdam (where Russell Coker lives), and then London (where relatives of mine
 live). I spent about one week in each place.

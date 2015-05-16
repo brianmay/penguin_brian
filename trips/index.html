@@ -16,7 +16,7 @@ title: Trips
     <tbody>
         {% for trip in site.categories.trips %}
         <tr>
-            <td><a href="{{ trip.url }}">{{ trip.destination }}</a></td>
+            <td><a href="{{ site.baseurl }}{{ trip.url }}">{{ trip.destination }}</a></td>
             <td>{{trip.transport}}</td>
             <td>{{trip.begin}}</td>
             <td>{{trip.end}}</td>

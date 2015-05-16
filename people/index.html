@@ -15,7 +15,7 @@ title: People
     <tbody>
         {% for person in site.people %}
         <tr>
-            <td><a href="{{ person.url }}">{{ person.title }}</a></td>
+            <td><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></td>
             <td>{{person.relationship}}</td>
             <td>{{person.born}}</td>
             <td>{{person.died}}</td>

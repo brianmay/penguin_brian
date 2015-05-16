@@ -14,5 +14,5 @@ Clayton](http://monash.edu.au/campuses/clayton/).
 
 For my PhD I submitted papers at various conferences, including:
 
-* [MADE2000]({% post_url 2000-05-30-MADE2000 %})
-* [WCC2000]({% post_url 2000-08-25-WCC2000 %})
+* [MADE2000]({{ site.baseurl }}{% post_url 2000-05-30-MADE2000 %})
+* [WCC2000]({{ site.baseurl }}{% post_url 2000-08-25-WCC2000 %})
