@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Late trains
 date: 2011-06-02 19:17:59 +1000
 tags: public_transport

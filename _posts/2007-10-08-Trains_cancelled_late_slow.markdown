@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Trains cancelled/late/slow
 date: 2007-10-08 10:05:10 +1000
 tags: public_transport

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Fatal crossing
 date: 2008-02-12 19:30:08 +1100
 tags: public_transport accidents

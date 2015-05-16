@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Train driver assaulted
 date: 2007-10-05 18:21:47 +1000
 tags: public_transport

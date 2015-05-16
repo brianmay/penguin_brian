@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Unannounced track works
 date: 2006-10-04 23:35:32 +1000
 tags: public_transport

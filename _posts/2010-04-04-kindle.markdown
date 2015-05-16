@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Kindle DX
 date: 2010-04-04 12:00 +1000
 tags: delivery

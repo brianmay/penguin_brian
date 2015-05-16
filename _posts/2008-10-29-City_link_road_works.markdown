@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: City link road works
 date: 2008-10-29 19:00:00 +1000
 tags: public_transport

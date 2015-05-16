@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Train and truck collide at Nunawading
 date: 2007-11-02 19:25:57 +1000
 tags: public_transport accidents

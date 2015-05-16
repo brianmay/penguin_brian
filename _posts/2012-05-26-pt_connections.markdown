@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: PT Connections
 date: 2012-05-26 14:30:44 +1000
 tags: public_transport

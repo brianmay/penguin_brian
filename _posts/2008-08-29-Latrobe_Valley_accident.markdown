@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Latrobe Valley accident
 date: 2008-08-29 14:16:38 +1000
 tags: aviation accidents

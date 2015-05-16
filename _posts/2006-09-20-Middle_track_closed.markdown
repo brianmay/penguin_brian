@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Middle track closed
 date: 2006-09-20 18:29:20 +1000
 tags: public_transport

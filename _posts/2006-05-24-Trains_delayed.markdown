@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Trains delayed
 date: 2006-05-24 18:30:33 +1000
 tags: public_transport

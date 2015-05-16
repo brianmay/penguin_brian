@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Fatality at Ferntree Gully
 date: 2006-07-19 20:00:01 +1000
 tags: public_transport

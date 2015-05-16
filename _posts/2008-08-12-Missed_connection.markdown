@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Missed connection
 date: 2008-08-12 23:35:32 +1000
 tags: public_transport

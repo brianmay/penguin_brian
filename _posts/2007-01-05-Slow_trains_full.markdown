@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Slow trains full
 date: 2007-01-05 18:38:10 +1100
 tags: public_transport

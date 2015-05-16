@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Unruly Passenger
 date: 2008-10-01 07:40:00 +1000
 tags: public_transport

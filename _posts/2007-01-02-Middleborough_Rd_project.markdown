@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Middleborough Rd project
 date: 2007-01-02 18:33:46 +1100
 tags: public_transport

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Trip times
 date: 2007-01-03 10:11:08 +1000
 tags: public_transport

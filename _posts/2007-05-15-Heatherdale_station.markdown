@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Heatherdale station
 date: 2007-05-15 22:52:07 +1000
 tags: public_transport

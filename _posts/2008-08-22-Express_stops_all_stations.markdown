@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Express stops all stations
 date: 2008-08-22 23:35:32 +1000
 tags: public_transport

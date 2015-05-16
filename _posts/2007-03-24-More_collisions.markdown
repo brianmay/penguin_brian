@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: More collisions
 date: 2007-03-24 19:49:18 +1100
 tags: private_transport accidents

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Overcrowded trains
 date: 2007-03-23 19:57:04 +1100
 tags: public_transport

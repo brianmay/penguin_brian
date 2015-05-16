@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Traffic lights and congestion
 date: 2007-03-02 21:01:39 +1000
 tags: public_transport

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Train terminated without notice
 date: 2009-03-06 18:25:58 +1000
 tags: public_transport

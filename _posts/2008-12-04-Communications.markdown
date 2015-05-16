@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Communications
 date: 2008-12-04 16:00:00 +1100
 tags: public_transport

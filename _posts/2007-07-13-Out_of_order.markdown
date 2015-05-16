@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Out of order
 date: 2007-07-13 18:34:49 +1000
 tags: public_transport

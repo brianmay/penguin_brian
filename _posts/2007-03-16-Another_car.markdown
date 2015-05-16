@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Another car
 date: 2007-03-16 19:46:08 +1100
 tags: private_transport accidents

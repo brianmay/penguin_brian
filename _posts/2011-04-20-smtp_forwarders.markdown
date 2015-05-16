@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Email forwarders
 date: 2011-04-20 13:18:52 +1000
 tags: computers Linux

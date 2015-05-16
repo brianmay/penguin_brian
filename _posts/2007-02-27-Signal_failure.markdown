@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Signal failure
 date: 2007-02-27 13:25:48 +1000
 tags: public_transport

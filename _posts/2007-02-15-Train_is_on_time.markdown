@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Train is on time
 date: 2007-02-15 20:21:46 +1000
 tags: public_transport

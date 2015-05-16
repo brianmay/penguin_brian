@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Cancelled tram
 date: 2006-09-12 23:00:27 +1000
 tags: public_transport

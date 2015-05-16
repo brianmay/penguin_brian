@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Fatality at Mitcham
 date: 2007-10-12 19:24:39 +1100
 tags: public_transport accidents

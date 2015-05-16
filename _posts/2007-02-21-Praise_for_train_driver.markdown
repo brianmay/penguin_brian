@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Praise for train driver
 date: 2007-02-21 14:10:13 +1000
 tags: public_transport

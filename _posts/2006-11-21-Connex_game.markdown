@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Connex game
 date: 2006-11-21 10:26:55 +1100
 tags: public_transport

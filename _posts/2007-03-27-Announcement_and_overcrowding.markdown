@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Announcement and overcrowding
 date: 2007-03-27 22:30:01 +1100
 tags: public_transport

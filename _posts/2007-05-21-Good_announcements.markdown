@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Good announcements
 date: 2007-05-21 19:29:41 +1000
 tags: public_transport

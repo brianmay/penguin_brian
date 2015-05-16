@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Secure Gateways
 date: 2008-08-29 14:16:38 +1000
 tags: computers security Linux

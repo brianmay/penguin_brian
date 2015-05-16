@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Lost control
 date: 2007-03-08 22:30:39 +1100
 tags: private_transport accidents

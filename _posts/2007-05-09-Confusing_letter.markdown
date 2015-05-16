@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Confusing letter
 date: 2007-05-09 18:00:35 +1000
 tags: public_transport

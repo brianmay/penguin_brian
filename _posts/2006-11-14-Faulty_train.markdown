@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Faulty train
 date: 2006-11-14 09:45:31 +1100
 tags: public_transport

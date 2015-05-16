@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Eastlink Choas
 date: 2006-08-28 20:00:14 +1000
 tags: public_transport
