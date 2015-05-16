@@ -6,6 +6,7 @@ baseurl: "/brian"
 url: "https://linuxpenguins.brian/brian/"
 twitter_username: penguin_brian
 github_username:  brianmay
+paginate: 10
 
 # Build settings
 markdown: kramdown
