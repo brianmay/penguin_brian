@@ -321,6 +321,9 @@ img {
   width: auto;
   float: none;
 }
+body #squeeze {
+    margin-left: 0;
+}
 .sidebar {
   float: none;
   width: auto;
@@ -369,10 +372,11 @@ pre, blockquote {
   padding-left: 0;
   padding-right: 0;
 }
-.post h2, #main-top, #main-bottom, .post, .postexcerpt {
+.post h2, #main-top, #main-bottom, .postexcerpt {
   background: url(ropes/rod_left.jpg) top left no-repeat,
   url(ropes/rod_right.jpg) top right no-repeat,
   url(ropes/rod_middle.jpg) top repeat-x;
+  padding-top: 36px;
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
