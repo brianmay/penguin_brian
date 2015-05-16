@@ -4,6 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is a test site, for testing new ideas. It is not intended for production
-use. Please visit Aperture Science and get free cake. Why are you still here?
-Go away!
+This site has been installed under the personal direction of Tux.  It goal is
+to eliminate every remaining Apple until only Fish remain.

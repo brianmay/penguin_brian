@@ -19,4 +19,4 @@ Ironically, the train that was behind us at Ringwood went flying past us as Cant
 
 At East Camberwell station, it was kind of odd, the two express trains, repeatedly stopped, side by side, with us wondering which train would get priority. Eventually my train (the first one) got priority.
 
-Later I sent a letter to Connex, see [[Praise_for_train_driver]].
+Later I sent a letter to Connex, see [Praise for train driver]({% post_url 2007-02-21-Praise_for_train_driver %}).

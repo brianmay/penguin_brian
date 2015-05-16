@@ -14,4 +14,5 @@ See [trip]({% post_url 2000-08-27-Asia %}) details.
 16th World Computer Congress 2000, August 2000, at the International
 Convention Center, China.
 
-I submitted a paper for my [[Skills/PhD]] at the security conference.
+I submitted a paper for my [PhD]({{ site.baseurl }}/skills/PhD/) at the
+security conference.

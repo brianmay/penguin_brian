@@ -22,6 +22,6 @@ to get on again. (I haven't heard this announcement before...)</li>
 
 The 9:10pm Belgrave from Flagstaff station was fuller then ever before (only about 5 seats vacant at Flagstaff and the train was very full until Heatherdale or Ringwood). This time I took photos on my phone. Taken on the 9:05pm train from Flinders Street just after Richmond station.
 
-[[!img image003.jpg size="400x" alt="Overcrowding"]]
+![Overcrowding]({{ site.base.url}}/assets/image003.jpg)
 
 I wonder if trains are fuller then normal due to the Burnley tunnel accident.

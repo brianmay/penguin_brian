@@ -11,6 +11,7 @@ website: http://www.chips.chalmers.se/Chips/conference/made2000/
 
 See [trip]({% post_url 2000-06-14-Europe %}) details.
 
-I submitted a paper for my [[Skills/PhD]] on "Scalable Public Key Distribution: Keys and
+I submitted a paper for my [PhD]({{ site.baseurl }}/skills/PhD/) on "Scalable
+Public Key Distribution: Keys and
 signatures are distributed among all participating hosts, using the policy
 'security by obscurity' does not work."

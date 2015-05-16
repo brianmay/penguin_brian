@@ -9,27 +9,27 @@ Train arrived flagstaff at 21:12 (two minutes late). Only 1 seat vacant at Flags
 
 Richmond station, 21:19:
 
-[[!img image009_richmond.jpg size="400x" alt="Richmond station"]]
+![Richmond station]({{ site.base.url}}/assets/image009_richmond.jpg)
 
 Burnley, 21:21.
 
-[[!img image011_burnley.jpg size="400x" alt="Burnley station"]]
+![Burnley station]({{ site.base.url}}/assets/image011_burnley.jpg)
 
 Hawthorn, after being at station for 1 to 2 minutes, 21:24.
 
-[[!img image012_hawthorn.jpg size="400x" alt="Hawthorn station"]]
+![Hawthorn station]({{ site.base.url}}/assets/image012_hawthorn.jpg)
 
 Hawthorn, after departure at 21:27.
 
-[[!img image013_hawthorn.jpg size="400x" alt="Leaving Hawthorn"]]
+![Leaving Hawthorn]({{ site.base.url}}/assets/image013_hawthorn.jpg)
 
 Box Hill. Passengers leaving train. 21:45.
 
-[[!img image015_boxhill.jpg size="400x" alt="Box Hill station"]]
+![Box Hill station]({{ site.base.url}}/assets/image015_boxhill.jpg)
 
 Box Hill. Train leaving. 21:46.
 
-[[!img image016_boxhill.jpg size="400x" alt="Box Hill station"]]
+![Box Hill station]({{ site.base.url}}/assets/image016_boxhill.jpg)
 
 Other things I noticed:
 

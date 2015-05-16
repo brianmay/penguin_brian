@@ -34,17 +34,17 @@ Optional extras:
 
 ## ssmtp
 
-Looks very good at initial glance. Unfortunately, the code is buggy and
-currupts messages, e.g.  [[!debbug 508759]], [[!debbug 584162]] and [[!debbug
-279737]]. I seem to recall having other problems random with ssmtp, but never
-got around to filling bug reports.
+Looks very good at initial glance. Unfortunately, the code is buggy
+and currupts messages, e.g.  {% bts 508759 %}, {% bts 584162 %} and
+{% bts 279737 %}. I seem to recall having other problems random with
+ssmtp, but never got around to filling bug reports.
 
 ## esmtp
 
 Not related to the ESMTP protocol standard.
 
 A very good alternative to ssmtp. Unfortunately, esmtp falls down because it
-doesn't have any support for logging what is happening [[!debbug 623293]]. So
+doesn't have any support for logging what is happening {% bts 623293 %}. So
 if somebody complains that you are sending SPAM, even if this is unlikely, you
 can't prove otherwise. Especially if you don't have access to the logs on the
 smtp host for any number of reasons.
@@ -52,7 +52,7 @@ smtp host for any number of reasons.
 ## msmtp
 
 msmtp also looks very good. Unfortunately it doesn't expand the recipient
-address when there is no domain [[!debbug 578017]] and [[!debbug 623294]]
+address when there is no domain {% bts 578017 %} and {% bts 623294 %}
 making it unusable for forwarding admin emails. Unless you use the
 [hackish](http://blog.mybox.ro/2010/06/09/how-to-make-cron-send-remote-email-without-a-mta-on-the-server/)
 wrapper shell script for supporting aliases
@@ -68,13 +68,12 @@ have access to, because all the email will come to you instead.
 Unfortunately, nullmailer has some bugs too, some of which look nasty e.g.
 
 * errors parsing data recipients and headers headers:
-[[!debbug 589899]], [[!debbug 540758]], [[!debbug 188251]];
-* problems sending outgoing emails [[!debbug 583564]],
-[[!debbug 329192]], [[!debbug 359994]], [[!debbug 375380]];
-* breaks conventional unix standards [[!debbug 329970]].
+{% bts 589899 %}, {% bts 540758 %}, {% bts 188251 %};
+* problems sending outgoing emails {% bts 583564 %},
+{% bts 329192 %}, {% bts 359994 %}, {% bts 375380 %};
+* breaks conventional unix standards {% bts 329970 %}.
 
-Nullmailer is the only program I noticed that has broken IPv6 support [[!debbug
-605899]].
+Nullmailer is the only program I noticed that has broken IPv6 support {% bts 605899 %}.
 
 ## Conclusion
 

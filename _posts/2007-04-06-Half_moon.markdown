@@ -7,7 +7,6 @@ tags: private_transport accidents
 
 Newspaper article on previous road_accidents I have mentioned here. There were
 two separate accidents on Mount Dandenong Road, the same corner
-I [[lost_control]] and as [[another_car]]. The road was closed off for most
-of the afternoon.
+I [lost control]({% post_url 2007-03-08-Lost_control %}) and as [another car]({% post_url 2007-03-16-Another_car %}). The road was closed off for most of the afternoon.
 
-[[!img mx_20070404_001.jpg size="400x" alt="Half Moon needs full fix"]]
+![Half Moon needs full fix]({{ site.base.url}}/assets/mx_20070404_001.jpg)

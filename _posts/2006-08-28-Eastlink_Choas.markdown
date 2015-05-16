@@ -49,76 +49,68 @@ On the curious side:
 
 ## What went wrong?
 
-On the 20-21 the Eastlink bridge was moved into place [[!template id=Source 
-author="""Chris Gordon""" 
-url="""http://www.vicsig.net/index.php?page=infrastructure&project=Eastlink""" 
-title="""Eastlink""" 
-pub="""VICSIG""" date="""2007-01-30"""]]).
+On the 20-21 the Eastlink bridge was moved into place (see
+[VicSig](http://www.vicsig.net/index.php?page=infrastructure&project=Eastlink)
+article by "Chris Gordon", 2007-01-30).
 
-* [Eastlink](http://wiki.microcomaustralia.com.au/transport/private/Eastlink/) bridge works[[!template id=cite url="http://forums.vicsig.net/viewtopic.php?t=984"]], 25th-28th August 2006 (weekend), buses replaced trains [[!template id=cite url="http://en.wikipedia.org/wiki/EastLink%2C_Melbourne"]]. Metlink posted an official [bulletin](http://www.metlinkmelbourne.com.au/latest_news/service_alteration_detail.php?id=3492). Several level crossings were also closed.
-    * The Eastlink works didn't end until midday, resulting in chaos as the train line was closed during peak hour [[!template id=cite url="http://www.news.com.au/heraldsun/story/0,21985,20275525-2862,00.html"]].
-    * Connex will receive compensation, but it won't be passed on to commuters [[!template id=cite url="http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html"]].
+* [Eastlink](http://wiki.microcomaustralia.com.au/transport/private/Eastlink/)
+  bridge works ([reference](http://forums.vicsig.net/viewtopic.php?t=984"]],
+  25th-28th August 2006)) (weekend), buses replaced trains
+  ([reference](http://en.wikipedia.org/wiki/EastLink%2C_Melbourne)).
+  Metlink posted an official
+  [bulletin](http://www.metlinkmelbourne.com.au/latest_news/service_alteration_detail.php?id=3492).
+  Several level crossings were also closed.
+
+* The Eastlink works didn't end until midday, resulting in chaos as the train
+  line was closed during peak hour
+  ([reference](http://www.news.com.au/heraldsun/story/0,21985,20275525-2862,00.html)).
+* Connex will receive compensation, but it won't be passed on to commuters
+  ([reference](http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html")).
 
 Soft ground was blamed for the delays:
 
-[[!template id=quotation text="""Soft ground unable to hold a giant crane called "Snow White" was the cause of passengers being delayed more than two hours.
-
-[...]
-
-"Unfortunately the ground conditions below the existing rail line embankment proved to be unstable for the set up of our 500-tonne crane," said Thiess spokesman Anthony Havers.
-
-"Our construction team had to remove this soft earth and replace it with crushed rock." """ author="""Liam Houlihan and Jane Metlikovec""" url="""http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html""" title="""Compo for Connex, not commuters""" pub="""The Herald Sun""" date="""2006-08-29"""]]
+> Soft ground unable to hold a giant crane called "Snow White" was the cause of passengers being delayed more than two hours.
+>
+> [...]
+>
+> "Unfortunately the ground conditions below the existing rail line embankment proved to be unstable for the set up of our 500-tonne crane," said Thiess spokesman Anthony Havers.
+>
+> "Our construction team had to remove this soft earth and replace it with crushed rock.
+>
+> [Compo for Connex, not commuters](http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html),
+> Liam Houlihan and Jane Metlikovec, The Herald Sun, 2006-08-29
 
 Connex also responded:
 
-[[!template id=quotation text="""Connex first learnt around midday on Sunday, 27 August that works being undertaken by the Eastlink project at Heatherdale station might ‘run late’. Connex had no control over these works.
-
-    
-
-The detailed program that had been shown to us by Eastlink indicated there was plenty of margin to have the works delayed but to avoid any impact on our trains. In fact, there was around 10 hours ‘contingency time’.
-
-    
-
-At that stage, it appeared the impact on services the next day (Monday) would be minimal. Based on the estimated completion time given to Connex, we believed trains would be able to run through the works area from around 6.00am.
-
-    
-
-This meant that buses would only need to replace trains from the first train of the day (4.30am) until 6.00am.
-
-    
-
-We activated our contingency plans, and we put as many buses as we could find on stand-by and alerted staff.
-
-    
-
-It was not until the early hours of Monday morning, after midnight, that we were told works would not finish before 6am and trains would not be able to go through Heatherdale until 10am at the earliest.
-
-    
-
-This made it necessary to run buses from Ringwood to Blackburn for whole morning peak, rather than just until 6am as we first believed.
-
-    
-
-Connex Media started ringing radio stations at 5.30am so the information could be covered in news bulletins from 6am.
-
-    
-
-At that time, the estimated delay was put at ‘more than 30 minutes’. This proved incorrect, partly due to the time buses would take to complete the trip from Ringwood to Blackburn in peak hour traffic and the number of buses available.
-
-    
-
-We would stress that Connex obtained as many buses as possible to provide the replacement service from Ringwood to Blackburn.
-
-    
-
-On a weekday morning, bus companies have commitments to provide regular scheduled services and school runs. Few buses are available for other purposes.
-
-    
-
-In the end, we managed to obtain 30 buses but would have hired many more if it had been possible to obtain them.
-
-    
-
-We fully appreciate the frustration our customers experienced due to delays. Many were delayed by up to two hours (or even more). We regret our customers could not to be alerted earlier to the disruption and the delays they faced.
-
-[...]""" author="""Connex""" url="""http://www.connexmelbourne.com.au/news_connex/index_full.asp?thm=2&evn=289""" title="""Buses replaced trains between Ringwood and Blackburn""" pub="""Connex""" date="""2006-08-21"""]]
+> Connex first learnt around midday on Sunday, 27 August that works being
+> undertaken by the Eastlink project at Heatherdale station might ‘run late’.
+> Connex had no control over these works.
+>
+> The detailed program that had been shown to us by Eastlink indicated there was plenty of margin to have the works delayed but to avoid any impact on our trains. In fact, there was around 10 hours ‘contingency time’.
+>
+> At that stage, it appeared the impact on services the next day (Monday) would be minimal. Based on the estimated completion time given to Connex, we believed trains would be able to run through the works area from around 6.00am.
+>
+> This meant that buses would only need to replace trains from the first train of the day (4.30am) until 6.00am.
+>
+> We activated our contingency plans, and we put as many buses as we could find on stand-by and alerted staff.
+>
+> It was not until the early hours of Monday morning, after midnight, that we were told works would not finish before 6am and trains would not be able to go through Heatherdale until 10am at the earliest.
+>
+> This made it necessary to run buses from Ringwood to Blackburn for whole morning peak, rather than just until 6am as we first believed.
+>
+> Connex Media started ringing radio stations at 5.30am so the information could be covered in news bulletins from 6am.
+>
+> At that time, the estimated delay was put at ‘more than 30 minutes’. This proved incorrect, partly due to the time buses would take to complete the trip from Ringwood to Blackburn in peak hour traffic and the number of buses available.
+>
+> We would stress that Connex obtained as many buses as possible to provide the replacement service from Ringwood to Blackburn.
+>
+> On a weekday morning, bus companies have commitments to provide regular scheduled services and school runs. Few buses are available for other purposes.
+>
+> In the end, we managed to obtain 30 buses but would have hired many more if it had been possible to obtain them.
+>
+> We fully appreciate the frustration our customers experienced due to delays. Many were delayed by up to two hours (or even more). We regret our customers could not to be alerted earlier to the disruption and the delays they faced.
+>
+> [...]
+>
+> [Buses replaced trains between Ringwood and Blackburn](http://www.connexmelbourne.com.au/news_connex/index_full.asp?thm=2&evn=289),
+> Connex, 2006-08-21
