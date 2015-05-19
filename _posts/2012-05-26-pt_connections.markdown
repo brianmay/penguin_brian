@@ -233,7 +233,6 @@ Ventura Bus, Metro Trains, and DOT.
 > 3 August 2011
 >
 > Mr Brian May
-> brian@microcomaustralia.com.au
 >
 > Dear Mr May
 >
