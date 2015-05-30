@@ -30,4 +30,14 @@ layout: page
     </table>
 </ul>
 
+List of talks:
+
+<ul>
+{% for talk in site.talks %}
+    {% if talk.meeting == page.url %}
+    <li><a href='{{ site.baseurl }}{{ talk.url }}'>{{ talk.title }}</a> by {{ talk.speaker }}.</li>
+    {% endif %}
+{% endfor %}
+</ul>
+
 {{ content }}

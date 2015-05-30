@@ -1,0 +1,226 @@
+---
+layout: talk
+title: Perl 6 in a Nutshell
+meeting: /conferences/2004/01/17/LCA2004/
+speaker: Damian Conway
+begin: 2004-01-16 13:45
+---
+Why Perl 6?
+
+* parts spelt slightly differently
+* Unicode
+* threading
+* ugly code
+* source code is a nightmare
+* syntax is convoluted
+* new concepts have to be shoe-horned
+* learn from mistakes
+* pseudo hashes?
+* 20-20 hindsight
+* redesign as it should have been in the first place
+* fit Perl into hacker brains even better
+
+you wouldn't even know you are programming in Perl
+
+implementation rewrite
+
+* easy to solve backward compatibility - don't
+* fix everything that needs to be fixed
+* runtime engine - parrot
+* register based, not stacked based
+* software CPU
+* faster then Perl 5 (requirement)
+* will slow down as more features added
+* aim twice as fast, even if this means rewriting Perl 5 to make it slower
+* will run Perl 5, Java, Python, Scheme, Ruby, TCL, Forth, BASIC, and Fortran
+
+Syntax
+
+arrow becomes a dot:
+
+* $x->method(ddd)
+* $x.method(ddd)
+
+Fixing Sigil syntax:
+
+* before: if one doesn't work go on and try the next one
+* $scalar
+* @array
+* %hash
+
+concatenation
+
+* $string ~ $string
+
+array references easier
+
+* $aref = @array;
+* push @aref, $value
+
+Unicode
+
+* source code
+* will support ASCII
+
+junctions
+
+* quantum super positions
+  * data structure that acts like several scalars
+  * superimposed like quantum physics
+* 4 types
+  * all
+  * any
+  * one
+  * none
+
+            if (any(@num) > 10)
+            if (one(@root) != 0 )
+            if (none(@guesses) >  all(@results))
+
+            my Dog|Cow $moof;
+
+  * interception types
+
+            my Wax&Typing $value;
+
+  * anti-types;
+    no sensible use, but it is cool
+
+            my none(Soup) $for_you;
+
+
+multi-way comparisons
+
+* if (1 < $x < 10) { }
+* if (1 < all(@$) < 10) { }
+
+equality test
+
+* =~ gone
+* ~~ = generic smart match, '='
+* works out the "smartest way" to match parameters based on the types
+* incredibly cool
+
+here docs
+
+* currently aligned against left hand margin
+* Perl 6 looks at indention of terminator
+
+parameters
+
+* parameter lists supports
+* lexical variables that belong to same scope
+* arrays passed as distinct parameters
+* type checking of parameters
+* overloaded subroutines
+* default values of parameters
+
+strongly types
+
+vector arithmetic
+
+* take two lists of values, and do operation on them.
+
+        >>op<<
+
+        @pay = (@hours >>*<< $rate);
+
+* Unicode, how to type in >> <<? use >> <<
+
+        give ($value {
+                when 3 { ...}
+                {...}
+                when 4 { ...}
+                default {...}
+        }
+        no fall through by default
+
+for loops
+
+* simplify
+
+        for list { subroutine }
+        for @data {
+                print $_;
+        }
+        for @data, sub($next) {
+                print $next;
+        }
+        ugly
+        -> synonym for sub
+        for @data -> $next {
+                print $next;
+        }
+        for @data -> $next1, $next2, $next3 {
+                print $next1, $next2, $next3;
+        }
+        for zip(@names,@ages) -> $name, $age {
+                print "$name $age\n";
+        }
+        for @names || @ages -> $name, $age {
+                print "$name $age\n";
+        }
+        for @queue1 || @queue2 -> $value {
+                print $value;
+        }
+
+object orientated
+
+* class
+* has keyword
+* . is the first character
+* read-only
+* private
+* constructors
+* create method
+* destructor
+* new constructor generated automatically
+* opaque, cannot muck about with internals of objects anymore
+* finally
+* encapsulation
+* look sufficiently like Java that manager will not be able to tell that you are not programming in Java
+
+some things more exciting not mentioned in this talk
+
+will be around the rest of the day
+
+want to make Perl 5 even better
+
+* throw away prototype and design real thing
+* the swiss army chainsaw you know and love
+* faster, higher level
+
+when? alpha, late this year; 18 months
+
+* CPAN, all ported to Perl 6
+* package --> Perl 5
+* module  --> Perl 6
+
+parser to turn Perl 5 into Perl 6
+
+* good program == your programs
+* committed to doing that
+* Perl 5 to Perl 6 translator 95% accuracy planned
+* definitely intend for this to happen
+
+excess is dead, well made, will not be missed
+
+* new interpretor, cleaner, easier to use, parrot
+* hated it
+* not sorry to see it go
+* Perl5 will be faster, we have a bet, by this years open source conference, parrot will run python faster then python,
+* or cream pie.
+* we have the option of slowing down Perl 5 if required
+
+vector multiplication, why is special operator required
+
+* so length can be used
+* give compiler as much hints as possible to parallelise operation
+
+Perl 7
+
+* anything left for it?
+* converge on 2*pi, so we will never get there
+* we will put in Perl 6 instead
+
+infinitely better then Perl5, not omage better

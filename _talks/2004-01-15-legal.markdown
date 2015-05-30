@@ -1,0 +1,162 @@
+---
+layout: talk
+title: Could SCO v IBM Happen to You?
+meeting: /conferences/2004/01/17/LCA2004/
+speaker: Jeremy Malcolm
+begin: 2004-01-15 11:00
+---
+case backfired on SCO
+
+IP = intellectual property
+
+How to avoid falling in the same trap?
+
+The SCO Group
+
+* The great Satan
+* was Caldera Systems, purchased Novell's IP
+
+AT&T
+
+* now Novell
+* original Unix IP owner
+
+IBM
+
+* Bought license from SCO for IP used for AIX
+
+12 May 2003
+
+* initial warning to users
+
+11 April 2005
+
+* the trial begins
+
+Lots of time for uncertainty in the mean time
+
+SCO is going to fail
+
+* No evidence that code was copied
+* Even if proprietary code exists, SCO was publishing it as GPL
+* A mistake?
+* Oops not a legal defence?
+* ...but it wasn't authorised?
+
+BSD code now a problem  
+other operating systems, Mac OS and Windows could be affected?  
+major Linux customer? Google?  
+Red Hat counter sued SCO.  
+IBM counter sued SCO.
+
+5 December, IBM court order for SCO to produce code 11 January; will be
+made public 23 January.
+
+can't buy license from SCO in Australia yet.
+
+complaints to ACCC, not yet resulted in formal investigation.
+
+Claims
+
+* SMP
+* LVM
+* 32 and 64 bit processing
+* journalling filesystem JFS
+                JFS originally from OS/2, which came from BSD
+* clustering
+
+Not part of the licensed code in AIX
+
+SCO claims to have terminated license to IBM for AIX
+
+Has IBM breached IP/Copyright laws?
+
+* SCO says yes, but Novell disputes this
+* does SCO own copyright rights or Novell?
+* Only answer from court case will be "has IBM breached contract with IBM?"
+
+IP law 101
+
+* Copyright
+  * similarity in code doesn't mean breach of copyright
+  * e.g. BSD header files are the same by coincidence
+  * same code so simple not protected by copyright law
+  * protects expression of ideas, not ideas themselves
+  * e.g. copying book and changing names is not protected by copyright
+  * how long? 50 years Australia, 70 years USA.
+  * automatic in almost every country
+* Patent
+  * new and innovative
+  * protect public at large from using information
+  * 8 years in Australia, less red tape required
+  * 20 years for full patent in Australia
+  * can infringe accidentally
+  * Need to take out in every country
+* Trade Secrets
+  * protect ideas as well as expression of ideas
+  * must remain confidential to be protected
+* Trade mark
+
+Copyright law, copying is OK if:
+
+* software public domain
+* trivial works
+  * only one way to do it
+  * code or comments
+* not a substantial part,
+  * small but vital part might be protected; longer part might not be
+  * grey area, know code, get legal advice
+* re-engineering is OK
+* copying for permitted purpose
+  * interoperable product (only in Australia)
+* only ideas copied
+
+Accidental breach if:
+
+* Trade secrets trump copyright law
+  * IBM working on two projects at once
+* Patents
+  * Have to honour even if you haven't heard of it
+  * Linux has broken patents, but not being attacked (yet)
+* Derivative work
+  * May include plugins, libraries, etc.
+  * What is a derivative work> Very unclear.
+  * FSF, one extreme, simply linking it is derivative, even dynamic linking
+  * BSD other extreme
+  * opinion, static linking derivative work; simply using/dynamic linking isn't
+  * Linus, if-and-only-if module fiddles with internal Linux code it is a derivative work
+
+How to protect?
+
+* Chinese Walls
+  * separate developers
+  * protect each project from confidential information from other project
+  * IBM claims to have done this
+  * Ideally don't work on both proprietary and open source software at same time in same field
+* Developers have liability
+  * leader of open source software, ensure all developers declare code is cleanliness
+  * indemnity against liability?? Signing indemnity might be taking things too far
+  * get clearance from employers
+* choose right license
+* MPL best one for patents
+* GPL contains clause 7 for patents
+* BSD license, Artistic license ignores patents
+* read up on patents, ignorance not a defence
+* royalty free license that is compatible with open source license
+* contact lawyer, pay lots of money to search  patents, if wrong sue them
+* don't derive, plug in, the more independent, the safer
+
+lucky a case like the SCO case hasn't happened before  
+won't be such a friendly place  
+improve processes and procedures
+
+US free trade agreement
+
+* most significant impact on copyright rule
+* difficult for Australia to avoid caving into what USA wants
+* DCMA law puts a lot of people in danger of accidental breach
+* Our law is better then USA's law
+
+but I didn't know the license was revoked, so I can continue using it
+
+Same developer working on multiple projects, need to get approval first, no way to prove no IP was copied.

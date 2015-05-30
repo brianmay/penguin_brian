@@ -1,0 +1,29 @@
+---
+layout: page
+---
+<ul>
+    <table class="keyvalue">
+        <tbody>
+            <tr>
+                <th>Speaker</th>
+                <td>
+                    {{ page.speaker }}
+                </td>
+            </tr>
+            <tr>
+                <th>Time</th>
+                <td>
+                    {{ page.begin }}
+                </td>
+            </tr>
+            <tr>
+                <th>Meeting</th>
+                <td>
+                    <a href="{{ site.baseurl }}{{ page.meeting }}">Meeting</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</ul>
+
+{{ content }}

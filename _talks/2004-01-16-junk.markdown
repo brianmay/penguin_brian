@@ -1,0 +1,135 @@
+---
+layout: page
+title: A tour of my junk-code directory
+meeting: /conferences/2004/01/17/LCA2004/
+speaker: Andrew Tridgell
+begin: 2004-01-16 14:45
+---
+* the best example code is your own
+* own bits of rotten code
+* do something really minor
+* junk code valuable
+* commit into CVS, about one third
+* no need to remember things that are difficult to remember
+* example code that reminds of previous research, very valuable
+* e.g. nmap file, filename -> void *
+* 1993: test usleep
+* watch useful command
+* testing library function
+* testing understanding of language feature
+* trigger bug
+* explore idea for larger program
+* buggering around, trying to avoid real work; make sure source code is on screen
+
+I forget stuff fast;
+function that I've used before
+
+junk-code as toolbox
+
+* instead of "I once wrote a program that does that" I say "here is a program that does that".
+* A great way of impressing your boss.
+
+segv\_handler
+
+* no error checking
+* bugs exist
+* run gdb print stack trace if segment fault
+
+mail.runner
+
+* classic junk code
+* low bandwidth link
+* email send/receive over rsync over SSH
+* still quick hack
+* even receives spam
+* does have help
+
+i
+
+* smallest program to get packaged in Debian
+* iprint
+* print out bunch of numbers in different formats
+* iprint doesn't do mail
+* command line help, but nothing written
+* i --help
+* patch doubles length in Debian, 2^-31 didn't work
+* apt-get install iprint
+
+tserver
+
+* tiny embedded web server
+* embedded applications
+* http://junkcode.samba.org/ is an example
+* NAS vendor, ROM image, complete installation system
+* limited ROM size
+* program CGI easily
+* server side scripting
+* bash already there
+* server side scripting for bash
+* here is an example of an HTML file
+                ... please wait while the projector turns itself on and off
+                there are some things man wasn't meant to see
+* recursion
+  * really powerful, not in apache, something about performance???
+  * port 8080
+  * browser
+  * bash compact language
+  * setting variables, CGI variables, etc.
+
+3dttt
+
+* 4 by 4 by 4  tic tac toe
+* OpenGL
+* change piece to look like teapot
+* nightcap - chess game
+* turn king into teapot? No
+
+gz\_extract
+
+* last week
+* NAS, not one I sent bust, another one which survived
+* initrd in firmware
+* extract gz file from large data file
+* piece together junk code
+
+genstruct
+
+* inheriting maintainership of international chess server, Laska
+* also used in Samba 3, version records in database
+* preprocess C headers into C table
+* marshal/unmarchal C structures
+* upgrade C code on the fly
+* entire program in shared library
+* write data structures to disk using genstruct; dlclose library; dlopen library, read data structures again
+
+tphdisk
+
+* setting up laptop hibernation files and partitions
+
+Escaped/graduated junk code
+
+* tdb     the trivial database
+* dbench  useful benchmark emulation
+* ccache  compiler cache
+* pidl    IDL compiler
+* rsync
+
+start keeping your own junk code, valuable resource, going back many years
+
+Code, not suitable for public release?  
+yes, check that I own copyright, it is really mine?
+
+not releasing to world is not required  
+treasure it, back it up
+
+junk code is pre-existing work, managers typically don't care about copyright
+
+any restrictions on C code, with online changes? Portability?
+
+* sizeof.c, print size of different types
+* speed.c, print speeds of various operations
+* semspeed, print semaphore speed
+
+Slashdot
+
+* somebody sent a patch

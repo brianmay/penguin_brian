@@ -1,0 +1,17 @@
+---
+layout: talk
+title: Debian Mini-Conf
+meeting: /conferences/2004/01/17/LCA2004/
+speaker: various
+begin: 2004-01-12 09:00
+---
+Jonathon Oxer - State of nation
+
+Angus Lees - What is Defoma anyway?
+
+Bdale Garbee - Myths, Mirrors and other Meanderings
+mythtv
+
+Anthony 'AJ' Towns - Releasing Debian (a Sarge retrospective?)
+
+Anand Kumria - The Debian installer
