@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Free & Open Source: A personal Journey
+title: Free & Open Source; A personal Journey
 meeting: /conferences/2010/01/23/LCA2010/
 speaker: Nathan Torkington
 begin: 2010-01-22 09:00

@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Closing the Gender Pay Gap: one salary at a time
+title: Closing the Gender Pay Gap; one salary at a time
 meeting: /conferences/2007/01/20/LCA2007/
 speaker: Val Henson, Intel
 begin: 2007-01-16 16:00

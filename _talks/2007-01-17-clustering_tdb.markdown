@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Clustering tdb: A little database meets big iron
+title: Clustering tdb; A little database meets big iron
 meeting: /conferences/2007/01/20/LCA2007/
 speaker: Andrew Tridgell
 begin: 2007-01-17 11:50

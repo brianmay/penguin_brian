@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Case study: Demo hosting with virtual machines
+title: Case study; Demo hosting with virtual machines
 meeting: /conferences/2007/01/20/LCA2007/
 speaker: Jason Nicholis, IBM
 begin: 2007-01-15 16:50

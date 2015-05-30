@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: distcc: Learning to Fly
+title: distcc; Learning to Fly
 meeting: /conferences/2004/01/17/LCA2004/
 speaker: Martin Pool
 begin: 2004-01-15 14:45
