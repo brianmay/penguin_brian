@@ -101,7 +101,7 @@ reel war - between administrators, may involve disciplining administrators.
 
 ## Getting involved
 
-[[!wikipedia WP:AWNB]]
+wikipedia WP:AWNB
 
 WikiProjects
 

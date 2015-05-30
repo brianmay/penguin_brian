@@ -5,7 +5,8 @@ meeting: /conferences/2010/02/02/LUV/
 speaker: Russell Coker
 begin: 2008-11-05 19:00
 ---
-All definitions are fuzzy. Many definitions of cloud computing. See [[!wikipedia cloud_computing]].
+All definitions are fuzzy. Many definitions of cloud computing. See
+wikipedia entry for cloud\_computing.
 
 Virtual machines
 

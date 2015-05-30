@@ -15,5 +15,6 @@ Speakers dinner was superb in a unique location.
 
 Keynotes:
 
-* [[Stormy|LCA2008/day_4/freedom]] was my hero, the coolest speaker yet. It was great.
-* They are [[cleaning_up_Python|LCA2008/day_5/python]]. Yah!
+* [Stormy]({{ site.baseurl }}/talks/2008-01-31-freedom/) was my hero, the
+  coolest speaker yet. It was great.
+* They are [cleaning up python]({{ site.baseurl }}/talks/2008-02-01-Python/)

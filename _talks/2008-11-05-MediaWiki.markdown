@@ -50,9 +50,9 @@ Images
 
 * special name space because they are treated specially.
 * any binary file fits into this name space, despite the image name.
-* \[[Image:foo.jpg]] - embed image
-* \[[:Image:foo.jpg]] - link image
-* \[[Meida:Image:foo.jpg]] - link to file directly, eg. for PDF files which can't otherwise be displayed.
+* \[\[Image:foo.jpg]] - embed image
+* \[\[:Image:foo.jpg]] - link image
+* \[\[Meida:Image:foo.jpg]] - link to file directly, eg. for PDF files which can't otherwise be displayed.
 
 MediaWiki name space
 

@@ -15,7 +15,7 @@ Operates and maintains computers and/or network.
 
 Wide range of duties, roles, and technologies.
 
-See Wikipedia entry [[!wikipedia System administrator]]:
+See Wikipedia entry for System administrator:
 
 * audits of systems and software
 * backups

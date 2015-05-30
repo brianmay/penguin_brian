@@ -5,7 +5,8 @@ meeting: /conferences/2010/02/02/LUV/
 speaker: Damien Miller, Google
 begin: 2008-02-05 19:00
 ---
-Also see the same talk at [[LCA2008|LCA2008/day_1/OpenSSH]].
+Also see the same talk at
+[LCA2008]({{ site.baseurl }}/talks/2008-01-28-OpenSSH/)
 
 Nothing to do with my employer
 
