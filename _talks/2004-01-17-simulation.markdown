@@ -2,7 +2,7 @@
 layout: talk
 title: Linux and Simulation
 meeting: /conferences/2004/01/17/LCA2004/
-speaker: Dad Shearer <dan@shearer.org>
+speaker: Dad Shearer
 begin: 2004-01-17 16:25
 ---
 LCA2004, one of best talks, 2004-01-17 4:25
