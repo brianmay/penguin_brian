@@ -1,0 +1,244 @@
+---
+layout: talk
+title: Microsoft
+meeting: /conferences/2010/02/02/LUV/
+speaker: various
+begin: 2008-02-05 19:00
+---
+Sarah Bond <sarahbon@microsoft.com>  
+Andrew Coates <andrew.coates@microsoft.com>  
+Chris Louloudakis <chrilou@microsoft.com>
+
+Not present:
+Micheal Kleef <mkleef@microsoft.com>
+
+Other resources:
+
+* [Peter Lieverdink: Tainted LUV](http://www.cafuego.net/2008/02/07/tainted-luv)
+* [luv-main thread](http://lists.luv.asn.au/wws/arc/luv-main/2008-02/msg00076.html)
+* [groklaw](http://www.groklaw.net/staticpages/index.php?page=20051216153153504)
+* [revision control](http://clarencedang.blogspot.com/2006/12/another-script-revision-controlled.html)
+
+Slug have a wiki with questions and answers.
+
+Platform strategy manager. Take feedback from local industry
+as to what you would like to see in our products.
+
+Feedback on the OpenXML, draft ISO standard.
+
+You can do anything with VisualExpress, except one or two things.
+
+MSDN subscription. Not the development environment, all the other
+bits. Allow you to run all your stuff in a virtualised environment.
+SDKs, etc.
+
+Development environment. Separate.
+
+Open document formats, how interoperable are we?
+
+Significant change, last couple of years.
+
+Community: take feedback, answer questions.
+
+Access: licensing, open specifications promise; guarantee that
+specifications can be implemented without worrying about legal
+action from Microsoft.
+
+Standards: OpenXML, etc. 50 standards bodies.
+
+Workflows, take out redundancy, use appropriate tools.
+
+How well does the Microsoft website comply with W3C standards?
+Pretty good, accept for two minor issues. W3C standards just
+a rubber stamp anyway.
+
+Why hasn't Microsoft got involved in ODF?
+
+* Backwards compatibility an issue.
+* Issues Microsoft raised excluded from ODF.
+
+We look at the demand to support ODF natively, and it isn't there.
+It is a commercial decision. Office does support PDF because there
+is sufficient demand.
+
+Market demand, evolution of IT
+
+Community says open standards are required.
+
+OpenXML, anyone can download standards.
+
+Even Apple cannot do a good a job of parsing OpenXML as
+Microsoft. Rendered product not as good.
+
+* Apple implemented it before Microsoft.
+* Google implemented it before Microsoft.
+* Rendered products never the same between different versions of
+Microsoft's products either.
+
+ODF format doesn't provide ability to represent some of the
+things required in older versions of Office products.
+
+Why OpenXML?
+
+* document use and information sharing
+* providing access to all document versions ever produced by Microsoft
+Office
+* implementation of the OpenXML formats by the widest set of tools
+and platforms.
+* Our goals are different to ODF
+
+Wouldn't it be better to convert to ODF format instead
+of creating new format with old cruft? No, lots of semantics
+in old versions that cannot be represented with ODF. Do
+we really want to keep this old cruft?
+
+Small repagination can cost industry thousands of dollars.
+
+Billions of older documents out there. We need to represent them
+in a way that old documents can be represented. You can't; you
+don't know what printer driver they used. Changing the printer
+driver can repaginate the entire document.
+
+Intellectual property
+
+* Open Specification Promise
+* You can implement this without fear of legal action from 15th
+Feb 2008.
+* Includes older file formats. .doc, .xls, .ppt.
+* Office '96, Office '97, and upwards.
+* Available for download via the Microsoft website.
+
+Is Open Specification Promise legally binding? It is not revocable.
+
+Sponsoring project on Sourceforge. Translator project.
+
+Harmonisation with ODF
+
+* ODF, explicit design goal not to provide backwards compatibility.
+* ODF does not include:
+  * spreadsheet formulas: The 1.0 ISO standard doesn't specify it.
+Open Office does this with an extension to the standard. ODF are
+looking to address this. 1.1 and 1.2 are looking to address this.
+  * accessibility features
+  * custom define schema support
+  * custom metadata
+
+Why hasn't Microsoft been more bold, and tried to be part of ODF.
+Microsoft felt lack of backwards compatibility would not be fair
+to their consumers.
+
+Any open source applications that read/write OpenXML. OpenOffice,
+Novells version. Translator is an open source project. Open source
+Java and PHP library.
+
+ISO Standardisation. Up to 25th February. 30 days to resolve
+and make a vote. Positive, negative, and critical feedback
+welcome.
+
+OpenXML running on a Linux Box.
+
+"My friends are running Vista on their Mac computers"
+
+Redhat box, Apache, Linux. Revision management system. Automatically
+generate a OpenXML .docx file. Rename to a *.zip file, open as
+a zip file. Contains directories, XML files, and images in native
+formats. No need to store images as bitmap format, and bloat document
+anymore.
+
+Can embed other information, which Word doesn't know about.
+
+Track changes was turned on by Linux application that created
+the document.
+
+Website not as pretty as it could be.
+
+Upload changed file back to website.
+
+View unpublished version rendered straight out on to browser window.
+
+Publish, now can search through documents, and can render document
+as a HTML document.
+
+ECMA Spec
+
+<http://openxmldeveloper.org/> download link.
+
+ECMA Office Open XML Spec
+
+VML backwards compatibility only, DrawingML is the current
+standard recommended.
+
+Binary blobs, are bitmaps to signify if things are turned on or
+off, these have now been officially documented.
+
+All 3,500 comments have been addressed.
+
+WordprocessingML architecture
+
+Stored in separate XML documents in the ZIP file.
+
+* comments
+* images
+* footnotes/end notes
+* numberingDefinitions
+* headers/footers
+* styles
+* properties
+* customXML
+
+Easy for firewalls to intercept and filter, also easy to intercept and modify.
+Malicious content could get in. Encrypting it is also possible.
+
+Can somebody not from Microsoft implement this stuff and be legally
+safe? Anybody can implement this stuff, it is now OSP. Exclusions
+is if other people own the patents, e.g. jpeg file format.
+
+Paragraphs, run, and text.
+
+Strings are shared if the same string is stored multiple times
+in the sharedStrings table.
+
+Spreadsheets
+
+Presentations
+
+Can this represents non-Dec based slides? Anything you can do in
+Power point is possible. Something that is not page based, e.g. page
+scrolls around, page you can zoom in and zoom out.
+
+Does it support null terminated strings? Yes.
+
+SVG can be referenced, and representation is up to application
+to render.
+
+Office support is different to Standard support.
+
+Do the implementations use the GPL license? Some GPL, some Microsoft
+permissive license.
+
+<http://connect.microsoft.com/> - choose product, submit bug report.
+
+Issue of identity, been a rough ride integrating with Microsoft
+(or any other vendor). What is changing, and what is different?
+I would like OpenLDAP to talk to Active Directory to interoperate.
+
+Two competing technologies. LDAP is an authentication system.
+
+Microsoft gave Samba extensive documentation. Is Microsoft going
+to continue this process?
+
+Why Windows Mobile 6 is better the blackberry? Is it interoperable with Linux
+as a modem? Yes. PPP is obsolete and not supported, every single howto will be
+broken, need to use pan stuff. Does it support OpenXML? Yes, with update.
+
+Office for Linux? Source code? No, about commercial realities for
+business, it depends what happens to business. If we found out we
+were missing out on a significant amount of market.
+
+What was the demand for the flight simulator in Office Excel 2003.
+
+What happens if it starts making business sense not to open up newer formats
+and decide to use a new format? It is a commercial question?
+
+Microsoft will not fully implement OpenXML now in the future,
+according to comments heard from Microsoft.

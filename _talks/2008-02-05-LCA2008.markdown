@@ -1,0 +1,19 @@
+---
+layout: talk
+title: LCA2008
+meeting: /conferences/2010/02/02/LUV/
+speaker: Andrew Chalmers
+begin: 2008-02-05 19:00
+---
+Incredible success, it was magic, thank you. Volunteers were
+good. Thank you. Yeah the red-sleeves.
+
+Q: Its doing strange things?
+A: Its KDE4.
+
+Speakers dinner was superb in a unique location.
+
+Keynotes:
+
+* [[Stormy|LCA2008/day_4/freedom]] was my hero, the coolest speaker yet. It was great.
+* They are [[cleaning_up_Python|LCA2008/day_5/python]]. Yah!

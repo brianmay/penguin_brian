@@ -1,0 +1,128 @@
+---
+layout: talk
+title: DIY Usability Testing
+meeting: /conferences/2010/02/02/LUV/
+speaker: Reena Jackson Armitage
+begin: 2008-12-02 19:00
+---
+Satisfaction
+
+* Is it easy to use?
+* Is it the most efficient use of the user's time?
+* Will a user recommend it to friends?
+
+Need to ensure goals aren't too narrowly defined.
+
+* e.g. usability isn't defined in terms of if grandma can use it or not. Audience can be much more broad then Grandma.
+
+Is new version better then older version?
+
+Usability depends on the user base. Some users might prefer using vim to edit
+config files, others might find this tedious.
+
+Usability testing is not:
+
+* checking for bugs
+* performance issues
+* deciding on documentation
+
+Can start testing without a finalised interface. The sooner you start the better. However it is better to test later, then not at all.
+
+* do these buttons make sense?
+* does this wording make sense?
+
+usability design is separate task to usability testing
+
+formal usability testing 
+
+* lab style
+* very expensive
+* confronting
+* 50 participants
+* difficult to plan and organise
+
+budget usability testing
+
+* anywhere
+* casual
+* few participants
+* cheap
+* 1:1 interaction with participant.
+* need to avoid helping, giving hints, or taking over.
+
+goals
+
+* need to think about specific things.
+* pick appropriate tasks that relate to this goal.
+* describe task in plain English.
+* everyday task that user is likely to use application for.
+
+choosing test subjects
+
+* Ensure person knows what a computer is.
+* Need to ensure that people aren't too familiar with program.
+* Don't choose other developers of project.
+* Don't choose other developers.
+* Offer incentives. Pizza. Coffee vouchers. etc.
+* Depends on target audience of application.
+
+record
+
+* take notes?
+* Or tool like
+  * RecordMyDesktop - quite cool, uses ogg format.
+  * vnc2swf - works via VNC session
+  * lstanbul - quite old
+* record mouse clicks and keystrokes?
+  * not with RecordMyDesktop.
+  * plenty of keyboard grabbers and trojans available.
+
+setting up room
+
+* free of distractions. Turn off TV.
+* use standard equipment. No fancy mouse or keyboards.
+* snacks or drinks
+* comfort
+* notepaper or computer to take notes
+* print out list of tasks so they can refer to it if they forget
+* reliable computer
+* clean up desktop
+* turn off background process. downloads, chats, etc.
+* prepare beforehand for recording
+
+the test
+
+* introduce yourself
+* explain the purpose of the test
+* "not testing you, testing the application"
+* "its ok if you stuff up - the application fails, not you"
+* explain how it works
+* explain how long it will take
+* ask for permission for recording - may be a legal requirement, especially if you intend to publish recording
+* need anything? Water?
+* can tell a lot by the way they speak
+* get them to speak out loud
+* get them to tell you what they are thinking off
+* encourage them to work it out on their own - make a note of the different path the take
+* if they get stuck allow them to stop
+* take notes, keep an eye on what they are doing
+* users attitude is important
+* ask for their comments
+
+take notes
+
+* what did they do right?
+* what did they do wrong?
+* did they resort to help?
+* any mistakes made?
+* take note of expressions. Anger. Depression. Etc.
+
+
+evaluate results
+
+references
+
+* <http://usability.gnome.org/>
+* <http://usability.kde.org/>
+* <http://openusability.org/>
+* <http://useit.com/>

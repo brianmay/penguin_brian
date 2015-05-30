@@ -2,7 +2,7 @@
 layout: talk
 title: Speakers Coaching Session
 meeting: /conferences/2004/01/17/LCA2004/
-speaker: Unknown
+speaker: unknown
 begin: 2004-01-13 17:00
 ---
 Contain butterflies in a jar, so you can look at then to

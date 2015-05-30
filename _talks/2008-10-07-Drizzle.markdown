@@ -1,0 +1,63 @@
+---
+layout: talk
+title: Drizzle
+meeting: /conferences/2010/02/02/LUV/
+speaker: Stuart
+begin: 2008-10-07 19:00
+---
+<http://launchpad.net/drizzle>
+
+Mailing list and IRC.
+
+<http://launchpad.net/drizzle-discuss>
+
+Rewrite of Mysql.
+
+Remove locks where possible, better for multi-core.
+
+Optimise for 64 bit.
+
+Optimise for lots of RAM.
+
+SSD will be common in 2 years.
+
+Microkernel Architecture. Modular. Pluggable.
+
+If you don't load features they cannot cause problems.
+
+ANSI SQL. Not important. No database is standards complaint.
+
+Strict SQL by default. Change it by modifying the source code or build your own module.
+
+Removed a bunch of features:
+
+* foreign keys - checks are rather expensive
+* stored procedures
+* triggers
+* windows support - gone - yah!
+* mac os x (at present time) - is broken
+* frm files going to go away
+* etc
+
+UTF-8
+
+Remove complicated ACLs. Use clouds instead.
+
+Authentication not required.
+
+Target audience: Large scale web applications.
+
+Incompatible changes planned. Don't use yet for production.
+
+Separate project to Mysql. No plans to merge. May contribute changes to Mysql
+in the future. Nothing decided yet.
+
+InnoDB is the default. Oracle not OS community friendly.
+
+Table locks are bad.
+
+Maria or PBXT may be used in future.
+
+Smaller line count then mysql.
+
+Priorities: Distributed, fast and reliable. Not aimed at 1993s database market.

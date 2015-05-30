@@ -1,0 +1,43 @@
+---
+layout: talk
+title: Puppet
+meeting: /conferences/2010/02/02/LUV/
+speaker: James Turnbull, Security Architech, National Australia Bank
+begin: 2008-06-03 19:00
+---
+Configuration Management
+
+Large number of like hosts ... that are somehow never alike.
+
+Documentation; no documentation - no idea what I did that for. Stick documentation in wiki, so anybody can edit.
+
+Track changes - Software configuration management.
+
+CMDB - configuration management database.
+
+Configuration managent tools:
+
+* closed source solutions: Tivoli (does a lot of things but not very well)
+* open source solutions better: Puppet
+
+Puppet is:
+
+* free
+* client server model
+* secure SSL communication
+* unix centric
+* supports external databases and LDAP for configuration
+* extensible
+* ruby
+* windows not supported; flat files are supported; windows requires API calls, reboots, etc.
+* open application
+* declarative language
+* relational, define relationships
+* transactional - roll back changes - not yet fully implemented
+* <http://reductivelabs.com/PuppetModules>
+* Language: Define arrays, variables, conditionals
+* not monoloithic model; does a better job
+
+Remove inventory tool.
+
+push and pull model supported

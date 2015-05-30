@@ -1,0 +1,185 @@
+---
+layout: talk
+title: OpenSSH
+meeting: /conferences/2010/02/02/LUV/
+speaker: Damien Miller, Google
+begin: 2008-02-05 19:00
+---
+Also see the same talk at [[LCA2008|LCA2008/day_1/OpenSSH]].
+
+Nothing to do with my employer
+
+Security measures
+
+OpenSSH is an important and widely used network application
+
+Convince software authors to use similar security measures in
+their own code.
+
+Project started as a fork of existing code based that changed
+their license to become more and more restrictive.
+
+Most popular SSH implementation - 87% of servers.
+
+Written for Unix like operating systems and Windows via cygwin.
+
+Based on legacy code base. It is possible to go back and retrofit
+security to an existing code base.
+
+Legacy code, some serious bugs. Integer overflow was demonstrated
+in The Matrix movie.
+
+Some bugs in other libraries/software also caused security bugs.
+
+Attack surface: amount of application code that is exposed to attack.
+Unauthenticated person can send unauthenticated packets to server,
+what can this unauthenticated person access? Processes running as
+root?
+
+Minimize the attack surface, the less the better.
+
+"Simplicity of Mechanism" and "Least Privilege" design principles,
+Saltzer and Schroeder.
+
+Can quantify it by counting lines of code.
+
+Root required for:
+
+* setuid 
+* logging
+* TTY allocation
+* authentication (???)
+* record login in utmp, wtmp, lastlog.
+* etc
+
+## What can we do to improve security?
+
+* audit it: if a developer makes a mistake, it is like to have
+been made multiple times. Need to fix all occurrences. Boring
+job. Tough job.
+* add paranoia - defensive programming: input sanitisation. Avoid
+passing untrusted data to system APIs or any complex API, until it
+has passed consistency and sanity checks. Passwords not more then 8kb
+long. Won't catch everything, might cause false positives in the
+future. eg. image based passwords.
+* replace or modify unsafe APIs: Many offenders are gone, e.g. gets().
+strcpy -> strncpt, strlcpy, done early. strtoul() needs seven lines of code to
+robustly detect integer overflow errors. Use strtonum() instead. setuid
+doesn't drop privileges on all platforms reliably. Save uids may be
+kept. setresuid() non-standard, but solve problem. Otherwise we
+set the privilege, and try to restore it, and if restoration works we
+know we haven't dropped the privileges correctly. Change the API
+in order to make it simpler to use correctly.
+* replace complex and risky code: RSA and DSA signature verification.
+Use to use OpenSSL function, but this was very complicated, and caused
+a number of security bugs in ASN parsing. We replaced it with
+simpler version with fixed signature representations, that is removed
+the ASN parser. 300 lines reduced to 40 lines of code. APIs are
+abstractions to make developers life easier, but it might hide
+the complexity of the operation.
+* minimise / separate privilege:
+  * applications should run with as little
+privilege as possible, example Apache drops root access. sshd cannot
+do this, it requires root access.
+  * Solution, split the application into
+a master process and a slave process. Reduce the attack surface by 66%.
+Monitor must enforce particular order of requests, limit authentication
+attempts, etc, to ensure compromised slave isn't sending fake requests.
+Encryption and zlib require passing of state from one process to another.
+zlib is implemented by replacing memory allocator with an allocator
+that uses shared memory between all processes. Privilege separation
+is very complicated. Reduced seriousness of every bug we have encountered.
+* change the protocol: compression before user authentication, as required
+by protocol means the compression code is exposed to unauthenticated users.
+Solution: Introduce zlib@openssh.com protocol, turn on compression
+after authentication. Compression: yes - old; compression: delayed - new;
+compression: no - insane. Not compatible with putty implementation.
+Requires protocol extensions.
+* Help OS level security measures work better.
+  * Runtime randomisation of
+load address, share library load addresses, stack protection cookies, stackgap,
+memory allocations. Only occurs when the program is first exec(), not on
+fork(). Most daemons only fork() without an exec(). Solution, exec("sshd")
+after fork. Makes attackers job harder. Parse the existing configuration to new
+sshd over existing socket, so configuration remains consistent. Increases
+connection start up costs (very little), and no benefit if the platforms that do
+not support attack mitigation (implement it!).
+  * Prevent core core dumps
+leaking information, prevent ptrace on ssh-agent.
+* regression testing: good for checking obvious breakage. Unit tests work
+better, not implemented yet. Fuzz testing is a possible approach.
+
+## New APIS
+
+    struct blah *array = malloc(n * sizeof(array));
+
+    /* later */
+
+    array = realloc(++n * sizeof(*array));
+
+Integer may overflow resulting in less memory being allocated
+then required.  Better:
+
+    struct blah *array = xcalloc(n, sizeof(*array));
+
+    /* later */
+
+    array = xrealloc(array, ++n, sizeof(*array))
+
+Ensure the integer doesn't overflow before allocating memory.
+
+New APIs can make the code harder to understand if it deviates
+too much from the standard.
+
+## Future
+Prevent return-to-executable type attacks.
+
+Prevent "piggybacking" type [attacks](http://www.storm.net.nz/projects/7),
+opening separate connections
+over existing ssh connection. SSH connection multiplexing. Have to
+make this difficult if not possible. Possible solution: client
+tells server it is not opened in multiplexing mode, if I ever do so,
+please kill me. Port forwarding doesn't automatically give access
+to remote account. These attacks require an attacker already have
+access to your account These attacks require an attacker already have
+access to your account.
+
+Separate the different processes into separate executables; was
+done this way for backward compatibility; a lot of code in the monitor
+is there that isn't used by the monitor. Separate executables may cause
+problems with zlib legacy code, may require rewriting entire server.
+
+Postfix is an excellent example.
+
+pervasive tests, unit tests, fuzzy tests.
+
+Automatic code generation of mechanical code - packet parsing, sanity
+checks, etc.
+
+## Questions
+
+gsissh experience? No. Uses SSL certificates. 3rd party patch
+for x509 certificates, decided not to implement, would require
+ASN parsing in server, and may cause security issues. Number of
+users small enough not to inconvenience other users.
+
+v1 protocol vulnerability? Dumb decision to use crc32 as checksum,
+message integrity code; not good for detecting malicious corruption.
+Attack allows insertion of data into ssh streams. Want to remove
+this code in the future.
+
+ipt\_recent, prevent brute forced ssh attacks. Also ipt\_limit.
+
+iptables solution, PAM modules, etc.
+
+How many core developers? None of us are full time. 3 actively
+contributing.
+
+Any plan to fix scp, which is broken by design? It is not a protocol,
+protocol is to execute scp via ssh. No way to extend in a backwards
+compatible way. Extend sftp so it is backward compatible command
+line. Recursive operations are the biggest issue.
+
+OpenSSH is part of my 20% time at Google, I agreed not to work
+on crypto code in company time, no need to worry about crypto export
+lays.

@@ -2,7 +2,7 @@
 layout: talk
 title: Clonezilla
 meeting: /conferences/2010/01/23/LCA2010/
-speaker: Unknown
+speaker: unknown
 begin: 2010-01-19 11:30
 ---
 Bare metal recovery tool, for Linux, Mac OSX, and Windows.

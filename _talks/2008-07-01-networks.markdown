@@ -1,0 +1,27 @@
+---
+layout: talk
+title: LCA2008 Network
+meeting: /conferences/2010/02/02/LUV/
+speaker: Steve
+begin: 2008-07-01 19:00
+---
+Fibre feed from AARNET POP B to Cisco 500G.
+
+Cisco 500G hopeless to configure.
+
+Cisco fed a Dell Optiplex gateway.
+
+Registration desk ran inside DMZ network, so it would still function even if router failed.
+
+Allocate /21 (8 class C)
+
+Divide into /22 (4 class C)
+
+169.222.8.0/23 DHCP
+169.222.12.0/24 servers/DMZ
+169.222.13.0/28 switches
+169.222.15.0/24 spare
+
+Cisco 500G won't support VLANs,
+
+WRT54GL running Kamikazi firmware.

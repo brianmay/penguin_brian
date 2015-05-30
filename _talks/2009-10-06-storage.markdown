@@ -1,0 +1,29 @@
+---
+layout: talk
+title: Adventures of a Storage Startup
+meeting: /conferences/2010/02/02/LUV/
+speaker: Mike
+begin: 2009-10-06 19:00
+---
+## Money
+
+5 or 6 months of fund raising.
+
+Raising money in USA for Australian project is difficult. Australia is not a common thought in USA.
+
+Australia is acknowledged as cheaper to operate in then USA or Europe. Half the
+cost of North America.
+
+## Challenges
+
+Got to know 25 US VMware customers and there problems, and how much there were
+prepared to pay for a solution. Potential customers for VC. The most
+important part of raising the money.
+
+## Technology
+
+EvoStor Technology
+
+## Marketing
+
+Make a bang. Get feedback from potential customers.

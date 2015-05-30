@@ -1,0 +1,121 @@
+---
+layout: talk
+title: linuxAV - state of the art 2009
+meeting: /conferences/2010/02/02/LUV/
+speaker: Robin Gareus
+begin: 2009-02-03 19:00
+---
+<http://linuxaudio.org/>
+
+## Audio/Video Data Formats
+
+Containers:
+
+* multiple autio or video streams in one container
+* video tracks usually sliced: I frames, P frames, and B frames.
+  * I frame == full frames
+  * P frame == predicted frames
+  * B frame == bidirectional frams
+* video frames may consist of multiple macro blocks.
+* examples: OGG, AVI, MOV, MPEG, DV, XCF, etc.
+
+Codecs:
+
+* video: theora, dirac, xvid, mjpeg, dv, tiff, mpeg2, mpeg4, H.264, etc.
+* audio: vorbis, mp2, mp3, speex, etc
+
+Transmission protocols
+
+* examples: file, pipe, http, tcp, udp, mms, rtp, rtsp, rtmp, etc.
+
+    ffmpeg --formats
+    mencoder -ovc help
+    mplayer -vc help
+
+## Authoring Tools
+
+
+Acquisition
+
+    mplayer --dumpfile
+
+digital video
+    dvgrab
+
+gstreamer
+    pitivi
+
+Video editing
+
+* cinelerra - incomplete, crashes regularly
+* blender
+* avidemux - simple editor
+* lives - live VJ, basic editing, and effects
+* ardour - xjadeo
+* openmovieeditor - supports plugins
+* kine - home movie editor
+* pitivi - gstreamer based
+* lumiera - cinerlerra 3
+* ardour - development version
+
+Unix way - small is beautiful
+
+extract audio:
+
+    mplayer example.avi -dumpaudio -dumpfile example.mp3
+
+merge files:
+
+etc.
+
+
+Off-line editing - doesn't affect original media.
+
+* decision list to point out where edits go.
+
+subtitles
+
+color correction
+
+* cinepaint (branch of GIMP) - 16 bits per color.
+* IEC Calibration very important.
+
+transcoding
+
+* winFF (ffmpeg)
+* dvd::rip (transcode)
+* ogmrip
+* avidemux
+* VLC
+* aciprip (mencoder)
+* mandvd (mencoder)
+* qjadeo (mencoder)
+* ffmpeg command line
+
+dvd authoring
+
+* dvdauthor (XML), qdvdauthor (GUI), etc.
+* mandvd (GUI)
+* dvdmaker (CLI)
+* videotrans
+* mkisofs, growisofs
+
+
+starting from home
+
+* easiest to use custom distribution
+* low latency, real time kernel
+* ubuntustudio, 64studio, jacklab, CCRMA, artistX, MUSIX (live cd)
+* dyne.org, dyne:bolic, puredyne - different distributions based on same thing
+
+## Conclusions
+
+Most open source utilities are very good, transcoding can be better quality
+then commercial products, may not be as easy to learn to use as commercial
+products. Still a long way to go.
+
+Need good quality video, actors, etc. Won't be able to improve these with editing.
+
+Cameras often have very small CCDs, make image very sharp and in focus.
+
+No USB2 standard audio protocol.

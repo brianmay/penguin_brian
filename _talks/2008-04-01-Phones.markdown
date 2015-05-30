@@ -1,0 +1,64 @@
+---
+layout: talk
+title: Mobile phones
+meeting: /conferences/2010/02/02/LUV/
+speaker: Stuart Smith
+begin: 2008-04-01 19:00
+---
+On handheld we can synchronise:
+
+* E-Mail
+* Contacts
+* Calendaring
+* Files: Music, Ring tones, etc
+* Photo of person calling
+
+I want to synchronise with my Linux desktop.
+
+Buzzword compliant technologies:
+
+* XML
+* AJAX - not web based
+* Java - never works properly
+* Gopher??
+* Enterprise in the name
+* Phone has Atomic transactions - Java DB
+
+Read only devices, e.g. ipod, simple to implement.
+
+Windows Mobile phone works best; Windows Mobile 6 is
+Windows Mobile 5 with some updates. Windows Mobile is
+custom version of Windows CE customized for phone.
+
+## Fumamble
+
+* Not Client/server architecture via 3rd party website. This is bad.
+* Client/server architecture via installable daemon.
+* Limited documentation. Interface to server: Java GUI Application
+via X forwarding.
+* upgrade instructions; reinstall from scratch; devices will copy
+data to server again.
+* open source
+* not CPU intensive
+* Outlook plugin also exists
+* Backups of phone easy
+
+Synchronisation:
+
+1. synchronise phone with server
+2. sync-evolution to synchronise evolution with server
+3. synchronise phone with server
+
+# Conclusion
+
+It does work with bugs; not flawless but close.
+
+Run daemon as its one user; probably has numerous security issues.
+
+Alternatives:
+
+* Open Exchange
+* Zimbra
+* Microsoft Exchange
+
+Microsoft products really good until marketing find out.

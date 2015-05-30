@@ -2,7 +2,7 @@
 layout: talk
 title: Puppet
 meeting: /conferences/2008/02/02/LCA2008/
-speaker: Unknown
+speaker: unknown
 begin: 2008-02-01 14:30
 ---
 Every server requires slightly different commands to do

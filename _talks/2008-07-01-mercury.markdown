@@ -1,0 +1,41 @@
+---
+layout: talk
+title: A guided tour of Mercury
+meeting: /conferences/2010/02/02/LUV/
+speaker: Ralph Recket
+begin: 2008-07-01 19:00
+---
+Modern declarative programming language started in 1993 by University of Melbourne.
+
+Intended for large scale software engineering problems.
+
+Logic programming language syntax like Prolog but with horrible stuff removed.
+
+Efficient compilation model, 20% slower then C on LZW compression. Older compiler used,
+may be better now.
+
+Garbage collection.
+
+Compiles to C, C#, Java, and Erlang.
+
+Statically checked type system.
+
+Real enumeration types.
+
+Parametric polymorphism.
+
+det = determistic, always succeeds.
+
+semidet = semi-determistic, may fail or succeed.
+
+purity = no side effects + no flow control
+
+No data sharing issues.
+
+Compiler can re-order code in optimisations.
+
+concurrency
+
+Software transactional memory.
+
+Debugger - can go back in time due to purity.

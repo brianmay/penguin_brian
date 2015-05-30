@@ -1,0 +1,22 @@
+---
+layout: talk
+title: SSH
+meeting: /conferences/2010/02/02/LUV/
+speaker: unknown
+begin: 2008-12-02 19:00
+---
+Using OpenSSH behind firewalls
+
+Display message before user enters password warning unauthorised users will be prosecuted if they log in.
+
+:set bg=dark
+
+Host *  
+ControlPath ~/.ssh/.control\_%r@%h:%p  
+ControlMaster auto  
+
+Host X Y Z  
+DynamicForward 127.0.0.1:1080  
+
+FreeCap - socks client for Windows
+

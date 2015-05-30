@@ -1,0 +1,11 @@
+---
+layout: conference
+title: LUV meetings to date
+categories: conferences
+name: LUV
+begin: 2008-02-05
+end: 2010-02-02
+location: Melbourne, Australia
+website: http://luv.asn.au/
+---
+
