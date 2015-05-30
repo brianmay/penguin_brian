@@ -1,0 +1,117 @@
+---
+layout: talk
+title: System administration consequences of the endgame of IPv4 and deployment of IPv6
+meeting: /conferences/2009/01/24/LCA2009/
+speaker: Glen Turner
+begin: 2009-01-20 10:40
+---
+Running out of IPv4 addresses. We are not moving to IPv6 fast enough.
+
+Plan B. Use NAT:
+
+* record addresses and ports in table and rewrite
+* no more end-to-end addresses
+* breaks SIPs, webservers, etc
+* NAT - Deep Packet Inspection - Costly inspection.
+* sometimes need to rewrite addresses in protocols themselves.
+* need specialised NAT support for each protocol.
+* Jitter and complexity attacks.
+* Huge amounts of state kept. Ideal target for hackers.
+* soft state, can be refreshed. This is hard state, must be kept in sync on
+different paths. Protocols to do this are open to exploit.
+* Tables grow and size can get too large for resources. Need timeouts.
+* TCP is a latency sensitive protocol. IPv6 will reduce delays as opposed to
+using NAT.
+* Without NAT protocols for all protocols, this enables carriers to lock
+customers into their protocols and services.
+
+Market for IPv4 addresses.
+
+* Adress holders are sellers.
+* ISPs and colo providers are purchasers.
+* Poor record keeping.
+* Routing tales size will explode as every last IPv4 address used. Some routers
+will need to be upgraded if static RAM overfills.
+
+NAT is not a good option.
+
+No one is going to make any money from IPv6. Insignificant feature. Belief that
+it is has dampened uptake. Need to use advanced router to support IPv6. If ISPs
+don't provide IPv6 they won't be as attractive.
+
+Most of what works with IPv4 works with IPv6.
+
+* Applications shouldn't be hardcoding IPv4 addresses.
+* IPSEC and QoS backported to IPv4 from IPv6.
+* IPv6 is completely seperate protocol and requires its own routing tables,
+firewalls, etc.
+
+Three parts of each network:
+
+1. Network
+2. Subnet
+3. Hosts
+
+Site = 2001:388:a001::/48 
+Subnet = ...:1:217::/64
+IPv4 address = ::ffff:1.2.3.4
+
+Larger addresses allow autoconfiguration.
+
+We need to cater for when we run out of 48 bit mac addresses.
+
+Ask router for prefix of IPv6 addresses. Router sends advertisements.
+/etc/radvd.conf.
+
+IPv4 framentation removed. Blocking ICMP6 packets is a really poor idea.
+
+New DNS record type. Reverse DNS looks awful. Dynamic DNS might come to its own
+age.
+
+Give servers own address that isn't specific to mac address, so address doesn't
+change if Ethernet adapter changes.
+
+Clients ask for AAAA before A.
+
+Hardcoding IPv4 addresses in web pages is bad. Special hell for these people.
+
+Don't try to change bit allocations for addresses, it may not work.
+
+Do not use EUI-64 on routers. These need to be hardcoded. Use ::1 for router
+address, no host will have this address.
+
+* Use stateless IPv6 DHCP server. Does not need to record any information.
+* Use dynamic DNS.
+* Find a happy user somewhere and make them unhappy.
+* Issues: Squid (need latest version), Microsoft Exchange.
+* Issues: netflow format changes.
+* Issues: VPN stuff changes.
+
+Biggest reasons for lack of deployment are management issues. A lot of these
+are fear of change. Not use to running multiple protocols. Seems scarry.
+
+Australian government believes there are too many unknown security problems
+with IPv6.
+
+Use tunnel broker. e.g. broker.aarnet.edu.au.
+
+ipv4 1.2.3.4 != ipv6:::fff:1.2.3
+
+Major problem is the colons in the addresses.
+
+Security: Biggest problem is it is another protocol. Cisco would automatically
+enable IPv6 if enabled upstream and allow all traffic by default. Problem now
+fixed.
+
+It is possible for somebody to advertise on IPv6 but not respond on IPv6. Need
+to have nagios checks for both IPv4 and IPv6 addreesses.
+
+Firewalls, biggest issue.
+
+Training issue. One university shows students IPv6 addresses. Big vendors don't.
+
+In 5 years time it won't be possible to obtain IPv4 addresses for affordable
+prices. ISPs will require people to use NAT. Expect NAT to run about 15 years.
+
+Our IPv6 broker has 6000 users. Being upgraded, as it can't cope with load.
+Should last 7 years. Upgrade bill was 6 digits.

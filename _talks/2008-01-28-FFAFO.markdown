@@ -1,0 +1,30 @@
+---
+layout: talk
+title: FFADO Firewire audio on Linux
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Jonathan Woithe
+begin: 2008-01-28 09:00
+---
+<http://www.ffado.org/>
+
+multichannel audio interfaces now use firewire
+
+FreeBob was renamed to FFADO. FreeBob had limited hardware support,
+and only supported some BeBob devices.
+
+Lack of manufacturer support an issue.
+
+Rewrite of the ieee1394 kernel driver to fix a number of problems.
+
+## Status
+
+Things work, but with restrictions.
+
+Timing accuracy, some devices are more picky with timetables of samples.
+
+Need to support more devices.
+
+* lack of driver specifications
+* $1500 - $3000 per device
+
+No releases yet, subversion downloads only.

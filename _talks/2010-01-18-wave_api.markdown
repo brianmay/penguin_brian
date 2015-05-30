@@ -1,0 +1,10 @@
+---
+layout: talk
+title: Google Wave API
+meeting: /conferences/2010/01/23/LCA2010/
+speaker: Pamela Fox
+begin: 2010-01-18 13:30
+---
+Wave data model.
+
+People can define though own data models. Wave servers need to share the same data model.

@@ -1,0 +1,133 @@
+---
+layout: talk
+title: NFS Tuning Secrets or Why does "sync" do two different things?
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Greg Banks
+begin: 2008-02-01 13:30
+---
+Little you can do to improve performance without changing protocols.
+
+Myths
+
+* customer says "performance doesn't matter"
+* it does matter, even if it doesn't seem like it, at least initially.
+
+How NFS works
+
+* large number of independant parellel pipelines, involving processes
+that may or may not be controllable.
+
+Performance factors:
+
+* Server workload. Is the server dedicated to NFS? All you cache
+belong to NFS.
+* can't go faster then network for bulk read/writes
+* server filesystem performance. short term, caching will hide
+perfomance issues.
+* NFS vs Server FS interactions. Looking up files by inode, evil.
+Open file, read several kb, close file cycle of NFS server bad.
+* Other clients making demands. Some demands might be synchronise,
+and require an immediate action and response.
+* NFS client, parallism on wire. Wildly fragmented files on server.
+Defeat VFS read ahead on server, because reads are misordered,
+and VFS goes to random access mode.
+* Linux clients do not align IO (except to own page size).
+* Client does its own read ahead. Hopefully this doesn't interact
+with other read-ahead mechanism in a bad way. Client has a lot of control
+when server should write data to disk, but client doesn't have information
+to make this decision wisely.
+* Application modes: Buffered, O_DIRECT, O_SYNC, or async IO.
+* Some applications buffer in user space.
+
+Top 10 rules for tuning clients:
+
+1. First tune your network. How fast is the network. What is
+slow? Is slow really slow? Think of entire network path between to
+computers.
+2. Use NFSv3, not NFSv2 or NFSv4 (NFSv4 mostly works though).
+3. Use TCP, don't use UDP under any circumstances. Data curruption.
+Invisible data curruption.
+4. Use maximum transfer size supported. On Linux this is negotiated
+by default. Too large is bad, but most clients/servers don't support
+packets this large anyway.
+5. minimum sizes: less then one of client page size, servers page size, servers
+RAID stripe width is bad.
+5. don't use the soft option. use hard by default. Is possible to bend
+this ruole.
+6. use intr, allows you to interrupt process if server goes down. If
+too late, reboot computer.
+7. Use the maximum MTU. Switches don't support large MTUs as well
+as they say they do. Interesting bugs can occur, especially with 9KB MTU.
+Reduce CPU time.
+8. No more mount options. Don't use sync. Don't use noac, implies sync.
+sync is different on client and server.
+9. Parallelism. Not normal to have to tune this.
+10. Client read ahead. Default is 15 (bad), 16 is good, more is bad is bad.
+Multiple of 4 is good, ensures reads will be aligned to rsize thanks to
+VFS readahead code.
+
+Defaults
+
+* Most defaults are good, any changes will likely make things worse.
+* don't just copy /etc/fstab options from old sources.
+* Look in /proc/mounts to verify NFS options actually used.
+
+
+Top 10 rules for tuning servers
+
+1. Tune the storage hardware. Choose number of disks in RAID set. Choose
+RAID caching mode. Factory defaults aren't always ideal. Write cache
+mirroring = slow but safer.
+2. Tune the block layer. CFQ - complete fair queuing seems to be OK. It is
+dumb about iscontexts and NFS. Increase CTQ - command tag queue - depth;
+improve SCSI parallelism. Don't go above 8 or performance will deteriate.
+Increase max_sectors_kb to get large IOs. Should be multiple of
+the RAID stripe width. Linux limits vary with server page size. Check
+device max readahead in adequate. Ensure changes persist.
+3. Tune the filesystem. Tune for NFS. Not local workloads. Don't tune for
+application as if it was run locally. Some tunings must be done at mkfs time.
+Be careful with partitioning and volume manager arrangement. Use noatime or
+relatime (modern kernels). atime has no affect on client (disputed by Matthew
+Wallis). noatime may break some applications. XFS may need special care.
+Old code used bad defaults. Optimise log IO. Choose allocation groups.
+4. Tune the VM. Push changes that are dirty before client decides to do it.
+However your results may vary. Do not reduce XXX value.
+5. Tune PCI card. A card can slow down cards on other busses. Two
+cards on a bus can slow down the bus. Sticking card in empty slot may
+slow things down excessively. NUMA effects. Fibre channel multiple pathing.
+Multiple paths. In general, don't run all requests down one channel,
+use parallel paths if possible. Know your hardware.
+6.Tune the network. Speed, duplex, errors. NFS on server is almost
+always bulk traffic. Bind NIC interrupts to CPUs, keep device cachelines
+hot for one CPU. ifconfign tells you the IRQ. irqbalanced doesn't know
+your hardware. Increase socket buffer sizes. sysctls have changed. TSO -
+TCP Segment Offload - TCP grant work done by the hardware, not the software.
+The card chops it up into TCP segment. Depending on the card, it
+might not be enabled by default. Use ethtool -K ethN tso on. RSS - Receive
+side scaling. Split up interrupt load into multiple CPUs. New thing. May
+need to fiddle. Hardware checksum might be off by default. Enable
+IPoIB by default. Fix default ARP. Bonding and NUMA.
+7. Think about async export option. Can put newly written data at risk,
+however it if faster for some workloads. Good for client, bad for server.
+Tells server to lie about when data is actually written to disk.
+8. Use no_subtree_check. No benefit except to consume excess CPU cycles.
+9. Use *more* server threads. Default is way too low. stats in /proc
+are wrong and difficult to understand. Server structures sized at
+server stateup. Use too many, eg 128. Never can have too many.
+
+Measurement Tips & Tricks
+
+Application developers:
+
+* Use large buffers, large IO, don't try to be too clever. Don't
+use O_DIRECT, it does things that sometimes makes things faster locally,
+but never remotely.
+
+
+"sync" vs "sync"
+
+* do different things on client and server.
+* client mount option, results in client serializing IO and wait until
+data stored on disk. Definitely want async.
+* server makes the server RFC compliant, async tells the server to
+lie and say the data is stored when it isn't.

@@ -1,0 +1,194 @@
+---
+layout: talk
+title: How to build an Embedded Asterisk IP-PBX
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: David Rowe
+begin: 2008-01-30 13:30
+---
+<http://rowetel.com/ucasterisk>
+
+Open Hardware
+
+Open Hardware hacking
+
+## Free telephony project
+
+open telephony hardware designs
+
+improve the world a little bit
+
+designs can be copied, modified, re-used without restriction
+
+encourage cloning of our products
+
+trend: shifting functionality from hardware to software; this means
+total system costs are constantly dropping for given amount of
+functionality.
+
+falling hardware costs are a good thing, especially the developing
+world.
+
+hardware costs dropping towards 0.
+
+People will copy design and compete with each other, driving prices
+down.
+
+somebody else does the manufacturing, no need to worry about it ourselves
+
+work well with the Chinese
+
+## Why free telephony?
+
+phone call should be a human right, not a privilege
+
+drive costs to $0
+
+## Why embedded asterisk?
+
+* small size
+* low power (3W)
+* no moving parts - no fans or hard disks
+* quiet
+* reliable
+* low cost ($100-$150)
+* cool idea
+
+## Asterisk
+
+PABX - Australian term
+PBX - overseas term
+
+* FOSS
+* VOIP - massive growth
+* Primary sponsor is Digium, but has many other contributors.
+* alternative forks available
+
+## Introduction
+
+Analog phone standard, 48V to ring phone.
+
+PCI card to interface between PCI bus and telephone line.
+
+Echo cancellation and speech compression require CPU power.
+
+Blackfin processor
+
+* DSP processor
+* run uClinux
+* low cost ($5-15)
+* integer processor
+* simply design, breaks two processor + DSP paradigm.
+
+Redundant parts removed.
+
+Hardware DSP is just software run on a dedicated processor.
+
+Complicated development environment:
+
+* Cross compiler and tools
+* Customized kernel and applications
+
+Steep learning curve
+
+## Motivations
+
+Business potential in a $200 IP-PBX with multiple ports.
+
+If value goes out of hardware in business model, it will go elsewhere.
+
+I like building stuff & trying to improve the world.
+
+Open software like Linux and Asterisk have been great things.
+
+## Open hardware
+
+We distribute the CAD files and and prototypes.
+
+Need a factory or a day with a soldering iron to build one.
+
+Low bug count, many eyes checking for bugs.
+
+Fuller functional PBX setup within 2-3 weeks.
+
+CVS/SVN for version control of designs (text based).
+
+Re-using hardware building blocks, just glue them together, just
+like software.
+
+Help each other get strange parts, internationally.
+
+I use a blog, instead of a log book.
+
+Chat to debug hardware problems. Software techniques used to debug
+hardware issues across the globe.
+
+Normal hardware cost is 70% overhead.
+
+Local factory can manufacturer and customize design without paying
+international country lots of money.
+
+## Design process
+
+1. Design schematics (gschem)
+2. Design PCBs (PCB)
+3. Assemble prototype
+4. Debug hardware
+5. Port asterisk
+6. etc
+
+FOSS tools, several years behind closed source tools.
+
+## Hardware hacking is getting easier
+
+Order obscure parts from websites.
+
+Prototype PCB costs are dropping, was $500, then $3 (in China).
+
+DHL?
+
+Less then $500 to get all the parts needed to assemble a PCB yourself.
+
+Feel free to email me to get help on getting started.
+
+Help from online communities.
+
+Females are better at SMC soldering then males.
+
+## Open hardware IP-PBX Products
+
+* IP04 - 4 port analog IP-PBX (production)
+* IP08 - 8 port analog IP-PBX (prototype)
+* E1/T1 PRI-Appliance (prototype) - 32 channels -  400 euros.
+* BRI-Appliance (prototype) - 2*4 = 8 channels
+
+Need compliance testing, one off cost, approx $10K. Ensure no
+excessive interference, will cope properly with lightning strike,
+etc.
+
+## IP04
+
+For software developers, potential for very low costs ($100).
+
+similar products $2,000
+
+GUI, callerid a bit unstable at the moment.
+
+Copied FXO FXS card design from manual for chip. Digium also did
+the same thing.
+
+## Questions
+
+PCB Fabrication: best place - china
+
+Jaycar, interested in an approved kit?
+
+RAM footprint? Asterisk. 64Meg RAM, Asterisk 13Meg. No special
+optimisations in Asterisk, need to fix that one day.
+
+Asterisk 1.6beta works. 30Meg memory used for everything.
+
+Spreadsheet in SVN with breakdown of parts cost.
+
+Development board for blackfin exists.
+
+3 distros available for running Asterisk on blackfin.

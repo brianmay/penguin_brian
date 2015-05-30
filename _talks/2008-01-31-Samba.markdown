@@ -1,0 +1,201 @@
+---
+layout: talk
+title: Clustered Samba, Not just a hack anymore
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Andrew Tridgell & Ronnie Sahlberg, Samba team
+begin: 2008-01-31 13:30
+---
+Last year: Do no use this, only works in demonstrations.
+
+Now: in use right now, television stations using clustered
+samba for serving TV shows.
+
+Fastest NAS box around. Multi-gigabytes per second.
+
+Use it in production!
+
+All the bugs are Ronnie's fault.
+
+Andrew Bartlett.
+
+Clustering backported to Samba 3.0 (stable version)
+from Samba 4.0 tree (bleeding edge).
+
+CTDB
+
+* lightweight clustered database
+* people clustered Samba for years, badly, negative scaling.
+
+1 node cluster 100Mbs  
+2 node cluster 2Mbs
+
+Now gets faster as you add extra nodes.
+
+Demo, how to install and use.
+
+* 4 linux blades
+* GPFS filesystem, 12 raid arrays.
+* Cluster is in German, not very portable.
+
+Will demonstrate:
+
+* fast IP failover
+* snapshot exposure to windows clients
+* offline file handling
+* online software upgrade - live upgrade while people using it
+* crash resiliance - reset nodes that are in use
+
+Multipath daemon, have had problems. Will redirect traffic to
+inactive node.
+
+Windows XP box, you can boo and hiss now.
+
+Single name on network, large files on file system.
+
+Very large filesystems supported.
+
+One name for server, not the individual node names.
+
+Working NAS box, user connected to node 2. What happens if we kill node?
+
+"File creation error" on user.
+
+Hmmm. Lets try that again...
+
+It paused a long time.
+
+Users should just transfer to working node. Application needs
+to behave itself. Application has to be aware of fail over, and
+need to try and reconnect.
+
+Under Vista, SMB2 level, fail over will be done by the kernel.
+Will be able to do full implementation, with documentation from
+Microsoft. Looking forward to a full implementation of the protocol.
+
+Will we be feeding errors in the documentation back to Microsoft?
+Yes, part of the agreement is that Microsoft has a team of
+people to answer questions.
+
+90s Microsoft would answer questions, etc.
+Then the lawyers got in the way.
+Now we are talking to the engineers again, and they like talking.
+
+NFS has had this for some time.
+
+SMB does not have automatic reconnect.
+
+Linux implementation of CIFS in kernel does have automatic fail over.
+
+Not a limitation of the protocol, although SMB2 has features
+that make is easier.
+
+File system advanced file system. Snapshots. Make it easy for users
+to get back there old files. shadow copy 2 module. Samba knows
+how to export these so windows will see them as different versions.
+Part of GPFS features.
+
+offline (tape) vs online (disk) storage. clock icon on windows, means
+file is offline. Via Tivoli storage manager. Server can still do
+stuff simultanously.
+
+Hard shut down. TCP problem with fail over.
+
+Hard reset of CPUS, while copying files, use following command:
+
+    echo b > /proc/sysrq-trigger
+
+Pause, because client has to be sure server is dead, and other nodes
+need to be sure client is really dead.
+
+telnet to a port on a server, and that server goes offline (somebody trips over
+power cord). Assume client trying to read at the time.  It will exit
+immediately on a write though.  What happens to client waiting for time out? It
+times out. Default is 2 hours. Fail over needs to be fast.
+
+We need to tell client to reconnect, and do it very very quickly.
+
+Telnet to ssh port on node, and samba port 445.
+
+ssh port hangs, samba port 445 did get a disconnect.
+
+Tickle act. We distribute across all nodes details of all sockets
+on all node. When another node takes over, it sends an ACK with an
+invalid sequence number to the client. The client will send an ACK
+when it receives an out of window ACK. That ACK hits the new node,
+which sends a reset with the real sequence number.
+
+Client continues even though power was lost to node.
+
+Scaling NAS
+
+* 30,000 NAS users
+* 100 NAS servers + 100 backup servers
+* every day, one of them runs out of disk space.
+
+Solution? Create a really big NAS box, with backups, no space
+management in dividing space up between NAS boxes required.
+
+Usual situation, primary server and hot spare. Hot spare turned off
+or disabled, and comes up if the primary goes down. The problem is
+if the backup doesn't take over as required.
+
+Active/passive failover, hope the passive system will start up,
+when it was powered of for several months.
+
+Don't find out failover has failed until after it has failed, and
+people are screaming.
+
+Other problem, what if the passive system wakes up when the active
+system is still alive. Or if the active system wakes up after
+the passive system is alive.
+
+With shared read/write partition, data will be lost within seconds.
+
+Clustered samba doesn't failover, alternative node is already up and
+running, and known to be good. Allows you to sleep much better at night.
+
+All active system. Better performance.
+
+All-active NAS.
+
+Protocol hooks.
+
+Event hooks.
+
+Rewrite heartbeat; heartbeat is more orientated with active-passive. Didn't
+work well with fast fail over. Can turn off HA features in heartbeat and use
+database features. Heartbeat 2 might be more friendly. We use single file
+and integrated. Merging with heartbeat might be a possibility in the
+future.
+
+1 nodes 109 Mbytes/second  
+2 nodes 201 Mbytes/second  
+3 nodes 278 Mbytes/second  
+4 nodes 308 Mbytes/second
+
+Want to try it?
+
+Requirements:
+
+* Linux cluster
+* Set of really fast disks on a SAN
+* Clustered filesystem, most testing on GPFS. GFS and GFS2 and Lustre
+work.
+* Samba from <http://ctdb.samba.org/>, aim is for cluster support
+out of the box.
+
+IBM supports it as SOFS.
+
+Minimum config:
+
+   clustering = yes
+   idmap backend = tdb2  (more efficent)
+
+/etc/ctdb/nodes  
+/etc/ctdb/public_addresses (if not using failover stuff)  
+/etc/sysconfig/ctdb  (optional additional parameters)
+
+filesystem specific options, file id mapping.
+
+Show your managers. Flash movies:
+<http://samba.org/~tridge/ctdb_movies>

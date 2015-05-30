@@ -1,0 +1,135 @@
+---
+layout: talk
+title: Heros
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Pia
+begin: 2008-01-29 09:20
+---
+BDale and others got Pia involved in FOSS.
+
+## Early on
+
+Women 66% of technical people.
+
+Most people entering computing are Men.
+
+Conflict normal, doesn't imply sexism. Need to distinguish
+conflict based sexism and normal conflicts.
+
+"You are too pretty to use mutt"
+
+Stereotype: Women like "creative" jobs.
+
+"Non-traditional" roles, term encourages perception that
+they are non-traditional roles.
+
+Myth:
+
+* Girls aren't interested in computers. Reality: all teenagers interested in
+computers, regardless of sex. Using them all the time.
+* Women in IT are butch, women have no identity in IT. Reality, nothing
+about IT that goes against women.
+* Women like more creative jobs. 21% of jobs in ICT are technical positions
+held by women.
+* Women earn less then men in IT. True.
+* There are no women in IT. 25% women enrol in ICT degrees.
+* There are definitely no women in FOSS. Entire point of FOSS is
+that anyone can get involved.
+
+Women hackers:
+
+* Suparna Bhattacharya
+* Val Henson
+* Noirin Plunkett
+* Kelly Yeoh - 2nd life
+* Sulamita Garcia
+* Brenda Wallace - Mobile stuff
+* Allison Randal
+* Penny Leach - Debian
+* Amaya Rodrigo Sastre - First female Debian maintainer.
+* Fernanda Weiden - Debian
+* Hannah Wallach - FLOSS research
+* Erinn Clarke - Debian
+* Akkana Peck
+* Alice Boxhall - One of two in Google team
+* Jacinta Richardson
+* Maureen O'Sullivan - Laywer
+* Telsa Gwynne
+* Fabianne Balvedi - Music applications
+* Sara Falamaki - Business applications
+
+Sysadmins:
+
+* Joh Clarke
+* Pia Waugh
+
+Visionaries and leaders
+
+* Stormy Peters
+* Army Jiang
+* Pia Waugh
+* Mitchell Baker
+* Mary Gardiner
+* Elizabeth Gerbee (edale)
+
+Others:
+
+* Donna Benjamin
+* Adaora Oniya
+* Robyn Manning
+* Kylie Willison
+* Sarah Hobbs
+* Stephanie Miller
+* Sarah Stokely
+* Parela Jones (Groklaw)
+* Kim Weatherall
+* Lynee Pope
+* Leslie
+
+## Needs
+
+* Support
+* Knowledge of facts
+* Connections/networking with others
+* Assume stupidity over malice
+* Fulfill dreams
+* Education, pay expectations, negotiation skills, general expectations, etc.
+
+Analogy:
+
+I like China, but no matter how well I know the language, culture,
+I will always be a foriegner.
+
+IT is similar, but it shouldn't be.
+
+## Future
+
+Representation
+
+* Debian Women - <http://women.debian.org/profiles/>
+* Linuxchix
+* Aussiechix
+
+Don't seclude ourselves. Eventually we will become part of society,
+and the groups will become irrelevant.
+
+Encourage others
+
+* Speak at schools
+* Go to Linuxchix meetings (Sydney)
+* Software freedom day
+* International women's day
+* OLPC Australia
+* Take someone under your wing (if you have wings).
+
+Talk positive stories, not the negative stories. Positive stories
+about FOSS in particular.
+
+Girls more socially aware, partly because they are turned off IT.
+
+## Summary
+
+Great women involved in IT and FOSS, but not well known.
+
+Gross generalization: "why do you want to get into IT, all the men are dweebs
+and won't even marry you."

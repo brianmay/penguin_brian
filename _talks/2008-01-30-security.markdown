@@ -1,0 +1,249 @@
+---
+layout: talk
+title: Reconceptualizating Security
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Bruce Schneier
+begin: 2008-01-30 09:00
+---
+<http://www.builderau.com.au/news/soa/Schneier-Why-rubbish-security-products-win-out/0,339028227,339285497,00.htm>  
+<http://www.itwire.com/content/view/16363/1090/>  
+<http://www.itnews.com.au/News/69146,information-is-our-only-security-weapon-bruce-schneier.aspx>
+
+About the author:  
+<http://www.computerworld.com.au/index.php/id;1891124482>
+
+Security
+
+* Feeling. I feel secure.
+* Reality. I am actual secure.
+
+You can feel secure, but not actually be secure.  
+You can be secure, but not feel secure.
+
+Economics of security. Security measures that make no sense
+on a technical view make perfect sense on an economic view.
+
+economics - trade offs
+
+* money
+* time
+* feature set
+* security
+
+security consumers
+
+Not "does this thing make me more secure?", but "is it worth it?"
+
+None of the audience wear bullet proof vest, not worth
+
+* money
+* fashion
+
+Rabbit eating grass, and sees fox. "Should I stay I should I flee?"
+Bad choice: starve; good choice: survive and reproduce.
+
+Humans respond to feel of security threat rather then reality.
+
+Unknown risks seem more of threat then known risks, eg:
+
+* flying, seems riskier then driving
+* kidnapping via stranger seems risky, but reality is kidnapping by known
+person is more likely.
+
+Feeling vs Reality get out of whack.
+
+* Reality low feeling high; false sense of security
+* Reality high feeling low; irrational, paranoia.
+
+CIA, ignore feeling, fix reality.
+
+economics, cost vs benefits.
+
+* cost of security failures
+* regulations, cost of non-compliance
+* loss of customers
+
+vs:
+
+* cost of security
+* cost of convenience
+* less features
+* less profits
+
+People make trade off based on feeling, not the reality. Companies
+want to make people feel secure, ignore reality; snake oil; hope
+people don't notice.
+
+Alternative, make people actually secure, and hope they actually
+notice.
+
+Sometimes people do notice, e.g. new door lock doesn't work if attacks
+increase for this particular type of door lock.
+
+Security is very emotional. Need to learn from the information.
+
+Poor understanding of risks, costs, counter-measure and how it works.
+People with specific agendas will add to the confusion. Industry
+may push for security measures even though there is data available
+that they are not very effective.
+
+How do we know if sky marshals stopped terrorists after 911?
+There is no data. Makes it harder to reconcile feeling and reality.
+
+Markets with asymmetric ratio between knowledge of buyer vs seller, e.g:
+buying a call, seller knows more about the car then the buyer.
+
+Suppose 100 cars for sale
+
+* 50 good $100
+* 50 lemons $100
+
+More lemons get sold because the consumer cannot tell the difference.
+
+IT - firewall market; the winners weren't the best ones. Compare
+two routers. One is better designed, one in thrown together;
+buyer can't tell the difference, and will buy the cheaper one,
+push the good one out of the market.
+
+Used car sales, warranty is the deciding factor.
+
+Computers, reputation of company, certifications, recommendations,
+open source, closed source, are factors used to decide a better product.
+
+Sometimes signals can go either way, eg. some people think open source
+is more secure, others think closed source is more secure.
+
+Signals can be manipulated.
+
+Security decisions outsourced, eg. to government, who will manipulate
+signals to their benefit.
+
+Solution???
+
+Information
+
+Business world: if enough information, merge gap between feeling
+and reality. Calculate risk of getting whacked (e.g. store robbed),
+and spend that amount on security.
+
+Event probability: 0
+Number of times of getting hit: infinity
+
+0 * infinity = any number you want
+
+Individuals, too much feeling, too much fear.
+
+Fear is very basic. Our fear organ in our brain, base of brain, how
+we feel fear. Increases heart rate, muscle tension, etc. Faster
+then consciousness.
+
+We get to override our fear, eg. attack instead of run away. Or
+stand up for boss instead of leaving.
+
+If you feel fear, I will make you better, by feeling less fear.
+
+Both fear and reality of security are both important. Problem
+is when both diverge.
+
+Example 1: 1980s, non-prescription drug poisoning, random person
+would take poisoned drug and die. Entire USA population scarred of
+buying drugs. Solution: tamper proof lid. Saved the entire industry.
+Non-effectual security solution, easy to bypass, eg. syringe.
+
+Example 2: Babies in maternal hospital are given tags, so prevent
+baby theft. Address feeling rather then reality of baby getting stolen.
+
+Both feeling and reality both important.
+
+# Questions
+
+## How do you separate feeling and reality in airline security?
+
+Visible security personal, carrying rifles without bullets. That
+addresses the feeling of security.
+
+They address the threats we know about, shoe bombings, liquid bombs,
+hit the press, so these are threats the address. Address the feeling,
+not the reality.
+
+TSA less trusted then taxation department.
+
+In five years, no change expected. In 10-20 years, things might
+change.
+
+## Measuring security
+
+Isn't always hard to measure, can measure crime rate around
+the university campus.
+
+In IT, there is no hard data on crime rate.
+
+* people don't report
+* people don't know they have been attacked
+
+## Antidote for product endorsement
+
+Security cameras. Very emotional propaganda. Giving it away from
+camera companies. "Cameras - I feel safer"
+
+RFID cards, make people feel safer.
+
+I don't endorse anything, I don't have time to research and evaluate,
+ensure it is reliable and secure.
+
+## Maternity ward
+
+Feel safe because of RFID tag. How do you stop stupid stuff? Write
+and speak: the emperor has not clothes.
+
+where it is possible: information is the solution. Get people to
+get beyond their fears.
+
+## Producers of Software
+
+Expensive process to make feeling and reality converge?
+
+We know very little about software security.
+
+Lots of good books on writing secure software.
+
+In absence of theory, all you can do is put a lot of effort to make
+it more secure.
+
+Pull buffer overflows out of language.
+
+No rigorous methodology.
+
+## Degree of laziness
+
+Most people don't want to jump through hoops to be safe.
+
+Even in aircraft design, eg. connecting navigation and entertainment systems
+due to laziness.
+
+Just information may not make things better.
+
+It is a lemon market.
+
+People are commonly lazy, because they don't have the expertise. It is not
+there area, and not what the understand. It is not possible to seek expert,
+because experts will have there own agendas on both sides.
+
+## Distance between feeling and reality
+
+The more distance between feeling and reality, the more noise
+gets injected.
+
+No solution, we are stuck with this as a species.
+
+Only answer, a sloppy answer, doesn't work well: Information.
+
+## Technology vs Security
+
+Will technology mean decreased security, privacy, etc?
+
+Digital aspects of security, much more important then physical
+security.
+
+Partly because we live in a peaceful society. We don't worry so
+much about physical security.

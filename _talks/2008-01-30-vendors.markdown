@@ -1,0 +1,192 @@
+---
+layout: talk
+title: Make hardware vendors love open source
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Dirk Hohndel, Intel
+begin: 2008-01-30 14:30
+---
+<http://www.itwire.com/content/view/16376/1090/>
+
+Try to get Intel to understand this "open source" thing.
+
+Hardware vendors tend not to understand software.
+
+I am paid by Intel, but none of this is Intel's opinion.
+
+Billions of dollars of hardware is made specifically for open source
+software.
+
+Big buyers: Google, Yahoo, Amazon, etc, all use open source software.
+
+Exception: Microsoft data centre.
+
+One third of all wireless access points run Linux.
+
+Penalty for not doing open source; amount of money vendors lose for not doing
+open source is not big enough to justify change (its our IP), but large all the
+same.
+
+Chicken and egg?
+
+What is the incentive for doing open source?
+
+* binary drivers
+* people reverse engineering your code
+
+What is the problem?
+
+Get stuff working with working drivers.
+
+Reputation is very important:
+
+* can damage reputation from going open source and doing it wrong
+* can damage reputation for not going open source
+
+Chips are very easy to destroy. Easy to fry a chip.
+
+Matrox Millenium - 2D only fast card, good signal quality. Programmable clock
+chip, but this wasn't documented. Get it wrong, if clock frequency was too
+high, components run beyond specifications and would blow up, start
+fires, etc.
+
+Matrox got fed up, and gave them the proper documentation. Employee who
+did this moved to Microsoft later.
+
+ACPI - terrible abomination, not a single hardware vendor implements
+it correctly. If you boot a computer without ACPI, you are likely to
+run it beyond specifications, have it catch file, etc.
+
+All companies are there to make money. Employees want companies to make
+money so they can get paid. Even OLPC wants money.
+
+Silicon Vendor (A), sells component to B, who makes a card, passes it
+to OEM (C) who passes it to vendor, and sells to retailer, who sells it
+to consumer.
+
+Vendor (A) is the company that must change to open source, but this
+company never sees the consumers money.
+
+Market share. Who is the number 1 market share for desktops? Windows.
+
+Linux is important enough for servers. High end storage controllers
+still might be a problem. Other manufacturers relatively easy to talk to.
+
+Desktops different story.
+
+Desktop/laptop usually comes with a copy of Windows that you normally
+don't want to have, and OEM normally doesn't hear this.
+
+EEE PC - Linux preinstalled.
+
+Buy hardware in such a way you signal to vendor you don't want windows.
+
+Message gets passed up chain to manufacturer, if it is loud enough (volume).
+
+Linux 0.8% desktop market.
+
+Megaphone - most of you work in organisations that can have influence. Very
+easy for a group to document how big you are, send letter to OEM for bulk
+purchase, but only on condition this is without Windows and open source.
+
+voting with dollars
+
+education
+
+talk to component makers, and explain why open source is good
+
+Helping vendors, especially in Taiwan, to write drivers for Linux and every
+flavour. They don't understand, once you are in upstream kernel, then you are
+fine. Offer them help if they run into problems.
+
+What doesn't work: Public calls for boycotts. Managers don't like being
+told "do or else?"
+
+Always the same reasons why manufacturers don't want to do it.
+
+* Cost too much - hence offer help might help
+  * difficult argument to win.
+* Most chips, produced by small team, and do not have documentation.
+  * driver author sets with card designer to get specifications.
+  * Getting Intel to write manuals is an impressive challenge.
+  * A lot of stuff inside Intel does not have documentation.
+  * simple == buggy and broken.
+* Documentation by proxy. Write simple device driver, and publish source.
+  * Hardware vendor does not have to drive the driver. Nobody expects high
+  quality drivers from hardware vendor.
+  * Allow people outside company access to key engineers to get hardware
+  specifications.
+  * Scary thought, might be easier to go via trusted proxy.
+* Company critical IP might be revealed by explaining to others how to use
+the card.
+  * Car manufacturer: I am going to manufacturer car to prevent you turning
+  wheel to the left.
+  * Algorithms on chip do not need to be revealed by explaining how to use
+  the device.
+  * Usage instructions not the same as how-to-recreate the chip instructions.
+  * Releasing usage instructions not infringement on IP.
+  * patience
+  * Don't tell them they are stupid, I have tried, it doesn't work.
+  * Like small children, small simple sentences, repeat, repeat, repeat.
+  * They want people to try out cool things with the hardware.
+  * Very difficult argument to win.
+  * hardware/software separate - isn't it obvious?
+  * people already reverse engineering cards, does it matter?
+* Regulatory concerns
+  * How strong a single you can send in the 2.4GHz band, every country
+    is very strict.
+  * Combination of software and hardware. More and more functionality in
+    software.
+  * Top devices: Graphics card, and wireless devices.
+  * Software radio. Any wireless device.
+  * On one card, monitor two frequencies at the same time.
+  * Apparently, not legal to implement this in open source.
+  * Would not get permission to sell this as open source.
+  * Trend more and more to write closed source code for Windows
+    where this problem doesn't exist.
+* Competitor will find out how we do these things.
+  * Companies spend million of dollars working out for to optimise the
+  graphics drivers.
+  * Drivers have to be rewritten for Linux, and companies don't want to
+  give this up, especially for graphics.
+  * Our code is special
+  * Is this view really correct? Yes, there are things in the drivers that
+  really are special, and we wouldn't want competitors to see.
+  * Use of public algorithms, code is 50% slower, as seen in benchmarks.
+  * Algorithms that use to be in silicon, but no have been moved to drivers.
+  * Still possible to write open source drivers for these.
+  * Open source drivers are a lot slower then closed source drivers. Exceptions
+  exist where the opposite is true.
+  * perception of being better, even if it isn't in reality.
+  * Can't keep perception of being better if it is open source.
+
+Large graphics company releasing specifications for the graphics card,
+so open source community can write cards from scratch.
+
+Most chips are started on DOS as the first OS, then moved to Windows.
+
+## Summary
+
+Encourage right behaviour. More penalty to do the wrong thing. We are too
+willing to reverse engineer cards. This is stupid. We spend our own time to fix
+a problem with a vendor. This proves to the manufacturer that the manufacturer
+does not need to write the open source driver. Controversial issue: 
+
+* Dirk Hohndel argued that reverse engineering hurts the open source community,
+because the manufacturer looks at the existing solution and says we don't need
+to do anything different because everyone is already happy.
+
+* Dave Arlie argued that reverse engineering aided the open source community,
+because they get the solution faster, and we are telling the company "we want
+you to support the open source driver".
+
+* Dirk Hohndel concluded that "we agree to disagree and this is *my* presentation!"
+
+* Dave Arlie has a
+[presentation](http://linux.conf.au/programme/detail?TalkID=81) this Friday.
+
+Companies not against us personally, or against FOSS, it is all about money.
+Money is the reality, money is the language, money is the way things work.
+Speak the language they understand.
+
+Engage, and listen to what they tell you. They may be wrong, but you need
+to listen. Offer to help. Repeat. Repeat. Repeat.

@@ -1,0 +1,108 @@
+---
+layout: talk
+title: Hardware/Software Hacking: Joining Second Life
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Jonathan Oxer
+begin: 2008-01-30 10:30
+---
+<http://www.arduino.cc/>
+
+    aptitude remote brltty
+    aptitude install libftdi0  sun-java5-jre gcc-avr avr-libc
+    update-alternatives --config java
+
+
+## Second life
+
+* virtual flying
+* virtual tanning
+* virtual cancer?
+
+Second Life - grid, subdivided into sections, one server for each section.
+State and attributes of objects are passed from server to server.
+
+20,000 to 30,000 users at any one time.
+
+Object database, multi terabytes of data, stored in lots of mysql databases.
+
+Permission system
+
+* You have control over objects you create. eg. can others copy it, distribute
+it, pay to copy it, etc?
+* Can only create objects if environment permits, e.g. sandbox.
+
+cube is default object created
+
+teengrid access is for teenagers only
+
+everything is scriptable
+
+controlled environment
+
+Mining company wanted to map mine onto second life, real world positions of
+people and vehicles into second life.
+
+## Communications
+
+* HTTP from Second Life
+* XML-RPC into Second Life
+  * every object is addressable
+* email into Second Life
+* modify Second Life client - libsecondlife - clean room reverse implementation, for interacting with
+Second Life without a GUI.
+* private Second Life sim
+
+"What is the point of that?"
+
+OpenGrid project: Build server side, under open system.
+
+## Linux Australia
+
+Linux Australia have an online forum for discussing Second Life.
+
+## Controlling devices
+
+appliance remote control
+
+X10 appliance controller, allow controlling devices by software
+
+"I have a soldering iron and I feel I need to use it..."
+
+sprinkler system, $20 timer tap, modified for software control
+
+## Summary
+
+Think of new, cool, things that can be done that haven't been done before.
+
+hardware is modifiable
+
+use small script as glue
+
+allow anybody access to your website to turn your fan on/off
+
+<http://www.secondlifeintegration.com/>  
+<http://jon.oxer.com.au/talks>
+
+# Jon's House
+
+front gate, wired with IP.
+
+letter box auto detects when door has been opened.
+
+* to virtual representation to virtual email in second life.
+* scanner in letter box to scan email, so second life virtual email realistic???
+
+detect when gate is opened or closed
+
+open/close curtains, if you are lazy
+
+motorized tracks for curtains, add a couple of hundred dollars to cost
+
+* standard controller has no software control
+* hack it, add Ethernet connection
+
+open/close skylight automatically
+
+sprinkler system
+
+control everything via web interface on phone.

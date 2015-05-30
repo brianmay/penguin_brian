@@ -1,0 +1,127 @@
+---
+layout: talk
+title: Yubikey authentication in a mid-sized organisation
+meeting: /conferences/2010/01/23/LCA2010/
+speaker: Robert (Bob) Edwards
+begin: 2010-01-21 11:30
+---
+Reusable passwords have long passed their used by dates.
+
+* These are based on "something I know".
+* Knowledge should be shared
+* Passwords hard to remember
+* Easy for others to discover
+   * social engineering
+   * brute force attack
+   * key capture (hardware/software)
+
+One time passwords (OTP).
+
+* Password is used once and discarded.
+* If password is captured it doesn't matter.
+* OTP passwords used for centuries.
+
+OTP Can be generated automatically:
+
+* RSA SecurID OTP token.
+* S/Key
+* Yubikey
+
+Multifactor Authentication:
+
+* OTP based on something you have. One time pad, etc.
+   * If this is stolen, then account is compromised.
+* Combine with some other authentication, e.g. something you know.
+   * Just stealing the physical item isn't sufficient to breaking into account.
+* Banks can send SMS code to mobile phone, you need to type in code and use this
+  as proof your mobile phone is nearby. Need to trust Telecommunications companies
+  not to divert SMS messages to other phone.
+
+## Yubikeys
+
+USB device that emulates the keyboard.
+
+Developed in Sweden by Yubico. Entirely open source. The other technologies, e.g. RSA are locked
+in to the vendor. Don't have have buy keys from Yubico, can build your own.
+
+Yubikeys are smaller and lighter then the others. Easy to use. Very cheap. No batteries, as long
+as hardware works it will continue to work. e.g. 3-5 years. RSA SecureID tag has built in timer,
+there might be good reasons, but it does force you to buy a new one.
+
+First 12 characters in passwords identifies which yubikey. The rest of the
+characters are a hex coding of the OTP. Every time you press the key you
+get a different sequence.
+
+44 character OTP generated. Security based on AES 128 bit key. This key needs
+to be shared on server.
+
+No need to update client code.
+
+Kerberos requires client be trusted.
+
+Every password has a sequence number. When new password accepted, all old
+passwords are rendered invalid.
+
+Using Yubico servers for authentication requires high level of trust for
+availability and keeping AES 128 bit key secure.
+
+16 byte sequence
+
+* 6 byte secret
+* 2 byte session counter will overfly in 5 years if doing it every 20 seconds
+* 3 byte timestamp
+* 1 byte session token counter
+* 2 byte pseudo random values
+* 2 byte CRC 16 checksum
+
+This is encrypted with AES-128 encryption. 6 byte public id is prepended. The
+result is ModHex encoded.
+
+Cannot change counters via computer. Can change the AES key, secret, and the
+public id. Cannot access the AES key. Can change it instead. Once reprogrammed
+it is not possible to use it on Yubico servers anymore.
+
+Can also store reusable password. Why would you want to do so? Allow
+visitors to program WPA key quickly and easily.
+
+## Weaknesses
+
+Requires USB port. How can you trust device? Might be a USB keyboard logger.
+Especially under Windows. If your computer trusts devices that act as
+keyboards, this could be a problem.
+
+First generation Yubikeys can be reprogrammed without any authentication, DOS
+attack. Might be a problem if you are away from home. When you program
+is now it flashes the light and you have eight seconds to push the button
+to allow it to reprogram. Still might be flawed, user may push button
+to authenticate, but better then before.
+
+Man in the middle attack. You log into the site the looks like the correct
+site, send you OTP, and the attacker can log into your account. Not a challenge
+response system.
+
+## Authentication server
+
+Want an authentication server, uses postgresql as a database.
+
+vkaserver, classic forking server.
+
+Can pass username, and password to PAM.
+
+Can generate one time pad of valid yubikeys for use with devices that
+don't support USB keyboard interfaces. Dodgy.
+
+Could write software for Nokia that does this inside the phone, however this
+carries other issues.
+
+Use pam_ldap.so for authentication.
+
+Draft proposal for Kerberos to use OTP went away. I would like to use
+OTP with Kerberos.
+
+## Questions
+
+Valid attack. Steal key, record next 100 passwords, return key, and use the
+recorded passwords.
+
+Now RFID version of the key.

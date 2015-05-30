@@ -1,0 +1,90 @@
+---
+layout: talk
+title: Ingex - Tapeless television production using Linux
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Stuart Cunningham, BBS Research, UK
+begin: 2008-01-28 16:40
+---
+<http://www.computerworld.com.au/index.php/id;58613278>
+
+(BBS R&D?)
+
+Video to post-production.
+
+Digital tapes:
+
+* Slow
+* copying done in real-time
+* error prone
+* expensive $30,000 - $40,000 for 4 channel tape recorder
+
+MFX - Material Exchange Format
+
+SMPTE standard 377M
+
+Widely supported in cameras, VTRs & editing systems.
+
+Standard definition, not high definition.
+
+Online, for live productions
+
+* Uncompressed 166 Mbps
+* Digibeta tape 88 Mbps
+* MJPEG "2:1" 70 Mbps
+* DVCPRO50 58 Mbps
+* IMX 50 50 Mbps
+
+(smaller files preferred for news, larger one for high quality productions)
+
+Offline, for faster editing
+
+* DV 29 MBPs
+* MJPEG "10:1" 17 Mbps
+* MJPEG "20:1" 8 Mbps
+
+SDI Capture card, $1000-$5000.
+
+## Dragons' Den
+
+Still need to conform from DigiBeta tape. Not as slow as before,
+only need the tapes being used, but still slow.
+
+## Foo Fighter's video
+
+Very cramped equipment overflowed onto toilet. Fans held by hand.
+
+## EastEnders - Serial Dramma
+
+Problems with legacy equipment.
+
+* Old Avid editors and dark metadata
+* Pro Tools v 5.3.1 and MobID
+
+Network problems, network cards on wrong PCI bus.
+
+## Other stuff
+
+ffmpeg didn't support DVCPRO50, so we contracted somebody to write
+a codec. It produced better quality output then many hardware encoders
+that cost up to $50,000.
+
+<http://ingex.sourceforge.net/>
+
+High Definition - 2 streams supported with appropriate hardware.
+
+archives are stored on tape:
+
+* was D3 video tapes, but these are obsolete, and no longer possible to get
+spare parts to repair drives.
+* current system is LTO-3, will take 5 years to convert old tapes to
+new format.
+* uncompressed - maximum quality
+* future proof, e.g. should be possible to convert to HDTV at maximum possible resolution.
+* Data on tapes claimed to last 30 years by tape manufacturer, and this figure is trusted.
+* LTO-3 tapes to be replaced in 5-10 years with newer technology.
+
+Human robots cheaper then real robots for inserting tapes into drives,  due to infrequent use.
+
+# Dr Who
+
+Old episodes lost, despite some interesting techniques used to restore some of them.

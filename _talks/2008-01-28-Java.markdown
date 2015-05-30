@@ -1,0 +1,42 @@
+---
+layout: talk
+title: Security Programming in Java
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Guy Gershoni
+begin: 2008-01-28 10:30
+---
+Java security frameworks
+
+J2SE Security
+
+java.policy policy file:
+
+* security policy
+* not used unless security manager loaded
+  * security manager loaded by request
+  * or security manager loaded by environment
+
+## Starting Security Manager
+
+java -Djava.security.manager -Djava.security.policy=$URL $APP
+
+or only load one config:
+
+java -Djava.security.manager -Djava.security.policy==$URL $APP
+
+## JCE
+
+Sealed objects
+
+## JAAS
+
+Tutorials complicate usage.
+
+Authorisation
+
+* use must be authenticated first.
+* grant authenticated user principle permissions.
+
+## Web applications
+
+etc

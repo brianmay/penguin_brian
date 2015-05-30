@@ -1,0 +1,145 @@
+---
+layout: talk
+title: Security Measures in OpenSSH
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Damien Miller
+begin: 2008-01-28 14:30
+---
+Also see the same talk at [[LUV|LUV/2008-02/OpenSSH]].
+
+## OpenSSH
+
+started September 1999
+
+Most popular SSH implementation (87% of servers).
+
+telnet/RSH killer
+
+based on legacy codebase (ssh 1.x).
+
+how to retrofit security into something - it is possible.
+
+## Past security issues
+
+Integer overflows, buffer overflows, other libraries, etc.
+
+## Attack surface
+
+amount of application code that is exposed to attack
+
+the less the better
+
+corresponds to following design principles:
+
+* Simplicity of Mechanism
+* Least Privilege
+
+ssh - both client and server can be attacked. Client attack requires
+a compromised computer.
+
+1. Accept connection.
+2. Negotiate encryption.
+3. Attempt authentication.
+4. Retry or disconnect if failed to many times.
+5. Do one or more of:
+   * Command execution.
+   * Interactive shell.
+   * File transfer.
+
+Can't drop root privileges until later on the process. Needs root
+to allocate ttys and record the logins.
+
+## Security Audit
+
+Auditing means "find a bug and fix the case of problems it represents",
+and not "find a bug and fix it". One mistake is likely to be repeated
+multiple times.
+
+Auditing will not find all bugs.
+
+## Sanitise input
+
+Paranoia?
+
+constrain values to legal/expected/safe ranges
+
+can bloat code
+
+not feasible for every case
+
+## Unsafe APIs
+
+setuid() - may not permanently drop privileges on all platforms.
+OpenSSH uses setresuid() instead.
+
+Change the API as required. Wrap API calls to make them safer.
+
+Example: Replace malloc/realloc with xcalloc/xrealloc, and avoid integer
+overflow.
+
+# Privilege Separation
+
+applications should run with as little privilege as possible
+
+* non-root
+* chroot
+
+ssh, split into two parts:
+
+* monitor, hangle actions that require privilege
+* slave, everything else.
+
+Make monitor as small as possible, less code, smaller attack
+surface, fewer bugs.
+
+slave is chroot to /var/empty. Only access to system is via messages
+passed to master.
+
+Share unix domain socket for communication.
+
+3 states of privilege, separate processes:
+
+* master root
+* slave, preauthentication - run as dedicated user
+* slave, postauthentication - run as logged in user
+
+Compromised slave can request master things it shouldn't access.
+Monitor must enforce constraints.
+
+* Do not spawn process before authentication,
+* Limit number of authentication attempts,
+* etc
+
+Crypto negotiated before authentication.
+
+Hacked zlib to share state in a way that can be shared between
+preauth and postauth processes. Complicated.
+
+Result is probably more complicated then had openssh been written
+from scratch with security in mind.
+
+## Protocol changes
+
+activation of compression before user authentication is complete;
+exposes compression code to attack by unauthenticated users.
+
+solution: change protocol
+
+criticism: OpenSSH only. Not in putty, yet.
+
+Backwards compatible. legacy-zlib disabled
+by default. Old clients default to no compression.
+
+## Assist OS level security measures
+
+run time randomisation
+
+* executable load address
+* shared library load addresses
+* stack protection cookies
+* stackgap
+* memory allocations
+
+## Future directions
+
+Postfix is a good privilege separation example.

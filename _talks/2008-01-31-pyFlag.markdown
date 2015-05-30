@@ -1,0 +1,159 @@
+---
+layout: talk
+title: Incident response using pyFlag - the forensic and log analysis GUI
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Micheal Cohen
+begin: 2008-01-31 10:30
+---
+<http://www.pyflag.net/>
+
+Make it easier to retrieve and combine various types of evidene.
+
+All examples available on the pyflag wiki.
+
+How to automate pyFlag, non-interactive use.
+
+Case study, available online the web.
+
+Why forensics?
+
+As administrator, if intrustion dectected on network.
+
+* Investigate employee who is misusing network.
+* Recover files that were accidently deleted.
+* Forensics usually involves large amounts of information, we use
+mysql database.
+* As quickly as possible, human time is very expensive.
+* Every inference must be directly referenced by the evidence.
+
+Everything can be verified from first principle.
+
+Log file analysis
+
+Disk image analysis
+
+Images come in different formats:
+
+* DD images
+* Encase images
+* Split DD images (LogiCube)
+* RAID images
+* SGZip
+
+Image format is abstracted
+
+File systems present and organise lots of information.
+
+Easy to see information that is related.
+
+pyFlag uses virtual file system.
+
+VFS Internals
+
+    inet:S4/5|o456:30255|m1|T2
+
+1. inet = take TCP stream 4+5
+2. o456:30255 - offset 456, 30ks long
+3. m1 - mime message, first attachment
+4. T2 - tar file, second file
+
+How do you get these parameters? After analysis.
+
+Filesystem driver, piece of software that lets us look at the filesystem.
+
+PCAP filesystem driver, allows as to load PCAP files.
+
+Sleuthkit
+
+Scanners
+
+* Scanners, scan analyse particular files on the filesystem, and find
+different things.
+* Scanners populate the VFS. Zip files, PST files (not 2003 or after,
+no open source support for post 2002), etc.
+* How do we handle encrypted files? We don't.
+* If scanner too slow and not useful, it is off by default.
+* Recurses into objects and rescans. eg. zip files inside zip files.
+* Recurses into attachments, zip file attachments, files inside the zip file.
+* Scans for deleted files.
+* Continuous bits of unallocated space.
+
+What happens if directory and file with same name? It would show
+all the files.
+
+Infinite recursion???
+
+1. IO source: ewf,sgzip,raid,remote,pcap
+2. Loader:  ext2, ext3, solaris FFS, Sleuthkit NTFS, FAT, NetBSD FFS, FreeBSD
+FFS, OpenBSD FFS, BSDi FFS.
+3. Virtual file system VFS
+4. GUI
+
+ISO image inside an image? No loader, loads once? Scanner can call the loader
+though.
+
+* Can upload files from VFS instead of upload directory. Currently doesn't
+dectect images without manual intervention.
+
+zip file with wrong extension of *.doc? Uses libmagic for detection.
+
+MD5 Hash
+
+* Massive NSRL database of hashes from common software and malware.
+* Compare filesystem hashes with NSRL.
+* Works best on windows, only a finite number of versions.
+* Can download NSRL database, takes several hours.
+
+Virus scanner
+
+Browser history scanners, history cache. Mozilla, IE Cache, etc. Saved
+form history.
+
+Indexing, search for keywords. pyFla uses a dictionary of keywords
+to index only those words. log time trie hash algorithm, indexing
+100,000 words is roughly 3 times slower then doing 10 words.
+
+Indexing is done while scanning. Can look through entire VFS.
+
+## Network Forensics
+
+Legal issues??? Get legal advice.
+
+Capture an attack as it goes on.
+
+Wireshark not designed for forensics. 2GB-10GB. Wireshark can't handle
+more then a megabyte. Forensics don't care so much about protocol issues.
+Want higher level concepts. Wireshark not so useful. Results must be
+verifiable in court.
+
+PCAP filesystem driver.
+
+Network scanners produce VFS nodes for emedded objects in
+network stream.
+
+Protocols implemted include HTTP, SMTP, POP, etc.
+
+Can render the captured HTML, including images. Sanitise links,
+images, so you can't accidently try to download them. Javascript
+sanitised. Can't see images inside G-Mail, G-Mail is AJAX application
+using proprietary interface.
+
+# Questions
+
+scanning in background of background jobs.
+
+Memory forensics?
+
+* Hot topic
+* Memory filesystem
+* Reasonably slow
+
+Looks for structures that look like processes. List of open files, list of
+connections, etc. Look like a /proc filesystem on a live system.
+
+wireshark talk showed how to extract SIP conversation and listen to it.
+
+How do you deal with files that are not deleted but wiped? If file is
+overwritten we can't recover it.
+
+More common situation, file exists, but not the filesystem metadata.

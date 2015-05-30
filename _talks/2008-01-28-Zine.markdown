@@ -1,0 +1,19 @@
+---
+layout: talk
+title: Zine
+meeting: /conferences/2008/02/02/LCA2008/
+speaker: Unknown
+begin: 2008-01-28 09:00
+---
+Security sign all files in repository and add md5sum/sha1
+at end of file, with GnuPG signature.
+
+Signing is independent of revision control system, so signatures
+can be checked even if files are in outside revision control system.
+
+Signatures dependant on file type. Only C and C++ files currently
+supported.
+
+Auto generated files should have signatures.
+
+<http://michaeldavies.org/software/zign-tools/>

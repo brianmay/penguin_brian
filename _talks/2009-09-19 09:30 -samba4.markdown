@@ -1,0 +1,89 @@
+---
+layout: talk
+title: Samba 4
+meeting: /conferences/2009/01/24/LCA2009/
+speaker: Andrew Bartlett
+begin: 2009-09-19 09:30  
+---
+## Samba4 is:
+
+* replacement for Active Directory.
+* move Samba beyond NT4 style domains which are obsolete.
+* LDAP, Kerberos, DNS
+* A provide a way to move forward without locking in to Microsoft products.
+
+Features:
+
+* Samba has reputation of being difficult to configure.  Samba4 should just work out of the box.
+* Automatically generate configuration required for OpenLDAP, Bind, etc.
+* Multi-master replication with OpenLDAP. Samba4 no longer a single server solution. No longer
+single point of failure.
+* Scripting language == Python
+* Smart card support.
+* NTP signing support - patch to ntpd server. Required for secure Kerberos
+authentication. Microsoft's own NTP signing standard, not the existing
+standard. Doesn't use network byte order.
+* Group Policy support.
+  * Basically dump. Client driven. Stored as globs. Registry files on
+filesystem. Samba begginning to understand format for reading and dumping
+values. Should be able to track changes.
+
+Autoconfiguration:
+
+* OpenLDAP not used directly by clients, generally doesn't listen on standard
+port; clients generally don't connect to it.
+* OpenLDAP modules to keep different methods of specifying groups in sync.
+* ActiveDirectory schema different, this is automatically generated.
+
+## Development
+
+* Needs sysadmins/programmers for testing, etc.
+* More code being written in Python.
+* Multimaster currently difficult to setup - this is being made easier.
+* "PAC Validation failed"
+  * PAC == Privilage Attribute Certificate
+  * Windows XP must check PAC with KDC, but only rarely.
+* Microsoft's AD schema.
+  * Not quite LDIF format.
+  * Syntax errors.
+  * Results to be integrated.
+* Account expiry
+  * Hardcoded 28 day password expiry
+  * Also ignored no expiry flag.
+* Machines stop working after one month.
+  * Restore password from backup, and it worked.
+  * Spent 1 week at Microsoft to figure it out.
+  * Once a week each Windows client would change password to random value.
+  * This string could not be interpreted as a UTF-8 string, as these were not valid characters.
+  * Samba substituted empty string instead, possibly not a good idea.
+  * Solution ugly. Reduces entropy? Maybe. May not be forward compatable with future UTF-8 specifications.
+  * Each client needs to have a list of invalid characters and treat string as a string only if it doesn't contain invalid characters.
+* MS-SNTP - Microsoft's signing NTP protocol. NTP community not happy... Will be integrated upstream but disabled by default.
+* Web interface needs more work.
+* Own LDAP server with its own schema. Is this a problem?
+
+Future:
+
+* Domain trusts
+  * Limited success.
+* Replication
+  * Migration process.
+  * Once only copy.
+  * Full read/write replication.
+* Want to know why people can't switch to Samba 4.
+* Don't yet implement all the things Samba 3 does.
+  * Print server. Getting correct drivers is a big part of the problem.
+  * VFS modules in Samba 3 might be more trusted.
+* Upgrade process.
+
+## Questions
+
+Revision control file system?
+
+* Snapshots an be handled.
+* Full revision control filesystems, should be possible to expose history of changes to clients.
+
+python-wmi forked from early development version of Samba4, without coordination with Samba team, and needs to be reintegrated
+with Samba4 again.
+
+LDAP - Samba provides its own LDAP server, which can write to/from a file or talk to an OpenLDAP server.

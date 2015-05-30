@@ -1,0 +1,120 @@
+---
+layout: talk
+title: Awesome things you've missed in Perl
+meeting: /conferences/2009/01/24/LCA2009/
+speaker: Paul Fenwick
+begin: 2009-01-23 11:40  
+---
+I learnt Perl 12 years ago.
+
+Perl has improved.
+
+Don't write old Perl. Write new shiny Perl.
+
+Book "Perl Best Practises" - doesn't cover in much depth.
+
+## Object orientation
+
+Object orientation. Too flexible. Many implementations wrong or broken. Or
+both.
+
+Feels like it was bolted on the side.
+
+Moose will solve these problems.
+
+Easy and flexible.
+
+    use strict;
+    use warnings;
+
+relace with
+
+    use moose;
+
+roles like interface in other languages.
+
+## Autobox
+
+only objects have methods.
+
+autobox turns everything in Perl into a first class object. No methods by default.
+
+autobox::Core, default perl functions as autobox methods.
+
+Moose::AutoBox
+
+## Autodie
+
+    use autodie
+
+Anything that will fail will automatically die instead of returning failure.
+
+Can inspect error.
+
+## Perl 5.10 regular expressions
+
+Can expand over many lines.
+
+Perl 5.10 to the rescue: named capture variables.
+
+Defines. Define Grammer inside regular expression.
+
+## Minesweeper
+
+Killer applications:
+
+* Solitare
+* Minesweeper
+
+Minesweeper - very repetitive. Needs automation. App:SweeperBot.
+
+Takes over mouse and keyboard. Plays games indefinitely. If you are unlucky it
+won't stop, and you can't get control back again.
+
+## PAR
+
+Solves dependancy issues.
+
+Like JAR files for perl.
+
+pp = PAR Packer
+
+PAR - remote repositories to automatically download latest version.
+
+## Profiler
+
+SweeperBot far too slow. Takes about 19 seconds to complete expert mode.
+
+Devel::DProf - initial - subroutine level profiler. Good for well structured
+code. Bad for poorly structured code. Bad for long subroutines. Bad for varying
+performance depending on parameters.
+
+Don't optimise code while writing it. Cheaper to buy faster machine then spend
+longer on writing it. Optimise it when you feel you must.
+
+Devel::NYTProf - written by NYT.
+
+Does line profiling and block profiling.
+
+Forks, recursion, complex expressions all supported.
+
+Fast. Doesn't slow code down to much.
+
+CVS output supported.
+
+Minesweeper completed in expert mode in 11 seconds.
+
+## Code quality
+
+Code review.
+
+Code::Critic - code already read Perl Best practices book.
+
+Test code online:
+<http://perlcritic.com/>
+
+## Code ratings
+
+<http://www.cpanratings.com/>
+
+

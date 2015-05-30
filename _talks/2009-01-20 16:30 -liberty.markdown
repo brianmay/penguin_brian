@@ -1,0 +1,81 @@
+---
+layout: talk
+title: Free as in Market: Liberty and Property
+meeting: /conferences/2009/01/24/LCA2009/
+speaker: Rusty Russell
+begin: 2009-01-20 16:30
+---
+Question 0: Why Should I care?
+
+* We have to talk to others.
+* We have to understand what we are talking about.
+* What does it do?
+* What does it do, do?
+* Why does it do?
+
+Traffic Light:
+
+* Stop traffic
+* So how long do they stay red? For ever!
+* but thats not what it is for, that is what it does.
+
+Copyright law:
+
+* It stops copying.
+* Not what it is for.
+* A bit like a tax.
+* owner is the person who takes the tax, not the owner.
+
+Erosion of property
+
+* people want value property, won't do things with it.
+* If unauthorised copying == stealing, then lobbying to
+remove my property rights without compensation is ???
+* Not really a tax. No transfer actually happens. Just destruction.
+* Copyright owner doesn't have access, all he can do is prevent people making
+copies.
+
+Digital cropburning
+
+* Negative right.
+* Destruction of rights normally associated with ownership.
+
+IP Market place
+
+* Is more expensive.
+* Does nothing.
+* Actually producing stuff is what matters.
+* IP Market is parasitic. Takes actual goods from market.
+* We hope it will increase market. In practise it may not.
+* What is the affect on the market place as a whole?
+* It is not a profit, it is a cost to society.
+
+CC-By/Free Licenses
+
+* Restore most of your property rights.
+* Owner gives you most of the copyright rights.
+* Rights taken are so insignificant user doesn't care.
+
+Politicians:
+
+* They are shaped like Humans.
+* Very frustrating experience.
+
+Intellectual property is a form of property. Real property (power) that has
+been destroyed. Not an imaginary property, that makes it sound less important,
+not more important.
+
+Trademark
+
+* reasonably good, need to keep eye on ball as to why they are required.
+
+Patents
+
+* Many flaws
+* Temporary Monopoly. Temporary evil.
+* Structural flaws. Cannot be easily fixed.
+* Plan to extend to 100 years.
+
+Copyright law
+
+* Proposed to have copyright on all property.

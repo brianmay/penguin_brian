@@ -1,0 +1,80 @@
+---
+layout: talk
+title: So you moved graphics drivers to the kernel.. what next? I can haz ponies?
+meeting: /conferences/2010/01/23/LCA2010/
+speaker: Dave Airlie
+begin: 2010-01-21 13:30
+---
+## KMS
+
+KMS: drivers in kernel, same as with every other driver in the system.
+
+KMS needs memory management system.
+
+Initial memory management system had poor API that didn't work
+very well across platforms.
+
+Can jump from text mode kernel debugger to/from X Windows.
+
+## Gallium3D
+
+Difficult to port existing drivers.
+
+## DRI2
+
+Attempt to make compositing work properly.
+
+## Wayland
+
+New display server, not as large or with as much legacy as X.
+
+Can run X server inside wayland.
+
+Can run two X servers inside wayland, e.g. for two users.
+
+It is not X.
+
+Input support is weak.
+
+## Linux drivers
+
+Intel
+
+* First manufacturer to provide us with data.
+* Big company.
+* Close to feature complete.
+* Not mature yet.
+* Dropped support for non-KMS machines. Code has been removed.
+
+AMD / ATI
+
+* Support for R100 to R700. R800 not supported *yet*. R800 looks nice with 6 monitors.
+* In staging in kernel. Need to use staging option to build. Will be main driver in
+  upcoming enterprise version of OS I won't name.
+* Suspend/resume easier to debug. Run BIOS scripts ourselfs.
+* Radeon vs Radeon HD.
+* Power saving missing. Might heat up system a lot. Patches available, need to
+be merged in kernel. Hopefully by 2.6.34.
+* Might move out of staging by 2.6.33.
+
+nouveau
+
+* The trojan horse driver.
+* KMS support: nv4 thorugh to G80.
+* Acceleration support limited on some ion cards.
+* legal issues with code disappearing.
+* Suspend/resume works.
+
+virtual GPUS
+
+* vmware, QXL, cirrus
+
+uvesakms
+via
+mga
+
+## Questions
+
+X can run as non-root, except for security issues regarding the input layer.
+e.g. switch to one user, user grabs keyboard and doesn't let go when input is
+switched to other session.

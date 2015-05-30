@@ -1,0 +1,43 @@
+---
+layout: talk
+title: Free Software and the Global Politics of Intellectual Property Law
+meeting: /conferences/2010/01/23/LCA2010/
+speaker: Gabriella Coleman
+begin: 2010-01-19 09:15
+---
+ACTA - Anti-Counterfeiting Trade Act
+
+* Includes 3 strikes rule for ISPs.
+
+Richmond Stallman:
+
+* Described himself as a happy hacker.
+* Frustrated with restricted access to software.
+
+Myths/Campaigns:
+
+* Hackers can blow up your computer and your family.
+* Terrorist groups sell pirate DVDs to raise funds.
+* Free software is communist cancer.
+* Linux is technically dangerous.
+* Penguins mutate into other creatures (Microsoft advertisement).
+
+Eric Raymond renamed "free software" to "open source software" to make the term
+more business friendly. This was contentious. The affects last today.
+
+Halloween documents (Microsoft):
+
+* OSS is a serious threat as it provides benefits we cannot
+with our current license models.
+* "One thing you do it prevent good software from being written." William Gates
+* III.
+
+DMCA:
+
+* Outlaw circumvention devices, including software, DeCSS.
+* Dmitry arrested.
+* BSA pleased Dmitry arrested.
+* Anti-DMCA movement grew as a result.
+
+The fact people, including Richmond Stallman were deeply disturbed meant they
+took action.
