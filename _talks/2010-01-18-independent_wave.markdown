@@ -3,7 +3,7 @@ layout: talk
 title: Building the Independent Wave
 meeting: /conferences/2010/01/23/LCA2010/
 speaker: James Parser
-begin: 2010-01-18 11:00 Monday  
+begin: 2010-01-18 11:00
 ---
 <https://wave.google.com/wave/?pli=1#minimized:nav,minimized:contact,minimized:search,restored:wave:googlewave.com!w%252Bq3Gwo7ZkGj7>
 

@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Free as in Market: Liberty and Property
+title: Free as in Market, Liberty and Property
 meeting: /conferences/2009/01/24/LCA2009/
 speaker: Rusty Russell
 begin: 2009-01-20 16:30
