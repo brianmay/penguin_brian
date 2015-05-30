@@ -1,0 +1,35 @@
+---
+layout: talk
+title: De-mystifying PCI
+meeting: /conferences/2007/01/20/LCA2007/
+speaker: Kristen Carlson Accardi
+begin: 2007-01-16 14:00
+---
+Take credit for your work. It is expected. Don't be modest.
+
+CC patches to *big* mailing lists.
+
+Social skills important as well as technical skills.
+
+Take credit fot things you don't do (add maintainer name code reviewed).
+
+PCI
+
+PCI X - faster bus speed.
+
+PCIe - different but pretends to be similar; message bus, not shared bus.
+
+lspci
+
+* 00:00.0
+  * 00 - bus
+  * 00 - device on bus
+  * 0 - function
+* vendor code, sub vendor code, sub device code.
+* 8086 Intel = 86-08
+
+IRQS A, B, C, D get mapped to IRQs.
+
+* setpci
+* if BIOS doesn't make changes (very unlikely), changes are persistant across
+reboots.

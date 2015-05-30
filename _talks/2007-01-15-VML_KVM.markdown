@@ -1,0 +1,21 @@
+---
+layout: talk
+title: VML KVM and Virtualization
+meeting: /conferences/2007/01/20/LCA2007/
+speaker: Jeff Dike, Intel
+begin: 2007-01-15 14:00
+---
+VT (VMX) virtualization extensions (Intel).
+
+Pacifica - AMD compatible version (but not identical).
+
+Adds:
+
+* vmcs
+* new instructions
+
+ia32 specific
+
+allow processes DMA - security risk
+
+solution I/O MU - but this is scarce on ia32.

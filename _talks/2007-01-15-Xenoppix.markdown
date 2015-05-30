@@ -1,0 +1,14 @@
+---
+layout: talk
+title: OS Graulation: Xenoppix
+meeting: /conferences/2007/01/20/LCA2007/
+speaker: Unknown
+begin: 2007-01-15 14:50
+---
+For anonymous users?
+
+global disk?
+
+UDP instead of http to reduce latency?
+
+cheap hosting was a criteria.

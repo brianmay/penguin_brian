@@ -1,0 +1,51 @@
+---
+layout: talk
+title: X monitor - hotplugging sweetness
+meeting: /conferences/2007/01/20/LCA2007/
+speaker: Keith Packard
+begin: 2007-01-17 16:50
+---
+Xinerama - multiple monitors
+
+VidModeExtenions - change mode for each monitor and size of screen
+
+history of X:
+
+* number of screens fixed at server startup
+* can't move window between screens (windows; pixmaps)
+* resources per screen
+
+Xinerama
+
+* move application between screen
+* resources duplicated for every monitor - resource hungry
+* not dynamic
+* windows duplicated for each screen (byt only visible on one)
+
+XFree86
+
+* VidModeExtension
+* Shift+Alt+[+-]
+
+
+Multiple graphics cards should be supported
+
+RandR
+
+* rotate screen
+* landscape to/from portrait
+* size changes need to be exposed to applications
+* no rotation in XFree86 (would have required driver changes)
+* Static
+
+5 versions of xinerama in CVS repository (each driver, etc)
+
+Virtual screen - "real screen"
+
+* displays map and display sections from the virtual screen
+* Max size 2048x2048 - xaa limit
+
+Problems
+
+* XAA - stale
+* DRI separate memory management

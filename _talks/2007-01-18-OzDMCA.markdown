@@ -1,0 +1,85 @@
+---
+layout: talk
+title: The OzDMCA: What it means for FOSS
+meeting: /conferences/2007/01/20/LCA2007/
+speaker: Kimberlee Weatherall, IT Laywer, University of Queensland
+begin: 2007-01-18 09:50
+---
+3 ACTS changed for FTA (free trade agreement) reasons.
+
+2004: FTA concluded
+
+* IP chapter - longest
+* IP - intellectual property
+* same with other countries signing with USA
+* copyright term extension
+
+2005-2006 - Fair use clause? USA -> Australia
+
+220 page copyright amendment ACT 2006
+
+* very political
+* divide and conqueror
+
+stuff that looks good to users
+
+* iPod legal
+* recording TV shows legal
+* Parody and satire
+* libraries - on a device you own
+
+bad
+
+* DMCA
+* less free copying for schools and Uni
+* No need to prove knowledge and intent, police can have on the spot fines
+
+video under review in 2 years
+
+Apple against
+
+Apple against
+
+Linux Australia against
+
+Highly qualified specific exemptions, unlike USA's fair use law.
+
+example: iPod exemption has 5 qualification clauses (only sound recordings).
+
+DMCA --> Australian DMCA
+
+DeCSS - DeCSS found to be liable under DMCA
+
+DnetD - if using other servers - illegal under DMCA
+
+lexmark
+
+skylink - garage door openers
+
+* Need permission from copyright holder.
+
+OzDMCA - ban on circumvention: "In connection with the exercise of copyright"
+
+What does this means?
+
+* It depends on the courts.
+
+Solution?
+
+* Move servers to NZ (NZ bill being proposed), Canada, etc.
+* Revolution - mass disobedience
+* run a test case
+  * sympathetic client
+  * risk: might get a bad ruling; depends on judge
+* lobby for change
+  * really hard
+  * some criminal provisions have been removed
+  * iPods legal
+* go forth and do cool stuff
+  * make people care
+
+Malfuctioning/obsolete
+
+* TPM allowed to circumvent but not to distribute
+
+law written by people without technical background
