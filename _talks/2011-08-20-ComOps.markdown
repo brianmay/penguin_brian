@@ -1,0 +1,16 @@
+---
+layout: talk
+title: ComOps
+meeting: /conferences/2011/08/21/PyConAu2011/
+speaker: Unknown
+begin: 2011-08-20 09:00
+---
+Cobol, Delphi, Progress, VB6, Dexterity, .NET, Silverlight, others.
+
+Python in business.
+
+ComDAP - Dynamic Applications Platform
+
+* everything in Python.
+
+Watch this space.

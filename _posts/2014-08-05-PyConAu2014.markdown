@@ -1,0 +1,10 @@
+---
+layout: conference
+title: PyCon Au 2014 conference
+categories: conferences
+name: PyCon Au 2014
+begin: 2014-08-01
+end: 2014-08-05
+location: Brisbane, Australia
+website: http://2014.pycon-au.org/
+---

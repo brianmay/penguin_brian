@@ -1,0 +1,10 @@
+---
+layout: conference
+title: PyCon Au 2013 conference
+categories: conferences
+name: PyCon Au 2013
+begin: 2013-07-05
+end: 2013-07-07
+location: Hobart, Australia
+website: http://pycon-au.org/2013/
+---
