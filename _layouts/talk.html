@@ -22,6 +22,14 @@ layout: page
                     <a href="{{ site.baseurl }}{{ page.meeting }}">Meeting</a>
                 </td>
             </tr>
+            {% if page.video_url %}
+            <tr>
+                <th>Video</th>
+                <td>
+                    <a href="{{ page.video_url }}">Link</a>
+                </td>
+            </tr>
+            {% endif %}
         </tbody>
     </table>
 </ul>
