@@ -1,0 +1,13 @@
+---
+layout: conference
+title: PyCon Au 2015 conference
+categories: conferences
+name: PyCon Au 2015
+begin: 2014-07-31
+end: 2014-08-02
+location: Brisbane, Australia
+website: http://2015.pycon-au.org/
+---
+There were some really good talks. I went to the education miniconf, which
+had a number of good talks by different people in teaching kids to program,
+especially in Python.

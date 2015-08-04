@@ -1,0 +1,9 @@
+---
+layout: talk
+title: Karaage Gardening
+meeting: /conferences/2015/08/02/PyConAu2015/
+speaker: Brian May
+begin: 2015-08-16 16:30
+---
+Talk about Karaage, by self. This was my first talk at a big conference such as
+PyCon AU.

@@ -1,0 +1,12 @@
+---
+layout: trip
+title: Trip to Adelaide
+categories: trips
+destination: Adelaide
+transport: airliner
+begin: 2015-02-28
+end: 2015-03-02
+purpose: wedding
+---
+
+I went to Adelaide for to attend a wedding.
