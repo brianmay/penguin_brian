@@ -3,7 +3,7 @@ layout: talk
 title: The Kernel Report
 meeting: /conferences/2012/01/20/LCA2012/
 speaker: Unknown
-begin: 2012-08-16 09:00
+begin: 2012-01-20 09:00
 ---
 2.6.37 released 2011-01-04
 

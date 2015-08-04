@@ -3,7 +3,7 @@ layout: talk
 title: Ending software patents in Australia
 meeting: /conferences/2012/01/20/LCA2012/
 speaker: Unknown
-begin: 2012-08-16 09:00
+begin: 2012-01-20 09:00
 ---
 Canon camera manual. Video can only be used for personal and non-commercial use without a MPEG-4 license. I didn't know about this before I
 purchased the camera.

@@ -3,7 +3,7 @@ layout: talk
 title: EFI
 meeting: /conferences/2012/01/20/LCA2012/
 speaker: Unknown
-begin: 2012-08-16 09:00
+begin: 2012-01-20 09:00
 ---
 Replacement for legacy BIOS; BSD licensed core. BIOS had been around for 20 years. People decided to replace it with something different.
 Everyone bases there code from the standard Intel limitation. This time last year, I was a lot happier with life.
