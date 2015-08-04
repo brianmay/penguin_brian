@@ -2,7 +2,7 @@
 layout: trip
 title: Drive to The Great Ocean Road
 categories: trips
-destination: The Great Ocean Road
+destination: The Great Ocean Road, Australia
 transport: car
 begin: 2005-09-05
 end: 2005-09-10

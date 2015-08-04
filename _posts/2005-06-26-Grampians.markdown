@@ -2,7 +2,7 @@
 layout: trip
 title: Drive to The Grampians
 categories: trips
-destination: The Grampians
+destination: The Grampians, Australia
 transport: car
 begin: 2005-06-24
 end: 2005-06-26

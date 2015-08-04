@@ -2,7 +2,7 @@
 layout: trip
 title: Trip to Sydney
 categories: trips
-destination: Sydney
+destination: Sydney, Australia
 transport: airliner
 begin: 2007-01-14
 end: 2007-01-20

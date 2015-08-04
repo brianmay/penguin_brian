@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Paynesville
 categories: trips
-destination: Paynesville
+destination: Paynesville, Australia
 transport: light aircraft
 begin: 1999-12-05
 end: 1999-12-05

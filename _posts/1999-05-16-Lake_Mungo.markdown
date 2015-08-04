@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Lake Mungo
 categories: trips
-destination: Lake Mungo
+destination: Lake Mungo, Australia
 transport: light aircraft
 begin: 1999-05-14
 end: 1999-05-16

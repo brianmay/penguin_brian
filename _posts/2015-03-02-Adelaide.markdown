@@ -2,7 +2,7 @@
 layout: trip
 title: Trip to Adelaide
 categories: trips
-destination: Adelaide
+destination: Adelaide, Australia
 transport: airliner
 begin: 2015-02-28
 end: 2015-03-02

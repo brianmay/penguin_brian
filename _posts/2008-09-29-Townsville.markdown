@@ -3,7 +3,7 @@ layout: trip
 title: Townsville holiday
 date: 2008-09-29 20:00:00 +1000
 categories: trips
-destination: Townsville
+destination: Townsville, Australia
 transport: airliner
 begin: 2008-09-13
 end: 2008-09-29

@@ -2,7 +2,7 @@
 layout: trip
 title: Trip to Townsville
 categories: trips
-destination: Townsville
+destination: Townsville, Australia
 transport: airliner
 begin: 2005-08-10
 end: 2005-08-20

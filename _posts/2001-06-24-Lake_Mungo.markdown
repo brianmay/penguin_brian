@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Lake Mungo
 categories: trips
-destination: Lake Mungo
+destination: Lake Mungo, Australia
 transport: light aircraft
 begin: 2001-06-22
 end: 2001-06-24

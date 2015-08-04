@@ -5,7 +5,7 @@ categories: conferences
 name: LCA2013
 begin: 2013-01-28
 end: 2013-02-01
-location: Melbourne, Australia
+location: Canberra, Australia
 website: http://lca2013.linux.org.au/
 ---
 

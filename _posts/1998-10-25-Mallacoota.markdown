@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Mallacoota
 categories: trips
-destination: Mallacoota
+destination: Mallacoota, Australia
 transport: light aircraft
 begin: 1998-10-23
 end: 1998-10-25

@@ -2,7 +2,7 @@
 layout: trip
 title: Drive to Marysville
 categories: trips
-destination: Marysville
+destination: Marysville, Australia
 transport: car
 begin: 2003-07-12
 end: 2003-07-21

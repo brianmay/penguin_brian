@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Khancoban
 categories: trips
-destination: Khancoban
+destination: Khancoban, Australia
 transport: light aircraft
 begin: 1999-02-12
 end: 1999-02-14

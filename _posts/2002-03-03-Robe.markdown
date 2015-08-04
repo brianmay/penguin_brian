@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Robe
 categories: trips
-destination: Robe
+destination: Robe, Australia
 transport: light aircraft
 begin: 2002-03-01
 end: 2002-03-03

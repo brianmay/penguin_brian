@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Grampians
 categories: trips
-destination: Grampians
+destination: Grampians, Australia
 transport: light aircraft
 begin: 1999-10-22
 end: 1999-10-24

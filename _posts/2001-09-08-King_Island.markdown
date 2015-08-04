@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to King Island
 categories: trips
-destination: King Island
+destination: King Island, Australia
 transport: light aircraft
 begin: 2001-09-08
 end: 2001-09-08

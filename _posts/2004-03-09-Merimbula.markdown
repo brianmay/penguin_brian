@@ -2,7 +2,7 @@
 layout: trip
 title: Flight to Merimbula
 categories: trips
-destination: Merimbula
+destination: Merimbula, Australia
 transport: light aircraft
 begin: 2004-03-06
 end: 2004-03-09

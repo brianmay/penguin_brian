@@ -2,7 +2,7 @@
 layout: trip
 title: Trip to Brisbane
 categories: trips
-destination: Brisbane
+destination: Brisbane, Australia
 transport: airliner
 begin: 2015-07-30
 end: 2015-08-04

@@ -1,0 +1,12 @@
+---
+layout: trip
+title: Trip to Brisbane
+categories: trips
+destination: Brisbane, Australia
+transport: airliner
+begin: 2014-08-01
+end: 2014-08-05
+purpose: conference
+---
+
+I went to Brisbane to visit [PyConAu2014]({{ site.baseurl }}{% post_url 2014-08-05-PyConAu2014 %}).

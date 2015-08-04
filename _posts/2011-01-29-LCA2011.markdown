@@ -5,6 +5,6 @@ categories: conferences
 name: LCA2011
 begin: 2011-01-24
 end: 2011-01-29
-location: Melbourne, Australia
+location: Brisbane, Australia
 website: http://lca2011.linux.org.au/
 ---

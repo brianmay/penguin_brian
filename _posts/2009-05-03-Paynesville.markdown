@@ -2,7 +2,7 @@
 layout: trip
 title: Drive to Paynesville
 categories: trips
-destination: Paynesville
+destination: Paynesville, Australia
 transport: car
 begin: 2009-05-02
 end: 2009-05-03
