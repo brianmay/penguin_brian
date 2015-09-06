@@ -1,37 +1,35 @@
 ---
 layout: page
 ---
-<ul>
-    <table class="keyvalue">
-        <tbody>
-            <tr>
-                <th>Speaker</th>
-                <td>
-                    {{ page.speaker }}
-                </td>
-            </tr>
-            <tr>
-                <th>Time</th>
-                <td>
-                    {{ page.begin }}
-                </td>
-            </tr>
-            <tr>
-                <th>Meeting</th>
-                <td>
-                    <a href="{{ site.baseurl }}{{ page.meeting }}">Meeting</a>
-                </td>
-            </tr>
-            {% if page.video_url %}
-            <tr>
-                <th>Video</th>
-                <td>
-                    <a href="{{ page.video_url }}">Link</a>
-                </td>
-            </tr>
-            {% endif %}
-        </tbody>
-    </table>
-</ul>
+<table class="keyvalue">
+    <tbody>
+        <tr>
+            <th>Speaker</th>
+            <td>
+                {{ page.speaker }}
+            </td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>
+                {{ page.begin }}
+            </td>
+        </tr>
+        <tr>
+            <th>Meeting</th>
+            <td>
+                <a href="{{ site.baseurl }}{{ page.meeting }}">Meeting</a>
+            </td>
+        </tr>
+        {% if page.video_url %}
+        <tr>
+            <th>Video</th>
+            <td>
+                <a href="{{ page.video_url }}">Link</a>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
 
 {{ content }}

@@ -1,35 +1,33 @@
 ---
 layout: page
 ---
-<ul>
-    <table class="keyvalue">
-        <tbody>
-            <tr>
-                <th>Destination</th>
-                <td>
-                    {{ page.destination }}
-                </td>
-            </tr>
-            <tr>
-                <th>Dates</th>
-                <td>
-                    {{ page.begin }} to {{ page.end }}
-                </td>
-            </tr>
-            <tr>
-                <th>Transport</th>
-                <td>
-                    {{ page.transport }}
-                </td>
-            </tr>
-            <tr>
-                <th>Purpose</th>
-                <td>
-                    {{ page.purpose }}
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</ul>
+<table class="keyvalue">
+    <tbody>
+        <tr>
+            <th>Destination</th>
+            <td>
+                {{ page.destination }}
+            </td>
+        </tr>
+        <tr>
+            <th>Dates</th>
+            <td>
+                {{ page.begin }} to {{ page.end }}
+            </td>
+        </tr>
+        <tr>
+            <th>Transport</th>
+            <td>
+                {{ page.transport }}
+            </td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>
+                {{ page.purpose }}
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 {{ content }}
