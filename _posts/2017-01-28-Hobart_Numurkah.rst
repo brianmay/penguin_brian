@@ -3,7 +3,7 @@ layout: trip
 title: Trip to Hobart and then Numurkah
 categories: trips
 destination: Hobart and Numurkah
-transport: Tesla
+transport: Tesla Model S
 begin: 2017-01-13
 end: 2017-01-27
 purpose: conference and holiday
