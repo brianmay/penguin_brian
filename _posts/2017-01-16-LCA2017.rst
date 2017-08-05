@@ -1,0 +1,10 @@
+---
+layout: conference
+title: LCA2017 conference
+categories: conferences
+name: LCA2017
+begin: 2017-02-05
+end: 2017-02-16
+location: Hobart, Australia
+website: http://lca2017.linux.org.au/
+---

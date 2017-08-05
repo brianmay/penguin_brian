@@ -1,0 +1,10 @@
+---
+layout: conference
+title: PyCon Au 2017 conference
+categories: conferences
+name: PyCon Au 2017
+begin: 2017-08-03
+end: 2017-08-08
+location: Melbourne, Australia
+website: http://2017.pycon-au.org/
+---

@@ -1,0 +1,13 @@
+---
+layout: talk
+title: MicroPython for ESP32
+meeting: /conferences/2017/08/03/PyConAu2017/
+speaker: Nick Moore
+begin: 2017-08-04 12:00
+---
+
+MicroPython for ESP32
+=====================
+Sparkfun ESP32 - has battery controller
+ESP32 DevKitC
+AdaFruit HUZZAH32
