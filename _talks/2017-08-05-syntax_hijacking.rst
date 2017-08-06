@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Syntax Hijacking: Genius or Evil
+title: Syntax Hijacking
 meeting: /conferences/2017/08/03/PyConAu2017/
 speaker: Tennessee Leewenburg
 begin: 2017-08-05 11:25

@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Identity 2.0: the what, why and how of social and federated login
+title: Identity 2.0
 meeting: /conferences/2017/08/03/PyConAu2017/
 speaker: Fraser Teedale
 begin: 2017-08-05 14:15

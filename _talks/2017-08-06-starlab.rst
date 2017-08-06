@@ -1,0 +1,11 @@
+---
+layout: talk
+title: StarLAB, developing a hardware based learning platform for students
+meeting: /conferences/2017/08/03/PyConAu2017/
+speaker: Clinton McKinnon
+begin: 2017-08-06 14:15
+---
+
+StarLAB
+=======
+As with all good engineering stories, this starts with an outstanding failure.
