@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: An Illustrated History of Failure
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Paul Fenwick, Perl Training Australia
 begin: 2008-09-02 19:00
 ---

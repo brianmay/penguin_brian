@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Not common enough optimisations
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Jacinta Richardson, Perl Training Australia
 begin: 2008-01-29 11:30
 ---

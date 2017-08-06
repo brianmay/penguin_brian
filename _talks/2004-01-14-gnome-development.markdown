@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Gnome Development tutorial
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: Malcolm Tredinnick
 begin: 2004-01-14 15:00
 ---

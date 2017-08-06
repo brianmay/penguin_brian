@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Monitoring virtual servers
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Randy Lerensalor, HP
 begin: 2007-01-15 16:00
 ---

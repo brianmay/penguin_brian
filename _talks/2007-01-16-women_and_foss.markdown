@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Is FOSS a Macho thing?
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Sulamita Garcia
 begin: 2007-01-16 11:00
 ---

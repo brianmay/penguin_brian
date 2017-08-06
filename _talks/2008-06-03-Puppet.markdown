@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Puppet
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: James Turnbull, Security Architech, National Australia Bank
 begin: 2008-06-03 19:00
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Cloud computing
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Russell Coker
 begin: 2008-11-05 19:00
 ---

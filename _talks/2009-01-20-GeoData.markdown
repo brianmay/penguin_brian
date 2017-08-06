@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Free and Open GeoData - From Shadows to Reality
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Simon Greener
 begin: 2009-01-20 14:50
 ---

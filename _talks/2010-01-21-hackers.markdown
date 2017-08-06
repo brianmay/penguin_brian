@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Hackers at the end of the world
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Glyn Moody
 begin: 2010-01-21 09:10
 ---

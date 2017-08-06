@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Diversity in Python
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Audrey Roy
 begin: 2011-08-20 09:15
 desc_url: http://pycon-au.org/2011/conference/schedule/event/43/

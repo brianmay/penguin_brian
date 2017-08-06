@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: So you want to be a sysadmin?
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Joh Clarke
 begin: 2008-01-29 10:30
 ---

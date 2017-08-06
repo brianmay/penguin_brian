@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Yubikey authentication in a mid-sized organisation
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Robert (Bob) Edwards
 begin: 2010-01-21 11:30
 ---

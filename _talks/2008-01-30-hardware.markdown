@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Hardware/Software Hacking, Joining Second Life
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Jonathan Oxer
 begin: 2008-01-30 10:30
 ---

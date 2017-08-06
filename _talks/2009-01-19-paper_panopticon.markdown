@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Digitising the paper panopticon
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Claudine Chionh
 begin: 2009-01-19 13:50
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Real time document collaboration
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: various
 begin: 2008-04-01 19:00
 ---

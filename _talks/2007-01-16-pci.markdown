@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: De-mystifying PCI
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Kristen Carlson Accardi
 begin: 2007-01-16 14:00
 ---

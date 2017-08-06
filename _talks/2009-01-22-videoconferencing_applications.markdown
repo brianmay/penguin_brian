@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Integrating videoconferencing into everyday applications
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Oliver Crete
 begin: 2009-01-22 17:00
 ---

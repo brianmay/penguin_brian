@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Rockhopper Robot
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Doug Chapman, HP
 begin: 2008-02-02 13:00
 ---

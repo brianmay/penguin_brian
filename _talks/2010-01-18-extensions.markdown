@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Making Wave-y Extensions
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Pamela Fox
 begin: 2010-01-18 14:20
 ---

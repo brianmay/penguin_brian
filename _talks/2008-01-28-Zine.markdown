@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Zine
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: unknown
 begin: 2008-01-28 09:00
 ---

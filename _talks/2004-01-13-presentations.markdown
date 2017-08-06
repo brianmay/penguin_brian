@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Speakers Coaching Session
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: unknown
 begin: 2004-01-13 17:00
 ---

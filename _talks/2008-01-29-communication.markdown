@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Communication challenges in open source projects
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Adaora Onyia, Susan Bowen
 begin: 2008-01-29 14:30
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Software Raid in Linux
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Steven Ellis
 begin: 2010-01-19 11:55
 ---

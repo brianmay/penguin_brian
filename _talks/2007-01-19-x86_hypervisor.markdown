@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Writing an x86 hypervisor
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Zachary Amsden; Jeremy Fitzhardinge; Rusty Russell, IBM; Chris Wright, Redhat
 begin: 2007-01-19 14:00
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: The Deakin University Learning Repository
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: various
 begin: 2009-04-07 19:00
 ---

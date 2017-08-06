@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Albatross; An open source UAV
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Hugo Vincent, John Stowers
 begin: 2007-01-17 11:00
 ---

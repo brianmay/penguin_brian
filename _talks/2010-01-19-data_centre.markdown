@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Challenges in Data Centre Growth
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Paul Gunn, Weta
 begin: 2010-01-19 10:30
 ---

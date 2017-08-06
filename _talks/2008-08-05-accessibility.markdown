@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Linux for the blind
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Jason
 begin: 2008-08-05 19:00
 ---

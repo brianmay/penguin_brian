@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Simplicity Through Optimization
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Paul McKenney
 begin: 2010-01-21 15:45
 ---

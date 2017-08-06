@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Fun with App Engine 1.5.0
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Greg Darke
 begin: 2011-08-21 11:40
 desc_url: http://pycon-au.org/2011/conference/schedule/event/32/

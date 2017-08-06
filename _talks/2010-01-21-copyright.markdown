@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: When Free Software is against the law, only outlaws will have Free Software
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Colin Jackson
 begin: 2010-01-21 10:30
 ---

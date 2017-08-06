@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: The Debate
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Benjamin Mako Hill
 begin: 2010-01-20 09:15
 ---

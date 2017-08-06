@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Interrupts considered harmful
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Peter Chubb
 begin: 2010-01-21 16:45
 ---

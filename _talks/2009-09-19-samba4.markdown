@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Samba 4
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Andrew Bartlett
 begin: 2009-09-19 09:30  
 ---

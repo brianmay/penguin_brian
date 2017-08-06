@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Docks, Bays, and Ports
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Kristen Carlson Accardi, Intel
 begin: 2007-01-18 09:00
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Autocluster
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Martin Schweke &amp; Andrew Tridgell
 begin: 2009-01-23 10:40  
 ---

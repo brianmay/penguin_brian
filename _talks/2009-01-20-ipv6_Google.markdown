@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Google and IPv6
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Angus Lees
 begin: 2009-01-20 11:40
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Xen - Art of portability
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Jes Sorrensen &amp; Greg Edwards, SGI
 begin: 2007-01-15 11:50
 ---

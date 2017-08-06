@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: An updated directory structure for Unix
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Michael Homer
 begin: 2010-01-22 15:45
 ---

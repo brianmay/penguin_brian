@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: What do you mean marketing?
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Zoe "Zonker" Brockmeier
 begin: 2007-01-18 11:00
 ---

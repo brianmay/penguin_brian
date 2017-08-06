@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Who's behind Wikipedia?
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Brianna Laugher
 begin: 2008-01-29 13:30
 ---

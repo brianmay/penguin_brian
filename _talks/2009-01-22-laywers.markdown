@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: 7 Things laywers don't understand about Software
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Anton Hughes
 begin: 2009-01-22 11:40
 ---

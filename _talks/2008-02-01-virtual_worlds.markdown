@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Virtual Worlds, Open Source &amp; Open Standards
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Christopher &amp; Kelly Yeoh, IBM Australia Development Laboratory
 begin: 2008-02-01 10:30
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Speaking
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Jacinta Richardson
 begin: 2009-01-19 14:40
 ---

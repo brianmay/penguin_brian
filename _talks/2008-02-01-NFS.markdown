@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: NFS Tuning Secrets or Why does "sync" do two different things?
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Greg Banks
 begin: 2008-02-01 13:30
 ---

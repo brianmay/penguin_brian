@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Ingex - Tapeless television production using Linux
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Stuart Cunningham, BBS Research, UK
 begin: 2008-01-28 16:40
 ---

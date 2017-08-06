@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Domain NameSystem - DNS
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Russell Coker
 begin: 2009-05-04 19:00
 ---

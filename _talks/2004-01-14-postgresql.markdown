@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Advanced PostgreSQL
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: Gavin Sherry
 begin: 2004-01-14 10:00
 ---

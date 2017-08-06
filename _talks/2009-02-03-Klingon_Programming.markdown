@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: The Art of Klingon Programming
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: various
 begin: 2009-02-03 20:00
 ---

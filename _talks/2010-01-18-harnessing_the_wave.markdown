@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Harnessing the Wave
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: James Parser
 begin: 2010-01-18 14:00
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Stop in the name of the Law
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Kimberlee Weatherall
 begin: 2008-02-01 11:30
 ---

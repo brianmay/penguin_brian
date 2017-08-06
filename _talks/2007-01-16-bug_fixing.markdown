@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Bug fixing for non-programmers
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Akkana Peck
 begin: 2007-01-16 11:50
 ---

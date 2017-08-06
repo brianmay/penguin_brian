@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Reconceptualizating Security
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Bruce Schneier
 begin: 2008-01-30 09:00
 ---

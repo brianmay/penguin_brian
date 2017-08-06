@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Anatomy of a Video Codec
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Timothy Terriberry
 begin: 2008-01-30 15:30
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: SUSE Studio
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Craig Wiley, Novell
 begin: 2009-12-01 19:00
 ---

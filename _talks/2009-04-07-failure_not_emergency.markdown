@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Relax! A failure is *not* an emergency
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Arjen Lentz
 begin: 2009-04-07 19:00
 ---

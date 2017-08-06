@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Geek my Car
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Jonathan Oxer, Australian Geekist car
 begin: 2009-08-04 19:00
 ---

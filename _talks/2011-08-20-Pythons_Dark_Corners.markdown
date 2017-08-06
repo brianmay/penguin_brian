@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Python's Dark Corners
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Peter Lovett
 begin: 2011-08-20 13:10
 desc_url: http://pycon-au.org/2011/conference/schedule/event/18/

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Streaming the World for Free; Has mobile media's time come?
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Ben Balbo
 begin: 2008-10-07 19:00
 ---

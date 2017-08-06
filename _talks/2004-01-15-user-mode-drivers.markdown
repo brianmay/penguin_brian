@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Infrastructure for User-Level Device Drivers in Linux 2.5
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: Peter Chubb
 begin: 2004-01-15 13:45
 ---

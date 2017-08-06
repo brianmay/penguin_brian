@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Wave Federation
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Dan Peterson
 begin: 2010-01-18 10:30
 ---

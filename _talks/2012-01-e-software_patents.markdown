@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Ending software patents in Australia
-meeting: /conferences/2012/01/20/LCA2012/
+conference: /conferences/2012/01/20/LCA2012/
 speaker: Unknown
 begin: 2012-01-20 09:00
 ---

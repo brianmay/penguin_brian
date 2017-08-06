@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: KDE Games Development
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Ian Wadham
 begin: 2009-12-01 19:00
 ---

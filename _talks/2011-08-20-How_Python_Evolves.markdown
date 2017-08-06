@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: How Python Evolves
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Nick Coghlan
 begin: 2011-08-20 11:00
 desc_url: http://pycon-au.org/2011/conference/schedule/event/12/

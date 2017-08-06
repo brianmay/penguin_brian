@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: X monitor - hotplugging sweetness
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Keith Packard
 begin: 2007-01-17 16:50
 ---

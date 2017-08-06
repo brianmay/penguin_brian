@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: User love and how to get it
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Paul Wayper
 begin: 2009-01-22 10:40
 ---

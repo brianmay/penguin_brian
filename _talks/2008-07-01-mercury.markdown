@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: A guided tour of Mercury
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Ralph Recket
 begin: 2008-07-01 19:00
 ---

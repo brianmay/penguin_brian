@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Starting an open source business
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Paul Fenwick
 begin: 2007-01-18 11:50
 ---

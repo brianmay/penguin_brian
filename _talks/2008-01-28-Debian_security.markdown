@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Debian security
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Russell Coker
 begin: 2008-01-28 13:30
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Debian Mini-Conf
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: various
 begin: 2004-01-12 09:00
 ---

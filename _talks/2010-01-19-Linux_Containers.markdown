@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Linux Containers
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Sam Vilain
 begin: 2010-01-19 14:30
 ---

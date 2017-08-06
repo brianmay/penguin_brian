@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Native NFSv4 Access Control Lists on Linux
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Andreas Gruenbacher
 begin: 2007-01-19 11:00
 ---

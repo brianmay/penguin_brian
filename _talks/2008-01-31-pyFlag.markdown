@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Incident response using pyFlag - the forensic and log analysis GUI
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Micheal Cohen
 begin: 2008-01-31 10:30
 ---

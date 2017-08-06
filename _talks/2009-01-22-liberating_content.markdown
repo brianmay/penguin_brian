@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Liberating Content
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Benjamin Otte
 begin: 2009-01-22 16:00
 ---

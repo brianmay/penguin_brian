@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Hacking the World; Using an Arduino or two
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Jonathan Oxer &amp; Andy G.
 begin: 2009-06-02 19:00
 ---

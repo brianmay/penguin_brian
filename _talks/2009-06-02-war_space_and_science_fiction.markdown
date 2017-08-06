@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: War, Space and Science Fiction; Automated Scheduling in the Real World
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Elena Kelareva; OMC International
 begin: 2009-06-02 19:00
 ---

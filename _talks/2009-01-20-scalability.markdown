@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: 747s on Treadmills, Experiences scaling uptime and management
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Matt Moor
 begin: 2009-01-20 09:30
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Computer cabinets of curiosity
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: David, Museum Victoria
 begin: 2008-08-05 19:00
 ---

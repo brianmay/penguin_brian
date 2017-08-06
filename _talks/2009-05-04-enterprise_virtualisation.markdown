@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Red Hat Enterprise Virtualisation
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Micheal Wahran
 begin: 2009-05-04 19:00
 ---

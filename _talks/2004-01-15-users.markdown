@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Programmers are From Mars, Users/Managers/Companies are from Venus
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: Jon "maddog" Hall
 begin: 2004-01-15 09:00
 ---

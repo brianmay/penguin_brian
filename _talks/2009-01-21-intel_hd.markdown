@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: HW Accelerated HD Video Playback Under Linux
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Zou Nanhai
 begin: 2009-01-21 16:00
 ---

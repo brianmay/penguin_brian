@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Puppet
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Luke Kanies, Reductive Labs
 begin: 2007-01-19 11:50
 ---

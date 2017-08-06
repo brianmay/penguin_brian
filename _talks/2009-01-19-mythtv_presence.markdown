@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Presence awareness for MythTV
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Jonathan Oxer
 begin: 2009-01-19 16:00
 ---

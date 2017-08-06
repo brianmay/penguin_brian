@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: FOSS Fun With A Wiimote
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Rusty Russell
 begin: 2010-01-22 13:30
 ---

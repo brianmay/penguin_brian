@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Last 8 weeks
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Lev Lafayette
 begin: 2008-02-05 19:00
 ---

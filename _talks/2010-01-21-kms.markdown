@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: So you moved graphics drivers to the kernel.. what next? I can haz ponies?
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Dave Airlie
 begin: 2010-01-21 13:30
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Implementing an OptIPortal
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Chris Willing
 begin: 2009-01-21 17:00
 ---

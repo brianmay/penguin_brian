@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: A Introduction to Django
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Jacob Kaplan-Moss
 begin: 2009-01-21 13:50
 ---

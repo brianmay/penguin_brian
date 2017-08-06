@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Teching Python Programming to the Young and Impressionable
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Georgina Wilcox &amp; Katie Bell
 begin: 2011-08-21 11:00
 desc_url: http://pycon-au.org/2011/conference/schedule/event/31/

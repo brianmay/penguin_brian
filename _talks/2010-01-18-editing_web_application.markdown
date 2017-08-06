@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: A tutorial on building a collaborative text editing web application
-meeting: /conferences/2010/01/23/LCA2010/
+conference: /conferences/2010/01/23/LCA2010/
 speaker: Brett Morgan
 begin: 2010-01-18 11:30
 ---

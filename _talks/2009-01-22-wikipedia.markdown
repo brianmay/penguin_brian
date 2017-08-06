@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Wikipedia
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Angele Beesley
 begin: 2009-01-22 09:30
 ---

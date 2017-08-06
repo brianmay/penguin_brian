@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Drizzle
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Stuart
 begin: 2008-10-07 19:00
 ---

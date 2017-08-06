@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: linuxAV - state of the art 2009
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Robin Gareus
 begin: 2009-02-03 19:00
 ---

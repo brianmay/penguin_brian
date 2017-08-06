@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Fun with LD_PRELOAD
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Kevin Pulo
 begin: 2009-01-23 16:00  
 ---

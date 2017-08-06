@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Hacking MediaWiki
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Brianna Laugher
 begin: 2008-11-05 19:00
 ---

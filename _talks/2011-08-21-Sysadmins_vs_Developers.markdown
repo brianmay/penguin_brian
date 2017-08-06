@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Sysadmins vs Developers
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Benjamin A Smith
 begin: 2011-08-21 10:20
 desc_url: http://pycon-au.org/2011/conference/schedule/event/28/

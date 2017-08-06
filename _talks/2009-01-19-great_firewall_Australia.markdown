@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Great Firewall of Australia
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Aeriana Lee
 begin: 2009-01-19 14:20
 ---

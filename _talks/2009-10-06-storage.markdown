@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Adventures of a Storage Startup
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Mike
 begin: 2009-10-06 19:00
 ---

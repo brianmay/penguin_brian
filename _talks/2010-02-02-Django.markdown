@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Django for Web Apps
-meeting: /conferences/2010/02/02/LUV/
+conference: /conferences/2010/02/02/LUV/
 speaker: Jason King
 begin: 2010-02-02 19:00
 ---

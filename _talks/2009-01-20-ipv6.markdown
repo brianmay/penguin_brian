@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: System administration consequences of the endgame of IPv4 and deployment of IPv6
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Glen Turner
 begin: 2009-01-20 10:40
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Xen Image Manager (XIM)
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Jonathan Oxer
 begin: 2007-01-15 11:00
 ---

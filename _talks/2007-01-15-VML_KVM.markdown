@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: VML KVM and Virtualization
-meeting: /conferences/2007/01/20/LCA2007/
+conference: /conferences/2007/01/20/LCA2007/
 speaker: Jeff Dike, Intel
 begin: 2007-01-15 14:00
 ---

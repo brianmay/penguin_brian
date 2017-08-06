@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Citizen Journalism
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Sarah
 begin: 2009-01-20 13:50  
 ---

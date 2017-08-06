@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Clustered Samba; Not just a hack anymore
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Andrew Tridgell &amp; Ronnie Sahlberg, Samba team
 begin: 2008-01-31 13:30
 ---

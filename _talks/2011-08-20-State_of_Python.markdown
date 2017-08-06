@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: State of Python
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Senthil Kumaran
 begin: 2011-08-20 10:20
 desc_url: http://pycon-au.org/2011/conference/schedule/event/9/

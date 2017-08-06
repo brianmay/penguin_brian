@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: What is a community manager?
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Stormy Peters, OpenLogic
 begin: 2008-01-29 16:40
 ---

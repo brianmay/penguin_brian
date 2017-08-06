@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Remove Control and Scripting of GNOME Applications with Python
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: James Hendstridge
 begin: 2004-01-16 11:00
 ---

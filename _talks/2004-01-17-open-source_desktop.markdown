@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Conference
-meeting: /conferences/2004/01/17/LCA2004/
+conference: /conferences/2004/01/17/LCA2004/
 speaker: Mike
 begin: 2004-01-17 10:00
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: An introduction to open source animation
-meeting: /conferences/2008/02/02/LCA2008/
+conference: /conferences/2008/02/02/LCA2008/
 speaker: Elizabeth Garbee
 begin: 2008-01-31 16:40
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: What Makes Python Awesome
-meeting: /conferences/2011/08/21/PyConAu2011/
+conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Raymond Hettinger
 begin: 2011-08-21 09:15
 desc_url: http://pycon-au.org/2011/conference/schedule/event/45/

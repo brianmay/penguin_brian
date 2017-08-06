@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Devil's Advocate
-meeting: /conferences/2009/01/24/LCA2009/
+conference: /conferences/2009/01/24/LCA2009/
 speaker: Simon Phipps
 begin: 2009-01-23 09:30  
 ---
