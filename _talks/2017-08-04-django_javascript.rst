@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Django & JavaScript
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Jen Zajac
 begin: 2017-08-04 09:15
 ---

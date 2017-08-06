@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Gradual Typing in Python
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Tom Manderson
 begin: 2017-08-06 10:45
 ---

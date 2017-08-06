@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Using MicroPython in the wild
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Damien P. George
 begin: 2017-08-04 10:45
 ---

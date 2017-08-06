@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: What nobody tells you about documentation
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Deniele Procida
 begin: 2017-08-06 11:25
 ---

@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Shipping Software Responsibly
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: 
 begin: 2017-08-04 17:30
 ---

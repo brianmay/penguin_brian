@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Let's run Python on a Supercomputer
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: David Perry
 begin: 2017-08-04 14:15
 ---

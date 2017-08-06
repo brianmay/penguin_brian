@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Prototyping Python Microservices in Production
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Justin Akers
 begin: 2017-08-06 12:05
 ---

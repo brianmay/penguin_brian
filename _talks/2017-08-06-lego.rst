@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Programming Lego Mindstorms Robots
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Stoyan Shopov
 begin: 2017-08-06 13:35
 ---

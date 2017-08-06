@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: How to handle abandoned projects, Take Two
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Katie McLaughlin
 begin: 2017-08-06 09:00
 ---

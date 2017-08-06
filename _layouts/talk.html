@@ -20,7 +20,7 @@ layout: page
             <td>
                 <a href="{{ site.baseurl }}{{ page.conference }}">
                     {% for conference in site.categories.conferences %}
-                        {% if page.meeting == conference.url %}
+                        {% if page.conference == conference.url %}
                           {{ conference.name }}
                         {% endif %}
                     {% endfor %}

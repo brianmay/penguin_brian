@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Energy Monitoring
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Joel Stanley
 begin: 2017-08-04 14:55
 ---

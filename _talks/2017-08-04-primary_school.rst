@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Teaching Python Online to Primary Students
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Marg Meijers
 begin: 2017-08-04 16:50
 ---

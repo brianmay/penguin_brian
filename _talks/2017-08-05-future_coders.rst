@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: Can they really do that?
-meeting: /conferences/2017/08/03/PyConAu2017/
+conference: /conferences/2017/08/03/PyConAu2017/
 speaker: Pip Cleaves
 begin: 2017-08-05 09:00
 ---
