@@ -3,8 +3,8 @@ layout: conference
 title: PyCon Au 2015 conference
 categories: conferences
 name: PyCon Au 2015
-begin: 2014-07-31
-end: 2014-08-02
+begin: 2015-07-31
+end: 2015-08-02
 location: Brisbane, Australia
 website: http://2015.pycon-au.org/
 ---
