@@ -16,9 +16,15 @@ layout: page
             </td>
         </tr>
         <tr>
-            <th>Meeting</th>
+            <th>Conference</th>
             <td>
-                <a href="{{ site.baseurl }}{{ page.meeting }}">Meeting</a>
+                <a href="{{ site.baseurl }}{{ page.conference }}">
+                    {% for conference in site.categories.conferences %}
+                        {% if page.meeting == conference.url %}
+                          {{ conference.name }}
+                        {% endif %}
+                    {% endfor %}
+                </a>
             </td>
         </tr>
         {% if page.video_url %}
