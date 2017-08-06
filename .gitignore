@@ -1,2 +1,4 @@
-_site
-_tmp
+/.jekyll-metadata
+/.pygments-cache/
+_site/
+_tmp/
