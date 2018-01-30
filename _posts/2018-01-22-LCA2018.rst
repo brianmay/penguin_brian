@@ -111,6 +111,10 @@ The ongoing dispute with the train drivers did not prove a problem for us.
   catch. The 433 bus. It terminated at the Central station, which was a very
   short (and expensive) trip. It would have been better to walk.
 
+* The buses I caught and some of the trains don't have automatic announcements
+  concerning next stop information. This makes it hard to work out where you
+  are if you are a visitor.
+
 * On another trip in the other direction, Google neglected to show the route of
   the 1st bus (M30 from memory), and instead preferred the 2nd bus (which ended
   up following the 1st bus).
