@@ -19,6 +19,9 @@ I am an expert with computers. I hold many skills including:
 ### TV
 
 * Mythtv: For watching TV via the computer.
+I have set up a [MythTV](http://www.mythtv.org/) computer for our household
+use. MythTV will automatically record TV shows on to hard disk so you can watch
+them at a later time when it is more convenient to do so.
 
 ### Backups
 
