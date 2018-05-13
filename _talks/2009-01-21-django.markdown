@@ -26,11 +26,17 @@ these into Django. I use south. It works. Perfectly. It may not work perfectly
 for other teams work flows.
 
 
-    from urlllib import unquote
-    name = unquote(package_name)
+```python
+from urlllib import unquote
+name = unquote(package_name)
+```
 
 
-    <a href="{{ p.name||urlencode }}">{{ p.name }}</a>
+{% raw %}
+```html
+<a href="{{ p.name||urlencode }}">{{ p.name }}</a>
+```
+{% endraw %}
 
 filters:
 
@@ -39,7 +45,11 @@ filters:
 
 Include content from parent block:
 
-    {{ block.super }}
+{% raw %}
+```python
+{{ block.super }}
+```
+{% endraw %}
 
 
 * testing frame work

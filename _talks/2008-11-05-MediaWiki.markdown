@@ -43,7 +43,7 @@ Elements:
 
 Special pages
 
-* some special pages can be included in other pages. {{Special:Recentchanges/5}} - include
+* some special pages can be included in other pages. {% raw %}{{Special:Recentchanges/5}}{% endraw %} - include
 5 most recent changes.
 
 Images
