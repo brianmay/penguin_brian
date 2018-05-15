@@ -3,7 +3,7 @@ title: Penguin Brian May
 email: brian@linuxpenguins.xyz
 description: "Where Penguins eat Apples."
 baseurl: "/brian"
-url: "https://linuxpenguins.brian/brian/"
+url: "https://linuxpenguins.xyz"
 twitter_username: penguin_brian
 github_username:  brianmay
 paginate: 10
