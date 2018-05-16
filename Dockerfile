@@ -1,6 +1,6 @@
 # Stage 0, to build and compile Jekyll
 FROM ruby:2.5 as jekyll
-LABEL maintainer="brian@linuxpenguins.xyz"
+LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
 RUN apt-get update \
   && apt-get install -y \
