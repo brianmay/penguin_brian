@@ -9,8 +9,7 @@ I was able to get a copy. This is a history of how I have come to where I am.
 
 ## APANA - 1990s
 
-I use to maintain a computer called snoopy.apana.org.au. This computer has a
-long history. Initially I ran a [Bulletin Board System
+Initially I ran a [Bulletin Board System
 (BBS)](http://en.wikipedia.org/wiki/BBS), for a local computer club.
 
 Internet was almost unheard of then, so we used
