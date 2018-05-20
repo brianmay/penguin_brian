@@ -11,10 +11,12 @@ purpose: conference and holiday
 
 Trip to Hobart and then Numurkah
 ================================
-In early 2017 I had a conference at Hobart, `LCA2017 <http://linux.conf.au/>`_.
+In early 2017 I had a conference at Hobart,
 I drove down in my Telsa Model S after crossing to Tasmania in the ferry.
 After the conference I visited `Numurkah
 <https://hcg.vponline.com.au/resort/profile.aspx?ResortID=16>`_ for a week.
+
+See details of the conference `LCA2017 <{{ site.baseurl }}{% post_url 2017-01-16-LCA2017 %}>`_.
 
 Hobart
 ------

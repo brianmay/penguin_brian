@@ -8,3 +8,5 @@ end: 2017-02-16
 location: Hobart, Australia
 website: http://lca2017.linux.org.au/
 ---
+
+See details of the `trip <{{ site.baseurl }}{% post_url 2017-01-28-Hobart_Numurkah %}>`_.

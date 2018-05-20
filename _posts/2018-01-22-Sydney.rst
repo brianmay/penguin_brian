@@ -1,0 +1,144 @@
+---
+layout: trip
+title: Trip to Sydney and back
+categories: trips
+destination: Sydney
+transport: Tesla Model S
+begin: 2018-01-18
+end: 2018-01-28
+purpose: conference and holiday
+---
+
+LCA2018
+=======
+
+In 2018 I attended LCA2018 and gave a talk on Robotica. Mum and the three
+kids we are caring for also came to Sydney with me.
+
+See details of the conference `LCA2018 <{{ site.baseurl }}{% post_url 2018-01-22-LCA2018 %}>`_.
+
+Transport to Sydney
+-------------------
+Mum and I took turns driving my Tesla Model S. Unfortunately it was very hot
+driving and this made the stops more tedious as it meant getting out of the air
+conditioned car into the roasting sun. However we did need to stop, more often
+then the car needed charging as us drivers needed regular breaks. It was rare
+for us to be waiting for the car to charge, more often the car was waiting for
+us.
+
+On the first day we stopped at Euroa for recharging and lunch. We then
+proceeded to Wondonga for another recharging and to buy things for tea. Due to
+the high temperatures I dropped the others off at the nearby indoor shopping
+centre and then drove to the supercharger to recharge. While I was waiting for
+the car to recharge I walked to the indoor shopping centre. It was only 10
+minutes walk but very hot. We then made several more stops at small places,
+before stopping the night at Hillview Farmstay, a place near Gundagai.
+
+I originally picked this place because it has a 4 bedroom apartment (The Lodge)
+we could book, which is ideal with two adults and 3 kids. The plan was 1 adult
+in one bedroom each, the twins in another bedroom, and the youngest in a
+bedroom of her own. This did not go to plan, the youngest did not like sleeping
+by herself, and ended up sharing a bedroom with one of the adults.
+
+I was also surprised to find that they had two Tesla 3 phase chargers, which
+meant my car was fully charged within several hours of arriving. This was
+very convenient.
+
+On the second day we made a number of extra stops at places like Yea and
+Cambeltown. We did not want to arrive in Sydney during peak period, so did not
+try to hurry. We also had lunch and recharged the car at Goulburn. We were
+planning to go to Sydney via M5, the south route, but Google suggested due to
+traffic it would be faster to go via M7 and M2, instead. It probably cost more
+in tolls though.
+
+We intended to charge the car at the St Leonards supercharger. Unfortunately
+the car navigation intended on us turning right into Tesla from Herbert Street,
+which is not legal because Herbert street has double lines through the entire
+section. We ended up having to turn right onto another road, make a U-Turn
+away from the double lines, and come back. This supercharger is not in a great
+location for entertaining kids. According to Google Maps there is a Children's
+Playground not far away, at the North end of Naremburn Park. We walked there
+and found it was locked, and aimed at children younger then our kids anyway.
+In the end we waited on the bridge above the train line and watched trains go
+past.
+
+At Sydney we stayed at a three bedroom apartment, at Meriton Suites, World
+Tower. This was eventful trying to find the correct parking spots. The sign
+said "private parking" and looked like it required a PIN for entry. I ended up
+going around the city block and back to the same place again, and we followed
+another car in. We were told this was the correct parking. Later on I looked
+at the PIN entry keypad, only two find it had two buttons clearly marked
+"PRESS HERE". Oh well. I must have been tired. Still, it would have been
+good if the sign also said this was for guest parking.
+
+Public Transport
+----------------
+After using Melbourne public transport for numerous years, it is interesting
+to compare with Sydney. There are some aspects I much prefer with Sydney's
+public transport, there are some aspects I hate.
+
+The ongoing dispute with the train drivers did not prove a problem for us.
+
+* The Sydney city loop is bidirectional, and the trains at the same platforms
+  go in the same direction around the loop all day. This is much easier to
+  understand then Melbourne, were some of the loop lines swap direction around
+  midday, and depending on configuration it isn't possible to travel from any
+  arbitrary station to any other station in the loop, because the trains are
+  heading in the wrong direction.
+
+* Opal is fast and responsive. I also like the mobile application, which allows
+  me to read the card balance instantly from the card. Further more, trip
+  details from trains seem to show up instantly on the mobile application, as
+  opposed Myki where the do not show up until the next day.
+
+* Often if you held you Opal card too long against the touch on device, it
+  would interpret this as two transactions, the first one successful, the second
+  one producing an error.  This is very confusing. We weren't the only people
+  having this problem. Possibly this is due to the (bad) habit gathered from
+  using Myki where you have to hold the Myki to the reader until the reader
+  wakes up and processes it.
+
+* Google maps has real time information on buses. Very good.
+
+* I found the bus routes in the city very confusing. The fact bus stops do not
+  have maps does not help. Instead they have a list of routes and destinations.
+  This does not help with questions like: What bus do I catch to get from the
+  University of Technology Sydney (UTS) to Museum station?
+
+* On one such trip, Google said I should catch the 436 bus (note route numbers
+  are from memory), which was several minutes away (and 5 minutes early). It
+  came right when Google said it would, but it did not stop. I do not know why
+  it did not stop. I caught the next bus, which Google also said I should
+  catch. The 433 bus. It terminated at the Central station, which was a very
+  short (and expensive) trip. It would have been better to walk.
+
+* The buses I caught and some of the trains don't have automatic announcements
+  concerning next stop information. This makes it hard to work out where you
+  are if you are a visitor.
+
+* On another trip in the other direction, Google neglected to show the route of
+  the 1st bus (M30 from memory), and instead preferred the 2nd bus (which ended
+  up following the 1st bus).
+
+* The daily limit for fares in Sydney is relatively high. However the fares
+  generally end up being cheaper then Melbourne because we never reached the
+  daily limit. Except for Sunday, where the daily limit is $2.60. This does
+  mean however that every trip does cost extra, unlike in Melbourne where you
+  effectively get free trips once you reach the daily limit.
+
+Return Trip
+-----------
+The return trip was cooler on the first day, although hot on the second day. We
+drove on the southern route out of Sydney, via the cross city tunnel. The only
+drama was not being able to find the entrance to the cross city tunnel until we
+were next to it. So we had go around the largish block and try again. The 2nd
+attempt was successful. We basically followed the same route and made similar
+stops on the trip to Sydney, including the stay at Hillview Farmstay. On this
+trip the owner of the Farm also gave as a tour of the farm and we fed some of
+the animals.
+
+Conclusion
+----------
+Interesting experience, interesting drive. However it was a long drive. When I
+go to PyConAu in Sydney this August, I think I will fly as I don't think I
+would be able to drive all the way to Sydney and back myself.

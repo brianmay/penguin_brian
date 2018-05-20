@@ -1,0 +1,13 @@
+---
+layout: trip
+title: Trip to Geelong
+categories: trips
+destination: Geelong, Australia
+transport: train
+begin: 2016-02-16
+end: 2016-02-20
+purpose: conference
+---
+
+I went to Geelong to visit LCA2016.
+See details of the conference `LCA2016 <{{ site.baseurl }}{% post_url 2016-02-01-Geelong %}>`_.
