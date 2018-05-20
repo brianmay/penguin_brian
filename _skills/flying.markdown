@@ -1,13 +1,17 @@
 ---
 layout: page
 title: Flying
-description: Piloting light aircraft.
+description: I hold a private pilots license.
 ---
 
-I am a [pilot]({{ site.baseurl }}/skills/Flying/) and fly regularly from
-[Lilydale airport](http://www.lilydaleairport.com.au/). Following is some of
-the places I have travelled on light aircraft, most of which I was involved
-with some of the flying..
+I first started flying
+in 1998, and obtained my Private Pilots
+License (PPL) in October 1999. The PPL allows me to fly light aircraft such as
+Piper Warriors and Piper Archers. I am allowed to fly anywhere in Australia, as
+long it is daylight and I keep out of clouds.
+
+Following is some of the places I have travelled on light aircraft, most of
+which I was involved with some of the flying.
 
 <table>
     <thead>
