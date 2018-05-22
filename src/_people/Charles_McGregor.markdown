@@ -11,7 +11,7 @@ photos: 12
 
 {% include photo.html photo=484 title="Photo of Charles McGregor" %}
 
-Married to [Jean McGregor]({{ site.baseurl }}/people/Jean_McGregor/").
+Married to [Jean McGregor]({{ site.baseurl }}/people/Jean_McGregor/).
 
 From the Bairnsdale advertiser:
 

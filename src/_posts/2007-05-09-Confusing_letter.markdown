@@ -7,7 +7,7 @@ tags: public_transport
 
 I received this confusing letter from Connex today.
 
-![Connex response]({{ site.base.url}}/assets/connex_001.jpg)
+![Connex response]({{ site.baseurl}}/assets/connex_001.jpg)
 
 The letter says I had already submitted a claim using the ticket.  Monthly
 ticket I used to support a claim for compensation. How do I submit a

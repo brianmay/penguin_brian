@@ -11,7 +11,7 @@ photos: 21
 
 {% include photo.html photo=11125 title="Photo of Frank May" %}
 
-Married to [Lucy May]({{ base_url }}/people/Lucy_May/).
+Married to [Lucy May]({{ site.baseurl }}/people/Lucy_May/).
 
 Frank as he was known, was born at home at 27 Courang Road, Glen Iris, a
 beloved second son to John May and Hazel Shaw. He was christened at St Paul’s
@@ -65,10 +65,10 @@ buried at Eltham Cemetery.
 
 ## Frank's Funeral
 
-![Frank's Funeral Page 1]({{ site.base.url}}/people/Frank_May/funeral_page_1.png)
+![Frank's Funeral Page 1]({{ site.baseurl}}/people/Frank_May/funeral_page_1.png)
 
-![Frank's Funeral Page 2]({{ site.base.url}}/people/Frank_May/funeral_page_2.png)
+![Frank's Funeral Page 2]({{ site.baseurl}}/people/Frank_May/funeral_page_2.png)
 
-![Frank's Funeral Page 3]({{ site.base.url}}/people/Frank_May/funeral_page_3.png)
+![Frank's Funeral Page 3]({{ site.baseurl}}/people/Frank_May/funeral_page_3.png)
 
-![Frank's Funeral Page 4]({{ site.base.url}}/people/Frank_May/funeral_page_4.png)
+![Frank's Funeral Page 4]({{ site.baseurl}}/people/Frank_May/funeral_page_4.png)

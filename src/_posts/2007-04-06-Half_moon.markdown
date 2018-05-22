@@ -9,4 +9,4 @@ Newspaper article on previous road_accidents I have mentioned here. There were
 two separate accidents on Mount Dandenong Road, the same corner
 I [lost control]({{ site.baseurl }}{% post_url 2007-03-08-Lost_control %}) and as [another car]({{ site.baseurl }}{% post_url 2007-03-16-Another_car %}). The road was closed off for most of the afternoon.
 
-![Half Moon needs full fix]({{ site.base.url}}/assets/mx_20070404_001.jpg)
+![Half Moon needs full fix]({{ site.baseurl}}/assets/mx_20070404_001.jpg)
