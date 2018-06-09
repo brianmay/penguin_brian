@@ -1,0 +1,11 @@
+---
+layout: talk
+title: Robotica - Robot maid for assisting with autistic kids
+conference: /conferences/2018/01/22/LCA2018/
+speaker: Brian May
+begin: 2018-01-25 11:40
+video_url: https://www.youtube.com/watch?v=mCUpShC9Cs8
+---
+I gave a talk on Robotica. Robotica is a system using Python 3.6 and Raspberry
+Pis to give automatic annoucements throughout our house and an attempt to
+keep things running on schedule.

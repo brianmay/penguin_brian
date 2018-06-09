@@ -23,7 +23,3 @@ notable talks:
 * `Is the 370 the worst bus route in Sydney? <https://www.youtube.com/watch?v=O7jqU39wvKk>`_
 * `Tap On to Reverse Engineering <https://www.youtube.com/watch?v=qVvNdfKRw7M>`_.
 * `Manage all your tasks with TaskWarrior <https://www.youtube.com/watch?v=zl68asL9jZA>`_.
-
-The talk I gave:
-
-* `Robotica - Robot maid for assisting with autistic kids <https://www.youtube.com/watch?v=mCUpShC9Cs8&t=16s>`_.
