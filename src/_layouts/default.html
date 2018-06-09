@@ -91,18 +91,6 @@
                         </section>
                     </div> <!-- /block -->
 
-                    <div class="block">
-                        <div class="copyright">
-                            (C)opyright <a href="mailto:brian@linuxpenguins.xyz">Brian May</a>
-                        </div>
-
-                        {% if page.date %}
-                        <div class="pagedate">
-                            Posted: {{ page.date | date_to_rfc822 }}
-                        </div>
-                        {% endif %}
-                    </div>
-
                 </div> <!-- /sidebar-left -->
 
                 <div id="main" class="column"><div id="squeeze">
@@ -150,6 +138,17 @@
                         {% endfor %}
                     </nav>
                     {% endif %}
+
+                    <div class="pagecopyright">
+                        (C)opyright <a href="mailto:brian@linuxpenguins.xyz">Brian May</a>
+                    </div>
+
+                    {% if page.date %}
+                    <div class="pagedate">
+                        Posted: {{ page.date | date_to_rfc822 }}
+                    </div>
+                    {% endif %}
+
 
                 </div></div> <!-- /squeeze /main -->
 

@@ -25,7 +25,7 @@
 
 /* So we move the #main container over the sidebars to compensate */
 body #main {
-  margin-left: -180px;
+  margin-left: -200px;
 }
 
 #squeeze {
@@ -40,12 +40,12 @@ body #main {
 
 /* And add blanks left and right for the sidebars to fill */
 body #squeeze {
-  margin-left: 180px;
+  margin-left: 200px;
 }
 
 /* We ensure the sidebars are still clickable using z-index */
 .sidebar {
-  width: 180px;
+  width: 200px;
   float: left;
   z-index: 2;
   position: relative;
@@ -99,12 +99,13 @@ pre {
     overflow: auto;
 }
 
+.tags,
+.categories,
 .pagedate,
 .pagelicense,
 .pagecopyright {
-    font-style: italic;
     display: block;
-    margin-top: 1em;
+    font-weight: 100;
 }
 
 .block .content {
@@ -132,8 +133,25 @@ pre {
   list-style: None;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(palanquin-regular.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(palanquin-thin.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(palanquin-bold.ttf);
+    font-weight: bold;
+}
+
 body {
-  font: 18px arial, helvetica, sans-serif;
+  font: 20px myFirstFont, arial, helvetica, sans-serif;
   background: #000;
   color: #BBB;
   line-height:1.5em;
@@ -218,13 +236,6 @@ img {
 .photo {
   width: 100%;
   max-width: 480px;
-}
-
-.pagedate,
-.pagelicense,
-.pagecopyright,
-#backlinks {
-    margin-top: 0;
 }
 
 /* Header styles */
