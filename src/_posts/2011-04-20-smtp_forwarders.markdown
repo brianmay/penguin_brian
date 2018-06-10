@@ -2,7 +2,7 @@
 layout: post
 title: Email forwarders
 date: 2011-04-20 13:18:52 +1000
-tags: computers Linux
+tags: Linux
 ---
 
 Traditionally, Unix daemons communicate to the sysadmin in one of two ways.

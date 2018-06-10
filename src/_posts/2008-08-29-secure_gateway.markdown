@@ -2,7 +2,7 @@
 layout: post
 title: Secure Gateways
 date: 2008-08-29 14:16:38 +1000
-tags: computers security Linux
+tags: security Linux
 ---
 
 For any connection to the Internet, ideally you want to keep things as separate
