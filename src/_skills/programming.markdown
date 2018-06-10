@@ -104,7 +104,7 @@ why the board decided to close the company down.
 ## Karaage - post-VPAC
 
 After I was made redundant at VPAC, I gave a talk at PyCon AU 2015 on
-[Karaage]({{ site.baseurl }}/talks/2015-07-31-karaage/).
+[Karaage Gardening]({{ site.baseurl }}/talks/2015-07-31-karaage/).
 
 Since I left VPAC I have continued to improve Karaage, as part of my casual
 work with University of Melbourne. It now is deployed through Docker
@@ -144,7 +144,7 @@ I am now learning to program in a functional programming language.
 
 * My [Robotica](https://github.com/brianmay/robotica/) uses Python and Asyncio.
 * My [Robotica remote](https://github.com/brianmay/robotica/) uses Micropython, asyncio and OpenSCAD for 3d designs.
-* Talk at LCA2018 on [Robotica](https://www.youtube.com/watch?v=mCUpShC9Cs8).
+* Talk at LCA2018 on [Robotica]({{ site.baseurl }}/talks/2018-01-26-robotica/).
 * My [photo database backend](https://github.com/brianmay/spud/) uses Python and Django.
 * My [photo database client](https://github.com/brianmay/spud-client/) used Angular and Typescript.
 * My [misleading connection planner](https://github.com/brianmay/mca/) for PTV uses Elxir.
