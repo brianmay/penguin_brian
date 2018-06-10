@@ -159,18 +159,19 @@ body {
   padding: 0;
 }
 
-table thead tr th {
+table.list thead tr th {
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
 }
-table tbody tr:last-child td {
+table.list tbody tr:last-child td {
     border-bottom: 1px solid #FFFFFF;
 }
 table.keyvalue tbody tr td {
     border: none;
 }
 
-th, td {
+table.list th, table.list td,
+table.keyvalue th, table.keyvalue td {
   padding: 1em 2em;
   background: #222;
 }
@@ -211,7 +212,6 @@ a:active, a.active, li a.active {
 }
 
 pre, blockquote {
-  background: #333;
   border: 1px solid #ccc;
   margin: 1em 2em;
   padding: 0 5px;
@@ -228,6 +228,15 @@ blockquote {
 code {
   font-family: monospace;
 }
+
+figure.code pre {
+  margin: 0;
+}
+
+figure.code td.code {
+  width: 100%;
+}
+
 
 img {
   max-width: 100%;
