@@ -2,7 +2,7 @@
 layout: post
 title: Crypto Libraries for JavaScript
 date: 2017-05-15 18:00:00 +1000
-tags: computers Linux javascript
+tags: programming javascript
 ---
 
 Crypto Libraries for JavaScript
