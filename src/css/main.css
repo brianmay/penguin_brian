@@ -205,6 +205,7 @@ a:active, a.active, li a.active {
   url(ropes/rod_middle.jpg) top repeat-x;
   padding: 30px 50px 0.5em 50px;
   margin: 0px -50px 0 -50px;
+  color: #FFF;
 }
 
 #main-top, #main-bottom {
