@@ -27,6 +27,9 @@ collections:
     people:
         output: true
         permalink: /people/:path/
+    projects:
+        output: true
+        permalink: /projects/:path/
     skills:
         output: true
         permalink: /skills/:path/

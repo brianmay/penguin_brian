@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generic Programming
-tags: software python
+tags: programming Python Karaage
 ---
 
 Generic Programming

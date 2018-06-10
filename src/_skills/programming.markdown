@@ -124,6 +124,14 @@ is limited, and I am unable to give it the attention it deserves.
 In the past I have given talks of SPUD at local user group meetings, although
 unfortunately these were not recorded.
 
+## Robotica - 2010s
+
+Robotica is a series of Raspberry Pis throughout the house running Python3
+AysncIO based code to make annoucements and otherwise try to assist looking
+after Autistic kids.
+
+Talk at LCA2018 on [Robotica]({{ site.baseurl }}/talks/2018-01-26-robotica/).
+
 ## MCA - 2010s
 
 I now have a new personal project, MCA (misleading connection advisory),
@@ -144,8 +152,9 @@ I am now learning to program in a functional programming language.
 
 * My [Robotica](https://github.com/brianmay/robotica/) uses Python and Asyncio.
 * My [Robotica remote](https://github.com/brianmay/robotica/) uses Micropython, asyncio and OpenSCAD for 3d designs.
-* Talk at LCA2018 on [Robotica]({{ site.baseurl }}/talks/2018-01-26-robotica/).
 * My [photo database backend](https://github.com/brianmay/spud/) uses Python and Django.
 * My [photo database client](https://github.com/brianmay/spud-client/) used Angular and Typescript.
 * My [misleading connection planner](https://github.com/brianmay/mca/) for PTV uses Elxir.
 * Plus many others.
+
+Please see a full list of my [current projects]({{ site.baseurl }}/projects/).
