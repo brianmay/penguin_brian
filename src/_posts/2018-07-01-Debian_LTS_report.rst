@@ -17,7 +17,6 @@ Wheezy Package Support
 For the project Wheezy Package Support, I used 10 hours in the following tasks:
 
 * embedded-code-copies
-* embedded-code-copies * Update `PR#7 <https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/7/diffs>`_.
 * firebird2.5
 * git
 
