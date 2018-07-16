@@ -12,16 +12,14 @@ LTS report 2018-06-01 to 2018-06-30
 ===================================
 This time period I used 10 hours.
 
-Wheezy Package Support
-----------------------
-For the project Wheezy Package Support, I used 10 hours in the following tasks:
+LTS Infrastructure
+------------------
+For the project LTS Infrastructure, I used 7 hours and 30 minutes in the following tasks:
 
-* embedded-code-copies
-* firebird2.5
-* git
+* security tracker / embedded-code-copies
 
-embedded-code-copies
-~~~~~~~~~~~~~~~~~~~~
+security tracker / embedded-code-copies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Look at script to rename packages.
 * Review `PR#4 <https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/4/diffs>`_.
 * Review `issue#2 <https://salsa.debian.org/security-tracker-team/security-tracker/issues/2>`_.
@@ -30,6 +28,14 @@ embedded-code-copies
 * Review `PR#7 <https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/7/diffs>`_.
 * Review `PR#8 <https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/8/diffs>`_.
 * Update `PR#7 <https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/7/diffs>`_.
+
+
+Jessie Package Support
+----------------------
+For the project Jessie Package Support, I used 2 hours and 30 minutes in the following tasks:
+
+* firebird2.5
+* git
 
 firebird2.5
 ~~~~~~~~~~~
