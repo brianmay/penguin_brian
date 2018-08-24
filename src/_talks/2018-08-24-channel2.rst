@@ -1,0 +1,60 @@
+---
+layout: talk
+title: Taking Django ASYNC
+conference: /conferences/2018/08/24/PyConAu2018/
+speaker: Andrew Goodwin
+begin: 2018-01-24 16:00
+---
+Original channels was designed to be compatible with Python 2.7. We needed to
+mix async code with non-async code but not require asyncio in Python 3.
+
+* Too many moving parts.
+* No asyncio support.
+* Easy to shoot yourself in the foot.
+
+Django very hard to do the wrong thing. Channels 1.x made it easy to deadlock
+the server.
+
+Channels 2.x supports Python 3.5+ and supports both asyncio code and
+non-asyncio code.  Asyncio code is harder to write, you shouldn't be forced to
+write asyncio code if you don't want/need to.
+
+Channel layer is for cross process communication.
+
+75% rewrite.
+
+You can't have code that is sync and async. You need to be separate. You
+can't easily call sync from async or async from sync.
+
+Django is mostly sync code.
+
+Goal is to have more and more Django code sync code. How? We won't
+backward compatibility with existing sync code.
+
+* sync_to_async: Create a separate thread, run sync, and return result.
+* async_to_sync: Want to call async authentication middleware from sync and async.
+  Need to find an event loop. If there is no event loop, create an event loop.
+
+async-native apis.
+
+asyncio and non-asyncio versions of redis are different, different APIs,
+different behaviour, etc.
+
+Both asyncio and non-asyncio versions are important.
+
+Use asyncio when you need it.
+
+WSGI sync only. How? We need ASGI.
+
+WSGI very simple. Goal to make ASGI very simple too. Can receive multiple
+events.
+
+"Turtles all the way down." Every component talks ASGI.
+
+Can we make Django more pluggable? Reusing parts very difficult.
+
+Do we need to replace WSGI? Most people don't need async code.
+
+Dangerous for open source projects to impose rules.
+
+Multiple servers supported, multiple frameworks supported.

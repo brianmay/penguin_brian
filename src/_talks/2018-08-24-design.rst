@@ -1,0 +1,70 @@
+---
+layout: talk
+title: Design for Non-Designers
+conference: /conferences/2018/08/24/PyConAu2018/
+speaker: Aiden Ray
+begin: 2018-01-24 16:40
+---
+
+Design for Non-Designers
+------------------------
+
+Fonts
+=====
+Keep number of fonts low. Two fonts good rule of thumb.
+
+Use fancy/display fonts sparingly.
+
+Vary weights, style, etc rather then different fonts.
+
+* Google fonts.
+* Beautiful web type.
+* Typewolf.
+* fontpair.co
+
+Whitespace
+==========
+Very important and trendy to have whitespace wher required.
+
+Whitespace makes it easier for people to see elements and use
+your website.
+
+Reduce visual clutter, aim for clean design.
+
+
+User Experience
+===============
+Most important action on your design? Make it easy to find and use.
+
+
+Data and Analytics
+==================
+Pay attention to your goals. Make sure it is working the way you
+want it to.
+
+
+Content
+=======
+Less content, short and more concise, the more likely somebody is going to read
+it.
+
+Big paragraphs sign of clutter.
+
+
+Images
+======
+
+Small, not too big.
+
+* unsplash.com
+* photopin.com
+* favert.com
+* local designer, e.g. appcanary
+
+Imitation
+=========
+Look at other designs for inspiration. Don't steal, but be inspired.
+
+Conclusion
+==========
+Practise, practise, practise.

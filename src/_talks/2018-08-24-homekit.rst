@@ -1,0 +1,10 @@
+---
+layout: talk
+title: Automating Your Home with Python, Raspberry Pi and Homekit
+conference: /conferences/2018/08/24/PyConAu2018/
+speaker: Sean Johnson
+begin: 2018-01-24 14:50
+---
+Why on earth would anyone want to trust their house to the cloud?
+
+HomeKit - open standard by Apple.

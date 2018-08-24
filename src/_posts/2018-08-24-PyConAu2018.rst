@@ -1,0 +1,10 @@
+---
+layout: conference
+title: PyCon Au 2018 conference
+categories: conferences
+name: PyCon Au 2018
+begin: 2018-08-24
+end: 2018-08-28
+location: Sydney, Australia
+website: http://2018.pycon-au.org/
+---
