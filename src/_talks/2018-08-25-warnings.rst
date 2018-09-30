@@ -1,0 +1,25 @@
+---
+layout: talk
+title: Danger Will Robinson! Warning! Warning! Warning! (What Python warnings are, why you should turn them on and how to create your own)
+conference: /conferences/2018/08/24/PyConAu2018/
+speaker: Peter Lovett
+begin: 2018-01-25 11:50
+---
+
+PEP230.
+
+Warnings:
+
+* Deprecated features. It might get removed in future.
+* Things that could be a problem now.
+* Things that are wrong in 3rd party code.
+
+Command line switch ``-Waction``. Default is not the default. Standard setting
+has a log of warnings disabled.
+
+Environment variable. ``export PYTHONWARNINGS=action``.
+
+Don't mix strings and bytes for keys. Use ``-bb`` to make this an error.
+
+Python 3.7 depreaction warnings should interactively and in main, but only for
+current project, not 3rd party libraries.
