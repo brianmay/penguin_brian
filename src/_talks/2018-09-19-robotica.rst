@@ -1,0 +1,11 @@
+---
+layout: talk
+title: Robotica - Robot maid for assisting with autistic kids
+conference: /conferences/2018/09/19/Elixir_Meetup/
+speaker: Brian May
+begin: 2019-09-19 18:45
+---
+I gave a talk on Robotica. Robotica is a to give automatic annoucements
+throughout our house and an attempt to keep things running on schedule. This
+talk gave an update from my talk at LCA2018, including use of Elixir
+and Nerves.
