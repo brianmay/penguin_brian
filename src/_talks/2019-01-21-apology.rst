@@ -1,0 +1,55 @@
+---
+layout: talk
+title: "The Value of an Apology"
+conference: /conferences/2019/01/21/LCA2019/
+speaker: Jen Zajac
+begin: 2019-01-21 11:10
+---
+Some people are not so polite.
+
+Linus Torvalds
+
+Good contributors have tried to change his behaviour, but got pushed
+out of project.
+
+Apology. Good apology.
+
+* Not "I am sorry you feel that way".
+* Takes responsibility for actions.
+* Accompanied by positive changes to improve situation.
+
+Improved code of conduct. Requires good behaviour from all people.
+
+Surely this is obvious?
+
+No - read the comments for evidence. Or rather don't read them.
+
+* COC means Linux has been compromised and cannot be trusted.
+* Trolls
+
+Not a good apology?
+
+* Timing. Before big New York article.
+* Happened after New York journalist asked him about abusive behaviour.
+
+Much of what was in article was already public knowledge.
+
+What were the effects?
+
+Changing COC easy. Implementing may be harder.
+
+Some developers threatened to revoke licences. However this didn't happen.
+
+Writer of COC has received death threats, personal address published, etc.
+
+COC interpretation in Linux code base.
+
+Maintainers lead by example. Linus needs to be held to higher standard.
+
+Newcomer's experience. Not much impact yet. Mailing list hasn't
+changed yet.
+
+Linus. Back on project. Not personal attacking others.
+
+Proof that Trolls were wrong. Linus will still say if contributions
+are not good enough.

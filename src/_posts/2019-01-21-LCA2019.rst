@@ -1,0 +1,15 @@
+---
+layout: conference
+title: LCA2019 conference
+categories: conferences
+name: LCA2019
+begin: 2019-01-21
+end: 2019-01-25
+location: Christchurch, New Zealand
+website: http://lca2019.linux.org.au/
+---
+
+LCA2019
+=======
+
+Still to be written.
