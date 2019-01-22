@@ -1,0 +1,14 @@
+---
+layout: talk
+title: "Open Source AI and speech recognition"
+conference: /conferences/2019/01/21/LCA2019/
+speaker: Kathy Reid
+begin: 2019-01-22 14:40
+---
+Mycroft AI
+
+* Wake word.
+* Speech to text.
+* Intent matching.
+* Skills
+* Text to speech.

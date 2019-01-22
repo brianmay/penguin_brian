@@ -1,0 +1,25 @@
+---
+layout: talk
+title: "Beyond README.md"
+conference: /conferences/2019/01/21/LCA2019/
+speaker: Rory Aronson
+begin: 2019-01-22 09:10
+---
+Problem: maintaining garden bed. Grow garden automatically.
+
+FarmBot
+
+* Open source.
+* value Impact > value Money.
+* Right to repair.
+
+Open Source Community
+
+* Code of conduct.
+* If your idea can be sold, it will be.
+* If you have a business, you will have competitors.
+* Look at competitors more as collaborators. Example: buffer.com
+* Documentation style guide.
+* Make all internal documentation public, so anyone can access.
+
+Empower people.
