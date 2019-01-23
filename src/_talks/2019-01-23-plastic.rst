@@ -1,0 +1,20 @@
+---
+layout: talk
+title: "Plastic is Forever: Designing Tomu's Injection-Molded Case"
+conference: /conferences/2019/01/21/LCA2019/
+speaker: Sean "xobs" Cross
+begin: 2019-01-23 10:40
+---
+Injection moulding. Biggest cost is cost of the metal for the molds.
+
+Not possible to have overhangs, as both halfs of molds need to be able to
+seperate.
+
+Wastage of plastic due to runners need to feed in plastic.
+
+Need a program that can edit step files.
+
+Recommend FreeCAD. Can create step files. Possibly only one that can create
+step files.
+
+FreeCAD can read KiCAD files.

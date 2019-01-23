@@ -1,0 +1,20 @@
+---
+layout: talk
+title: "Desktop to Mobile - Developing for Multiple Platforms without Losing Your Mind"
+conference: /conferences/2019/01/21/LCA2019/
+speaker: Dirk Hohndel
+begin: 2019-01-23 11:35
+---
+Take UI from desktop and make it work on mobile. Really bad idea. Everything
+is touch base. Touch is very course. When you touch you cover the thing you
+are touching with your finger.
+
+* QML
+* Kirigami - layer on top of QML.
+
+Still not entirely happy with outcome. Tempting to switch to native Java
+application. Tradeoff however means we can't share code.
+
+A lot of frustration. However a lot of success too.
+
+Flutter???
