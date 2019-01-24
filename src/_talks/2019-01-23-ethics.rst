@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: ""I'm sorry Dave, I can't do that": Ethics in Software Development"
+title: "I'm sorry Dave, I can't do that": Ethics in Software Development"
 conference: /conferences/2019/01/21/LCA2019/
 speaker: Dr. Morgan Leigh
 begin: 2019-01-23 14:25
