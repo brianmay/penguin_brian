@@ -8,8 +8,3 @@ end: 2019-01-25
 location: Christchurch, New Zealand
 website: http://lca2019.linux.org.au/
 ---
-
-LCA2019
-=======
-
-Still to be written.
