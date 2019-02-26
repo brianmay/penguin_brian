@@ -36,7 +36,7 @@ tiff
 * Update patches.
 * Upload version 4.0.3-12.3+deb8u8.
 * Announce DLA-1680-1
-  `[SECURITY] [DLA 1680-1] tiff security update <https://lists.debian.org/debian-lts-announce/2019/02/msg00026.html`_.
+  `[SECURITY] [DLA 1680-1] tiff security update <https://lists.debian.org/debian-lts-announce/2019/02/msg00026.html>`_.
 
 
 
