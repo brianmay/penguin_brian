@@ -5,8 +5,8 @@ date: 2017-02-19 12:00:00 +1100
 tags: public_transport
 ---
 
-Buses Replacing Trains
-======================
+# Buses Replacing Trains
+
 Recently, there were two sets of disruptions on the Belgrave line with buses
 replacing trains for multiple weeks. First there were buses replacing trains
 between Belgrave and Ringwood during most of November. Then there were buses
@@ -15,8 +15,8 @@ replacing trains between Ringwood and Box Hill stations during most of January.
 I tried to avoid the need to travel to work as much as possible, and I had two
 weeks off during the middle of January.
 
-Buses UFTG to Ringwood
-~~~~~~~~~~~~~~~~~~~~~~
+## Buses UFTG to Ringwood
+
 Boarding the buses was quite pleasant experience at Upper Ferntree Gully in the
 morning, considering there were few people waiting. Sometimes I had to wait
 almost 10 minutes for the next bus, which in turn meant the bus was more likely
@@ -39,8 +39,8 @@ waiting for late trains. Sometimes because some of the drivers would made an
 unscheduled detour and stop at Sky High. I have no idea if this is because the
 driver was confused with the timetable or if it was deliberate.
 
-Buses Ringwood to Box Hill
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Buses Ringwood to Box Hill
+
 This was very inconsistent experience. Sometimes the queues were long,
 sometimes short. Some buses went via Maroondah Highway, some went via the
 Eastern Freeway and Eastlink tunnels (much faster). One went via the Eastern
@@ -65,8 +65,8 @@ seats. Some people didn't mind standing to get a faster trip, it would have
 been better if they filled the standing room with people who wanted to stand,
 not by tricking people who wanted a seat.
 
-Conclusion
-~~~~~~~~~~
+## Conclusion
+
 The buses replacing trains was mostly OK, although rather inconvenient. In the
 morning I left at 7:05am, and arrived at work at around 9:10am - normally would
 be 7:20am to 8:45am - so around 40 minutes longer. In the evening I was leaving

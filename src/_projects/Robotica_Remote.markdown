@@ -8,4 +8,4 @@ features: AsyncIO and type hints
 ---
 This is the remote control for Robotica.
 
-Talk at LCA2018 on `Robotica <{{ site.baseurl }}/talks/2018-01-26-robotica/>`_.
+Talk at LCA2018 on [Robotica]({{ site.baseurl }}/talks/2018-01-26-robotica/).

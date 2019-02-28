@@ -15,7 +15,7 @@ Christchurch
 I did the following:
 
 * Visited some penguin friends at the to the
-  `International Atlantic Center <https://www.iceberg.co.nz/our-experiences/penguins/>`_.
+  [International Atlantic Center](https://www.iceberg.co.nz/our-experiences/penguins/).
 * Assisted a lost bus driver get back on the official purple route again.
-* Went on the `Christchurch Gondola <https://www.christchurchattractions.nz/christchurch_gondola/>`_.
-* Attended `LCA2019 <{{ site.baseurl }}{% post_url 2019-01-21-LCA2019 %}>`_.
+* Went on the [Christchurch Gondola](https://www.christchurchattractions.nz/christchurch_gondola/).
+* Attended [LCA2019]({{ site.baseurl }}{% post_url 2019-01-21-LCA2019 %}).

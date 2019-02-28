@@ -9,4 +9,4 @@ location: Geelong, Australia
 website: http://lca2016.linux.org.au/
 ---
 
-See details of the `trip <{{ site.baseurl }}{% post_url 2016-02-01-Geelong %}>`_.
+See details of the [trip]({{ site.baseurl }}{% post_url 2016-02-01-Geelong %}).

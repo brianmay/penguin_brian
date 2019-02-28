@@ -9,25 +9,26 @@ end: 2017-01-27
 purpose: conference and holiday
 ---
 
-Trip to Hobart and then Numurkah
-================================
+# Trip to Hobart and then Numurkah
+
 In early 2017 I had a conference at Hobart,
 I drove down in my Telsa Model S after crossing to Tasmania in the ferry.
-After the conference I visited `Numurkah
-<https://hcg.vponline.com.au/resort/profile.aspx?ResortID=16>`_ for a week.
+After the conference I visited
+[Numurkah](https://hcg.vponline.com.au/resort/profile.aspx?ResortID=16)
+for a week.
 
-See details of the conference `LCA2017 <{{ site.baseurl }}{% post_url 2017-01-16-LCA2017 %}>`_.
+See details of the conference [LCA2017]({{ site.baseurl }}{% post_url 2017-01-16-LCA2017 %}).
 
-Hobart
-------
+## Hobart
+
 I have been to Hobart for a number of conferences (LCA2009, PyConAu2012,
 PyConAu2013). Normally I fly. However this time I wanted to do something
 different.  The problem was, once I get to Hobart, where can I recharge for the
 return trip? I worked out I would need to charge at least twice, once
 when I first got to Hobart, and once just before leaving.
 
-Planing
-~~~~~~~
+### Planing
+
 Plugshare is the de facto default standard for listing EV chargers across
 Australia. In Hobart it lists three options:
 
@@ -36,8 +37,9 @@ Australia. In Hobart it lists three options:
   times.
 
 * RACT Hobart Apartment Hotel. They only have one charger. I was lead to
-  believe that they use it to charge their `Nissan Leaf
-  <https://teslamotorsclub.com/tmc/posts/1667760/>`_, and as such it may not be
+  believe that they use it to charge their
+  [Nissan Leaf](https://teslamotorsclub.com/tmc/posts/1667760/),
+  and as such it may not be
   available for my use. I tried contacting them however got no response.
 
 * Hobart Central Carpark. Limited availability. Not suitable.
@@ -45,8 +47,9 @@ Australia. In Hobart it lists three options:
 I was given the suggestion that I should contact Wrest Point. However
 they were unable to assist.
 
-Then, as I was about to abandon my plans, I got `this response
-<https://teslamotorsclub.com/tmc/posts/1767120/>`_. Turns out that Derek
+Then, as I was about to abandon my plans, I got
+[this response](https://teslamotorsclub.com/tmc/posts/1767120/).
+Turns out that Derek
 Mitchell is a Tesla fanatic in Hobart, and he is willing to let me use his
 charger. Problem solved. Thanks Darek!
 
@@ -54,8 +57,8 @@ I planned to use the night Ferry, because that would allow me to drive to
 Hobart during the day. I did not want to do much driving during night hours,
 due to increased possibility of running into wildlife.
 
-Day 1 - Friday 13th
-~~~~~~~~~~~~~~~~~~~
+### Day 1 - Friday 13th
+
 I intended to charge the car (as normal) the night before, only forgot. Oops.
 Not a problem, I was intending to do a 100% charge at the supercharger
 near Richmond anyway. I started charging at 5pm, and it said expected
@@ -86,8 +89,8 @@ much as possible.
 
 I ended up parking on the bottom floor on the ferry.
 
-Day 2 - Saturday 14th
-~~~~~~~~~~~~~~~~~~~~~
+### Day 2 - Saturday 14th
+
 The delays meant I could sleep in the next day. Scheduled arrival at Devonport
 was 6am, I finally got off ship closer to 11am. My 448km charge had now gone to
 434km, this included 10.1km drive from Richmond, and loses during the night.
@@ -100,8 +103,8 @@ charging), so it was a good thing I wasn't dependant on charging at MONA. I
 drove into Hobart, and continued charging to 403km (overnight) using Darek's
 charger.
 
-Day 3 - Sunday 15th
-~~~~~~~~~~~~~~~~~~~
+### Day 3 - Sunday 15th
+
 I drove into Richmond, looked around the place. Got slightly sunburnt. Looked
 at the miniature 1800s version of Hobart, and the old gaol. Took lots of
 photos.
@@ -109,21 +112,21 @@ photos.
 Next day I had to get up early for the conference. In consulting with Darek, we
 agreed a recharge was not required.
 
-Day 4 to 8 - Monday to Friday
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Day 4 to 8 - Monday to Friday
+
 I drove back and forward between my accommodation to Wrest Point on a daily
 basis. No dramas.
 
 I started receiving alerts about a software update for my car, however postponed
 the update until after I got back.
 
-Day 9 - Saturday
-~~~~~~~~~~~~~~~~
+### Day 9 - Saturday
+
 Didn't do a lot. Went to the local market, which was a short walk away. My car
 was down to 279km. Charged this up to 100% overnight using Darek's charger.
 
-Day 10 - Sunday
-~~~~~~~~~~~~~~~~
+### Day 10 - Sunday
+
 Drove back to Devonport. Uneventful. Was really early, so I went to the Mersey
 Bluff Lighthouse for a while. In doing so I got confused with the navigation
 instructions from my car and took the exit before the Mersey River bridge, not
@@ -146,8 +149,8 @@ sufficient too.
 This time they put me on the 6th floor, the top floor. 120km left on battery,
 and I had driven 301.8km (including driving around Devonport).
 
-Day 11 - Monday
-~~~~~~~~~~~~~~~
+### Day 11 - Monday
+
 When we got back to our cars, they wanted us to get in our cars. Unfortunately
 the left hand side of the car was hard against the rails on the side of level
 6, and the right hand side of the car was too close to the cars in the adjacent
@@ -163,8 +166,8 @@ were in use. Fortunately I didn't have to wait long. I proceeded to charge
 to 100% in preparation for my trip to Numurkah.
 
 
-Numurkah
---------
+### Numurkah
+
 We had a holiday house booked in Numurkah.  Unfortunately, for this stage we
 had 6 people, and only room for 5 in my car. So we had to take two cars (one
 being a petrol car).
@@ -193,12 +196,12 @@ of the time, so I tend to agree when others say 2 chargers isn't enough. We
 weren't ready to leave after it finished charging, so I relocated my car and
 found that almost all parking spaces were taken.
 
-Telsa
------
+## Telsa
+
 I tested and tried out some of the advanced driving features of the Tesla.
 
-Auto speed limit detect
-~~~~~~~~~~~~~~~~~~~~~~~
+### Auto speed limit detect
+
 Most of the time the Tesla is good at detecting the speed limit, however
 there are times it consistently gets it wrong.
 
@@ -224,8 +227,8 @@ there are times it consistently gets it wrong.
   and sometimes display the new speed limit and sometimes display the old speed
   limit.
 
-Autopilot
-~~~~~~~~~
+### Autopilot
+
 I found autopilot worked pretty good most of the time, however there were times
 it got a bit closer then I would have liked to the oncoming traffic, so I
 manually override it by steering to the left. On some rare occasions when I let
@@ -253,8 +256,8 @@ see there were no oncoming cars) to ensure I didn't hit this person. Autopilot
 probably would not have been so forgiving.
 
 
-Conclusion
-----------
+## Conclusion
+
 During my trip I experienced range anxiety on a constant basis, aliens
 invaded and replaced the President of USA with a lunatic, ... oh wait ...
 the truth ...

@@ -12,6 +12,6 @@ The purpose of Karaage was to automate our manual processes for creating and
 managing cluster users.
 
 After I was made redundant at VPAC, I gave a talk at PyCon AU 2015 on
-`Karaage Gardening <{{ site.baseurl }}/talks/2015-07-31-karaage/>`_.
+[Karaage Gardening]({{ site.baseurl }}/talks/2015-07-31-karaage/).
 
-See posts on `Karaage <{{site.baseurl}}/tag/Karaage/>`_.
+See posts on [Karaage]({{site.baseurl}}/tag/Karaage/).
