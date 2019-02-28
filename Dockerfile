@@ -2,8 +2,8 @@
 FROM ruby:2.5 as jekyll
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
-COPY ./Gemfile /app/
-RUN bundle install
+COPY ./Gemfile ./Gemfile.lock /app/
+RUN gem install bundler && bundle install
 COPY ./ /app/
 RUN jekyll build --destination _tmp/brian
 
