@@ -2,11 +2,6 @@
 FROM ruby:2.5 as jekyll
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
-RUN apt-get update \
-  && apt-get install -y \
-    python-pip \
-  && rm -rf /var/lib/apt/lists/*
-RUN pip install docutils pygments
 COPY ./Gemfile /app/
 RUN bundle install
 COPY ./ /app/

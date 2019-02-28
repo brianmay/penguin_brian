@@ -3,12 +3,6 @@ sudo: false
 rvm:
 - 2.5
 
-addons:
-  apt:
-    update: true
-    packages:
-    - python-virtualenv
-
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
@@ -17,9 +11,6 @@ jobs:
   include:
     - stage: test
       script:
-      - virtualenv _tmp/virtual
-      - . _tmp/virtual/bin/activate
-      - pip install docutils pygments
       - bundle exec jekyll build --destination _tmp/brian
       - rm -rf _tmp/virtual
       - bundle exec htmlproofer _tmp --disable-external
