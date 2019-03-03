@@ -2,7 +2,7 @@
 layout: project
 title: Robotica
 description: Robotic maid to scare innocent children.
-website: https://robotica.readthedocs.io/en/latest/readme.html
+website: https://github.com/brianmay/robotica-elixir
 language: Elxir
 features: Nerves
 ---
