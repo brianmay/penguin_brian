@@ -38,7 +38,8 @@
                         <h2 class="title" onclick="toggle('navmenu','navshow');">Navigation <div id="navshow" class="show">(show)</div></h2>
                         <section class="content" id="navmenu">
                             <ul class="menu">
-                                {% for page in site.pages %}
+                                {% assign sorted_pages = site.pages | sort:"order" %}
+                                {% for page in sorted_pages %}
                                     {% if page.title and page.layout != "tag_index" %}
                                     <li onclick='parent.location="{{ page.url | prepend: site.baseurl }}";'><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                                     {% endif %}
@@ -125,7 +126,7 @@
                     <nav class="categories">
                         {% if page.categories.size > 1 %}Categories{% else %}Category{% endif %}:
                         {% for category in page.categories %}
-                        <a href='{{ site.baseurl }}/{{ category }}'>{{ category }}</a>
+                        {{ category }}
                         {% endfor %}
                     </nav>
                     {% endif %}
