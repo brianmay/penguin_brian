@@ -5,13 +5,27 @@ jobs:
       - image: circleci/ruby:2.5
     steps:
       - checkout # check out the code in the project directory
-      - run: |
-          gem install bundler
-          bundle install
-          bundle exec jekyll build --destination _tmp/brian
-          rm -rf _tmp/virtual
-          bundle exec htmlproofer _tmp --disable-external
-          rm -rf _tmp
+      - run:
+          name: Install Jekyll
+          command: |
+            gem install bundler
+            bundle install
+
+      - run:
+          name: Build Jekyll
+          command: |
+            bundle exec jekyll build --destination _tmp/brian
+
+      - run:
+          name: Test Result
+          command: |
+            rm -rf _tmp/virtual
+            bundle exec htmlproofer _tmp --disable-external
+
+      - run:
+          name: Delete Result
+          command: |
+            rm -rf _tmp
 
   deploy-prod:
     docker:
@@ -20,15 +34,20 @@ jobs:
       - checkout # check out the code in the project directory
       - setup_remote_docker:
           docker_layer_caching: true
-      - run: |
-          docker build \
-            --file "Dockerfile" \
-            --tag "brianmay/penguin_brian:latest" \
-            --build-arg "BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`" \
-            --build-arg "VCS_REF=$CIRCLE_SHA1" \
-            .
-          docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
-          docker push "brianmay/penguin_brian:latest"
+      - run:
+          name: Docker build
+          command: |
+            docker build \
+              --file "Dockerfile" \
+              --tag "brianmay/penguin_brian:latest" \
+              --build-arg "BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`" \
+              --build-arg "VCS_REF=$CIRCLE_SHA1" \
+              .
+      - run:
+          name: Docker upload
+          command: |
+            docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
+            docker push "brianmay/penguin_brian:latest"
 
 workflows:
   version: 2
