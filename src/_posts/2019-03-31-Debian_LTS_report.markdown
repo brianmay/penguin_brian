@@ -12,13 +12,11 @@ hours: 10.0
 This time period I used 10 hours.
 
 ## LTS Infrastructure
-
 For the project LTS Infrastructure, I used 3 hours and 30 minutes in the following tasks:
 
 * security tracker / python3
 
-## security tracker / python3
-
+### security tracker / python3
 * Create [PR#33](https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/33/).
   Replace ``file()`` with ``open()``.
 * Create [PR#34](https://salsa.debian.org/security-tracker-team/security-tracker/merge_requests/34/).
@@ -36,7 +34,6 @@ For the project LTS Infrastructure, I used 3 hours and 30 minutes in the followi
 
 
 ## Jessie Package Support
-
 For the project Jessie Package Support, I used 6 hours and 30 minutes in the following tasks:
 
 * ikiwiki
@@ -44,18 +41,18 @@ For the project Jessie Package Support, I used 6 hours and 30 minutes in the fol
 * rdflib
 
 ### ikiwiki
-
 * Upload to Debian.
 * Prepare DLA-1716-1
 
 ### ikiwki
-
 * Prepare patch.
 * Post patch to mailing list: [ikiwiki / CVE-2019-9187](https://lists.debian.org/debian-lts/2019/03/msg00035.html).
 
 ### rdflib
-
 * Post bug report [#923979](http://bugs.debian.org/923979) concerning missing dependancy.
 * Post patch to mailing list: [rdflib / CVE-2019-7653](https://lists.debian.org/debian-lts/2019/03/msg00036.html).
 * Upload to Debian.
 * Prepare DLA-1717-1
+
+
+
