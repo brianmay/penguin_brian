@@ -37,16 +37,13 @@ For the project LTS Infrastructure, I used 3 hours and 30 minutes in the followi
 For the project Jessie Package Support, I used 6 hours and 30 minutes in the following tasks:
 
 * ikiwiki
-* ikiwki
 * rdflib
 
 ### ikiwiki
-* Upload to Debian.
-* Prepare DLA-1716-1
-
-### ikiwki
 * Prepare patch.
 * Post patch to mailing list: [ikiwiki / CVE-2019-9187](https://lists.debian.org/debian-lts/2019/03/msg00035.html).
+* Upload to Debian.
+* Prepare DLA-1716-1
 
 ### rdflib
 * Post bug report [#923979](http://bugs.debian.org/923979) concerning missing dependancy.
