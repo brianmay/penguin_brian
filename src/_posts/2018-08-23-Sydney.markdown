@@ -1,0 +1,12 @@
+---
+layout: trip
+title: Trip to Sydney and back
+categories: trips
+destination: Sydney
+transport: Airliner
+begin: 2018-08-23
+end: 2018-08-28
+purpose: conference
+---
+
+See details of the conference [PyConAu2018]({{ site.baseurl }}{% post_url 2018-08-24-PyConAu2018 %}).

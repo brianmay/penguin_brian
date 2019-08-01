@@ -1,0 +1,12 @@
+---
+layout: trip
+title: Trip to ElixirCamp
+categories: trips
+destination: Camp Wombaroo
+transport: Airliner & Train
+begin: 2019-10-26
+end: 2018-10-29
+purpose: conference
+---
+
+See details of the [ElixirCamp2018]({{ site.baseurl }}{% post_url 2018-10-26-ElixirCamp2018 %}).
