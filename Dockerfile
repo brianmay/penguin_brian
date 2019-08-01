@@ -5,6 +5,7 @@ WORKDIR /app
 COPY ./Gemfile ./Gemfile.lock /app/
 RUN gem install bundler && bundle install
 COPY ./ /app/
+ENV TZ=Australia/Melbourne
 RUN jekyll build --destination _tmp/brian
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
