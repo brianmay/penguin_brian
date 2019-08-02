@@ -35,4 +35,4 @@ collections:
         permalink: /skills/:path/
     debian_lts:
         output: true
-        permalink: /:year/:month/:day/:title/
+        permalink: /debian_lts/:year/:month/:day/:title/
