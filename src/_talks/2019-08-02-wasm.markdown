@@ -1,0 +1,61 @@
+---
+layout: talk
+title: WASM matter?
+conference: /conferences/2019/08/02/PyConAu2019/
+speaker: Russell Keith-Magee
+begin: 2019-08-02 13:30
+talk_url: "https://2019.pycon-au.org/talks/wasm-matter"
+---
+
+Web has become more reliant on JavaScript. A lot harder to ignore JavaScript.
+Users expect rich client side functionality.
+
+Levels of abstraction:
+
+1. Machine code
+2. Assembly code
+3. Compiled languages
+4. Interpreted languages
+   * Just-In-Time compilation. Interpretor has to be ready to do just about
+     anything, because the code can do just about anything. JIT will optimize
+     code at run-time to optimize performance.
+
+Exploiting JIT loopholes
+
+asm.js
+
+100% legal JavaScript code, with weird coding conventions that give low
+level primitives that directly map to machine code.
+
+wasm
+
+Binary format that optimizes sending asm.js code.
+
+Web Assembly Binary Toolkit
+
+WAT: WebAssembly Text
+
+WASM doesn't support strings natively. Strings need to be supported with
+lists.
+
+Emscripten:
+
+* C --> WASM
+* Rust --> WASM
+
+Use cases:
+
+1. Deploying full application in C to browser. e.g. port Quake to browser.
+   QT support.
+2. Optimize hot loop.
+
+webassembly.studio
+
+Future
+
+* Python
+* Pyodide: C Python source compiled to wasm.
+* Downside: big. 3Mb to 12Mb.
+* Micropython - on npm. Experimental.
+* Betavia 2.0
+* Wasmer

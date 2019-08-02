@@ -27,6 +27,14 @@ layout: page
                 </a>
             </td>
         </tr>
+        {% if page.talk_url %}
+        <tr>
+            <th>Talk details</th>
+            <td>
+                <a href="{{ page.talk_url }}">Link</a>
+            </td>
+        </tr>
+        {% endif %}
         {% if page.video_url %}
         <tr>
             <th>Video</th>

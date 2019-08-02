@@ -1,0 +1,39 @@
+---
+layout: talk
+title: Opening Doors with JSON Web Tokens
+conference: /conferences/2019/08/02/PyConAu2019/
+speaker: Ben Dechrai
+begin: 2019-08-02 09:20
+talk_url: "https://2019.pycon-au.org/talks/opening-doors-with-json-web-tokens"
+---
+
+Amazon door locks, allow courier limited access to deliver parcels without
+risk of parcel being stolen. With real time camera.
+
+DOS attack against camera.
+
+Bluetooth DOS attack. Connection would time and software would say
+door was locked when it was not locked.
+
+There is no good reason to have Door connected to Internet. How do I
+remotely access door?
+
+Better solution. Door receives JWT, and can authenticate JWT without
+Internet access.
+
+1. NFC reader for authentication to remote website.
+2. Website provides JWT to give to door to unlock.
+3. Write token to NFC card.
+4. Present NFC card.
+5. Door checks NFC and unlocks door.
+
+Summary: Is possible to create solution with existing code, existing
+libraries, existing solutions, etc.
+
+Result: more maintainable, more secure, etc.
+
+* https://github.com/bendechrai/opening-doors-rpi-android
+* https://github.com/bendechrai/opening-doors-rpi-arduino
+* https://github.com/bendechrai/opening-doors-rpi
+
+RPI needs accurate, reliable, secure datetime.
