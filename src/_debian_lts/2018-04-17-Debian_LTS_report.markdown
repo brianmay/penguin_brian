@@ -1,7 +1,6 @@
 ---
 layout: post
 title: LTS report 2018-04-01 to 2018-04-30
-categories: debian_lts
 begin: 2018-04-01
 end: 2018-04-30
 hours: 10.0

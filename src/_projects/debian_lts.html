@@ -19,7 +19,7 @@ framework: Variety
         </tr>
     </thead>
     <tbody>
-        {% for report in site.categories.debian_lts %}
+        {% for report in site.debian_lts %}
         <tr>
             <td><a href="{{ site.baseurl }}{{ report.url }}">{{ forloop.index }}</a></td>
             <td>{{report.begin}}</td>

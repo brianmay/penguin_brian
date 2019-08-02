@@ -33,3 +33,6 @@ collections:
     skills:
         output: true
         permalink: /skills/:path/
+    debian_lts:
+        output: true
+        permalink: /:year/:month/:day/:title/
