@@ -1,0 +1,44 @@
+---
+layout: talk
+title: "Tunnel Snakes Rule! Bringing the many worlds of Python together to monitor Melbourne's biggest infrastructure project."
+conference: /conferences/2019/08/02/PyConAu2019/
+speaker: Evan Brumley
+begin: 2019-08-03 11:10
+talk_url: "https://2019.pycon-au.org/talks/tunnel-snakes-rule-bringing-the-many-worlds-of-python-together-to-monitor-melbournes-biggest-infrastructure-project"
+---
+7 sites.
+
+Table 59 pages long for performance requirements.
+
+Put sensor in this location, calculate what a fish would hear, etc.
+
+Classical approach: collect results monthly, generate monthly reports.
+
+Modern approach: Existing cloud provider, not very flexible with requirements.
+
+Requirements:
+
+1. Accept data from any device. Mostly via vendor platform.
+2. Validate and store telemetry. Losing data is a big deal, we get audited.
+3. Analyse and process telemetry. Calculations are complicated, and likely to
+   change. Retrospectively.
+4. Provide access to data. To environmental teams and external stakeholders.
+5. Send alerts.
+6. Reporting work flows.
+
+Time frame: 4 months to first release. 6 more months to get feature complete.
+
+Team: WSP + Arup. Fully self contained.
+
+1. Collect Device Readings. API Pollers. Deployed using EBS. Should be asyncio.
+2. Buffer Device Readings.  AWS Kinesis.
+3. Log everything for audits.
+4. Validate and store.
+5. Analyse, make available, raise alerts. Read only access to database.
+
+AWS has fully managed Apache Flink service.
+
+Step 5 disconnected from telemetry collection, as we don't entirely trust
+our own code and don't want to risk damaging data that we get audited on.
+
+Pandas.
