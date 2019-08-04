@@ -28,14 +28,37 @@ layout: page
     </tbody>
 </table>
 
-List of talks:
-
-<ul>
 {% for talk in site.talks %}
     {% if talk.conference == page.url %}
-    <li><a href='{{ site.baseurl }}{{ talk.url }}'>{{ talk.title }}</a> by {{ talk.speaker }}.</li>
+        {% assign has_talks = true %}
     {% endif %}
 {% endfor %}
-</ul>
+
+{% if has_talks %}
+    List of talks:
+
+    <ul>
+        {% assign talks = site.talks | sort: "begin" | group_by_exp: "talk", "talk.begin | date: '%-d %B %Y'" %}
+        {% for group in talks %}
+            {% assign group_has_talks = false %}
+            {% for talk in group.items %}
+                {% if talk.conference == page.url %}
+                    {% assign group_has_talks = true %}
+                {% endif %}
+            {% endfor %}
+            {% if group_has_talks %}
+                <li>{{ group.name }}</li>
+                <ul>
+                    {% assign group_talks = group.items | sort: "begin" %}
+                    {% for talk in group_talks %}
+                        {% if talk.conference == page.url %}
+                            <li><a href='{{ site.baseurl }}{{ talk.url }}'>{{ talk.title }}</a> by {{ talk.speaker }}.</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endif %}
 
 {{ content }}
