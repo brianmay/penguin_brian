@@ -49,7 +49,7 @@ layout: page
             {% if group_has_talks %}
                 <li>{{ group.name }}</li>
                 <ul>
-                    {% assign group_talks = group.items | sort: "begin" %}
+                    {% assign group_talks = group.items %}
                     {% for talk in group_talks %}
                         {% if talk.conference == page.url %}
                             <li><a href='{{ site.baseurl }}{{ talk.url }}'>{{ talk.title }}</a> by {{ talk.speaker }}.</li>
