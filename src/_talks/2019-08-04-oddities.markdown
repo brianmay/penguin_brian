@@ -1,0 +1,8 @@
+---
+layout: talk
+title: Python Oddities Explained
+conference: /conferences/2019/08/02/PyConAu2019/
+speaker: Trey Hunner
+begin: 2019-08-04 13:30
+talk_url: "https://2019.pycon-au.org/talks/python-oddities-explained"
+---

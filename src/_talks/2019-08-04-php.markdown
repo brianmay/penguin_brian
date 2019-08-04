@@ -1,0 +1,18 @@
+---
+layout: talk
+title: What PHP learned from Python
+conference: /conferences/2019/08/02/PyConAu2019/
+speaker: Adam Harvey
+begin: 2019-08-04 11:10
+talk_url: "https://2019.pycon-au.org/talks/what-php-learned-from-python"
+---
+What PHP learned from Python 2 to Python 3 transition.
+
+As developers we prefer green fields. If nobody upgrades, does the new
+version really exist?
+
+People who develop tooling/libraries need to be able to support both
+versions.
+
+Maintain syntax, even if this doesn't make sense. Need to
+support transitioning from one way to the other.
