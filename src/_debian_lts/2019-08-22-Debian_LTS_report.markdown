@@ -20,7 +20,7 @@ For the project LTS Infrastructure, I used 5 hours and 30 minutes in the followi
 * DLA 377-1
 * DLA 567-1
 * DLA 607-1
-* Fic DLA-115-2 and DLA-145-2
+* Fix DLA-115-2 and DLA-145-2
 * Todo list
 
 ### Add missing DLAs for 2019
@@ -49,7 +49,7 @@ For the project LTS Infrastructure, I used 5 hours and 30 minutes in the followi
 * Find appropriate text for DLA-567-1 from DLA-567-2.
 * Create [pull request](https://salsa.debian.org/webmaster-team/webwml/merge_requests/203).
 
-### Fic DLA-115-2 and DLA-145-2
+### Fix DLA-115-2 and DLA-145-2
 * Create [pull request](https://salsa.debian.org/webmaster-team/webwml/merge_requests/205).
 
 ### Todo list
