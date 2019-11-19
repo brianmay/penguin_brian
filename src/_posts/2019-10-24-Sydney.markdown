@@ -1,0 +1,16 @@
+---
+layout: trip
+title: Trip to ElixirCamp
+categories: trips
+destination: Camp Wombaroo
+transport: Tesla Model S
+begin: 2019-10-24
+end: 2018-10-28
+purpose: conference
+---
+
+I drove my Tesla with the help of my Friend to Camp Wombaroo. At the conclusion
+of the trip, my friend said he would wants a Tesla, but unfortunately he cannot
+afford it.
+
+See details of the [ElixirCamp2019]({{ site.baseurl }}{% post_url 2019-10-24-ElixirCamp2019 %}).
