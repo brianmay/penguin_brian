@@ -1,0 +1,88 @@
+---
+layout: talk
+title: "Keynote: Drop Your Tools – Does Expertise have a Dark Side?"
+conference: /conferences/2020/01/13/LCA2020/
+speaker: Dr Sean Brady
+begin: 2020-01-14 09:10
+talk_url: https://lca2020.linux.org.au/schedule/presentation/218/
+---
+# Does Expertise have a Dark Side?
+
+Roof built on 4 columns. Builder: Sagging before we lift it up. Engineer:
+Everything is fine, keep going. Builder: Something is very wrong. You have
+missed something. Designer: Everything is fine. Public: There is something
+wrong. Engineer: We have checked calculations, everything is fine.
+
+Roof collapses after snow.
+
+Reluctance to even admit there might be a problem.
+
+Problem: People are involved. People are really good at stuffing things up.
+
+Reason: The just got their first computer. They were convinced it was
+amazing. It can't be wrong.
+
+Inputs were wrong.
+
+## Expertise
+
+The illusion of knowledge is the greatest obstacle to knowledge.
+
+Our brains are very awkward and let us down.
+
+You can't train your eyes to see past optical illusions. Even if you
+prove it is an optical illusion, if you remove the proof you see
+the illusion again.
+
+## 1949 fire
+
+Why didn't the fire-fighters drop there tools after being ordered to do so?
+
+Why didn't the fire-fighters use the escape fire after being ordered to do so?
+
+## The Florida effect
+
+People can be primed by a word game to move slower or faster.
+
+Negative priming.
+
+You cannot unsee the words, which send you on the wrong solution path.
+
+Why you get the best ideas in the shower. Negative priming at your desk
+every day, you have had time to forget it. Can think through the problem
+in more rationale way.
+
+I will not run into negative priming due to expertise. What is
+expertise is a form of negative priming? What if expertise is a barrier
+to rational thinking.
+
+Test people will prime themselves.
+
+What happens if we warn people? They do just as bad.
+
+Expertise is automatic. We can't not use it.
+
+## 1949 5th August Fire
+
+The fire-fighters could not drop there expertise, they physical tools
+or mental tools. They could not accept they leaders orders.
+
+When all you have is a hammer, everything looks like a nail.
+
+We see everything through are expertise. Some times the situation
+our expertise is wrong, our tools are wrong. We default to our
+expertise, the wrong solution.
+
+When fire-fighter told to drop his tools, he is told to forget he is
+a fire-fighter and run for his life.
+
+We have to train fire-fighters that they can drop their tools and run. It
+didn't work. Fire-fighters died almost at safe zone. Didn't work.
+They had to train them properly. Compare times running with and without
+tools.
+
+Am I fire fighting, or am I running?
+
+Concept of escape fire. Was new. Creative desperation. Dropping your
+tools. Everything you know is not going to solve the problem. Accepting
+the facts. Get rid of the fuel.
