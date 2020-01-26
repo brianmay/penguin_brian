@@ -26,7 +26,7 @@ For the project Jessie Package Support, I used 10 hours in the following tasks:
 * Rebuild debian package with fix.
 * Attempt to debug new error running tests.
 * assertion 'G_IS_OBJECT (object)' failed.
-* Rerum gdb after compiling with -O0 instead of -O2.
+* Rerun gdb after compiling with -O0 instead of -O2.
 * Produce new stack trace.
 * Post email to debian-lts.
 * assertion 'G_IS_OBJECT (object)' failed.
