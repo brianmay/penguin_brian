@@ -7,7 +7,7 @@ RUN gem install bundler && bundle install
 COPY ./ /app/
 ENV TZ=Australia/Melbourne
 RUN date
-RUN jekyll build --destination _tmp/brian
+RUN bundle exec jekyll build --destination _tmp/brian
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1.13
