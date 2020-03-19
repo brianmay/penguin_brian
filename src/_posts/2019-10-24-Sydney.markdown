@@ -13,4 +13,4 @@ I drove my Tesla with the help of my Friend to Camp Wombaroo. At the conclusion
 of the trip, my friend said he would wants a Tesla, but unfortunately he cannot
 afford it.
 
-See details of the [ElixirCamp2019]({{ site.baseurl }}{% post_url 2019-10-24-ElixirCamp2019 %}).
+See details of the [ElixirCamp2019]({% post_url 2019-10-24-ElixirCamp2019 %}).

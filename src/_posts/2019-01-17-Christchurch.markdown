@@ -18,4 +18,4 @@ I did the following:
   [International Atlantic Center](https://www.iceberg.co.nz/our-experiences/penguins/).
 * Assisted a lost bus driver get back on the official purple route again.
 * Went on the [Christchurch Gondola](https://www.christchurchattractions.nz/christchurch_gondola/).
-* Attended [LCA2019]({{ site.baseurl }}{% post_url 2019-01-21-LCA2019 %}).
+* Attended [LCA2019]({% post_url 2019-01-21-LCA2019 %}).

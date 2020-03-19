@@ -9,4 +9,4 @@ location: Dunedin, New Zealand
 website: http://www.linux.org.au/conf/2006/
 ---
 
-See [trip]({{ site.baseurl }}{% post_url 2006-02-04-New_Zealand %}) details.
+See [trip]({% post_url 2006-02-04-New_Zealand %}) details.

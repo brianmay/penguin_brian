@@ -9,4 +9,4 @@ location: Sydney, Australia
 website: http://lca2007.linux.org.au/
 ---
 
-See [trip]({{ site.baseurl }}{% post_url 2007-01-20-Sydney %}) details.
+See [trip]({% post_url 2007-01-20-Sydney %}) details.

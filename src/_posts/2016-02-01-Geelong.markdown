@@ -10,4 +10,4 @@ purpose: conference
 ---
 
 I went to Geelong to visit LCA2016.
-See details of the conference [LCA2016]({{ site.baseurl }}{% post_url 2016-02-01-Geelong %}).
+See details of the conference [LCA2016]({% post_url 2016-02-01-Geelong %}).

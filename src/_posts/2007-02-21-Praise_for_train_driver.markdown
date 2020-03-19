@@ -5,7 +5,7 @@ date: 2007-02-21 14:10:13 +1000
 tags: public_transport
 ---
 
-Sent 2007-02-16 to Connex via their online E-Mail form concerning [Signal point of failure]({{ site.baseurl }}{% post_url 2007-02-16-Signal_point_failure %}):
+Sent 2007-02-16 to Connex via their online E-Mail form concerning [Signal point of failure]({% post_url 2007-02-16-Signal_point_failure %}):
 
 <blockquote><p>Hello,</p>
 

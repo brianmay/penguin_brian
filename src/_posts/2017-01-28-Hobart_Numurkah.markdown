@@ -17,7 +17,7 @@ After the conference I visited
 [Numurkah](https://hcg.vponline.com.au/resort/profile.aspx?ResortID=16)
 for a week.
 
-See details of the conference [LCA2017]({{ site.baseurl }}{% post_url 2017-01-16-LCA2017 %}).
+See details of the conference [LCA2017]({% post_url 2017-01-16-LCA2017 %}).
 
 ## Hobart
 

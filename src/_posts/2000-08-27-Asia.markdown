@@ -11,7 +11,7 @@ photo_album: 2965
 ---
 
 I went to China so I could present my paper on Kerberos at
-[WCC2000]({{ site.baseurl }}{% post_url 2000-08-25-WCC2000 %}) (World Computer Congress).
+[WCC2000]({% post_url 2000-08-25-WCC2000 %}) (World Computer Congress).
 
 I have a number of photos taken on this trip.
 

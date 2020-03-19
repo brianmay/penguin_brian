@@ -9,4 +9,4 @@ end: 2009-01-24
 purpose: conference
 ---
 
-I went to Hobart to visit [LCA2009]({{ site.baseurl }}{% post_url 2009-01-24-LCA2009 %}).
+I went to Hobart to visit [LCA2009]({% post_url 2009-01-24-LCA2009 %}).

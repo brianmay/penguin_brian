@@ -14,4 +14,4 @@ Gold Coast
 
 I did the following:
 
-* Attended [LCA2020]({{ site.baseurl }}{% post_url 2020-01-13-LCA2020 %}).
+* Attended [LCA2020]({% post_url 2020-01-13-LCA2020 %}).

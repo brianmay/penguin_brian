@@ -9,4 +9,4 @@ end: 2013-07-07
 purpose: conference
 ---
 
-I went to Hobart to visit [PyConAu2013]({{ site.baseurl }}{% post_url 2013-07-07-PyConAu2013 %}).
+I went to Hobart to visit [PyConAu2013]({% post_url 2013-07-07-PyConAu2013 %}).

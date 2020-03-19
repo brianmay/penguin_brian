@@ -15,7 +15,7 @@ LCA2018
 In 2018 I attended LCA2018 and gave a talk on Robotica. Mum and the three
 kids we are caring for also came to Sydney with me.
 
-See details of the [trip]({{ site.baseurl }}{% post_url 2018-01-22-Sydney %}).
+See details of the [trip]({% post_url 2018-01-22-Sydney %}).
 
 This conference was very good, as always, with some very good talks. Some
 notable talks:

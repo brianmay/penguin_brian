@@ -10,5 +10,5 @@ purpose: conference
 ---
 
 I went to New Zealand to visit
-[LCA2015]({{ site.baseurl }}{% post_url 2015-01-16-LCA2015 %})
+[LCA2015]({% post_url 2015-01-16-LCA2015 %})
 in Auckland. My parents also come with me.
