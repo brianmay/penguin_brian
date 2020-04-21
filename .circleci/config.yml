@@ -3,6 +3,8 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.5
+    environment:
+      TZ: "Australia/Melbourne"
     steps:
       - checkout # check out the code in the project directory
       - run:
