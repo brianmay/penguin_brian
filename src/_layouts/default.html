@@ -142,6 +142,8 @@
 
                     <div class="pagecopyright">
                         (C)opyright <a href="mailto:brian@linuxpenguins.xyz">Brian May</a>
+                        {{ site.env.VCS_REF }}
+                        {{ site.env.BUILD_DATE }}
                     </div>
 
                     {% if page.date %}
