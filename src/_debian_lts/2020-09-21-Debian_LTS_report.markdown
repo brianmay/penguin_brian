@@ -14,7 +14,7 @@ This time period I used 10 hours.
 For the project Stretch Package Support, I used 9 hours and 30 minutes in the following tasks:
 
 * golang-go.crypto package
-* golang-go.crypto package
+* golang-golang-x-net-dev package
 
 ### golang-go.crypto package
 * CVE-2019-11841
@@ -28,7 +28,7 @@ For the project Stretch Package Support, I used 9 hours and 30 minutes in the fo
 * Update [test case](https://salsa.debian.org/bam/cve-2019-11841).
 * Push [code with tests](https://salsa.debian.org/bam/golang-go.crypto/-/tree/CVE-2019-11841).
 
-### golang-go.crypto package
+### golang-golang-x-net-dev package
 * Investigate issue.
 * Send [email](https://lists.debian.org/debian-lts/2020/09/msg00026.html) to debian-lts.
 
