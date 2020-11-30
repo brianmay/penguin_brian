@@ -1,0 +1,10 @@
+---
+layout: conference
+title: LCA2021 conference
+categories: conferences
+name: LCA2021
+begin: 2021-01-23
+end: 2021-01-25
+location: Online
+website: http://lca2021.linux.org.au/
+---

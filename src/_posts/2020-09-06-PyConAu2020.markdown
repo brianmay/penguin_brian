@@ -1,0 +1,10 @@
+---
+layout: conference
+title: PyCon Au 2020 conference
+categories: conferences
+name: PyCon Au 2020
+begin: 2020-09-04
+end: 2020-09-06
+location: Online
+website: http://2020.pycon-au.org/
+---
