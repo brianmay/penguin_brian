@@ -4,6 +4,8 @@ layout: page
 
 {% include photo.html photo=11123 title="Photo of St Leeor's Nursing Home" %}
 
+Photos, see {% include photo_album.html album="452" link="photos" %}.
+
 Notes: As the source of this page was Grandma's memory, details such as names
 may be incorrect.
 
