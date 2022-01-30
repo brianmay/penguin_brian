@@ -1,0 +1,10 @@
+---
+layout: conference
+title: LCA2022 conference
+categories: conferences
+name: LCA2022
+begin: 2021-01-14
+end: 2021-01-16
+location: Online
+website: http://lca2022.linux.org.au/
+---
