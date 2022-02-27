@@ -1,5 +1,5 @@
 # Stage 0, to build and compile Jekyll
-FROM ruby:2.5 as jekyll
+FROM ruby:3.1 as jekyll
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
 COPY ./Gemfile ./Gemfile.lock /app/
