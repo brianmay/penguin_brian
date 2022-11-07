@@ -426,7 +426,8 @@ pre, blockquote {
 }
 
 .github-icon-svg,
-.twitter-icon-svg {
+.twitter-icon-svg,
+.mastodon-icon-svg {
   display: inline-block;
   width: 16px;
   height: 16px;
