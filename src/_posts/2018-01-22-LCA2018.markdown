@@ -6,7 +6,7 @@ name: LCA2018
 begin: 2018-01-22
 end: 2018-01-26
 location: Sydney, Australia
-website: http://lca2018.linux.org.au/
+website: https://lca2018.linux.org.au/
 ---
 
 LCA2018

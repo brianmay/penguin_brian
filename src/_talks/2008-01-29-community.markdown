@@ -8,10 +8,10 @@ begin: 2008-01-29 15:40
 ## Teen Challenge
 
 International Grades in Open Technology (UK)  
-<http://www.theingots.org/>
+<https://www.theingots.org/>
 
 ITShare SAN Inc  
-<http://itshare.org.au/>
+<https://itshare.org.au/>
 
 Teen Challenge, helping people with life controlling problems, e.g. drug
 addiction gambling, abuse, poverty.

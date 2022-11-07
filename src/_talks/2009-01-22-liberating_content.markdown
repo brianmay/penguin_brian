@@ -5,7 +5,7 @@ conference: /conferences/2009/01/24/LCA2009/
 speaker: Benjamin Otte
 begin: 2009-01-22 16:00
 ---
-<http://swfdec.freedesktop.org> - free flash player - not done yet.
+<https://swfdec.freedesktop.org> - free flash player - not done yet.
 
 Why write a flash player?
 

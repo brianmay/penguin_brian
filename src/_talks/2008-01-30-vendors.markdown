@@ -5,7 +5,7 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Dirk Hohndel, Intel
 begin: 2008-01-30 14:30
 ---
-<http://www.itwire.com/content/view/16376/1090/>
+<https://www.itwire.com/content/view/16376/1090/>
 
 Try to get Intel to understand this "open source" thing.
 
@@ -182,7 +182,7 @@ you to support the open source driver".
 * Dirk Hohndel concluded that "we agree to disagree and this is *my* presentation!"
 
 * Dave Arlie has a
-[presentation](http://linux.conf.au/programme/detail?TalkID=81) this Friday.
+[presentation](https://linux.conf.au/programme/detail?TalkID=81) this Friday.
 
 Companies not against us personally, or against FOSS, it is all about money.
 Money is the reality, money is the language, money is the way things work.

@@ -10,7 +10,7 @@ Another SUSE Linux distribution mechanism.
 Community can maintain customized openSUSE versions. Expanded to support SUSE
 enterprise. May be expanded to support any RPM based system.
 
-<http://susestudio.com/>
+<https://susestudio.com/>
 
 Accounts don't get created automatically, need to be created manually at the
 moment.

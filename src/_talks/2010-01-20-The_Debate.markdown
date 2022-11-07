@@ -8,7 +8,7 @@ begin: 2010-01-20 09:15
 Why your software works against you and why software freedom offers hope of a
 better future.
 
-<http://unhappybirthday.com/>
+<https://unhappybirthday.com/>
 
 You can't really have mass collaboration with yourself. Most free software
 projects only have one person making commits.
@@ -72,7 +72,7 @@ the vendor wins either way.
 
 What vendors provide isn't what the users want.
 
-<http://wiki.mako.cc/Antifeatures>
+<https://wiki.mako.cc/Antifeatures>
 
 If somebody murders a child, and the worst thing that happens is they infringe
 on a trademark, isn't that wrong? What is the point of having extra laws

@@ -5,7 +5,7 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Jonathan Oxer
 begin: 2008-01-30 10:30
 ---
-<http://www.arduino.cc/>
+<https://www.arduino.cc/>
 
     aptitude remote brltty
     aptitude install libftdi0  sun-java5-jre gcc-avr avr-libc
@@ -80,8 +80,8 @@ use small script as glue
 
 allow anybody access to your website to turn your fan on/off
 
-<http://www.secondlifeintegration.com/>  
-<http://jon.oxer.com.au/talks>
+<https://www.secondlifeintegration.com/>  
+<https://jon.oxer.com.au/talks>
 
 # Jon's House
 

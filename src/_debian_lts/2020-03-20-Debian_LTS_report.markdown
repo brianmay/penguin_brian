@@ -26,9 +26,9 @@ For the project Jessie Package Support, I used 10 hours in the following tasks:
 * Private followup to debian-lts posts.
 * Attempt to get lua-cgi running.
 * Create good working test case.
-* Create a debian bug report [#954300](http://bugs.debian.org/954300)
+* Create a debian bug report [#954300](https://bugs.debian.org/954300)
   on session management breakage.
-* Updated a debian bug report [#953037](http://bugs.debian.org/953037)
+* Updated a debian bug report [#953037](https://bugs.debian.org/953037)
   on security issue.
 * Posted [email](https://lists.debian.org/debian-lts/2020/03/msg00084.html) to debian-lts
 

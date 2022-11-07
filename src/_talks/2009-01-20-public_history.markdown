@@ -12,7 +12,7 @@ Professional vs amateur historians.
 
 ## Founders and Survivors
 
-<http://www.foundersandsurvivors.org/>
+<https://www.foundersandsurvivors.org/>
 
 Archival sources:
 
@@ -21,7 +21,7 @@ Archival sources:
 * etc
 
 
-<http://archives.tas.gov.au/>
+<https://archives.tas.gov.au/>
 
 Every convict to Tasmania should have some information in this database.
 
@@ -37,7 +37,7 @@ Northern Victoria region.
 
 Melbourne's northern suburbs.
 
-<http://www.wikinorthia.net.au>
+<https://www.wikinorthia.net.au>
 
 make wiki more use friendly.
 

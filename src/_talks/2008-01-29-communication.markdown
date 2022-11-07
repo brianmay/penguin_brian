@@ -33,7 +33,7 @@ Shared common goal, conflicting specific goals.
 
 Newbies to Linux. Do some research before asking questions.
 
-<http://www.catb.org/~esr/faqs/smart-questions.html>
+<https://www.catb.org/~esr/faqs/smart-questions.html>
 
 Bad questions
 

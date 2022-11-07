@@ -54,7 +54,7 @@ For the project Wheezy Package Support, I used 10 hours in the following tasks:
 ### patch
 
 * Try to understand
-  [security patch](http://git.savannah.gnu.org/cgit/patch.git/commit/?id=123eaff0d5d1aebe128295959435b9ca5909c26d).
+  [security patch](https://git.savannah.gnu.org/cgit/patch.git/commit/?id=123eaff0d5d1aebe128295959435b9ca5909c26d).
 * Posted [message](https://lists.debian.org/debian-lts/2018/04/msg00058.html) to debian-lst.
 
 ### python-crypto

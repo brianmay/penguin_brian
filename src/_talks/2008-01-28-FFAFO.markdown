@@ -5,7 +5,7 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Jonathan Woithe
 begin: 2008-01-28 09:00
 ---
-<http://www.ffado.org/>
+<https://www.ffado.org/>
 
 multichannel audio interfaces now use firewire
 

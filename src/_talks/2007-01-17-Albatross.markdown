@@ -5,7 +5,7 @@ conference: /conferences/2007/01/20/LCA2007/
 speaker: Hugo Vincent, John Stowers
 begin: 2007-01-17 11:00
 ---
-<http://www.albatross-uav.org/>
+<https://www.albatross-uav.org/>
 
 UAV - unpiloted aerial vehicle
 

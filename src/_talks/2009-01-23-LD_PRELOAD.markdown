@@ -25,13 +25,13 @@ applies.
 Filesystem - a lot of these before FUSE, often a better solution.
 
 * flcow - FileLink Copy On Write. Break hard links on file write.
-* plasticfs - <http://pasticffs.sourceforge.net/>
+* plasticfs - <https://pasticffs.sourceforge.net/>
 * installwatch
 
 Network
 
 * libshape 
-* netjail - <http://netjail.sourceforge.net/>
+* netjail - <https://netjail.sourceforge.net/>
 
 Debugging and testing - force library functions to fail when they would
 
@@ -70,6 +70,6 @@ specific data structures. More portable.
 
 multiple head displays
 
-<http://www.kev.pulo.com.au/xmultiwin/>
+<https://www.kev.pulo.com.au/xmultiwin/>
 
 Currently: Redraws reflected on both windows.

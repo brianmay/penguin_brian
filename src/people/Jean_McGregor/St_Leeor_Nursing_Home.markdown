@@ -67,7 +67,7 @@ was the only one her could go home to her home in Box Hill. Grandma use to go
 home Monday night and come back Tuesday night.
 
 Nurses wore a blue dress with <a
-href="http://en.wikipedia.org/wiki/Starch#Non-food_applications">cold
+href="https://en.wikipedia.org/wiki/Starch#Non-food_applications">cold
 starch</a> at the front. Grandma's mother use to wash Grandma's uniform for
 her.
 
@@ -123,7 +123,7 @@ frequently ask "Have you been to the Palais to dance?"
 Unfortunately, Mrs Caunter developed breast cancer. She had to have the breast
 removed. As such, she had the big operation at Cabrini hospital in Malvern.
 
-<a href="http://www.cabrini.com.au/cabrinihealth/history.asp">St Frances Xavier
+<a href="https://www.cabrini.com.au/cabrinihealth/history.asp">St Frances Xavier
 Cabrini Hospital</a> was a big posh hospital at the time. She didn't like the
 hospital because it was a Catholic hospital with Catholic nurses and Catholic
 Doctors. One day Grandma come in to see her, and she called out "Father!
@@ -139,7 +139,7 @@ at Gabrini. The doctors had been doing their best to save her live. They had to
 bring her back to St Leors and she died when about 90 years old.
 
 Rhoda, 2nd from left, had been to <a
-href="http://www.stcatherines.net.au/AboutUs/default.asp">St Catherine's
+href="https://www.stcatherines.net.au/AboutUs/default.asp">St Catherine's
 School</a>, one of the most prestigious schools in Melbourne, like Melbourne
 Grammar or PLC today. She was very young (about 50) and Grandma couldn't
 understand why she was in the nursing home.

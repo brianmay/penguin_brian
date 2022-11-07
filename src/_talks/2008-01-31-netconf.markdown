@@ -5,7 +5,7 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Martin F. Krafft (mudduck)
 begin: 2008-01-31 15:40
 ---
-<http://netconf.alioth.debian.org/>
+<https://netconf.alioth.debian.org/>
 
 netconf could mean:
 

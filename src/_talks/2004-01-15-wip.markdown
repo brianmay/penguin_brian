@@ -149,7 +149,7 @@ data driven applications, Draco will help now, or can be fixed
 
 ## Composes Musical Application for Java
 Tim  
-http://jmusic.ci.qut.edu.au/  
+https://jmusic.ci.qut.edu.au/  
 solid framework for computer composition in Java  
 Support musicians in Java  
 manipulating, analysing midi,audio files  

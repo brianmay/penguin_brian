@@ -59,7 +59,7 @@ tserver
 
 * tiny embedded web server
 * embedded applications
-* http://junkcode.samba.org/ is an example
+* https://junkcode.samba.org/ is an example
 * NAS vendor, ROM image, complete installation system
 * limited ROM size
 * program CGI easily

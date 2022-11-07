@@ -13,7 +13,7 @@ Programming - 95% men's salary
 
 "Women don't asek" Babcrck and Laschever
 
-<http://www.nmt.edu/~val/howto_salary/>
+<https://www.nmt.edu/~val/howto_salary/>
 
 Why not negotiate salary and benefits?
 

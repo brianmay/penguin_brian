@@ -68,7 +68,7 @@ worse by the fact the bus driver doesn't know when the bus is going ro arrive.
 In this case it could be argued the bus should have waited though, because the
 train had arrived at the station at much the same time it departed.
 
-The ideal solution would be to increase the [frequency](http://wiki.microcomaustralia.com.au/transport/public/frequency/) of the bus service.
+The ideal solution would be to increase the [frequency](https://wiki.microcomaustralia.com.au/transport/public/frequency/) of the bus service.
 If there was one bus every ten minutes, it wouldn't worry me if I just missed
 one bus. In fact I would expect the bus to leave even if the train just arrived
 at the same time.

@@ -51,7 +51,7 @@ For the project Jessie Package Support, I used 6 hours in the following tasks:
 * Sent [email](https://lists.debian.org/debian-lts/2019/05/msg00110.html) to debian-lts.
 
 ### jquery
-* Upload was broken, see [#928827](http://bugs.debian.org/928827).
+* Upload was broken, see [#928827](https://bugs.debian.org/928827).
 * Upload fixed version to Debian and prepare DLA-1777-2.
 * Create [pull request](https://salsa.debian.org/webmaster-team/webwml/merge_requests/141/diffs) for website.
 

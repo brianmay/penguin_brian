@@ -12,13 +12,13 @@ photo_album: 36
 
 Iandra is a site with a historic building, Mt Oriel.  For more information on
 Iandra, please see <a
-href="http://www.greenethor-p.schools.nsw.edu.au/Pages/Local%20History.htm">Greenethorpe
+href="https://www.greenethor-p.schools.nsw.edu.au/Pages/Local%20History.htm">Greenethorpe
 Public School’s</a> and <a
-href="http://www.heritage.nsw.gov.au/07_subnav_02_2.cfm?itemid=5051843">NSW
+href="https://www.heritage.nsw.gov.au/07_subnav_02_2.cfm?itemid=5051843">NSW
 Heritage Office’s</a> web pages.
 
 Apparently there was also a <a
-href="http://www.nswrail.net/lines/grenfell/greenethorpe.html">Railway
+href="https://www.nswrail.net/lines/grenfell/greenethorpe.html">Railway
 Station</a> nearby that has since been closed. Also see the <a
-href="http://www.grenfell.org.au/tourism/grenfellsurrounds.htm">Greenfell</a>
+href="https://www.grenfell.org.au/tourism/grenfellsurrounds.htm">Greenfell</a>
 page.

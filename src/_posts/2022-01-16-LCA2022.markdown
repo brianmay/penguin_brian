@@ -6,5 +6,5 @@ name: LCA2022
 begin: 2021-01-14
 end: 2021-01-16
 location: Online
-website: http://lca2022.linux.org.au/
+website: https://lca2022.linux.org.au/
 ---

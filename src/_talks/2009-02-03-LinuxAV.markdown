@@ -5,7 +5,7 @@ conference: /conferences/2010/02/02/LUV/
 speaker: Robin Gareus
 begin: 2009-02-03 19:00
 ---
-<http://linuxaudio.org/>
+<https://linuxaudio.org/>
 
 ## Audio/Video Data Formats
 

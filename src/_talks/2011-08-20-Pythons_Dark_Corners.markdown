@@ -4,7 +4,7 @@ title: Python's Dark Corners
 conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Peter Lovett
 begin: 2011-08-20 13:10
-desc_url: http://pycon-au.org/2011/conference/schedule/event/18/
+desc_url: https://pycon-au.org/2011/conference/schedule/event/18/
 ---
 Mostly Python 2.x, some Python 3.x tips. Some Python 2.x stuff fixed
 in Python 3.x

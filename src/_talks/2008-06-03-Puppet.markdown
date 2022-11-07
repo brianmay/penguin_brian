@@ -34,7 +34,7 @@ Puppet is:
 * declarative language
 * relational, define relationships
 * transactional - roll back changes - not yet fully implemented
-* <http://reductivelabs.com/PuppetModules>
+* <https://reductivelabs.com/PuppetModules>
 * Language: Define arrays, variables, conditionals
 * not monoloithic model; does a better job
 

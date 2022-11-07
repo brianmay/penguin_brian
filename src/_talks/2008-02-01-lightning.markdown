@@ -8,7 +8,7 @@ begin: 2008-02-01 15:40
 ## Database drive web application - Flame
 
 ## Adoption and rejection of tools by Debian - Martin F. Krafft
-<http://phd.martin-krafft.net/>
+<https://phd.martin-krafft.net/>
 
 ## Plastic computer - Paul
 plastic computer, replace with wood, glued together. Make sure mould
@@ -22,7 +22,7 @@ needed. Patent free royalty free access to implement these codecs
 in open source is requied.
 
 ## Linux Australia members in Second Life blog
-<http://www.life2thefull.org/la2ndlife/>  
+<https://www.life2thefull.org/la2ndlife/>  
 (google for "linux australia second life)
 
 * tutorials, how to install second life on Debian
@@ -35,8 +35,8 @@ in open source is requied.
 actually a laptop
 
 ##PHP code sniffer
-<http://matrix.squiz.net/developer/tools/php_cs>  
-<http://pear.php.net/package/PHP_CodeSniffer>  
+<https://matrix.squiz.net/developer/tools/php_cs>  
+<https://pear.php.net/package/PHP_CodeSniffer>  
 
 * developers wear out and need regular replacement
 * maintain coding standards
@@ -73,7 +73,7 @@ Ngipi Business basic application glue
 * OLPC into the hands of all Australian kids
 * OLPC into the hands of disadvantaged across Oceanic
 * Net yet official
-* Net yet up <http://olpc.org.au/>, will be up in about 2 weeks.
+* Net yet up <https://olpc.org.au/>, will be up in about 2 weeks.
 * Will be available here cheaper then current price in USA.
 * Get businesses available for support.
 
@@ -130,7 +130,7 @@ notifications when hardware is finished. Firmware is doing something
 else, and does not care about the IO. Environmental issues.
 
 ## Stupid buffer cache tricks - Val Henson
-<http://valhenson.org/patches.html#parallel>
+<https://valhenson.org/patches.html#parallel>
 
 * asynchronous parallel IO
 * Linux asynchronous IO isn't
@@ -147,13 +147,13 @@ else, and does not care about the IO. Environmental issues.
 * You make the code, we will do the rest
 
 ## Installing Linux removable card - Marcus Brown
-<http://sourceforge.net/projects/ramdisk-rescue>
+<https://sourceforge.net/projects/ramdisk-rescue>
 
 ## Scale by abstraction - Janet
 
 ## Fixing the web - Paul Fenwick
-<http://lists.mel8ourne.org/pipermail/chat/2008-February/000679.html>  
-<http://www.youtube.com/watch?v=8hghpuxCHTc>
+<https://lists.mel8ourne.org/pipermail/chat/2008-February/000679.html>  
+<https://www.youtube.com/watch?v=8hghpuxCHTc>
 
 * talk about taste
 * we can fix things
@@ -163,5 +163,5 @@ else, and does not care about the IO. Environmental issues.
 * Fix myspace website - use javascript function removeContent() {...}
 * Use FireBug to get element id
 * Get almost empty page as a result
-* <http://userscripts.org/>
-* Book: <http://diveintogreasemonkey.org/>
+* <https://userscripts.org/>
+* Book: <https://diveintogreasemonkey.org/>

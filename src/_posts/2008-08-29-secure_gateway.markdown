@@ -17,7 +17,7 @@ to restrict connections from the web server to the internal network, so even if
 the web server is compromised, an attacker cannot get to your internal network.
 Obviously the firewall must be kept secure, this means it should not run
 anything except the bare essentials. This is also known as a
-[DMZ](http://en.wikipedia.org/wiki/Demilitarized_zone_%28computing%29).
+[DMZ](https://en.wikipedia.org/wiki/Demilitarized_zone_%28computing%29).
 
 Unfortunately, this approach, while secure, has traditionally been rather
 expensive, due to the large number of computers required. On my network I would
@@ -36,7 +36,7 @@ and provided with power.
 
 What if there was a cheaper and easier way to do this?
 
-There is: [Xen Virtual Hosts](http://wiki.microcomaustralia.com.au/Brian/Xen_virtual_hosts/).
+There is: [Xen Virtual Hosts](https://wiki.microcomaustralia.com.au/Brian/Xen_virtual_hosts/).
 
 ## Conclusion
 

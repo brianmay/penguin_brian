@@ -66,7 +66,7 @@ free course.
 
 ## Screen
 
-This is an [E-Paper](http://en.wikipedia.org/wiki/Electronic_paper) display. Unlike a conventional
+This is an [E-Paper](https://en.wikipedia.org/wiki/Electronic_paper) display. Unlike a conventional
 monitor, you are not staring directly at a light that is pointed into your eyes all the
 time. Unfortunately, the surface does seem to be reflective so depending on the angle it
 is positioned at, glare could be an issue.
@@ -74,7 +74,7 @@ is positioned at, glare could be an issue.
 ## DRM
 
 [Digital Rights
-Management](http://en.wikipedia.org/wiki/Digital_rights_management). This is a
+Management](https://en.wikipedia.org/wiki/Digital_rights_management). This is a
 very contentious issue. I would argue though that DRM doesn't do anything to
 protect the rights of the publishers.
 
@@ -103,7 +103,7 @@ Unfortunately there are many books, especially non-fiction, that are only availa
 from Amazon's store.
 
 Also Amazon has received bad publicity over its ability to [remove content
-remotely](http://en.wikipedia.org/wiki/Kindle#Remote_content_removal). While
+remotely](https://en.wikipedia.org/wiki/Kindle#Remote_content_removal). While
 they settled the case out of court, the wording of the guarantee to wider
 rights, as on Wikipedia, only applies to Kindle's being purchased from and used
 in USA, so it doesn't appear to apply to me.
@@ -114,7 +114,7 @@ books, so why should E-Books be considered any different?
 
 ## Formats
 
-The Kindle supports different [formats](http://en.wikipedia.org/wiki/Kindle#File_formats) for files:
+The Kindle supports different [formats](https://en.wikipedia.org/wiki/Kindle#File_formats) for files:
 
 * Unprotected Mobipocket.
 * AZW format. The DRM format Amazon provides books in you purchase from there store. Not that
@@ -179,10 +179,10 @@ books with me on the train.
 
 As a pilot, I wanted to see if the Kindle would assist me in anyway. In
 particular I wanted to be able to put the
-[ERSA](http://www.airservicesaustralia.com/store/html.asp?/bookweb/details.cgi?ITEMNO=ERSALLM)
+[ERSA](https://www.airservicesaustralia.com/store/html.asp?/bookweb/details.cgi?ITEMNO=ERSALLM)
 on my Kindle, so I can get a list of airports when flying without having to
 take the big bulky book. Airservices Australia provide the [PDF
-files](http://www.airservicesaustralia.com/publications/aip.asp) free of
+files](https://www.airservicesaustralia.com/publications/aip.asp) free of
 charge, so it should be easy, right?
 
 Wrong. First problem is the Airservices Australia provide the document in separate
@@ -208,23 +208,23 @@ the Kindle is not feasible at present time.
 
 Using other Australian aviation documents might still be possible, e.g.
 
-* [Flightsafety](http://www.casa.gov.au/fsa/). Text appears small once scaled to fit
+* [Flightsafety](https://www.casa.gov.au/fsa/). Text appears small once scaled to fit
 screen size. While it is better in landscape view, looking at multi column text in 
 landscape is tedious.
 
-* [AIP](http://www.airservicesaustralia.com/store/html.asp?/bookweb/details.cgi?ITEMNO=AIPT). This is also split up in many [PDF
-files](http://www.airservicesaustralia.com/publications/aip.asp).
+* [AIP](https://www.airservicesaustralia.com/store/html.asp?/bookweb/details.cgi?ITEMNO=AIPT). This is also split up in many [PDF
+files](https://www.airservicesaustralia.com/publications/aip.asp).
 Unfortunately, Airservices Australia assumes
 you will be browsing this online, and only provides links to other PDF files
 within the first PDF files you download.
 
-* [CASR](http://www.comlaw.gov.au/comlaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/C08A6D5C9245BA0CCA2576400022791B?OpenDocument).
+* [CASR](https://www.comlaw.gov.au/comlaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/C08A6D5C9245BA0CCA2576400022791B?OpenDocument).
 Not tried yet.
-* [CAR](http://www.comlaw.gov.au/comlaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/8DFC3930263D7A5CCA25763F007CBB8E?OpenDocument). Not tried yet.
-* [CAOs](http://www.casa.gov.au/scripts/nc.dll?WCMS:STANDARD::pc=PC_91044). Not tried yet.
+* [CAR](https://www.comlaw.gov.au/comlaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/8DFC3930263D7A5CCA25763F007CBB8E?OpenDocument). Not tried yet.
+* [CAOs](https://www.casa.gov.au/scripts/nc.dll?WCMS:STANDARD::pc=PC_91044). Not tried yet.
 
 Links to these CASA documents, and more are found on [CASA's
-website](http://www.casa.gov.au/scripts/nc.dll?WCMS:STANDARD::pc=PC_90902).
+website](https://www.casa.gov.au/scripts/nc.dll?WCMS:STANDARD::pc=PC_90902).
 
 ## Feedback to Amazon
 

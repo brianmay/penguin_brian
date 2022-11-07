@@ -12,4 +12,4 @@ CircuitPython???
 
 Debian - Universal operating system.
 
-http://www.emdebian.org/
+https://www.emdebian.org/

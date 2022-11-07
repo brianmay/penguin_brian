@@ -5,7 +5,7 @@ conference: /conferences/2009/01/24/LCA2009/
 speaker: Simon Greener
 begin: 2009-01-20 14:50
 ---
-<http://spatialdbadvisor.com/>
+<https://spatialdbadvisor.com/>
 
 Nokia going to buy Navteq.
 
@@ -33,7 +33,7 @@ Error may get fixed within 3 months min.
 
 Office of Spatial Data Management (OSDM)
 
-* <http://www.osdm.gov.au> - DVD only (may have changed recently)
+* <https://www.osdm.gov.au> - DVD only (may have changed recently)
 
 Any data that is any good you have to pay for. If it is crap you get it for
 free.
@@ -76,10 +76,10 @@ Spatial data is complicated and constantly needs to be updated.
 
 ## Open mapping projects
 
-<http://free-map.org.uk>
+<https://free-map.org.uk>
 
 London Free Map
-<http://london.freemap.in/osm.html>
+<https://london.freemap.in/osm.html>
 
 Geowiki - obsolete. Points of interest. No links from maps.
 
@@ -106,7 +106,7 @@ Open GeoData Australia
 
 Shonky maps
 
-* <http://shonkylogic.net/shonkymaps/>
+* <https://shonkylogic.net/shonkymaps/>
 * not bad at all
 
 GeoTorrent.org

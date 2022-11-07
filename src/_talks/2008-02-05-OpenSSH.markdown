@@ -135,7 +135,7 @@ too much from the standard.
 ## Future
 Prevent return-to-executable type attacks.
 
-Prevent "piggybacking" type [attacks](http://www.storm.net.nz/projects/7),
+Prevent "piggybacking" type [attacks](https://www.storm.net.nz/projects/7),
 opening separate connections
 over existing ssh connection. SSH connection multiplexing. Have to
 make this difficult if not possible. Possible solution: client

@@ -50,7 +50,7 @@ Rather no IPv6 connectivity, rather then bad IPv6 connectivity.
 
 Have had some success in forcing people to fix things up.
 
-<http://ipv6.google.com/>
+<https://ipv6.google.com/>
 
 Test system only. Political statement. Not meant to be useful. Many people use
 it.

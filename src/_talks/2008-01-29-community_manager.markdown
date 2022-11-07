@@ -108,7 +108,7 @@ Old job, but now online, not face to face, advocates, etc.
 
 Lots of different views on what a community manager is and does.
 
-<http://www.osscensus.org/>
+<https://www.osscensus.org/>
 (different to OSS census being conducted in Australia)
 
 ## Questions

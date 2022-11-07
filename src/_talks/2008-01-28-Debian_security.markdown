@@ -24,4 +24,4 @@ messages, as it would appear that the application requires read write access to
 the file. An experienced person is needed to tell that read-only access is
 sufficient.
 
-<http://etbe.coker.com.au/2008/01/28/lca-2008-security-miniconf/>
+<https://etbe.coker.com.au/2008/01/28/lca-2008-security-miniconf/>

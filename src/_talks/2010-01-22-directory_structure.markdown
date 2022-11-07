@@ -34,6 +34,6 @@ Tools
 * InstallPackage
 * DetachProgram and AttachProgram
 
-<http://www.gobolinux.org/>
+<https://www.gobolinux.org/>
 
-<http://blog.gobolinux.org/>
+<https://blog.gobolinux.org/>

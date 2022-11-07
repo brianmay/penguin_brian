@@ -6,5 +6,5 @@ name: LCA2015
 begin: 2015-01-12
 end: 2015-02-16
 location: Auckland, New Zealand
-website: http://lca2015.linux.org.au/
+website: https://lca2015.linux.org.au/
 ---

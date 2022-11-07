@@ -75,8 +75,8 @@ Google for open source games, most run on Windows, if you
 are shackled to the past you can experience them.
 
 # Fixing the web - Paul Fenwick
-<http://lists.mel8ourne.org/pipermail/chat/2008-February/000679.html>  
-<http://www.youtube.com/watch?v=8hghpuxCHTc>
+<https://lists.mel8ourne.org/pipermail/chat/2008-February/000679.html>  
+<https://www.youtube.com/watch?v=8hghpuxCHTc>
 
 # Hardware hacking lab
 Lots around Ameria and europe, but none in Australia. Place with
@@ -90,7 +90,7 @@ or who could help get contacts into the Government for funding
 # Linux audio conference 2008
 In one month time, in Germany. Live video streams. Linux audio software,
 audio installations, concerts, produced with Linux.
-<http://lac.linuxaudio.org/>
+<https://lac.linuxaudio.org/>
 
 # lmns
 software synthesis and sequencing.

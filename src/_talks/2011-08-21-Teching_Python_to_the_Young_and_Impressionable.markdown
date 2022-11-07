@@ -4,13 +4,13 @@ title: Teching Python Programming to the Young and Impressionable
 conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Georgina Wilcox &amp; Katie Bell
 begin: 2011-08-21 11:00
-desc_url: http://pycon-au.org/2011/conference/schedule/event/31/
-video_url: http://www.youtube.com/watch?v=S56dbRk_jSQ
+desc_url: https://pycon-au.org/2011/conference/schedule/event/31/
+video_url: https://www.youtube.com/watch?v=S56dbRk_jSQ
 ---
 Students are generally more comfortable with computers then their parents. My experiences in high school put me off
 learning computers at University. High school computering makes it seem boring. No challenge.
 
-The National Computer Science School. Held at the University of Sydney. No prior programming experience required. http://www.ncss.edu.au/
+The National Computer Science School. Held at the University of Sydney. No prior programming experience required. https://www.ncss.edu.au/
 
 "Sometimes the level of knowledge from some of the students can be intimidating.
 Its good for those who are strong to lead those who are weak, but it can be
@@ -36,7 +36,7 @@ Government issues laptops. Python in browser. No programming languages installed
 
 Confidence. Stronger students can put off weaker students.
 
-http://www.ncss.edu.au/
+https://www.ncss.edu.au/
 
 How to motivate students? Check out the ncss challenge. Writing virtual machines. RPN parsing, fun as possible, etc.
 

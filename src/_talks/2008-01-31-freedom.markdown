@@ -120,7 +120,7 @@ Help corporations do the right thing. Show them how you did
 it previously as an unpaid open source project.
 
 The open source census:  
-<http://www.osscensus.org>
+<https://www.osscensus.org>
 
 Example: person came in for the weekend to code a specific feature,
 but the boss complained that this wasn't the top priority at the time.

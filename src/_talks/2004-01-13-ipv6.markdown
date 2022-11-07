@@ -5,9 +5,9 @@ conference: /conferences/2004/01/17/LCA2004/
 speaker: Trent Lloyd
 begin: 2004-01-13 09:00
 ---
-<http://broker.aarnet.net.au/>
+<https://broker.aarnet.net.au/>
 
-<http://[2001:960:2:6e::2]/>
+<https://[2001:960:2:6e::2]/>
 
 ping6 -I eth0 ... for link level IP address
 

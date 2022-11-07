@@ -6,5 +6,5 @@ name: LCA2008
 begin: 2008-01-28
 end: 2008-02-02
 location: Melbourne, Australia
-website: http://lca2008.linux.org.au/
+website: https://lca2008.linux.org.au/
 ---

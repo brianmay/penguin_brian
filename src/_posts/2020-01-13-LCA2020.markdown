@@ -6,5 +6,5 @@ name: LCA2020
 begin: 2020-01-13
 end: 2020-01-13
 location: Gold Coast, Australia
-website: http://lca2020.linux.org.au/
+website: https://lca2020.linux.org.au/
 ---

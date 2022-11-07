@@ -4,8 +4,8 @@ title: What Makes Python Awesome
 conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Raymond Hettinger
 begin: 2011-08-21 09:15
-desc_url: http://pycon-au.org/2011/conference/schedule/event/45/
-video_url: http://www.youtube.com/watch?v=b_pTxGu2L04
+desc_url: https://pycon-au.org/2011/conference/schedule/event/45/
+video_url: https://www.youtube.com/watch?v=b_pTxGu2L04
 ---
 Awesome language: Python
 

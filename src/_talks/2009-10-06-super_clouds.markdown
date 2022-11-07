@@ -38,7 +38,7 @@ Amazon EC2
 Require 20,000 to 120,000 cores. Not sure if Amazon can scale and provide this
 many. Need to transfer data at least 600 MByte/seconds.
 
-http://www.newservers.com/
+https://www.newservers.com/
 
 * Alternative.
 * Cheaper.

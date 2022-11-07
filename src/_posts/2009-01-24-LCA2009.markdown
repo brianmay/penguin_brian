@@ -6,5 +6,5 @@ name: LCA2009
 begin: 2009-01-19
 end: 2009-01-24
 location: Hobart, Australia
-website: http://lca2009.linux.org.au/
+website: https://lca2009.linux.org.au/
 ---

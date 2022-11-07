@@ -50,22 +50,22 @@ On the curious side:
 ## What went wrong?
 
 On the 20-21 the Eastlink bridge was moved into place (see
-[VicSig](http://www.vicsig.net/index.php?page=infrastructure&project=Eastlink)
+[VicSig](https://www.vicsig.net/index.php?page=infrastructure&project=Eastlink)
 article by "Chris Gordon", 2007-01-30).
 
-* [Eastlink](http://wiki.microcomaustralia.com.au/transport/private/Eastlink/)
-  bridge works ([reference](http://forums.vicsig.net/viewtopic.php?t=984"]],
+* [Eastlink](https://wiki.microcomaustralia.com.au/transport/private/Eastlink/)
+  bridge works ([reference](https://forums.vicsig.net/viewtopic.php?t=984"]],
   25th-28th August 2006)) (weekend), buses replaced trains
-  ([reference](http://en.wikipedia.org/wiki/EastLink%2C_Melbourne)).
+  ([reference](https://en.wikipedia.org/wiki/EastLink%2C_Melbourne)).
   Metlink posted an official
-  [bulletin](http://www.metlinkmelbourne.com.au/latest_news/service_alteration_detail.php?id=3492).
+  [bulletin](https://www.metlinkmelbourne.com.au/latest_news/service_alteration_detail.php?id=3492).
   Several level crossings were also closed.
 
 * The Eastlink works didn't end until midday, resulting in chaos as the train
   line was closed during peak hour
-  ([reference](http://www.news.com.au/heraldsun/story/0,21985,20275525-2862,00.html)).
+  ([reference](https://www.news.com.au/heraldsun/story/0,21985,20275525-2862,00.html)).
 * Connex will receive compensation, but it won't be passed on to commuters
-  ([reference](http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html")).
+  ([reference](https://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html")).
 
 Soft ground was blamed for the delays:
 
@@ -77,7 +77,7 @@ Soft ground was blamed for the delays:
 >
 > "Our construction team had to remove this soft earth and replace it with crushed rock.
 >
-> [Compo for Connex, not commuters](http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html),
+> [Compo for Connex, not commuters](https://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html),
 > Liam Houlihan and Jane Metlikovec, The Herald Sun, 2006-08-29
 
 Connex also responded:
@@ -112,5 +112,5 @@ Connex also responded:
 >
 > [...]
 >
-> [Buses replaced trains between Ringwood and Blackburn](http://www.connexmelbourne.com.au/news_connex/index_full.asp?thm=2&evn=289),
+> [Buses replaced trains between Ringwood and Blackburn](https://www.connexmelbourne.com.au/news_connex/index_full.asp?thm=2&evn=289),
 > Connex, 2006-08-21

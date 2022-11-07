@@ -6,5 +6,5 @@ name: LCA2005
 begin: 2005-04-18
 end: 2005-04-23
 location: Canberra, Australia
-website: http://lca2005.linux.org.au/
+website: https://lca2005.linux.org.au/
 ---

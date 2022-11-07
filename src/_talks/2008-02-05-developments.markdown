@@ -15,7 +15,7 @@ Will change to Ubuntu.
 Dutch government, April 2008, agencies to use
 open standards software, soft target.
 
-[Daniel Robins blog](http://blog.funtoo.org/), Gentoo events. Gentoo community
+[Daniel Robins blog](https://blog.funtoo.org/), Gentoo events. Gentoo community
 found their charter had been revoked for several weeks.
 Daniel's solution: reinstate me as president. He ended up
 not taking the position. Active user base distant from development

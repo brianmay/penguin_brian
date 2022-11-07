@@ -5,12 +5,12 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Bruce Schneier
 begin: 2008-01-30 09:00
 ---
-<http://www.builderau.com.au/news/soa/Schneier-Why-rubbish-security-products-win-out/0,339028227,339285497,00.htm>  
-<http://www.itwire.com/content/view/16363/1090/>  
-<http://www.itnews.com.au/News/69146,information-is-our-only-security-weapon-bruce-schneier.aspx>
+<https://www.builderau.com.au/news/soa/Schneier-Why-rubbish-security-products-win-out/0,339028227,339285497,00.htm>  
+<https://www.itwire.com/content/view/16363/1090/>  
+<https://www.itnews.com.au/News/69146,information-is-our-only-security-weapon-bruce-schneier.aspx>
 
 About the author:  
-<http://www.computerworld.com.au/index.php/id;1891124482>
+<https://www.computerworld.com.au/index.php/id;1891124482>
 
 Security
 

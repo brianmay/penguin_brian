@@ -5,7 +5,7 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Timothy Terriberry
 begin: 2008-01-30 15:30
 ---
-<http://www.theora.org/>
+<https://www.theora.org/>
 
 Color space:
 

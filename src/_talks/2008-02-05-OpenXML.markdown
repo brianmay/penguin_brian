@@ -14,10 +14,10 @@ Micheal Kleef <mkleef@microsoft.com>
 
 Other resources:
 
-* [Peter Lieverdink: Tainted LUV](http://www.cafuego.net/2008/02/07/tainted-luv)
-* [luv-main thread](http://lists.luv.asn.au/wws/arc/luv-main/2008-02/msg00076.html)
-* [groklaw](http://www.groklaw.net/staticpages/index.php?page=20051216153153504)
-* [revision control](http://clarencedang.blogspot.com/2006/12/another-script-revision-controlled.html)
+* [Peter Lieverdink: Tainted LUV](https://www.cafuego.net/2008/02/07/tainted-luv)
+* [luv-main thread](https://lists.luv.asn.au/wws/arc/luv-main/2008-02/msg00076.html)
+* [groklaw](https://www.groklaw.net/staticpages/index.php?page=20051216153153504)
+* [revision control](https://clarencedang.blogspot.com/2006/12/another-script-revision-controlled.html)
 
 Slug have a wiki with questions and answers.
 
@@ -161,7 +161,7 @@ as a HTML document.
 
 ECMA Spec
 
-<http://openxmldeveloper.org/> download link.
+<https://openxmldeveloper.org/> download link.
 
 ECMA Office Open XML Spec
 
@@ -216,7 +216,7 @@ Office support is different to Standard support.
 Do the implementations use the GPL license? Some GPL, some Microsoft
 permissive license.
 
-<http://connect.microsoft.com/> - choose product, submit bug report.
+<https://connect.microsoft.com/> - choose product, submit bug report.
 
 Issue of identity, been a rough ride integrating with Microsoft
 (or any other vendor). What is changing, and what is different?

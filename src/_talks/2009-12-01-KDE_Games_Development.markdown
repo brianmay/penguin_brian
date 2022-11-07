@@ -26,7 +26,7 @@ KDE 4:
 * Phonon - sound system.
 * Solid - hardware management.
 * Nepomuk/Strigi - meta data, uses RDF triples, for data files.
-* Plasma Desktop and Workspace. <http://aseigo.blogspot.com/>. Design you own desktop.
+* Plasma Desktop and Workspace. <https://aseigo.blogspot.com/>. Design you own desktop.
 * All games must use SVG graphics.
 * KDE 4 libraries very different from KDE 3, large parts of applications may need rewriting.
 

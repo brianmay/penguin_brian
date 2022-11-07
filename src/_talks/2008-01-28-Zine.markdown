@@ -16,4 +16,4 @@ supported.
 
 Auto generated files should have signatures.
 
-<http://michaeldavies.org/software/zign-tools/>
+<https://michaeldavies.org/software/zign-tools/>

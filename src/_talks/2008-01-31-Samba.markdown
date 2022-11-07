@@ -181,7 +181,7 @@ Requirements:
 * Set of really fast disks on a SAN
 * Clustered filesystem, most testing on GPFS. GFS and GFS2 and Lustre
 work.
-* Samba from <http://ctdb.samba.org/>, aim is for cluster support
+* Samba from <https://ctdb.samba.org/>, aim is for cluster support
 out of the box.
 
 IBM supports it as SOFS.
@@ -198,4 +198,4 @@ Minimum config:
 filesystem specific options, file id mapping.
 
 Show your managers. Flash movies:
-<http://samba.org/~tridge/ctdb_movies>
+<https://samba.org/~tridge/ctdb_movies>

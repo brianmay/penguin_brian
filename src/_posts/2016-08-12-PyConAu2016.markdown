@@ -6,5 +6,5 @@ name: PyCon Au 2016
 begin: 2016-08-12
 end: 2016-08-16
 location: Melbourne, Australia
-website: http://2016.pycon-au.org/
+website: https://2016.pycon-au.org/
 ---

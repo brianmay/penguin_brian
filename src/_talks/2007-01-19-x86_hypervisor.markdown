@@ -55,7 +55,7 @@ VMI
 * published by hypervisor
 * called by kernel
 
-<http://sf.net/projects/vmi-linux>
+<https://sf.net/projects/vmi-linux>
 
 lhype
 

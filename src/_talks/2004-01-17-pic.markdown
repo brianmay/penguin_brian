@@ -169,4 +169,4 @@ Ethernet interfaces
 
 serial interfaces
 
-<http://quozl.linux.org.au/>
+<https://quozl.linux.org.au/>

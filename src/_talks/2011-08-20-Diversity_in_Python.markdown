@@ -4,8 +4,8 @@ title: Diversity in Python
 conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Audrey Roy
 begin: 2011-08-20 09:15
-desc_url: http://pycon-au.org/2011/conference/schedule/event/43/
-video_url: http://www.youtube.com/watch?v=76YfICi8LcA
+desc_url: https://pycon-au.org/2011/conference/schedule/event/43/
+video_url: https://www.youtube.com/watch?v=76YfICi8LcA
 ---
 Diversity. Varied backgrounds. Different age sex, education, fields, expertise,
 etc.

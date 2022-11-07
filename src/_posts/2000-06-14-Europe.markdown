@@ -21,8 +21,8 @@ I have a number of photos taken on this trip.
 
 In Sweden, I was shown around the place by one of the organisers of the
 conference, Johan. I stayed at
-[Hotel Ljungbacken](http://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=109540496108482654955.0004487505f6a63968772&ll=57.685065,11.981138&spn=0.001715,0.005482&t=h&z=18).
-The conference was held at [Arken](http://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=109540496108482654955.0004487505f6a63968772&ll=57.695685,11.82734&spn=0.02016,0.055704&t=h&z=15).
+[Hotel Ljungbacken](https://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=109540496108482654955.0004487505f6a63968772&ll=57.685065,11.981138&spn=0.001715,0.005482&t=h&z=18).
+The conference was held at [Arken](https://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=109540496108482654955.0004487505f6a63968772&ll=57.695685,11.82734&spn=0.02016,0.055704&t=h&z=15).
 
 Göteburg is an interesting place, as most people prefer walking, bike riding,
 or public transport instead of driving. While a lot of people have cars, these

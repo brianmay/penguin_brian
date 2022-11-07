@@ -7,7 +7,7 @@ begin: 2007-01-18 09:00
 ---
 Not just for oceans anymore.
 
-<http://linuxfirmwarekit.org/>
+<https://linuxfirmwarekit.org/>
 
 Hotplug
 

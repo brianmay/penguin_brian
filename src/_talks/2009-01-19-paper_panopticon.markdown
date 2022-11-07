@@ -10,7 +10,7 @@ Quantitative vs Qualitative research:
 * one looks at import events or important people
 * other looks at other people, prisoners, slaves, 
 
-<http://www.oldbaileyonline.org>
+<https://www.oldbaileyonline.org>
 
 Make data available to other researchers.
 
@@ -25,9 +25,9 @@ significantly.
 
 ## XML
 
-TEI: <http://www.tei-c.org>
+TEI: <https://www.tei-c.org>
 
-BaseX: <http://www.basex.org> Java tool for visualizing large amounts of XML
+BaseX: <https://www.basex.org> Java tool for visualizing large amounts of XML
 data.
 
 ## Challenges
@@ -36,7 +36,7 @@ Need to convert data from Excel, Access, and GNL formats to XML format.
 
 ## Contact details
 
-<http://www.foundersandsurvivors.org/>
+<https://www.foundersandsurvivors.org/>
 
 
 ## Questions

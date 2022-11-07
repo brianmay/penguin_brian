@@ -14,7 +14,7 @@ photos: 11
 Married to [Charles McGregor]({{ site.baseurl }}/people/Charles_McGregor/).
 
 ## School
-Grandma says she went to <a href="http://www.maps.vic.edu.au/princip.htm">Mont
+Grandma says she went to <a href="https://www.maps.vic.edu.au/princip.htm">Mont
 Albert Central School</a> when she was 11 years old (1929). From their website:
 
 <blockquote>
@@ -62,7 +62,7 @@ for servants. It was easy to get lost in the building.
 Apparently the parents wanted at least one boy in order to continue the family
 name, and kept getting girls instead. They ended up with 4 girls. One was
 called Elizabeth, and went to boarding school in <a
-href="http://walkabout.com.au/locations/VICWoodend.shtml">Woodend</a>. They
+href="https://walkabout.com.au/locations/VICWoodend.shtml">Woodend</a>. They
 then had twins, and one of the twins was named Caroline, and the other was
 named Robert.
 
@@ -71,7 +71,7 @@ Grandma assisted looking after the children, who had measles.
 After that she went to a smaller house, a large single story house. Also in
 Hamilton. The child there, Veronica, also had the measles. Veronica went to
 school in <a
-href="http://www4.visitvictoria.com/displayObject.cfm/ObjectID.0004FD87-085C-1A65-88CD80C476A90318/vvt.vhtml">Hamilton</a>,
+href="https://www4.visitvictoria.com/displayObject.cfm/ObjectID.0004FD87-085C-1A65-88CD80C476A90318/vvt.vhtml">Hamilton</a>,
 as this was the nearest big town.
 
 At this house they obtained a big pot filled with cream, and another big pot

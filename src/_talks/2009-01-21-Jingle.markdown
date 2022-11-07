@@ -62,7 +62,7 @@ compatable with all other clients.
 layers for extra quality. Client decides which layers it wants to send.
 H264/SVC exists but is heavily patented. No free standard available.
 
-<http://telephathy.freedesktop.org/wiki/MultiUserJingle>  
-<http://www.nlnet.nl/project/mujingle/>  
-<http://farsight.freedesktop.org/>  
-<http://nice.freedesktop.org/>
+<https://telephathy.freedesktop.org/wiki/MultiUserJingle>  
+<https://www.nlnet.nl/project/mujingle/>  
+<https://farsight.freedesktop.org/>  
+<https://nice.freedesktop.org/>

@@ -45,7 +45,7 @@ For the project Jessie Package Support, I used 6 hours and 30 minutes in the fol
 * Prepare DLA-1716-1
 
 ### rdflib
-* Post bug report [#923979](http://bugs.debian.org/923979) concerning missing dependancy.
+* Post bug report [#923979](https://bugs.debian.org/923979) concerning missing dependancy.
 * Post patch to mailing list: [rdflib / CVE-2019-7653](https://lists.debian.org/debian-lts/2019/03/msg00036.html).
 * Upload to Debian.
 * Prepare DLA-1717-1

@@ -5,15 +5,15 @@ conference: /conferences/2009/01/24/LCA2009/
 speaker: Jacob Kaplan-Moss
 begin: 2009-01-21 13:50
 ---
-<http://jacobian.org/speaking/2009/lca/>
+<https://jacobian.org/speaking/2009/lca/>
 
 django.contrib.auth
 
 django-voting
-<http://django-voting.googlecode.com/>
+<https://django-voting.googlecode.com/>
 
 GeoDjango
-<http://geodjango.org/>
+<https://geodjango.org/>
 
 SQL is touch, and can vary considerably with no database implementation. Has no
 version control. Very verbose and repetitive.

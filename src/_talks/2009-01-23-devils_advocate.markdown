@@ -5,7 +5,7 @@ conference: /conferences/2009/01/24/LCA2009/
 speaker: Simon Phipps
 begin: 2009-01-23 09:30  
 ---
-<http://www.webmink.net/>
+<https://www.webmink.net/>
 
 Brief history of open source movement.
 

@@ -54,7 +54,7 @@ smtp host for any number of reasons.
 msmtp also looks very good. Unfortunately it doesn't expand the recipient
 address when there is no domain {% bts 578017 %} and {% bts 623294 %}
 making it unusable for forwarding admin emails. Unless you use the
-[hackish](http://blog.mybox.ro/2010/06/09/how-to-make-cron-send-remote-email-without-a-mta-on-the-server/)
+[hackish](https://blog.mybox.ro/2010/06/09/how-to-make-cron-send-remote-email-without-a-mta-on-the-server/)
 wrapper shell script for supporting aliases
 
 ## nullmailer

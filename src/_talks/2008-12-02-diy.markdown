@@ -122,7 +122,7 @@ evaluate results
 
 references
 
-* <http://usability.gnome.org/>
-* <http://usability.kde.org/>
-* <http://openusability.org/>
-* <http://useit.com/>
+* <https://usability.gnome.org/>
+* <https://usability.kde.org/>
+* <https://openusability.org/>
+* <https://useit.com/>

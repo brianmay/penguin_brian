@@ -10,10 +10,10 @@ I was able to get a copy. This is a history of how I have come to where I am.
 ## APANA - 1990s
 
 Initially I ran a [Bulletin Board System
-(BBS)](http://en.wikipedia.org/wiki/BBS), for a local computer club.
+(BBS)](https://en.wikipedia.org/wiki/BBS), for a local computer club.
 
 Internet was almost unheard of then, so we used
-[Fidonet](http://en.wikipedia.org/wiki/Fidonet) instead. Connecting to a remote
+[Fidonet](https://en.wikipedia.org/wiki/Fidonet) instead. Connecting to a remote
 computer meant looking up the telephone number in a database, and dialling the
 number on a modem. As such, was Fidonet world wide network like the Internet,
 only it cost more for long distance connections. As such it was best suited for

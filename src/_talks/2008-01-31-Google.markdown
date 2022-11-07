@@ -11,7 +11,7 @@ Open source project hosting
 
 * Ad free
 * very large
-* <http://code.google.com/>
+* <https://code.google.com/>
 
 Google code that has been created for everyone.
 

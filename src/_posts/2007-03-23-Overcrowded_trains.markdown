@@ -105,7 +105,7 @@ new trains over the next ten years.</p>
 
 <p>We respectfully advise that you may wish to find more information
 regarding future developments via the Department of Infrastructure
-website located at www.doi.vic.gov.au <http://www.doi.vic.gov.au/> .</p>
+website located at www.doi.vic.gov.au <https://www.doi.vic.gov.au/> .</p>
 
 <p>Thank you for raising our awareness of this matter.</p>
 

@@ -128,7 +128,7 @@ Tiny in some languages.
 
 conflict with vision of allowing everyone access.
 
-<http://wikinews.org/> blocked in China.
+<https://wikinews.org/> blocked in China.
 
 Various past blocks. China, Tunisia, Iran, Turkey, and UK.
 
@@ -175,7 +175,7 @@ wikipedia to use it.
 > "We have two goals at this vegan dinner: to be vegan and to be a dinner. And
 > those two goals sometimes conflict with each other"
 >
-> <http://en.wikipedia.org/wiki/Wikipedia:Veganism_parable>
+> <https://en.wikipedia.org/wiki/Wikipedia:Veganism_parable>
 
 What does a free encyclopedia mean?
 

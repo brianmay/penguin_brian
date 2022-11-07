@@ -5,11 +5,11 @@ conference: /conferences/2010/02/02/LUV/
 speaker: Stuart
 begin: 2008-10-07 19:00
 ---
-<http://launchpad.net/drizzle>
+<https://launchpad.net/drizzle>
 
 Mailing list and IRC.
 
-<http://launchpad.net/drizzle-discuss>
+<https://launchpad.net/drizzle-discuss>
 
 Rewrite of Mysql.
 

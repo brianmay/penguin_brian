@@ -106,7 +106,7 @@ IT is similar, but it shouldn't be.
 
 Representation
 
-* Debian Women - <http://women.debian.org/profiles/>
+* Debian Women - <https://women.debian.org/profiles/>
 * Linuxchix
 * Aussiechix
 

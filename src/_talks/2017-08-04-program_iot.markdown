@@ -27,4 +27,4 @@ demo.
 
 MQTT better for some applications. Simpler.
 
-http://crufti.com/
+https://crufti.com/

@@ -4,8 +4,8 @@ title: State of Python
 conference: /conferences/2011/08/21/PyConAu2011/
 speaker: Senthil Kumaran
 begin: 2011-08-20 10:20
-desc_url: http://pycon-au.org/2011/conference/schedule/event/9/
-video_url: http://www.youtube.com/watch?v=hx_rCN8pcfk
+desc_url: https://pycon-au.org/2011/conference/schedule/event/9/
+video_url: https://www.youtube.com/watch?v=hx_rCN8pcfk
 ---
 Python is a language reference.
 

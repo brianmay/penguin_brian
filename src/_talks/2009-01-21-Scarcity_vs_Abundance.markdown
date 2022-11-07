@@ -124,7 +124,7 @@ the rules as to what is an emergency.
 
 Management should encourage exceeding SLAs, but not overexceed SLA.
 
-<http://www.EverythingSysadmin.com/>
+<https://www.EverythingSysadmin.com/>
 
 We develop capacity to live with pain. We forget what normal is like.
 

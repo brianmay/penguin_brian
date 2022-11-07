@@ -6,5 +6,5 @@ name: PyCon Au 2018
 begin: 2018-08-24
 end: 2018-08-28
 location: Sydney, Australia
-website: http://2018.pycon-au.org/
+website: https://2018.pycon-au.org/
 ---

@@ -5,7 +5,7 @@ conference: /conferences/2008/02/02/LCA2008/
 speaker: Stuart Cunningham, BBS Research, UK
 begin: 2008-01-28 16:40
 ---
-<http://www.computerworld.com.au/index.php/id;58613278>
+<https://www.computerworld.com.au/index.php/id;58613278>
 
 (BBS R&D?)
 
@@ -68,7 +68,7 @@ ffmpeg didn't support DVCPRO50, so we contracted somebody to write
 a codec. It produced better quality output then many hardware encoders
 that cost up to $50,000.
 
-<http://ingex.sourceforge.net/>
+<https://ingex.sourceforge.net/>
 
 High Definition - 2 streams supported with appropriate hardware.
 

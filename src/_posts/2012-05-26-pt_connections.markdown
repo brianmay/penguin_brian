@@ -315,7 +315,7 @@ Ventura Bus, Metro Trains, and DOT.
 > release of our performance results. Full details of our Customer
 > Compensation Code are available on our website:
 >
-> http://www.metrotrains.com.au/About-us/Service-Commitments/Compensation-Code.html
+> https://www.metrotrains.com.au/About-us/Service-Commitments/Compensation-Code.html
 >
 > Ticket Offer
 >

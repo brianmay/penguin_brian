@@ -29,7 +29,7 @@ effective communications
 client with bad code: "This code looks novel, never thought of doing it that
 way, lets try ...."
 
-<http://pjf.id.au/business>
+<https://pjf.id.au/business>
 
 difficult clients generate most work:
 

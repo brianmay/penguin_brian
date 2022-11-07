@@ -6,7 +6,7 @@ name: LCA2016
 begin: 2016-02-16
 end: 2016-02-20
 location: Geelong, Australia
-website: http://lca2016.linux.org.au/
+website: https://lca2016.linux.org.au/
 ---
 
 See details of the [trip]({% post_url 2016-02-01-Geelong %}).

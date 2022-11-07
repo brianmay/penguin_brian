@@ -96,7 +96,7 @@ basis of OLPC Write, which has radically different UI.
 
 ## Conclusion
 
-<http://abicollab.net/>
+<https://abicollab.net/>
 
 The code works and is being widely deployed.
 

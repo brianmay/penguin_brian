@@ -10,7 +10,7 @@ Crypto Libraries for JavaScript
 What is a good cryptographic library for pure JavaScript? Ideally should be in
 npm.
 
-I see on [stackoverflow](http://stackoverflow.com/questions/18279141/javascript-string-encryption-and-decryption) there are three choices:
+I see on [stackoverflow](https://stackoverflow.com/questions/18279141/javascript-string-encryption-and-decryption) there are three choices:
 
 * [sjcl](https://github.com/bitwiseshiftleft/sjcl) - I believe npm at [sjcl npm](https://www.npmjs.com/package/sjcl). Last security advisory 2014 - is it
   really that good? Or maybe abandoned?
@@ -34,5 +34,5 @@ However, I think don't think this is going to help with encryption.
 Any others?
 
 Note: I previously posted this to 
-[another stackoverflow question](http://stackoverflow.com/questions/43928071/good-javascript-cryptographic-library).
+[another stackoverflow question](https://stackoverflow.com/questions/43928071/good-javascript-cryptographic-library).
 but it was put on hold as it was considered "off-topic".

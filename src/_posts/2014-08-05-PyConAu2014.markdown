@@ -6,5 +6,5 @@ name: PyCon Au 2014
 begin: 2014-08-01
 end: 2014-08-05
 location: Brisbane, Australia
-website: http://2014.pycon-au.org/
+website: https://2014.pycon-au.org/
 ---

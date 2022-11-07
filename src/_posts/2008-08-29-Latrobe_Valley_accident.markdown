@@ -7,7 +7,7 @@ tags: aviation accidents
 
 AO-2007-065: Cessna Aircraft Company 172M, VH-EUI and Amateur Built Avid Flyer, 28-0929, Latrobe Valley Aerodrome Vic.
 
-[Preliminary report](http://www.atsb.gov.au/publications/investigation_reports/2007/AAIR/aair200707452.aspx) now available.
+[Preliminary report](https://www.atsb.gov.au/publications/investigation_reports/2007/AAIR/aair200707452.aspx) now available.
 
 From the report:
 

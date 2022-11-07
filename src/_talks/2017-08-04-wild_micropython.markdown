@@ -20,7 +20,7 @@ MicroPython
 
 Unicorn
 -------
-http://www.micropython.org/unicorn/
+https://www.micropython.org/unicorn/
 
 Applications
 ------------

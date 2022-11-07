@@ -34,11 +34,11 @@ regarding laws on copyright, defamation, etc.
 
 Blog quide under:
 
-<http://www.artslaw.com.au/>
+<https://www.artslaw.com.au/>
 
 Sarah:
 
-<http://www.theopensourcereport.com/>  
-<http://www.foxforcefive.com/>
+<https://www.theopensourcereport.com/>  
+<https://www.foxforcefive.com/>
 
 ABC have guide online for professional journalists.

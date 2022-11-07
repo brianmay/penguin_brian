@@ -11,7 +11,7 @@ All major file systems supported, LVM2 supported.
 
 Saves MBR, partition table, partitions, or entire disks.
 
-<http://partclone.org> alterative software. Supports more file systems.
+<https://partclone.org> alterative software. Supports more file systems.
 
 Clonezilla
 

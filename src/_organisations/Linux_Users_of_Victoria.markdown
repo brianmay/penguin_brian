@@ -2,7 +2,7 @@
 layout: organisation
 title: LUV
 description: Linux Users of Victoria
-website: http://www.luv.asn.au/
+website: https://www.luv.asn.au/
 ---
 
 Linux Users of Victoria (LUV) is an organisation designed to promote the use of

@@ -51,12 +51,12 @@ dollars and this doesn't help you much. Everything returns hex values.
 Unsigned 16 bit hexadecimal values may need to be converted to actual
 range of value.
 
-<http://geekmyride.org/wiki/index.php/Trent's_Magna>
+<https://geekmyride.org/wiki/index.php/Trent's_Magna>
 
 Alix-1 motherboard from:
-<http://yawarra.com.au/>
+<https://yawarra.com.au/>
 
-<http://geekmyride.org/>
+<https://geekmyride.org/>
 
 Car to car mine sweeper. Car based pac man. I void warranties.
 

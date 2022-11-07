@@ -111,10 +111,10 @@ Code review.
 Code::Critic - code already read Perl Best practices book.
 
 Test code online:
-<http://perlcritic.com/>
+<https://perlcritic.com/>
 
 ## Code ratings
 
-<http://www.cpanratings.com/>
+<https://www.cpanratings.com/>
 
 
