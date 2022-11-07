@@ -26,7 +26,7 @@ module Jekyll
     end
 
     def html_output_for(bug)
-      "<a href='http://bugs.debian.org/#{bug}'>##{bug}</a>"
+      "<a href='https://bugs.debian.org/#{bug}'>##{bug}</a>"
     end
 
   end
@@ -34,13 +34,13 @@ module Jekyll
 #   class ContentFilters < PostFilter
 #     def doit(input)
 #         input = input.gsub(/([Cc]loses: +)(#?)([0-9]+)((, +)(#?)([0-9]+))?/) do
-#             r = "#{$1}<a href=\"http://bugs.debian.org/#{$3}\">#{$2}#{$3}</a>"
+#             r = "#{$1}<a href=\"https://bugs.debian.org/#{$3}\">#{$2}#{$3}</a>"
 #             i = 4
 #             while ($~[i])
 #                 pre = $~[i + 1]
 #                 hash = $~[i + 2]
 #                 bug = $~[i + 3]
-#                 r += "#{pre}<a href=\"http://bugs.debian.org/#{bug}\">#{hash}#{bug}</a>"
+#                 r += "#{pre}<a href=\"https://bugs.debian.org/#{bug}\">#{hash}#{bug}</a>"
 #                 i += 4
 #             end
 # 
