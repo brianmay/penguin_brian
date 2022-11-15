@@ -19,17 +19,10 @@
 
 /* We must define 100% width to avoid the body being too narrow for near-empty pages */
 #main {
-  float: left;
   width: 100%;
 }
 
-/* So we move the #main container over the sidebars to compensate */
-body #main {
-  margin-left: -200px;
-}
-
 #squeeze {
-  position: relative;
   padding: 0 1em;
 
   background:
@@ -38,23 +31,85 @@ body #main {
   padding: 1px 50px 0 50px;
 }
 
-/* And add blanks left and right for the sidebars to fill */
-body #squeeze {
-  margin-left: 200px;
+/* Header styles */
+
+.site-header {
+    display: flex;
+    gap: 8px;
+    padding: 4px;
+    margin-bottom: 8px;
+    background: #333;
 }
 
-/* We ensure the sidebars are still clickable using z-index */
-.sidebar {
-  width: 200px;
-  float: left;
-  z-index: 2;
-  position: relative;
+#site-name {
+    margin: 0;
+    display: inline;
+    font-family: "Trebuchet MS", Arial, Verdana, Sans-serif;
+    font-weight: normal;
+    font-size: 250%;
+    color: #FFF;
+}
+
+#site-name a {
+}
+
+#site-name a:hover {
+    background: #000;
+    text-decoration: underline;
+}
+
+#site-slogan {
+    color: #aaa;
+    margin: 0;
+    font-size: 85%;
+    margin-left:20px;
+}
+
+.site-header h2 {
+    font-size: 122%;
+    color: #FFF;
+    margin: 0.5em 0;
+}
+
+.site-header a:hover {
+    background: #000;
+    text-decoration: underline;
+}
+
+.site-header .block:nth-child(1) {
+    flex-grow: 10;
+}
+
+.site-header .block:nth-child(1) .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header .block:nth-child(1) li {
+    list-style: None;
+}
+
+.site-header .block:nth-child(1) li a {
+    padding: 4px;
+}
+
+.site-header .block:nth-child(2) .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.site-header .block:nth-child(2) li {
+    list-style: None;
 }
 
 #footer {
-  float: none;
-  clear: both;
-  margin: 4em 0 -3em;
+    float: none;
+    clear: both;
+    margin: 4em 0 -3em;
 }
 
 /* Note that instead of modifying this style sheet, you can instead edit
@@ -109,28 +164,11 @@ pre {
 }
 
 .block .content {
-  margin: 0.5em 0;
   display: block;
 }
 
 .block .title .show {
   display: none;
-}
-
-#container .sidebar .block {
-  margin: 0 0 1.5em 0;
-}
-
-.block {
-  padding: 0 15px 0 0px;
-}
-
-.menu {
-  padding-left: 10px;
-}
-
-.menu li {
-  list-style: None;
 }
 
 @font-face {
@@ -154,7 +192,6 @@ body {
   font: 20px myFirstFont, arial, helvetica, sans-serif;
   background: #000;
   color: #BBB;
-  line-height:1.5em;
   margin: 0;
   padding: 0;
 }
@@ -248,47 +285,7 @@ img {
   max-width: 480px;
 }
 
-/* Header styles */
-
-.site-header {
-  margin: 10px 20px 15px 20px;
-}
-
-#site-name {
-  margin: 0;
-  display: inline;
-  font-family: "Trebuchet MS", Arial, Verdana, Sans-serif;
-  font-weight: normal;
-  font-size: 250%;
-  color: #FFF;
-}
-
-#site-name a, #site-name a:hover {
-  color: #6DA6E2;
-  margin: 0;
-  padding: 0;
-}
-
-#site-slogan {
-  color: #aaa;
-  margin: 0;
-  font-size: 85%;
-  margin-left:20px;
-}
-
-.breadcrumb {
-  margin:0;
-  padding:0;
-  font-size: 85%;
-}
-
 /* Headings */
-
-.sidebar h2 {
-  font-size: 122%;
-  color: #FFF;
-  margin: 0.5em 0;
-}
 
 .post-content h1 {
   display: none;
@@ -327,85 +324,88 @@ img {
 }
 
 .block {
-  background: #333;
-  border: solid #ddd 1px;
-  padding-left:10px;
-  margin-top:20px;
+  padding:0;
+  margin:0;
+}
+
+.block .title {
+    display: none;
 }
 
 /* things to hide in printouts */
 @media print {
 }
 
+@media screen and (max-width: 1000px) {
+    .list {
+        width: 100%;
+    }
+
+    .list th:first-child,
+    .list td:first-child {
+      display: block;
+    }
+
+    .list th,
+    .list td {
+      display: none;
+    }
+}
+
 @media screen and (max-width: 700px) {
-#main {
-  width: auto;
-  float: none;
-}
-body #squeeze {
-    margin-left: 0;
-}
-.sidebar {
-  float: none;
-  width: auto;
-  margin: 0 50px;
-}
-body #main {
-  margin-left: 0;
-  margin: 0;
-}
-/* And add blanks left and right for the sidebars to fill */
-pre, blockquote {
-  margin-left: 0;
-  margin-right: 0;
-}
-.block {
-  padding-bottom: 0;
-}
-.block .title .show {
-  display: inline;
-}
-.block .content {
-  margin-top: 0;
-  margin-bottom: 0;
-  display: none;
-}
-.block .menu {
-  padding: 0;
-  margin: 0;
-}
-.block .title, .block .menu li {
-  border-top: 1px solid #777;
-  padding: 20px 0;
-  margin: 0;
-}
-.block .title {
-  border: none;
-}
-.block .title:active, .block .menu li:active {
-  border: 1px solid #FFF;
-}
+    #main {
+      width: auto;
+      float: none;
+    }
+    body #squeeze {
+        margin-left: 0;
+    }
+    body #main {
+      margin-left: 0;
+      margin: 0;
+    }
+    /* And add blanks left and right for the sidebars to fill */
+    pre, blockquote {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .site-header {
+        flex-direction: column;
+    }
+    .site-header .menu {
+        flex-direction: column;
+    }
+
+    .block .title {
+        display: block;
+    }
+
+    .block .title .show {
+        display: inline;
+    }
+
+    .block .content {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 500px) {
-#squeeze {
-  background: None;
-  padding-left: 0;
-  padding-right: 0;
-}
-.post h2, #main-top, #main-bottom, .postexcerpt {
-  background: url(ropes/rod_left.jpg) top left no-repeat,
-  url(ropes/rod_right.jpg) top right no-repeat,
-  url(ropes/rod_middle.jpg) top repeat-x;
-  padding-top: 36px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-.sidebar {
-  margin: 0;
-}
+    #squeeze {
+      background: None;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .post h2, #main-top, #main-bottom, .postexcerpt {
+      background: url(ropes/rod_left.jpg) top left no-repeat,
+      url(ropes/rod_right.jpg) top right no-repeat,
+      url(ropes/rod_middle.jpg) top repeat-x;
+      padding-top: 36px;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
 }
 
 .tweet {
