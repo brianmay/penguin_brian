@@ -3,6 +3,7 @@ layout: person
 title: Lucy May
 relationship: Gran
 born: 28 January 1927
+died: 17 October 2021
 born_place: Melbourne, Victoria, Australia
 photos: 20
 ---
