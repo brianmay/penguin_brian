@@ -11,4 +11,4 @@ Create a cluster of Pandas so I can start to migrate applications off
 my aging Dell server and also have automatic deployments of my Docker
 containers.
 
-See [kubernetes post]({% post_url 2022-11-15-kubernetes %}).
+See [Kubernetes post]({% post_url 2022-11-15-kubernetes %}).
