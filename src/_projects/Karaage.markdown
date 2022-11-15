@@ -5,6 +5,7 @@ description: Cluster account management tool.
 website: https://karaage-cluster.github.io/about/
 language: Python 3.6
 framework: Django
+deprecated: false
 ---
 Karaage is a Python/Django project. The first git commit was made in 2008.
 
@@ -15,3 +16,5 @@ After I was made redundant at VPAC, I gave a talk at PyCon AU 2015 on
 [Karaage Gardening]({{ site.baseurl }}/talks/2015-07-31-karaage/).
 
 See posts on [Karaage]({{site.baseurl}}/tag/Karaage/).
+
+I help maintain Karaage for University of Melbourne.

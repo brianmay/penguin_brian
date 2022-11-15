@@ -3,12 +3,29 @@ layout: page
 title: Projects
 order: 3
 ---
+I work on too many projects. These are open source.
 
+<h2>Current Projects</h2>
 <ul>
     {% for project in site.projects %}
+    {% if project.deprecated == false %}
     <li>
         <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>:
         {{ project.description }}
     </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Legacy Projects</h2>
+
+<ul>
+    {% for project in site.projects %}
+    {% if project.deprecated == true %}
+    <li>
+        <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>:
+        {{ project.description }}
+    </li>
+    {% endif %}
     {% endfor %}
 </ul>
