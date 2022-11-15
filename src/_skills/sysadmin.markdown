@@ -112,10 +112,10 @@ For more details on my programming at VPAC, see my
 
 VPAC (aka V3 Alliance) closed operations at the end of 2015.
 
-## Personal Projects
+## Electronic Arts - 2020s
 
-My computer system that use to be called snoopy is now a Proxmox based system
-running a number of virtual machines. I have a number of VLANs running through
-my house, and Raspberry PIs running Robotica to try and help us keep to routine
-schedules. I also now have a remote cloud based Kubernetes cluster for my
-personal projects that can run remotely.
+I started getting involved more and more with [Kubernetes]({% post_url
+2022-11-15-kubernetes %}).
+
+I also was employed by Electronic Arts to help manage their Kubernetes
+clusters.
