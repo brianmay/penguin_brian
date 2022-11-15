@@ -32,7 +32,7 @@ I also set up a file server, running TrueNAS, so that I could mount storage usin
 
 I took two for other uses (1 for DNS server and 1 for FreeSwitch VOIP server), and uses the other seven to create a 3 master node + 4 worker node cluster. I also eventually got IPv6 working on cluster, IPv6 support was brand new at the time.
 
-After a while, I noticed that my Elixir processes talk over 1 minute to start. In the meantime, new nodes would frequently fail health checks and result in Kubernetes killing the node and restarting it. I have no idea why it takes Elixir processes so long to start, they seem OK after starting, but I had to make the health checks more generous in order to ensure these processes started correctly.
+After a while, I noticed that my Elixir processes talk over 1 minute to start. In the meantime, new pods would frequently fail health checks and result in Kubernetes killing the pod and restarting it. I have no idea why it takes Elixir processes so long to start, they seem OK after starting, but I had to make the health checks more generous in order to ensure these processes started correctly.
 
 I also had issues that I Docker support was being deprecated, and I had to release the Docker runtime with another runtime. This hasn't as difficult as I imagined. But I did encounter some challenges along the way, and filled some bug also. I don't remember much of the process anymore.
 
