@@ -11,4 +11,4 @@ BUILD_DATE="$(date --iso-8601=seconds)"
 bundle install
 bundle exec jekyll build --destination html
 
-rsync --delete -rv html/ brian@master.linuxpenguins.xyz:/var/www/html/brian
+rsync --delete -rv --exclude resume html/ brian@master.linuxpenguins.xyz:/var/www/html/brian
