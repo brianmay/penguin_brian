@@ -6,8 +6,8 @@ if [ -n "$(git status --porcelain)" ]; then
     exit 1
 fi
 
-VCS_REF="$(git rev-parse HEAD)"
-BUILD_DATE="$(date --iso-8601=seconds)"
+export VCS_REF="$(git rev-parse HEAD)"
+export BUILD_DATE="$(date --iso-8601=seconds)"
 bundle install
 bundle exec jekyll build --destination html
 
