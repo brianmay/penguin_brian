@@ -20,7 +20,7 @@ module to automatically start it.
 
 ## xdg-desktop-portal-gnome.service broken with sway
 
-See https://github.com/NixOS/nixpkgs/issues/206630
+See <https://github.com/NixOS/nixpkgs/issues/206630>
 
 This service needs to be manually disabled.
 
@@ -33,7 +33,7 @@ thought is what crane was suppose to fix.
 
 ## Inefficiencies building rust - crate2nix
 
-See https://github.com/cargo2nix/cargo2nix/issues/318
+See <https://github.com/cargo2nix/cargo2nix/issues/318>
 
 Also seems to be painful using with dependabot, because dependabot won't
 automatically update the nix file.
@@ -85,3 +85,7 @@ under nix, browser loads correctly, shows login, but cannot interact with
 website as it appears to be loading still.
 
 Running this inside a Debian VM for now works.
+
+## Ruby
+
+Hash mismatch error, see: <https://github.com/nix-community/bundix/issues/109>
