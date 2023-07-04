@@ -33,7 +33,7 @@ jobs:
     - name: Test Result
       run: |-
         rm -rf _tmp/virtual
-        bundle exec htmlproofer _tmp --disable-external
+        bundle exec htmlproofer _tmp --disable-external true
 
     - name: Delete Result
       run: |-
