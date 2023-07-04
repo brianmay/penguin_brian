@@ -18,11 +18,25 @@ and unmaintained.
 Maestral works, but neither nixos or home-manager have any sort of built in
 module to automatically start it.
 
-## xdg-desktop-portal-gnome.service broken with sway
+## xdg-desktop-portal-gnome.service broken with i3/sway
 
 See <https://github.com/NixOS/nixpkgs/issues/206630>
 
-This service needs to be manually disabled.
+For X/i3 there is a work around:
+
+```
+services.xserver.displayManager.importedVariables = [
+    "XDG_SESSION_TYPE"
+    "XDG_CURRENT_DESKTOP"
+    "XDG_SESSION_DESKTOP"
+];
+```
+
+For wayland/sway:
+
+```
+systemctl --user mask xdg-desktop-portal-gnome
+```
 
 ## Inefficiencies building rust - crane
 
