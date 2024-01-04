@@ -1,7 +1,7 @@
 {
   description = "Brian's website";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }:
@@ -27,7 +27,7 @@
           src = ./.;
           buildInputs = [ gems ];
           buildPhase = ''
-            export VCS_REF="${self.rev}"
+            export VCS_REF="${self.rev or "dirty"}"
             export BUILD_DATE="${version}"
             ${gems}/bin/jekyll build --destination _site
           '';
