@@ -171,10 +171,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vwnr6fmxig4pkag86yzbznpxk8ii7rhjz0rrprkqvnymhhfnscz";
+      sha256 = "10yy0y961a4c3parz8x97a42clin46a29nvh9d3sa8jn334sb2y0";
       type = "gem";
     };
-    version = "4.27.2";
+    version = "4.27.5";
   };
   hashery = {
     groups = ["default"];
@@ -465,10 +465,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zr5qpa8lampaqzhdcjcvyqnrqcjl7439mqjlkjz43wdhmpnh4s5";
+      sha256 = "1ik3in0957l9s6iwdm3nsk4za072cj27riiqgpx6zzcd22flbw3s";
       type = "gem";
     };
-    version = "3.3.2";
+    version = "3.3.6";
   };
   rouge = {
     groups = ["default" "jekyll_plugins"];
