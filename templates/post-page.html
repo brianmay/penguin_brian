@@ -44,16 +44,23 @@
 </table>
 
 
+{% set talks = get_section(path="talks/_index.md") %}
+{% set list = [] %}
+{% for talk in talks.pages %}
+    {% set conference = get_page(path="posts/" ~ talk.extra.conference ~ ".md") %}
+    {% if conference.slug == page.slug %}
+        {% set_global list = list | concat(with=talk) %}
+    {% endif %}
+{% endfor %}
+
+{% if list %}
 List of talks:
 <ul>
-    {% set talks = get_section(path="talks/_index.md") %}
-    {% for talk in talks.pages %}
-        {% set conference = get_page(path="posts/" ~ talk.extra.conference ~ ".md") %}
-        {% if conference.slug == page.slug %}
-            <li><a href='{{ talk.permalink }}'>{{ talk.title }}</a> by {{ talk.extra.speaker }}.</li>
-        {% endif %}
+    {% for talk in list %}
+          <li><a href='{{ talk.permalink }}'>{{ talk.title }}</a> by {{ talk.extra.speaker }}.</li>
     {% endfor %}
 </ul>
+{% endif %}
 {% endif %}
 
 {% if page.extra.type is defined and page.extra.type == "trip" %}
