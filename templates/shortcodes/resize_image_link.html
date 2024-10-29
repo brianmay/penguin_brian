@@ -1,0 +1,5 @@
+{% set document = page | default(value=section) -%} {# this ensures the shortcode works in both pages and sections -#}
+{% set image = resize_image(path=document.colocated_path ~ path, width=width, height=height, op=op) %}
+<a href="{{ path | safe }}">
+<img src="{{ image.url }}" />
+</a>

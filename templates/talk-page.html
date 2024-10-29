@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ page.title }}</h1>
+
+<table class="keyvalue">
+    <tbody>
+        <tr>
+            <th>Speaker</th>
+            <td>
+                {{ page.extra.speaker }}
+            </td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td>
+                {{ page.extra.begin }}
+            </td>
+        </tr>
+        <tr>
+            <th>Conference</th>
+            <td>
+                {% set conference = get_page(path="posts/" ~ page.extra.conference ~ '.md') %}
+                <a href="{{ conference.permalink }}">{{conference.title}}</a>
+            </td>
+        </tr>
+        {% if page.extra.talk_url %}
+        <tr>
+            <th>Talk details</th>
+            <td>
+                <a href="{{ page.extra.talk_url }}">Link</a>
+            </td>
+        </tr>
+        {% endif %}
+        {% if page.extra.video_url %}
+        <tr>
+            <th>Video</th>
+            <td>
+                <a href="{{ page.extra.video_url }}">Link</a>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+
+{{ page.content | safe }} {% endblock content %}

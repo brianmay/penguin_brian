@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ page.title }}</h1>
+
+<table>
+    <tbody>
+        <tr>
+            <th>Project</th>
+            <td>
+                <a href='{{ page.extra.website }}'>{{ page.title }}</a>
+            </td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>{{ page.extra.description }}</td>
+        </tr>
+        {% if page.extra.language is defined %}
+        <tr>
+            <th>Language</th>
+            <td>{{ page.extra.language }}</td>
+        </tr>
+        {% endif %}
+        {% if page.extra.framework is defined %}
+        <tr>
+            <th>Framework</th>
+            <td>{{ page.extra.framework }}</td>
+        </tr>
+        {% endif %}
+        {% if page.extra.features is defined %}
+        <tr>
+            <th>Features</th>
+            <td>{{ page.extra.features }}</td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+
+{{ page.content | safe }} {% endblock content %}

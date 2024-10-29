@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ section.title }}</h1>
+
+<p>I ensure my skills remain up-to-date by constantly researching new solutions
+for old problems and attending
+<a href='@/conferences/_index.md'>Conferences</a>
+right around the globe.</p>
+
+<p>I hold skills in the following areas:</p>
+
+<ul>
+    {% for skill in section.pages %}
+    <li>
+        <a href="{{ skill.permalink }}">{{ skill.title }}</a>:
+        {{ skill.extra.description }}
+    </li>
+    {% endfor %}
+</ul>
+
+My <a href='https://linuxpenguins.xyz/brian/resume/brianmay-resume.pdf'>resume</a>
+and an <a href='https://linuxpenguins.xyz/brian/resume/brianmay-appendix.pdf'>appendix</a>
+is available online.
+{% endblock content %}

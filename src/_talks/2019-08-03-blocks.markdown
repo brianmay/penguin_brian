@@ -1,9 +1,0 @@
----
-layout: talk
-title: Fantastic Blocks And Where To Hide Them
-conference: /conferences/2019/08/02/PyConAu2019/
-speaker: Christopher Neugebauer
-begin: 2019-08-03 14:10
-talk_url: "https://2019.pycon-au.org/talks/fantastic-blocks-and-where-to-hide-them"
----
-Anonymous blocks. Unlikely to appear any time soon.

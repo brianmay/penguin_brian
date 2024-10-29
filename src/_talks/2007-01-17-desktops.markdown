@@ -1,7 +1,0 @@
----
-layout: talk
-title: Desktops on diets
-conference: /conferences/2007/01/20/LCA2007/
-speaker: Carsten Hairzler
-begin: 2007-01-17 14:00
----

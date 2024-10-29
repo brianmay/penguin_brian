@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ page.title }}</h1>
+<p class="subtitle"><strong>{{ page.date }}</strong></p>
+
+<table>
+    <tbody>
+        <tr>
+            <th>Relationship</th>
+            <td>
+                {{ page.extra.relationship }}
+            </td>
+        </tr>
+        <tr>
+            <th>Born</th>
+            <td>
+                {{ page.extra.born }}, {{ page.extra.born_place }}
+            </td>
+        </tr>
+        {% if page.extra.died is defined %}
+        <tr>
+            <th>Died</th>
+            <td>
+              {{ page.extra.died }}, {{ page.extra.died_place }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if page.extra.photos is defined %}
+        <tr>
+            <th>Photos</th>
+            <td>
+                <a href="https://photos.linuxpenguins.xyz/person/{{page.extra.photos}}/">Photos</a>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+
+{{ page.content | safe }} {% endblock content %}

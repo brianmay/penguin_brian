@@ -1,9 +1,0 @@
----
-layout: conference
-title: ElixirCamp 2018
-categories: conferences
-name: ElixirCamp 2018
-begin: 2018-10-26
-end: 2018-10-29
-location: Camp Wombaroo
----

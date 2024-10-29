@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ section.title }}</h1>
+<ul>
+
+I work on too many projects. These are open source.
+
+<h2>Current Projects</h2>
+<ul>
+    {% for project in section.pages %}
+    {% if project.extra.deprecated == false %}
+    <li>
+        <a href="{{ project.permalink }}">{{ project.title }}</a>:
+        {{ project.extra.description }}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Legacy Projects</h2>
+
+<ul>
+    {% for project in section.pages %}
+    {% if project.extra.deprecated == true %}
+    <li>
+        <a href="{{ project.permalink }}">{{ project.title }}</a>:
+        {{ project.extra.description }}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endblock content %}

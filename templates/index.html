@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">Penguin Brian May</h1>
+<p>This site has been installed under the personal direction of Tux. It goal is to eliminate every remaining Apple until only Fish remain.</p>
+
+<ul>
+<li><a href="{{ get_url(path="@/posts/_index.md") }}">Posts</a></li>
+<li><a href="{{ get_url(path="@/people/_index.md") }}">People</a></li>
+<li><a href="{{ get_url(path="@/projects/_index.md") }}">Projects</a></li>
+<li><a href="{{ get_url(path="@/skills/_index.md") }}">Skills</a></li>
+<li><a href="{{ get_url(path="@/talks/_index.md") }}">Talks</a></li>
+<li><a href="{{ get_url(path="@/trips.md") }}">Trips</a></li>
+<li><a href="{{ get_url(path="@/conferences.md") }}">Conferences</a></li>
+</ul>
+
+{% endblock content %}

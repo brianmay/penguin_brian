@@ -1,0 +1,86 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ page.title }}</h1>
+<p class="subtitle"><strong>{{ page.date }}</strong></p>
+
+{% if page.extra.type is defined and page.extra.type == "conference" %}
+<table>
+    <tbody>
+        <tr>
+            <th>Conference</th>
+            <td>
+            {% if page.extra.website %}
+                <a href="{{ page.extra.website }}">{{ page.extra.name }}</a>
+            {% else %}
+                {{ page.extra.name }}
+            {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>
+                {{ page.extra.location }}
+            </td>
+        </tr>
+        <tr>
+            <th>Dates</th>
+            <td>
+                {{ page.extra.begin }} to {{ page.extra.end }}
+            </td>
+        </tr>
+        {% if page.extra.trip is defined %}
+        <tr>
+            <th>Trip</th>
+            <td>
+              {% set trip = get_page(path="posts/" ~ page.extra.trip ~ '.md') %}
+        <a href="{{ trip.permalink }}">{{ trip.title }}</a>
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+
+
+List of talks:
+<ul>
+    {% set talks = get_section(path="talks/_index.md") %}
+    {% for talk in talks.pages %}
+        {% set conference = get_page(path="posts/" ~ talk.extra.conference ~ ".md") %}
+        {% if conference.slug == page.slug %}
+            <li><a href='{{ talk.permalink }}'>{{ talk.title }}</a> by {{ talk.extra.speaker }}.</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if page.extra.type is defined and page.extra.type == "trip" %}
+<table>
+    <tbody>
+        <tr>
+            <th>Destination</th>
+            <td>
+                {{ page.extra.destination }}
+            </td>
+        </tr>
+        <tr>
+            <th>Dates</th>
+            <td>
+                {{ page.extra.begin }} to {{ page.extra.end }}
+            </td>
+        </tr>
+        <tr>
+            <th>Transport</th>
+            <td>
+                {{ page.extra.transport }}
+            </td>
+        </tr>
+        <tr>
+            <th>Purpose</th>
+            <td>
+                {{ page.extra.purpose }}
+            </td>
+        </tr>
+    </tbody>
+</table>
+{% endif %}
+
+{{ page.content | safe }} {% endblock content %}

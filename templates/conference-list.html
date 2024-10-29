@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block content %} {% set data = get_section(path="posts/_index.md") -%}
+<h1 class="title">{{ page.title }}</h1>
+{{ page.content | safe }}
+<table class="list">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Begin</th>
+            <th>End</th>
+            <th>Website</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+  <tbody>
+    {% for conference in data.pages %} {% if conference.extra.type is defined and
+    conference.extra.type == "conference" %}
+        <tr>
+            <td><a href="{{ conference.permalink }}">{{ conference.extra.name }}</a></td>
+            <td>{{conference.extra.begin}}</td>
+            <td>{{conference.extra.end}}</td>
+            {% if conference.extra.website %}
+            <td><a href="{{ conference.extra.website }}">Website</a></td>
+            {% else %}
+            <td>-</td>
+            {% endif %}
+            <td>{{ conference.extra.location }}</td>
+        </tr>
+    {% endif %} {% endfor %}
+  </tbody>
+</table>
+{% endblock content %}

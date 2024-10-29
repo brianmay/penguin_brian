@@ -1,0 +1,29 @@
+{% extends "base.html" %} {% block content %} {% set data = get_section(path="posts/_index.md") -%}
+<h1 class="title">{{ page.title }}</h1>
+{{ page.content | safe }}
+<table class="list">
+  <thead>
+    <tr>
+      <th>Destination</th>
+      <th>Transport</th>
+      <th>Begin</th>
+      <th>End</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for trip in data.pages %} {% if trip.extra.type is defined and
+    trip.extra.type == "trip" and trip.extra.transport == "light aircraft" %}
+    <tr>
+      <td>
+        <a href="{{ trip.permalink }}">{{ trip.extra.destination }}</a>
+      </td>
+      <td>{{trip.extra.transport}}</td>
+      <td>{{trip.extra.begin}}</td>
+      <td>{{trip.extra.end}}</td>
+      <td>{{trip.extra.purpose}}</td>
+    </tr>
+    {% endif %} {% endfor %}
+  </tbody>
+</table>
+{% endblock content %}
