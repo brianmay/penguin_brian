@@ -22,3 +22,10 @@ highlight_code = true
 paths_keep_dates = true
 
 [extra]
+header_nav = [
+  { url = "/", name_en = "/home/" },
+  { url = "/posts", name_en = "/posts/"  },
+  { url = "/skills", name_en = "/skills/" },
+  { url = "/projects", name_en = "/projects/" },
+]
+
