@@ -5,8 +5,8 @@
     <thead>
         <tr>
             <th>Name</th>
-            <th>Begin</th>
             <th>Website</th>
+            <th>Location</th>
         </tr>
     </thead>
   <tbody>
@@ -14,12 +14,12 @@
     conference.extra.type == "conference" %}
         <tr>
             <td><a href="{{ conference.permalink }}">{{ conference.extra.name }}</a></td>
-            <td>{{conference.extra.begin}}</td>
             {% if conference.extra.website %}
             <td><a href="{{ conference.extra.website }}">Website</a></td>
             {% else %}
             <td>-</td>
             {% endif %}
+            <td>{{conference.extra.location}}</td>
         </tr>
     {% endif %} {% endfor %}
   </tbody>

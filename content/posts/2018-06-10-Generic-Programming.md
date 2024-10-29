@@ -6,8 +6,6 @@ title = "Generic Programming"
 tags = ["programming", "Python", "Karaage"]
 +++
 
-# Generic Programming
-
 Writing website software that targets one particular installation is easy. You
 know exactly what the requirements are are can build a system that meets those
 requirements. Even if the requirements change or a unclear, there is still only

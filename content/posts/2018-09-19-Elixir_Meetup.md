@@ -6,6 +6,6 @@ type = "conference"
 name = "Elixir Meetup"
 begin = 2018-09-19
 end = 2018-09-19
-location = "Envato, 121 King Street, Melbourne"
+location = "Envato, Melbourne"
 website = "https://www.meetup.com/Elixir-Melbourne/events/cbwjklyxmbzb/"
 +++
