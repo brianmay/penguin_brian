@@ -2,7 +2,7 @@
 title = "System Administration"
 
 [extra]
-description = "I am a skilled Linux systems administrator."
+description = "Linux systems administrator."
 +++
 
 I have always been very excited about Unix based operating systems, even before

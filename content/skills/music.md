@@ -2,7 +2,7 @@
 title = "Music"
 
 [extra]
-description = "Playing musical instruments."
+description = "Playing musical instruments"
 +++
 
 Granddad was always very keen on playing the violin. I also have a musical

@@ -2,7 +2,7 @@
 title = "Programming"
 
 [extra]
-description = "I am a skilled in a range of computer programming languages."
+description = "computer programming"
 +++
 
 I have many years experience in computer programming.

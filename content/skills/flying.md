@@ -2,7 +2,8 @@
 title = "Flying"
 
 [extra]
-description = "I hold a private pilots license."
+description = "Flying private aircraft"
+list_trip_transport = "light aircraft"
 +++
 
 I first started flying
