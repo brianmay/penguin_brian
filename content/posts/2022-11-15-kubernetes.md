@@ -1,12 +1,11 @@
 +++
 layout = "post"
 title = "Kubernetes"
+description = "Fun and games with Kubernetes"
 
 [taxonomies]
 tags = ["kubernetes", "docker"]
 +++
-
-# Kubernetes
 
 ## Hetzner VM
 
