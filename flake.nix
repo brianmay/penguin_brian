@@ -37,9 +37,6 @@
       devShells.default = pkgs.mkShell {
         buildInputs = [
           pkgs.zola
-          pkgs.python3
-          pkgs.yarn
-          pkgs.nodejs_22
         ];
       };
     });
