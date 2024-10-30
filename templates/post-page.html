@@ -127,7 +127,8 @@ List of talks:
 <p class="tags-data">
   {% if page.taxonomies.tags %}
   {% for tag in page.taxonomies.tags %}
-  <a href="/tags/{{ tag | slugify }}">&#47;{{ tag }}&#47;</a>
+  {% set url = get_url(path="/tags/" ~ tag | slugify) %}
+  <a href="{{ url | safe }}">&#47;{{ tag }}&#47;</a>
   {% endfor %}
   {% endif %}
 </p>

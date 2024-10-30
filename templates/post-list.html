@@ -9,6 +9,8 @@
 {% set pages = section.pages %}
 {% endif %}
 
+<p>List all <a href="{{ get_url(path="/tags/", trailing_slash=true) }}">tags</a>.</p>
+
 {% for year, posts in pages | group_by(attribute="year") %}
 <h2>{{year}}</h2>
 <ul class="title-list">
