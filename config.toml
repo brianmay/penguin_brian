@@ -30,4 +30,3 @@ header_nav = [
   { url = "/skills", name_en = "/skills/" },
   { url = "/projects", name_en = "/projects/" },
 ]
-
