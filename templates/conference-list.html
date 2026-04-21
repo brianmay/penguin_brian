@@ -10,16 +10,17 @@
         </tr>
     </thead>
   <tbody>
-    {% for conference in data.pages %} {% if conference.extra.type is defined and
-    conference.extra.type == "conference" %}
+    {% for conference in data.pages %} {% if conference.extra.type is defined and (conference.extra.type == "conference" or (conference.extra.type == "trip" and conference.extra.is_conference)) %}
         <tr>
-            <td><a href="{{ conference.permalink }}">{{ conference.extra.name }}</a></td>
-            {% if conference.extra.website %}
+            <td><a href="{{ conference.permalink }}">{% if conference.extra.conference_name %}{{ conference.extra.conference_name }}{% else %}{{ conference.extra.name }}{% endif %}</a></td>
+            {% if conference.extra.conference_website %}
+            <td><a href="{{ conference.extra.conference_website }}">Website</a></td>
+            {% elif conference.extra.website %}
             <td><a href="{{ conference.extra.website }}">Website</a></td>
             {% else %}
             <td>-</td>
             {% endif %}
-            <td>{{conference.extra.location}}</td>
+            <td>{% if conference.extra.conference_location %}{{ conference.extra.conference_location }}{% else %}{{ conference.extra.location }}{% endif %}</td>
         </tr>
     {% endif %} {% endfor %}
   </tbody>

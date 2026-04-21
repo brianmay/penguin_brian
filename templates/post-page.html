@@ -40,6 +40,14 @@
             </td>
         </tr>
         {% endif %}
+        {% if page.extra.photo_album is defined %}
+        <tr>
+            <th>Photos</th>
+            <td>
+                <a href="https://photos.linuxpenguins.xyz/album/{{ page.extra.photo_album }}/">photos</a>
+            </td>
+        </tr>
+        {% endif %}
     </tbody>
 </table>
 
@@ -78,20 +86,76 @@ List of talks:
                 {{ page.extra.begin }} to {{ page.extra.end }}
             </td>
         </tr>
+        {% if page.extra.transport is defined %}
         <tr>
             <th>Transport</th>
             <td>
                 {{ page.extra.transport }}
             </td>
         </tr>
+        {% endif %}
+        {% if page.extra.purpose is defined %}
         <tr>
             <th>Purpose</th>
             <td>
                 {{ page.extra.purpose }}
             </td>
         </tr>
+        {% endif %}
+        {% if page.extra.photo_album is defined %}
+        <tr>
+            <th>Photos</th>
+            <td>
+                <a href="https://photos.linuxpenguins.xyz/album/{{ page.extra.photo_album }}/">photos</a>
+            </td>
+        </tr>
+        {% endif %}
+        {% set data = get_section(path="posts/_index.md") %}
+        {% for p in data.pages %}
+            {% if p.extra.trip is defined and p.extra.trip | lower == page.slug and p.extra.type == "conference" %}
+        <tr>
+            <th>Conference</th>
+            <td>
+                <a href="{{ p.permalink }}">{{ p.extra.name }}</a>
+            </td>
+        </tr>
+            {% endif %}
+        {% endfor %}
     </tbody>
 </table>
+
+{% if page.extra.is_conference %}
+<table>
+    <tbody>
+        <tr>
+            <th>Conference</th>
+            <td>
+            {% if page.extra.conference_website %}
+                <a href="{{ page.extra.conference_website }}">{{ page.extra.conference_name }}</a>
+            {% else %}
+                {{ page.extra.conference_name }}
+            {% endif %}
+            </td>
+        </tr>
+        {% if page.extra.conference_location %}
+        <tr>
+            <th>Location</th>
+            <td>
+                {{ page.extra.conference_location }}
+            </td>
+        </tr>
+        {% endif %}
+        {% if page.extra.conference_begin %}
+        <tr>
+            <th>Dates</th>
+            <td>
+                {{ page.extra.conference_begin }} to {{ page.extra.conference_end }}
+            </td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+{% endif %}
 {% endif %}
 
 

@@ -13,10 +13,7 @@ protocols such as
 obtained my PhD in 2002 from [Monash University in
 Clayton](https://monash.edu.au/campuses/clayton/).
 
-For my PhD I submitted papers at various conferences, including:
-
-- [MADE2000](@/posts/2000-05-30-MADE2000.md)
-- [WCC2000](@/posts/2000-08-25-WCC2000.md)
+For my PhD I submitted papers at various conferences, including MADE2000 and WCC2000.
 
 The Phd is available for [download](phdthesis.ps).
 
