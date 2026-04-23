@@ -7,8 +7,6 @@ date = 2017-02-19 12:00:00
 tags = ["public_transport"]
 +++
 
-# Buses Replacing Trains
-
 Recently, there were two sets of disruptions on the Belgrave line with buses
 replacing trains for multiple weeks. First there were buses replacing trains
 between Belgrave and Ringwood during most of November. Then there were buses
@@ -17,7 +15,7 @@ replacing trains between Ringwood and Box Hill stations during most of January.
 I tried to avoid the need to travel to work as much as possible, and I had two
 weeks off during the middle of January.
 
-## Buses UFTG to Ringwood
+## Buses Upper Ferntree Gully to Ringwood
 
 Boarding the buses was quite pleasant experience at Upper Ferntree Gully in the
 morning, considering there were few people waiting. Sometimes I had to wait
@@ -26,7 +24,7 @@ to be stuck in traffic jams due to later time.
 
 I found the trip was very inconsistent, especially with the express bus
 services. Some buses would go via Canterbury Road and some via Boronia Road.
-Some of the buses to Belgrave would come back via the Eastlink to Boronia Road,
+Some of the buses to Belgrave would come back via the EastLink to Boronia Road,
 most would not. This meant the trip time varied greatly, depending on which
 traffic jam the got stuck in.
 
@@ -34,7 +32,7 @@ The return trip was less convenient. I found that if I caught the bus
 replacement service to Upper Ferntree Gully and then the 7:01PM 688 bus I would
 arrive at home at around 7:17PM (scheduled). If I instead caught the train to
 Croydon, I could catch the 6:38PM bus with time to spare and arrive home at
-7:18PM (scheduled). So it made sense to go via Croydon instead of UFTG.
+7:18PM (scheduled). So it made sense to go via Croydon instead of Upper Ferntree Gully.
 
 In practise the 688 from Croydon was often running late. Sometimes due to
 waiting for late trains. Sometimes because some of the drivers would made an
@@ -45,8 +43,8 @@ driver was confused with the timetable or if it was deliberate.
 
 This was very inconsistent experience. Sometimes the queues were long,
 sometimes short. Some buses went via Maroondah Highway, some went via the
-Eastern Freeway and Eastlink tunnels (much faster). One went via the Eastern
-Freeway and turned off before Eastlink on Springvale Road (very slow).
+Eastern Freeway and EastLink tunnels (much faster). One went via the Eastern
+Freeway and turned off before EastLink on Springvale Road (very slow).
 
 I found during the first phase, when all trains were stopping all stations,
 some trains went direct from Flinders Street to Richmond (probably the

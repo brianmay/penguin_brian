@@ -36,7 +36,7 @@ lasted for several months, when I found Linode had managed instances for
 cheaper, so I moved to them instead.
 
 Months later, I found I was still being charged for storage space on Google
-Cloud, because I failed to ensure it was deleted. Argghh!
+Cloud, because I failed to ensure it was deleted. Ugh!
 
 ## Personal cluster
 
@@ -63,7 +63,7 @@ correctly.
 I also had issues that I Docker support was being deprecated, and I had to
 release the Docker runtime with another runtime. This hasn't as difficult as I
 imagined. But I did encounter some challenges along the way, and filled some
-bug also. I don't remember much of the process anymore.
+bug also. I don't remember much of the process any more.
 
 After updating to Debian 10, I got to upgrading the 3rd master, when I suddenly
 realised that the previous two masters were dead and not working correctly.
