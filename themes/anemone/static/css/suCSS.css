@@ -336,7 +336,7 @@ table {
   margin: 1.5rem 0;
   display: block;
   overflow-x: auto;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 td,
@@ -359,6 +359,45 @@ table caption {
   text-align: left;
   font-weight: bold;
   margin: 0 0 .4rem 1rem;
+}
+
+/* Card-style tables on mobile */
+@media only screen and (max-width: 720px) {
+  table.list {
+    display: block;
+    overflow-x: visible;
+    white-space: normal;
+  }
+  table.list thead {
+    display: none;
+  }
+  table.list tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  table.list tr {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: var(--standard-border-radius);
+    padding: 0.5rem;
+    background-color: var(--bg);
+  }
+  table.list td {
+    display: block;
+    border: none;
+    padding: 0.15rem 0.25rem;
+  }
+  table.list td:first-child {
+    padding-top: 0;
+  }
+  table.list td:last-child {
+    padding-bottom: 0;
+  }
+  table.list td::before {
+    content: attr(data-label) ": ";
+    font-weight: bold;
+  }
 }
 
 /* format forms */

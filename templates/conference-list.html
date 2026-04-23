@@ -2,25 +2,18 @@
 <h1>{{ page.title }}</h1>
 {{ page.content | safe }}
 <table class="list">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Website</th>
-            <th>Location</th>
-        </tr>
-    </thead>
   <tbody>
     {% for conference in data.pages %} {% if conference.extra.type is defined and (conference.extra.type == "conference" or (conference.extra.type == "trip" and conference.extra.is_conference)) %}
         <tr>
-            <td><a href="{{ conference.permalink }}">{% if conference.extra.conference_name %}{{ conference.extra.conference_name }}{% else %}{{ conference.extra.name }}{% endif %}</a></td>
+            <td data-label="Name"><a href="{{ conference.permalink }}">{% if conference.extra.conference_name %}{{ conference.extra.conference_name }}{% else %}{{ conference.extra.name }}{% endif %}</a></td>
             {% if conference.extra.conference_website %}
-            <td><a href="{{ conference.extra.conference_website }}">Website</a></td>
+            <td data-label="Website"><a href="{{ conference.extra.conference_website }}">Website</a></td>
             {% elif conference.extra.website %}
-            <td><a href="{{ conference.extra.website }}">Website</a></td>
+            <td data-label="Website"><a href="{{ conference.extra.website }}">Website</a></td>
             {% else %}
-            <td>-</td>
+            <td data-label="Website">-</td>
             {% endif %}
-            <td>{% if conference.extra.conference_location %}{{ conference.extra.conference_location }}{% else %}{{ conference.extra.location }}{% endif %}</td>
+            <td data-label="Location">{% if conference.extra.conference_location %}{{ conference.extra.conference_location }}{% else %}{{ conference.extra.location }}{% endif %}</td>
         </tr>
     {% endif %} {% endfor %}
   </tbody>

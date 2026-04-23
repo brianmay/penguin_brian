@@ -2,22 +2,15 @@
 <h1>{{ page.title }}</h1>
 {{ page.content | safe }}
 <table class="list">
-  <thead>
-    <tr>
-      <th>Destination</th>
-      <th>Transport</th>
-      <th>Begin</th>
-    </tr>
-  </thead>
   <tbody>
     {% for trip in data.pages %} {% if trip.extra.type is defined and
     trip.extra.type == "trip" %}
     <tr>
-      <td>
+      <td data-label="Destination">
         <a href="{{ trip.permalink }}">{{ trip.extra.destination }}</a>
       </td>
-      <td>{{trip.extra.transport}}</td>
-      <td>{{trip.extra.begin}}</td>
+      <td data-label="Transport">{{trip.extra.transport}}</td>
+      <td data-label="Begin">{{trip.extra.begin}}</td>
     </tr>
     {% endif %} {% endfor %}
   </tbody>

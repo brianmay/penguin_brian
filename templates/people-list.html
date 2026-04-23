@@ -3,21 +3,13 @@
 <!-- If you are using pagination, section.pages will be empty.
      You need to use the paginator object -->
 <table class="list">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Relationship</th>
-            <th>Born</th>
-            <th>Died</th>
-        </tr>
-    </thead>
     <tbody>
         {% for person in section.pages %}
         <tr>
-            <td><a href="{{ person.permalink | safe }}">{{ person.title }}</a></td>
-            <td>{{person.extra.relationship}}</td>
-            <td>{{person.extra.born}}</td>
-            <td>{{person.extra.died}}</td>
+            <td data-label="Name"><a href="{{ person.permalink | safe }}">{{ person.title }}</a></td>
+            <td data-label="Relationship">{{person.extra.relationship}}</td>
+            <td data-label="Born">{{person.extra.born}}</td>
+            <td data-label="Died">{{person.extra.died}}</td>
         </tr>
         {% endfor %}
     </tbody>
