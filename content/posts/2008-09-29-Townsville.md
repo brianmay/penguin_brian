@@ -27,12 +27,12 @@ mistyped the date, and the booking was made for the wrong day. The hotel was
 fully booked out. Fortunately we were transferred to another hotel of the same
 owner and stayed there the night.
 
-{% include photo.html photo=19333 title="Accommodation" %}
+{{ photo(photo=19333, title="Accommodation") }}
 
 In the night Dad took some night time photos with long exposure times (15 to 30
 seconds).
 
-{% include photo.html photo=19318 title="Night time Photo" %}
+{{ photo(photo=19318, title="Night time Photo") }}
 
 ## Day 2 (2008-09-14) Cairns to Cape Tribulation
 
@@ -40,11 +40,11 @@ We drove. In a car. A rental car. A rental car that was black, to be precise.
 At one stage we had to cross a river in a car ferry. The ferry cost as $19 for
 a return trip. We stayed the night at Heritage Lodge.
 
-{% include photo.html photo=19464 title="Heritage Lodge" %}
+{{ photo(photo=19464, title="Heritage Lodge") }}
 
 ## Day 3 (2008-09-15) Cape Tribulation
 
-{% include photo.html photo=19398 title="Wompoo Fruit-dove" %}
+{{ photo(photo=19398, title="Wompoo Fruit-dove") }}
 
 Today we walked up Mount Sorrow. You have to be careful to stay in sight of the
 orange arrows (or orange ribbons or blue ribbons) otherwise you can easily end
@@ -61,7 +61,7 @@ good view, from a metal cage. Some people criticised the cage as being ugly,
 but it provided a place to wait without fear of leaches. Unfortunately no
 seats were provided.
 
-{% include photo.html photo=19446 title="View from top of Mount Sorrow" %}
+{{ photo(photo=19446, title="View from top of Mount Sorrow") }}
 
 We started the walk at 10:55, arrived at the top at 13:32, started the descent
 at 14:51, and got back to the bottom at 16:22.
@@ -86,30 +86,30 @@ went on the sunset tour, and saw kangaroos, wallabies, and bats flying out of
 the lava tube at night. We learnt that kangaroos have pointy ears and wallabies
 have rounded ears.
 
-{% include photo.html photo=19559 title="Kangaroo" %}
+{{ photo(photo=19559, title="Kangaroo") }}
 
 ## Day 5 (2008-09-17) Undara to Ingham
 
 We went on the half day tour, and saw more wildlife. We also saw the insides of
 some of the lava tubes.
 
-{% include photo.html photo=19679 title="lava tube" %}
+{{ photo(photo=19679, title="lava tube") }}
 
 The mango tree on the side of the road is significant because it marks where
 the lava crossed this area.
 
-{% include photo.html photo=19720 title="mango tree" %}
+{{ photo(photo=19720, title="mango tree") }}
 
 Later on we saw a number of water falls and headed for Ingham. At Ingham
 we stayed at in old building, Hotel Noorla, with historic features. For
 example, the owner created all the tiles by hand, and they appeared to be
 of good quality.
 
-{% include photo.html photo=19814 title="Ellinjaa Falls" %}
+{{ photo(photo=19814, title="Ellinjaa Falls") }}
 
 We stay the night in a historic Hotel.
 
-{% include photo.html photo=19895 title="Hotel Noorla" %}
+{{ photo(photo=19895, title="Hotel Noorla") }}
 
 ## Day 6 (2008-09-18) Ingham to Townsville
 
@@ -120,7 +120,7 @@ at them as we pass them, but they don't seem to take any notice.
 
 We walk to the bottom of the waterfalls and take lots of photos.
 
-{% include photo.html photo=19968 title="Wallaman Falls" %}
+{{ photo(photo=19968, title="Wallaman Falls") }}
 
 After the falls, we drive in our brown rental car to Townsville. By this stage,
 the car has been covered in layers of dirt and tar (from the many road works) and
@@ -136,7 +136,7 @@ functional. On the third day nothing breaks.
 
 We take lots of photos of birds, lizards, snakes and dogs in the area.
 
-{% include photo.html photo=20098 title="Frog" %}
+{{ photo(photo=20098, title="Frog") }}
 
 ## Day 10 (2008-09-22) to day 16 (2008-09-28) Townsville
 
@@ -144,19 +144,19 @@ Fix stuff around my sisters house. Fix leaking toilet. Repeatedly. Fix TV, and
 allow it to receive ABC (perfectly) and other channels (not so good - Antenna
 is VHF only). Install blinds to protect dogs from insects in wet season.
 
-{% include photo.html photo=20234 title="Cockatoo" %}
+{{ photo(photo=20234, title="Cockatoo") }}
 
 ## Day 13 (2008-09-25) Townsville
 
 Walk through Town Common taking photos of birds.
 
-{% include photo.html photo=20307 title="Kookaburra" %}
+{{ photo(photo=20307, title="Kookaburra") }}
 
 ## Day 14 (2008-09-26) Townsville
 
 Walk through Town Common and take photos from the top of Mount Marlow.
 
-{% include photo.html photo=20545 title="Townsville" %}
+{{ photo(photo=20545, title="Townsville") }}
 
 ## Day 15 (2008-09-27) to day 16 (2008-09-28) Townsville
 
@@ -170,4 +170,4 @@ propels the aircraft forward and keep it in the air. Flying is perfectly safe,
 as long as we don't run out of batteries. When the camera fills up with photos
 it is time to land.
 
-{% include photo.html photo=20631 title="Magnetic Island" %}
+{{ photo(photo=20631, title="Magnetic Island") }}
