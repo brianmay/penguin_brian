@@ -6,7 +6,7 @@
     <li>
         {% set conference = get_page(path="posts/" ~ talk.extra.conference ~ '.md') %}
         <a href="{{ talk.permalink }}">{{ talk.title }}</a>:
-        {{ conference.title }}
+        {% if conference.extra.conference_name %}{{ conference.extra.conference_name }}{% else %}{{ conference.extra.name }}{% endif %}
     </li>
     {% endfor %}
 </ul>

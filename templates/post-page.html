@@ -6,154 +6,169 @@
 {% endif %}
 <h1>{{ page.title }}</h1>
 
-{% if page.extra.type is defined and page.extra.type == "conference" %}
-<table>
-    <tbody>
-        <tr>
-            <th>Conference</th>
-            <td>
-            {% if page.extra.website %}
-                <a href="{{ page.extra.website }}">{{ page.extra.name }}</a>
-            {% else %}
-                {{ page.extra.name }}
-            {% endif %}
-            </td>
-        </tr>
-        <tr>
-            <th>Location</th>
-            <td>
-                {{ page.extra.location }}
-            </td>
-        </tr>
-        <tr>
-            <th>Dates</th>
-            <td>
-                {{ page.extra.begin }} to {{ page.extra.end }}
-            </td>
-        </tr>
-        {% if page.extra.trip is defined %}
-        <tr>
-            <th>Trip</th>
-            <td>
-              {% set trip = get_page(path="posts/" ~ page.extra.trip ~ '.md') %}
-        <a href="{{ trip.permalink }}">{{ trip.title }}</a>
-            </td>
-        </tr>
-        {% endif %}
-        {% if page.extra.photo_album is defined %}
-        <tr>
-            <th>Photos</th>
-            <td>
-                <a href="https://photos.linuxpenguins.xyz/album/{{ page.extra.photo_album }}/">photos</a>
-            </td>
-        </tr>
-        {% endif %}
-    </tbody>
-</table>
-
-
 {% set talks = get_section(path="talks/_index.md") %}
 {% set list = [] %}
 {% for talk in talks.pages %}
-    {% set conference = get_page(path="posts/" ~ talk.extra.conference ~ ".md") %}
-    {% if conference.slug == page.slug %}
-        {% set_global list = list | concat(with=talk) %}
-    {% endif %}
+{% set conference = get_page(path="posts/" ~ talk.extra.conference ~ ".md") %}
+{% if conference.slug == page.slug %}
+{% set_global list = list | concat(with=talk) %}
+{% endif %}
 {% endfor %}
 
-{% if list %}
-List of talks:
-<ul>
-    {% for talk in list %}
-          <li><a href='{{ talk.permalink }}'>{{ talk.title }}</a> by {{ talk.extra.speaker }}.</li>
-    {% endfor %}
-</ul>
-{% endif %}
-{% endif %}
-
-{% if page.extra.type is defined and page.extra.type == "trip" %}
+{% if page.extra.type is defined and page.extra.type == "conference" %}
 <table>
-    <tbody>
-        <tr>
-            <th>Destination</th>
-            <td>
-                {{ page.extra.destination }}
-            </td>
-        </tr>
-        <tr>
-            <th>Dates</th>
-            <td>
-                {{ page.extra.begin }} to {{ page.extra.end }}
-            </td>
-        </tr>
-        {% if page.extra.transport is defined %}
-        <tr>
-            <th>Transport</th>
-            <td>
-                {{ page.extra.transport }}
-            </td>
-        </tr>
+  <tbody>
+    <tr>
+      <th>Conference</th>
+      <td>
+        {% if page.extra.website %}
+        <a href="{{ page.extra.website }}">{{ page.extra.name }}</a>
+        {% else %}
+        {{ page.extra.name }}
         {% endif %}
-        {% if page.extra.purpose is defined %}
-        <tr>
-            <th>Purpose</th>
-            <td>
-                {{ page.extra.purpose }}
-            </td>
-        </tr>
-        {% endif %}
-        {% if page.extra.photo_album is defined %}
-        <tr>
-            <th>Photos</th>
-            <td>
-                <a href="https://photos.linuxpenguins.xyz/album/{{ page.extra.photo_album }}/">photos</a>
-            </td>
-        </tr>
-        {% endif %}
-        {% set data = get_section(path="posts/_index.md") %}
-        {% for p in data.pages %}
-            {% if p.extra.trip is defined and p.extra.trip | lower == page.slug and p.extra.type == "conference" %}
-        <tr>
-            <th>Conference</th>
-            <td>
-                <a href="{{ p.permalink }}">{{ p.extra.name }}</a>
-            </td>
-        </tr>
-            {% endif %}
-        {% endfor %}
-    </tbody>
+      </td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>
+        {{ page.extra.location }}
+      </td>
+    </tr>
+    <tr>
+      <th>Dates</th>
+      <td>
+        {{ page.extra.begin }} to {{ page.extra.end }}
+      </td>
+    </tr>
+    {% if list %}
+    <tr>
+      <th>Talks</th>
+      <td>
+        {% set talks = get_section(path="talks/_index.md") %}
+        <ul>
+          {% for talk in list %}
+          <li><a href='{{ talk.permalink }}'>{{ talk.title }}</a> by {{ talk.extra.speaker }}.</li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.trip is defined %}
+    <tr>
+      <th>Trip</th>
+      <td>
+        {% set trip = get_page(path="posts/" ~ page.extra.trip ~ '.md') %}
+        <a href="{{ trip.permalink }}">{{ trip.title }}</a>
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.photo_album is defined %}
+    <tr>
+      <th>Photos</th>
+      <td>
+        <a href="https://photos.linuxpenguins.xyz/album/{{ page.extra.photo_album }}/">photos</a>
+      </td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
+
+{% elif page.extra.type is defined and page.extra.type == "trip" %}
+<table>
+  <tbody>
+    <tr>
+      <th>Destination</th>
+      <td>
+        {{ page.extra.destination }}
+      </td>
+    </tr>
+    <tr>
+      <th>Dates</th>
+      <td>
+        {{ page.extra.begin }} to {{ page.extra.end }}
+      </td>
+    </tr>
+    {% if page.extra.transport is defined %}
+    <tr>
+      <th>Transport</th>
+      <td>
+        {{ page.extra.transport }}
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.purpose is defined %}
+    <tr>
+      <th>Purpose</th>
+      <td>
+        {{ page.extra.purpose }}
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.photo_album is defined %}
+    <tr>
+      <th>Photos</th>
+      <td>
+        <a href="https://photos.linuxpenguins.xyz/album/{{ page.extra.photo_album }}/">photos</a>
+      </td>
+    </tr>
+    {% endif %}
+    {% set data = get_section(path="posts/_index.md") %}
+    {% for p in data.pages %}
+    {% if p.extra.trip is defined and p.extra.trip | lower == page.slug and p.extra.type == "conference" %}
+    <tr>
+      <th>Conference</th>
+      <td>
+        <a href="{{ p.permalink }}">{{ p.extra.name }}</a>
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
 </table>
 
 {% if page.extra.is_conference %}
 <table>
-    <tbody>
-        <tr>
-            <th>Conference</th>
-            <td>
-            {% if page.extra.conference_website %}
-                <a href="{{ page.extra.conference_website }}">{{ page.extra.conference_name }}</a>
-            {% else %}
-                {{ page.extra.conference_name }}
-            {% endif %}
-            </td>
-        </tr>
-        {% if page.extra.conference_location %}
-        <tr>
-            <th>Location</th>
-            <td>
-                {{ page.extra.conference_location }}
-            </td>
-        </tr>
+  <tbody>
+    <tr>
+      <th>Conference</th>
+      <td>
+        {% if page.extra.conference_website %}
+        <a href="{{ page.extra.conference_website }}">{{ page.extra.conference_name }}</a>
+        {% else %}
+        {{ page.extra.conference_name }}
         {% endif %}
-        {% if page.extra.conference_begin %}
-        <tr>
-            <th>Dates</th>
-            <td>
-                {{ page.extra.conference_begin }} to {{ page.extra.conference_end }}
-            </td>
-        </tr>
-        {% endif %}
-    </tbody>
+      </td>
+    </tr>
+    {% if page.extra.conference_location %}
+    <tr>
+      <th>Location</th>
+      <td>
+        {{ page.extra.conference_location }}
+      </td>
+    </tr>
+    {% endif %}
+    {% if page.extra.conference_begin %}
+    <tr>
+      <th>Dates</th>
+      <td>
+        {{ page.extra.conference_begin }} to {{ page.extra.conference_end }}
+      </td>
+    </tr>
+    {% endif %}
+    {% if list %}
+    <tr>
+      <th>Talks</th>
+      <td>
+        {% set talks = get_section(path="talks/_index.md") %}
+        <ul>
+          {% for talk in list %}
+          <li><a href='{{ talk.permalink }}'>{{ talk.title }}</a> by {{ talk.extra.speaker }}.</li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+    {% endif %}
+  </tbody>
 </table>
 {% endif %}
 {% endif %}

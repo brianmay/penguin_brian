@@ -19,7 +19,7 @@
             <th>Conference</th>
             <td>
                 {% set conference = get_page(path="posts/" ~ page.extra.conference ~ '.md') %}
-                <a href="{{ conference.permalink }}">{{conference.title}}</a>
+                <a href="{{ conference.permalink }}">{% if conference.extra.conference_name %}{{ conference.extra.conference_name }}{% else %}{{ conference.extra.name }}{% endif %}</a>
             </td>
         </tr>
         {% if page.extra.talk_url %}
