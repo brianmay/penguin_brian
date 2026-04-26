@@ -99,6 +99,15 @@
   float: left
 }
 
+.vcs-ref {
+  font-size: .75em;
+  opacity: .8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 7ch;
+}
+
 /* shortcodes css */
 .webring {
   margin: .375rem;
