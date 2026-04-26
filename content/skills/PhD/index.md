@@ -11,7 +11,7 @@ such as [Kerberos](https://en.wikipedia.org/wiki/Kerberos) and authorisation
 protocols such as
 [SPKI](https://en.wikipedia.org/wiki/Simple_public_key_infrastructure). I
 obtained my PhD in 2002 from [Monash University in
-Clayton](https://monash.edu.au/campuses/clayton/).
+Clayton](https://web.archive.org/web/2020/https://monash.edu.au/campuses/clayton/).
 
 For my PhD I submitted papers at various conferences, including MADE2000 and WCC2000.
 

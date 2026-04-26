@@ -20,7 +20,7 @@ conference_website = "https://lca2019.linux.org.au/"
 I did the following:
 
 - Visited some penguin friends at the to the
-  [International Atlantic Center](https://www.iceberg.co.nz/our-experiences/penguins/).
+  [International Atlantic Center](https://web.archive.org/web/2020/https://www.iceberg.co.nz/our-experiences/penguins/).
 - Assisted a lost bus driver get back on the official purple route again.
 - Went on the [Christchurch Gondola](https://www.christchurchattractions.nz/christchurch_gondola/).
 - Attended LCA2019.

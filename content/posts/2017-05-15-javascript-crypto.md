@@ -13,7 +13,7 @@ npm.
 
 I see on [stackoverflow](https://stackoverflow.com/questions/18279141/javascript-string-encryption-and-decryption) there are three choices:
 
-- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - I believe npm at [sjcl npm](https://www.npmjs.com/package/sjcl). Last security advisory 2014 - is it
+- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - I believe npm at [sjcl npm](https://web.archive.org/web/2020/https://www.npmjs.com/package/sjcl). Last security advisory 2014 - is it
   really that good? Or maybe abandoned?
 - [CryptoJSi](https://github.com/sytelus/CryptoJS) - dead project.
 - [crypto-js](https://github.com/brix/crypto-js) - also has NPM. Has been criticised for using a poor algorithm
@@ -34,6 +34,5 @@ However, I think don't think this is going to help with encryption.
 
 Any others?
 
-Note: I previously posted this to
-[another stackoverflow question](https://stackoverflow.com/questions/43928071/good-javascript-cryptographic-library).
+Note: I previously posted this to another stackoverflow question.
 but it was put on hold as it was considered "off-topic".

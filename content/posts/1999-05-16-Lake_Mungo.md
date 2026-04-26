@@ -14,4 +14,4 @@ photo_album = 34
 Lake Mungo is a dried up lake that has special significance since some very old
 bones have been found.
 
-For more information, refer to the [Lake Mungo Web Page](https://www.npws.nsw.gov.au/parks/outback/out003.html) maintained by [NSW National Parks and Wildlife Service](https://www.npws.nsw.gov.au/).
+For more information, refer to the [Lake Mungo Web Page](https://web.archive.org/web/2007/https://www.npws.nsw.gov.au/parks/outback/out003.html) maintained by [NSW National Parks and Wildlife Service](https://web.archive.org/web/2007/https://www.npws.nsw.gov.au/).

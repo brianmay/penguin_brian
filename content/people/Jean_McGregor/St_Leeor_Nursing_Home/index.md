@@ -124,7 +124,7 @@ frequently ask "Have you been to the Palais to dance?"
 Unfortunately, Mrs Caunter developed breast cancer. She had to have the breast
 removed. As such, she had the big operation at Cabrini hospital in Malvern.
 
-[St Frances Xavier Cabrini Hospital](https://www.cabrini.com.au/cabrinihealth/history.asp) was a big posh hospital at the time. She didn't like the
+[St Frances Xavier Cabrini Hospital](https://web.archive.org/web/2020/https://www.cabrini.com.au/cabrinihealth/history.asp) was a big posh hospital at the time. She didn't like the
 hospital because it was a Catholic hospital with Catholic nurses and Catholic
 Doctors. One day Grandma come in to see her, and she called out "Father!
 Father! Bring me the pan!". Grandma had to race around looking for a nurse to

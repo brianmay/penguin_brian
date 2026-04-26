@@ -37,7 +37,7 @@ and provided with power.
 
 What if there was a cheaper and easier way to do this?
 
-There is: [Xen Virtual Hosts](https://wiki.microcomaustralia.com.au/Brian/Xen_virtual_hosts/).
+There is: Xen Virtual Hosts.
 
 ## Conclusion
 

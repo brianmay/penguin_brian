@@ -32,7 +32,7 @@ On the downside:
 <ul>
 	<li>PA systems at certain train stations are often hard to hear and understand. This happened before.</li>
 	<li>Information on trains cancelled not posted. Some trains were  cancelled.</li>
-	<li>No information posted on www.metlinkmelbourne.com.au what so ever.</li>
+	<li>No information posted on Metlink website what so ever.</li>
 	<li>Organisation of queues at Ringwood station hopeless. No room for people going to Belgrave to get past queue in other direction, in many places.  Further on, I accidently jumped a significant part of the queue without realizing (why is the lane moving but the other lane stationary?).  The queue for me extended one hour 15 minutes, and started from platform 2, extending all the way across the bridge, down along side the station, where we did a U-Turn and went back again to the bus stop.</li>
 	<li> People catching trains from the Lilydale line, arrived at Platform 3, and joined the queue a considerable distance after it had started. Hopeless! I very much suspect passengers from Belgrave received lower priority and had to wait longer.</li>
 	<li>I suspect EastLink won't provide any compensation for rail travellers. We will have to pay to use the tollway, so isn't it fair that they pay for delays they cause rail commuters?</li>
@@ -57,19 +57,18 @@ On the 20-21 the Eastlink bridge was moved into place (see
 [VicSig](https://www.vicsig.net/index.php?page=infrastructure&project=Eastlink)
 article by "Chris Gordon", 2007-01-30).
 
-- [Eastlink](https://wiki.microcomaustralia.com.au/transport/private/Eastlink/)
+- [Eastlink](https://www.vicsig.net/index.php?page=infrastructure&project=Eastlink)
   bridge works ([reference](https://forums.vicsig.net/viewtopic.php?t=984"]],
   25th-28th August 2006)) (weekend), buses replaced trains
   ([reference](https://en.wikipedia.org/wiki/EastLink%2C_Melbourne)).
   Metlink posted an official
-  [bulletin](https://www.metlinkmelbourne.com.au/latest_news/service_alteration_detail.php?id=3492).
+  [bulletin](https://web.archive.org/web/2020/https://www.metlinkmelbourne.com.au/latest_news/service_alteration_detail.php?id=3492).
   Several level crossings were also closed.
 
 - The Eastlink works didn't end until midday, resulting in chaos as the train
-  line was closed during peak hour
-  ([reference](https://www.news.com.au/heraldsun/story/0,21985,20275525-2862,00.html)).
+  line was closed during peak hour.
 - Connex will receive compensation, but it won't be passed on to commuters
-  ([reference](https://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html")).
+  ([reference](https://web.archive.org/web/2006/http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html)).
 
 Soft ground was blamed for the delays:
 
@@ -81,7 +80,7 @@ Soft ground was blamed for the delays:
 >
 > "Our construction team had to remove this soft earth and replace it with crushed rock.
 >
-> [Compo for Connex, not commuters](https://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html),
+> [Compo for Connex, not commuters](https://web.archive.org/web/2006/http://www.news.com.au/heraldsun/story/0,21985,20285099-661,00.html),
 > Liam Houlihan and Jane Metlikovec, The Herald Sun, 2006-08-29
 
 Connex also responded:
@@ -116,5 +115,5 @@ Connex also responded:
 >
 > [...]
 >
-> [Buses replaced trains between Ringwood and Blackburn](https://www.connexmelbourne.com.au/news_connex/index_full.asp?thm=2&evn=289),
+> [Buses replaced trains between Ringwood and Blackburn](https://web.archive.org/web/2020/https://www.connexmelbourne.com.au/news_connex/index_full.asp?thm=2&evn=289),
 > Connex, 2006-08-21

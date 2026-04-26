@@ -17,7 +17,7 @@ Married to [Charles McGregor](@/people/Charles_McGregor.md).
 
 ## School
 
-Grandma says she went to [Mont Albert Central School](https://www.maps.vic.edu.au/princip.htm) when she was 11 years old (1929). From their website:
+Grandma says she went to [Mont Albert Central School](https://web.archive.org/web/2007/https://www.maps.vic.edu.au/princip.htm) when she was 11 years old (1929). From their website:
 
 <blockquote>
 Mont Albert Primary School, established in 1917, is proud of its fine tradition
@@ -65,7 +65,7 @@ for servants. It was easy to get lost in the building.
 
 Apparently the parents wanted at least one boy in order to continue the family
 name, and kept getting girls instead. They ended up with 4 girls. One was
-called Elizabeth, and went to boarding school in [Woodend](https://walkabout.com.au/locations/VICWoodend.shtml). They
+called Elizabeth, and went to boarding school in [Woodend](https://web.archive.org/web/2020/https://walkabout.com.au/locations/VICWoodend.shtml). They
 then had twins, and one of the twins was named Caroline, and the other was
 named Robert.
 
