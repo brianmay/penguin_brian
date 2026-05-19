@@ -13,6 +13,9 @@ photos = 25
 
 {{ photo(photo=1267,title="Photo of Peter May") }}
 
+* {{ photo_place(place=1151,link="Peter's Second House") }}
+* {{ photo_place(place=1086,link="Peter's Third House") }}
+
 ## Funeral
 
 Funeral service held at Orbost, Victoria, with family, friends, former students, and
@@ -69,4 +72,6 @@ singing "Stand By Me." The celebrant quoted Rumi: "Goodbyes are only for those w
 with their eyes. Because for those who love with their heart and souls there is no
 separation."
 
-{{ photo_album(album=3674,link="Photos") }} [Transcript](transcript.txt)
+{{ photo_album(album=3674,link="Photos") }}
+{{ photo_link(photo=113757,link="Video") }}
+[Transcript](transcript.txt)
