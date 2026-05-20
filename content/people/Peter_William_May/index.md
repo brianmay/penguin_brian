@@ -75,3 +75,4 @@ separation."
 {{ photo_album(album=3674,link="Photos") }}
 {{ photo_link(photo=113757,link="Video") }}
 [Transcript](transcript.txt)
+[Pamphlet](funeral_pamphlet.pdf)
